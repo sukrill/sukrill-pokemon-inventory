@@ -38,6 +38,13 @@ const els = {
   modal:      document.getElementById('modal'),
 };
 
+// ── Analytics (GA4) ───────────────────────────────────────
+// Thin wrapper so the site still works if gtag is blocked/absent.
+function track(name, params) {
+  try { if (typeof window.gtag === 'function') window.gtag('event', name, params || {}); }
+  catch (_) { /* never let analytics break the UI */ }
+}
+
 // ── Boot ──────────────────────────────────────────────────
 init();
 
@@ -252,7 +259,18 @@ function openModal(id, pushUrl) {
   else notesWrap.hidden = true;
 
   const buy = m.querySelector('#m-buy');
+  const hasListing = !!c.listingUrl;
   buy.href = c.listingUrl || SHOP_URL;
+  // One handler per open (assignment replaces any prior) → fires once per click.
+  buy.onclick = () => {
+    if (hasListing) {
+      track('whatnot_listing_click', { inventory_id: c.id, card_name: c.name, price: c.price });
+    } else {
+      // Button routes to the general shop (no per-card listing URL yet).
+      track('whatnot_shop_click', { source: 'inventory_site', inventory_id: c.id, card_name: c.name });
+    }
+    // do not preventDefault — let the link open Whatnot in a new tab
+  };
 
   m.querySelector('#m-copy').onclick  = () => { copyText(cardText(c)); toast('Card info copied'); };
   m.querySelector('#m-share').onclick = () => { copyText(shareURL(c.id)); toast('Shareable link copied'); };
@@ -260,6 +278,9 @@ function openModal(id, pushUrl) {
   m.hidden = false;
   document.body.style.overflow = 'hidden';
   if (pushUrl) history.pushState({ card: c.id }, '', shareURL(c.id, true));
+
+  // card_view — fires once per modal open
+  track('card_view', { inventory_id: c.id, card_name: c.name, price: c.price, set: c.set });
 }
 
 function closeModal() {
