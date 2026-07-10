@@ -1,0 +1,9 @@
+# Local tooling — not part of the published site
+generate_inventory.py
+.claude/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
