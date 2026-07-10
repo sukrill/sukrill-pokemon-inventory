@@ -7,6 +7,9 @@
 
 const PAGE_SIZE = 60;          // cards rendered per infinite-scroll batch
 const PLACEHOLDER = placeholderSVG();
+// Where the "Buy on Whatnot" button points. If a card ever has its own
+// `listingUrl` in inventory.json, that per-listing link is used instead.
+const SHOP_URL = 'https://www.whatnot.com/user/sukrill/shop';
 
 const state = {
   all: [],                     // every card
@@ -67,6 +70,7 @@ function normalize(c) {
     image:     c.image || '',
     dateAdded: c.dateAdded || '',
     notes:     c.notes || '',
+    listingUrl:c.listingUrl || '',
   };
 }
 
@@ -246,6 +250,9 @@ function openModal(id, pushUrl) {
   const notesWrap = m.querySelector('#m-notes-wrap');
   if (c.notes) { notesWrap.hidden = false; m.querySelector('#m-notes').textContent = c.notes; }
   else notesWrap.hidden = true;
+
+  const buy = m.querySelector('#m-buy');
+  buy.href = c.listingUrl || SHOP_URL;
 
   m.querySelector('#m-copy').onclick  = () => { copyText(cardText(c)); toast('Card info copied'); };
   m.querySelector('#m-share').onclick = () => { copyText(shareURL(c.id)); toast('Shareable link copied'); };

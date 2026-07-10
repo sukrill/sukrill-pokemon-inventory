@@ -212,6 +212,14 @@ button { font-family: inherit; cursor: pointer; }
 .btn { flex: 1; min-width: 130px; padding: 11px 16px; border-radius: 10px; border: 1px solid var(--border); font-size: .88rem; font-weight: 600; }
 .btn-primary { background: var(--yellow); color: #1a1400; border-color: var(--yellow); }
 .btn-ghost { background: var(--card-2); color: var(--text); }
+.btn-buy {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  width: 100%; margin-top: 18px; padding: 13px 16px; text-decoration: none;
+  background: linear-gradient(135deg, #ffcb05, #ffb400); color: #1a1400;
+  border: none; border-radius: 12px; font-size: .98rem; font-weight: 700;
+  box-shadow: 0 4px 14px rgba(255,203,5,.28); transition: transform .12s, box-shadow .12s;
+}
+.btn-buy:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(255,203,5,.4); }
 
 /* ── Toast ──────────────────────────────────────────────── */
 .toast {
