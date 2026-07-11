@@ -1,45 +1,62 @@
 /* ============================================================
-   Pokémon Card Inventory — vanilla JS
-   Loads inventory.json, renders a filterable/sortable grid with
-   lazy images, infinite scroll, a detail modal, copy + share.
+   Sukrill Pokémon Cards — vanilla JS
+   Grid + search/filter/sort + card modal (existing), plus:
+   wishlist (localStorage), share wishlist, message Sukrill,
+   notify-me waiting list, and GA4 event tracking.
    ============================================================ */
 'use strict';
 
-const PAGE_SIZE = 60;          // cards rendered per infinite-scroll batch
+const PAGE_SIZE = 60;
 const PLACEHOLDER = placeholderSVG();
-// Where the "Buy on Whatnot" button points. If a card ever has its own
-// `listingUrl` in inventory.json, that per-listing link is used instead.
 const SHOP_URL = 'https://www.whatnot.com/user/sukrill/shop';
+const WISH_KEY   = 'sukrill_wishlist_v1';   // array of inventory ids
+const NOTIFY_KEY = 'sukrill_notify_v1';     // array of {id, name, date}
 
 const state = {
-  all: [],                     // every card
-  filtered: [],                // after search + filters + sort
-  rendered: 0,                 // how many of `filtered` are in the DOM
+  all: [],
+  filtered: [],
+  rendered: 0,
+  byId: new Map(),          // id -> card
 };
 
 const els = {
-  grid:       document.getElementById('grid'),
-  empty:      document.getElementById('empty'),
-  search:     document.getElementById('search'),
-  searchClear:document.getElementById('search-clear'),
-  filterSet:  document.getElementById('filter-set'),
-  filterCond: document.getElementById('filter-condition'),
-  filterStock:document.getElementById('filter-instock'),
-  sort:       document.getElementById('sort'),
-  resultCount:document.getElementById('result-count'),
-  resetBtn:   document.getElementById('reset-btn'),
-  statCount:  document.getElementById('stat-count'),
-  statValue:  document.getElementById('stat-value'),
-  statUpdated:document.getElementById('stat-updated'),
-  sentinel:   document.getElementById('sentinel'),
+  grid:        document.getElementById('grid'),
+  empty:       document.getElementById('empty'),
+  search:      document.getElementById('search'),
+  searchClear: document.getElementById('search-clear'),
+  filterSet:   document.getElementById('filter-set'),
+  filterCond:  document.getElementById('filter-condition'),
+  filterStock: document.getElementById('filter-instock'),
+  sort:        document.getElementById('sort'),
+  resultCount: document.getElementById('result-count'),
+  resetBtn:    document.getElementById('reset-btn'),
+  statCount:   document.getElementById('stat-count'),
+  statUpdated: document.getElementById('stat-updated'),
+  sentinel:    document.getElementById('sentinel'),
   loadMoreWrap:document.getElementById('load-more-wrap'),
-  loadMore:   document.getElementById('load-more'),
-  toast:      document.getElementById('toast'),
-  modal:      document.getElementById('modal'),
+  loadMore:    document.getElementById('load-more'),
+  toast:       document.getElementById('toast'),
+  modal:       document.getElementById('modal'),
+  // wishlist
+  wishBtn:     document.getElementById('wishlist-btn'),
+  wishCount:   document.getElementById('wishlist-count'),
+  wishModal:   document.getElementById('wishlist-modal'),
+  wishList:    document.getElementById('wl-list'),
+  wishEmpty:   document.getElementById('wl-empty'),
+  wishTitle:   document.getElementById('wl-title'),
+  wishNote:    document.getElementById('wl-shared-note'),
+  wishActions: document.getElementById('wl-actions'),
+  wishShare:   document.getElementById('wl-share'),
+  wishMessage: document.getElementById('wl-message'),
+  // waiting / notify
+  waitBtn:     document.getElementById('waiting-btn'),
+  waitCount:   document.getElementById('waiting-count'),
+  waitModal:   document.getElementById('waiting-modal'),
+  waitList:    document.getElementById('wait-list'),
+  waitEmpty:   document.getElementById('wait-empty'),
 };
 
 // ── Analytics (GA4) ───────────────────────────────────────
-// Thin wrapper so the site still works if gtag is blocked/absent.
 function track(name, params) {
   try { if (typeof window.gtag === 'function') window.gtag('event', name, params || {}); }
   catch (_) { /* never let analytics break the UI */ }
@@ -54,11 +71,15 @@ async function init() {
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
     state.all = (data.cards || []).map(normalize);
+    state.byId = new Map(state.all.map(c => [c.id, c]));
     renderHeadline(data);
     buildFilterOptions();
     bindEvents();
+    updateWishUI();
+    updateWaitingCount();
     apply();
     openFromURL();
+    openSharedWishlistFromURL();
   } catch (err) {
     els.resultCount.textContent = 'Could not load inventory.json — ' + err.message;
     console.error(err);
@@ -81,12 +102,10 @@ function normalize(c) {
   };
 }
 
-// ── Headline stats ────────────────────────────────────────
+// ── Headline stats (Total Value intentionally NOT shown) ──
 function renderHeadline(data) {
   const count = data.totalCards ?? state.all.length;
-  const value = data.totalValue ?? state.all.reduce((s, c) => s + c.price * c.quantity, 0);
   els.statCount.textContent   = count.toLocaleString();
-  els.statValue.textContent   = '$' + Math.round(value).toLocaleString();
   els.statUpdated.textContent = data.lastUpdated ? formatDate(data.lastUpdated) : '—';
 }
 
@@ -96,7 +115,6 @@ function buildFilterOptions() {
   const conds = [...new Set(state.all.map(c => c.condition).filter(Boolean))].sort();
   for (const s of sets)  els.filterSet.appendChild(new Option(s, s));
   for (const c of conds) els.filterCond.appendChild(new Option(c, c));
-  // If only one condition exists, hide the filter to reduce clutter
   if (conds.length <= 1) els.filterCond.style.display = 'none';
 }
 
@@ -116,16 +134,28 @@ function bindEvents() {
   els.resetBtn.addEventListener('click', resetFilters);
   els.loadMore.addEventListener('click', renderNextBatch);
 
-  // Infinite scroll
   const io = new IntersectionObserver((entries) => {
     if (entries[0].isIntersecting) renderNextBatch();
   }, { rootMargin: '600px' });
   io.observe(els.sentinel);
 
-  // Modal close
+  // Card modal close
   els.modal.addEventListener('click', (e) => { if (e.target.dataset.close !== undefined) closeModal(); });
-  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Escape') return;
+    if (!els.waitModal.hidden) closeSheet(els.waitModal);
+    else if (!els.wishModal.hidden) closeSheet(els.wishModal);
+    else closeModal();
+  });
   window.addEventListener('popstate', openFromURL);
+
+  // Wishlist / waiting header buttons
+  els.wishBtn.addEventListener('click', openWishlist);
+  els.waitBtn.addEventListener('click', openWaiting);
+  els.wishModal.addEventListener('click', (e) => { if (e.target.dataset.closeWish !== undefined) closeSheet(els.wishModal); });
+  els.waitModal.addEventListener('click', (e) => { if (e.target.dataset.closeWait !== undefined) closeSheet(els.waitModal); });
+  els.wishShare.addEventListener('click', shareWishlist);
+  els.wishMessage.addEventListener('click', messageSukrill);
 }
 
 function resetFilters() {
@@ -163,7 +193,6 @@ function apply() {
     `${list.length.toLocaleString()} card${list.length === 1 ? '' : 's'}` +
     (filtersActive ? ` (of ${state.all.length.toLocaleString()})` : '');
 
-  // Reset grid + render first batch
   els.grid.innerHTML = '';
   state.rendered = 0;
   els.empty.hidden = list.length > 0;
@@ -183,7 +212,7 @@ function sorter(mode) {
   }
 }
 
-// ── Rendering (batched for performance) ───────────────────
+// ── Rendering ─────────────────────────────────────────────
 function renderNextBatch() {
   const next = state.filtered.slice(state.rendered, state.rendered + PAGE_SIZE);
   if (!next.length) { els.loadMoreWrap.hidden = true; return; }
@@ -202,6 +231,7 @@ function cardEl(c) {
   el.setAttribute('aria-label', c.name);
 
   const oos = c.quantity <= 0;
+  const wished = isWished(c.id);
   el.innerHTML = `
     <div class="card-img-wrap">
       ${c.image
@@ -211,6 +241,9 @@ function cardEl(c) {
         : PLACEHOLDER}
       <span class="card-id">#${escapeHtml(c.id)}</span>
       ${oos ? '<span class="badge-oos">Sold</span>' : ''}
+      <button class="card-heart${wished ? ' active' : ''}" data-id="${escapeAttr(c.id)}"
+              title="${wished ? 'Remove from wishlist' : 'Add to wishlist'}"
+              aria-label="Toggle wishlist">${wished ? '❤️' : '🤍'}</button>
     </div>
     <div class="card-body">
       <div class="card-name">${escapeHtml(c.name)}</div>
@@ -223,19 +256,20 @@ function cardEl(c) {
     </div>`;
   el.addEventListener('click', () => openModal(c.id, true));
   el.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openModal(c.id, true); } });
+  const heart = el.querySelector('.card-heart');
+  heart.addEventListener('click', (e) => { e.stopPropagation(); toggleWish(c.id); });
   return el;
 }
 
-// expose for inline onerror handler
 window.makePlaceholder = function () {
   const d = document.createElement('div');
   d.innerHTML = PLACEHOLDER;
   return d.firstElementChild;
 };
 
-// ── Modal ─────────────────────────────────────────────────
+// ── Card modal ────────────────────────────────────────────
 function openModal(id, pushUrl) {
-  const c = state.all.find(x => x.id === String(id));
+  const c = state.byId.get(String(id));
   if (!c) return;
   const m = els.modal;
   const img = m.querySelector('#m-img');
@@ -258,19 +292,26 @@ function openModal(id, pushUrl) {
   if (c.notes) { notesWrap.hidden = false; m.querySelector('#m-notes').textContent = c.notes; }
   else notesWrap.hidden = true;
 
+  const oos = c.quantity <= 0;
+
+  // Buy button (routes to per-listing URL if present, else general shop)
   const buy = m.querySelector('#m-buy');
   const hasListing = !!c.listingUrl;
   buy.href = c.listingUrl || SHOP_URL;
-  // One handler per open (assignment replaces any prior) → fires once per click.
+  buy.hidden = oos;                          // no buy link for sold-out cards
   buy.onclick = () => {
-    if (hasListing) {
-      track('whatnot_listing_click', { inventory_id: c.id, card_name: c.name, price: c.price });
-    } else {
-      // Button routes to the general shop (no per-card listing URL yet).
-      track('whatnot_shop_click', { source: 'inventory_site', inventory_id: c.id, card_name: c.name });
-    }
-    // do not preventDefault — let the link open Whatnot in a new tab
+    if (hasListing) track('whatnot_listing_click', { inventory_id: c.id, card_name: c.name, price: c.price });
+    else            track('whatnot_shop_click',    { source: 'inventory_site', inventory_id: c.id, card_name: c.name });
   };
+
+  // Notify-me (sold cards only)
+  const notify = m.querySelector('#m-notify');
+  notify.hidden = !oos;
+  if (oos) syncNotifyBtn(notify, c);
+
+  // Wishlist toggle
+  const wish = m.querySelector('#m-wish');
+  syncWishBtn(wish, c);
 
   m.querySelector('#m-copy').onclick  = () => { copyText(cardText(c)); toast('Card info copied'); };
   m.querySelector('#m-share').onclick = () => { copyText(shareURL(c.id)); toast('Shareable link copied'); };
@@ -279,15 +320,27 @@ function openModal(id, pushUrl) {
   document.body.style.overflow = 'hidden';
   if (pushUrl) history.pushState({ card: c.id }, '', shareURL(c.id, true));
 
-  // card_view — fires once per modal open
   track('card_view', { inventory_id: c.id, card_name: c.name, price: c.price, set: c.set });
+}
+
+function syncWishBtn(btn, c) {
+  const on = isWished(c.id);
+  btn.textContent = on ? '❤️ In Wishlist — Remove' : '＋ Add to Wishlist';
+  btn.classList.toggle('active', on);
+  btn.onclick = () => { toggleWish(c.id); syncWishBtn(btn, c); };
+}
+function syncNotifyBtn(btn, c) {
+  const on = isNotifying(c.id);
+  btn.textContent = on ? '✓ You’ll be notified' : '🔔 Notify Me If Available';
+  btn.classList.toggle('active', on);
+  btn.onclick = () => { toggleNotify(c.id); syncNotifyBtn(btn, c); };
 }
 
 function closeModal() {
   if (els.modal.hidden) return;
   els.modal.hidden = true;
-  document.body.style.overflow = '';
-  if (location.search.includes('card=')) history.pushState({}, '', location.pathname);
+  if (allSheetsClosed()) document.body.style.overflow = '';
+  if (location.search.includes('card=')) history.pushState({}, '', location.pathname + location.search.replace(/([?&])card=[^&]*&?/, '$1').replace(/[?&]$/, ''));
 }
 
 function openFromURL() {
@@ -296,7 +349,222 @@ function openFromURL() {
   else if (!els.modal.hidden) closeModal();
 }
 
-// ── Copy / share helpers ──────────────────────────────────
+/* ============================================================
+   WISHLIST
+   ============================================================ */
+function getWish() {
+  try { return JSON.parse(localStorage.getItem(WISH_KEY)) || []; }
+  catch (_) { return []; }
+}
+function saveWish(arr) { try { localStorage.setItem(WISH_KEY, JSON.stringify(arr)); } catch (_) {} }
+function isWished(id) { return getWish().includes(String(id)); }
+
+function toggleWish(id) {
+  id = String(id);
+  const c = state.byId.get(id);
+  let arr = getWish();
+  if (arr.includes(id)) {
+    arr = arr.filter(x => x !== id);
+    saveWish(arr);
+    track('wishlist_remove', { inventory_id: id });
+    toast('Removed from wishlist');
+  } else {
+    arr.push(id);                       // dedup guaranteed (we only push when absent)
+    saveWish(arr);
+    track('wishlist_add', { inventory_id: id, card_name: c ? c.name : '', price: c ? c.price : 0 });
+    toast('Added to wishlist ❤️');
+  }
+  updateWishUI();
+}
+
+function updateWishUI() {
+  const arr = getWish();
+  els.wishCount.textContent = arr.length;
+  // sync any hearts currently in the grid
+  document.querySelectorAll('.card-heart').forEach(h => {
+    const on = arr.includes(h.dataset.id);
+    h.classList.toggle('active', on);
+    h.textContent = on ? '❤️' : '🤍';
+    h.title = on ? 'Remove from wishlist' : 'Add to wishlist';
+  });
+  // if the wishlist sheet is open (own list), re-render it
+  if (!els.wishModal.hidden && els.wishModal.dataset.mode !== 'shared') renderWishlist();
+}
+
+function openWishlist() {
+  els.wishModal.dataset.mode = 'own';
+  els.wishTitle.textContent = '❤️ My Wishlist';
+  els.wishNote.hidden = true;
+  els.wishActions.hidden = false;
+  renderWishlist();
+  openSheet(els.wishModal);
+}
+
+function renderWishlist() {
+  const ids = getWish();
+  els.wishActions.querySelectorAll('button').forEach(b => b.disabled = ids.length === 0);
+  if (!ids.length) { els.wishList.innerHTML = ''; els.wishEmpty.hidden = false; return; }
+  els.wishEmpty.hidden = true;
+  els.wishList.innerHTML = ids.map(id => {
+    const c = state.byId.get(id);
+    if (!c) return wlMissingRow(id);
+    return wlRow(c, `<button class="wl-rm" title="Remove" data-rm="${escapeAttr(c.id)}">✕</button>`);
+  }).join('');
+  els.wishList.querySelectorAll('[data-rm]').forEach(b =>
+    b.addEventListener('click', () => toggleWish(b.dataset.rm)));
+}
+
+function wlRow(c, actionHtml) {
+  const inStock = c.quantity > 0;
+  const thumb = c.image
+    ? `<img class="wl-thumb" src="${escapeAttr(c.image)}" alt="" loading="lazy" onerror="this.outerHTML='<div class=\\'wl-thumb-ph\\'>✦</div>'">`
+    : `<div class="wl-thumb-ph">✦</div>`;
+  return `<div class="wl-item">
+    ${thumb}
+    <div class="wl-info">
+      <div class="wl-name">${escapeHtml(c.name)}</div>
+      <div class="wl-sub">#${escapeHtml(c.id)}${c.set ? ' · ' + escapeHtml(c.set) : ''}</div>
+      <div class="wl-avail ${inStock ? 'in' : 'out'}">${inStock ? 'In stock' : 'Sold out'}</div>
+    </div>
+    <div class="wl-price">$${c.price.toFixed(2)}</div>
+    ${actionHtml}
+  </div>`;
+}
+function wlMissingRow(id) {
+  return `<div class="wl-item">
+    <div class="wl-thumb-ph">✦</div>
+    <div class="wl-info"><div class="wl-name">Card #${escapeHtml(id)}</div>
+      <div class="wl-sub">No longer in inventory</div></div>
+    <button class="wl-rm" data-rm="${escapeAttr(id)}" title="Remove">✕</button>
+  </div>`;
+}
+
+// ── Share wishlist ────────────────────────────────────────
+function shareWishlist() {
+  const ids = getWish();
+  if (!ids.length) { toast('Your wishlist is empty'); return; }
+  const url = `${location.origin}${location.pathname}?wishlist=${ids.join(',')}`;
+  copyText(url);
+  track('wishlist_share', { number_of_cards: ids.length });
+  toast('Wishlist link copied — share it anywhere');
+}
+
+function openSharedWishlistFromURL() {
+  const raw = new URLSearchParams(location.search).get('wishlist');
+  if (!raw) return;
+  const ids = raw.split(',').map(s => s.trim()).filter(Boolean);
+  if (!ids.length) return;
+  els.wishModal.dataset.mode = 'shared';
+  els.wishTitle.textContent = '🎁 Shared Wishlist';
+  els.wishNote.hidden = false;
+  els.wishNote.textContent = `Someone shared ${ids.length} card${ids.length === 1 ? '' : 's'} with you. Add any to your own wishlist.`;
+  els.wishActions.hidden = true;
+  els.wishEmpty.hidden = true;
+  els.wishList.innerHTML = ids.map(id => {
+    const c = state.byId.get(id);
+    if (!c) return wlMissingRow(id);
+    const added = isWished(id);
+    return wlRow(c, `<button class="wl-add${added ? ' added' : ''}" data-add="${escapeAttr(id)}">${added ? '❤️ Added' : '＋ Add'}</button>`);
+  }).join('');
+  els.wishList.querySelectorAll('[data-add]').forEach(b =>
+    b.addEventListener('click', () => {
+      const id = b.dataset.add;
+      if (!isWished(id)) toggleWish(id);
+      b.classList.add('added'); b.textContent = '❤️ Added';
+    }));
+  openSheet(els.wishModal);
+}
+
+// ── Message Sukrill ───────────────────────────────────────
+function messageSukrill() {
+  const ids = getWish();
+  if (!ids.length) { toast('Your wishlist is empty'); return; }
+  const lines = ids.map(id => {
+    const c = state.byId.get(id);
+    return c ? `#${c.id} - ${c.name} - $${c.price.toFixed(2)}` : `#${id}`;
+  });
+  const msg =
+    `Hey Sukrill! I'm interested in these Pokémon cards:\n\n` +
+    lines.join('\n') +
+    `\n\nCan you let me know availability and shipping?`;
+  copyText(msg);
+  track('contact_request', { number_of_cards: ids.length });
+  toast('Message copied — opening Whatnot…');
+  setTimeout(() => window.open(SHOP_URL, '_blank', 'noopener'), 600);
+}
+
+/* ============================================================
+   NOTIFY / WAITING LIST
+   ============================================================ */
+function getNotify() {
+  try { return JSON.parse(localStorage.getItem(NOTIFY_KEY)) || []; }
+  catch (_) { return []; }
+}
+function saveNotify(arr) { try { localStorage.setItem(NOTIFY_KEY, JSON.stringify(arr)); } catch (_) {} }
+function isNotifying(id) { return getNotify().some(x => x.id === String(id)); }
+
+function toggleNotify(id) {
+  id = String(id);
+  const c = state.byId.get(id);
+  let arr = getNotify();
+  if (arr.some(x => x.id === id)) {
+    arr = arr.filter(x => x.id !== id);
+    saveNotify(arr);
+    toast('Removed from your waiting list');
+  } else {
+    arr.push({ id, name: c ? c.name : '', date: new Date().toISOString().slice(0, 10) });
+    saveNotify(arr);
+    track('notify_request', { inventory_id: id, card_name: c ? c.name : '' });
+    toast('We saved it — you’re on the waiting list 🔔');
+  }
+  updateWaitingCount();
+  if (!els.waitModal.hidden) renderWaiting();
+}
+
+function updateWaitingCount() { els.waitCount.textContent = getNotify().length; }
+
+function openWaiting() { renderWaiting(); openSheet(els.waitModal); }
+
+function renderWaiting() {
+  const arr = getNotify();
+  if (!arr.length) { els.waitList.innerHTML = ''; els.waitEmpty.hidden = false; return; }
+  els.waitEmpty.hidden = true;
+  els.waitList.innerHTML = arr.map(w => {
+    const c = state.byId.get(w.id);
+    const inStock = c && c.quantity > 0;
+    const price = c ? `$${c.price.toFixed(2)}` : '';
+    const thumb = c && c.image
+      ? `<img class="wl-thumb" src="${escapeAttr(c.image)}" alt="" loading="lazy" onerror="this.outerHTML='<div class=\\'wl-thumb-ph\\'>✦</div>'">`
+      : `<div class="wl-thumb-ph">✦</div>`;
+    return `<div class="wl-item">
+      ${thumb}
+      <div class="wl-info">
+        <div class="wl-name">${escapeHtml(w.name || (c ? c.name : 'Card #' + w.id))}</div>
+        <div class="wl-sub">#${escapeHtml(w.id)} · added ${escapeHtml(formatDate(w.date))}</div>
+        <div class="wl-avail ${inStock ? 'in' : 'out'}">${inStock ? 'Back in stock!' : 'Still waiting'}</div>
+      </div>
+      <div class="wl-price">${price}</div>
+      <button class="wl-rm" data-rmn="${escapeAttr(w.id)}" title="Remove">✕</button>
+    </div>`;
+  }).join('');
+  els.waitList.querySelectorAll('[data-rmn]').forEach(b =>
+    b.addEventListener('click', () => toggleNotify(b.dataset.rmn)));
+}
+
+/* ============================================================
+   Sheet open/close helpers
+   ============================================================ */
+function openSheet(sheet) { sheet.hidden = false; document.body.style.overflow = 'hidden'; }
+function closeSheet(sheet) {
+  sheet.hidden = true;
+  if (sheet === els.wishModal) delete els.wishModal.dataset.mode;
+  if (allSheetsClosed()) document.body.style.overflow = '';
+}
+function allSheetsClosed() { return els.modal.hidden && els.wishModal.hidden && els.waitModal.hidden; }
+
+/* ============================================================
+   Copy / share helpers
+   ============================================================ */
 function cardText(c) {
   return [
     c.name,
@@ -341,6 +609,7 @@ function toast(msg) {
 // ── Utilities ─────────────────────────────────────────────
 function debounce(fn, ms) { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; }
 function formatDate(iso) {
+  if (!iso) return '';
   const d = new Date(iso + (iso.length === 10 ? 'T00:00:00' : ''));
   if (isNaN(d)) return iso;
   return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
@@ -348,8 +617,5 @@ function formatDate(iso) {
 function escapeHtml(s) { return String(s).replace(/[&<>"']/g, m => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[m])); }
 function escapeAttr(s) { return escapeHtml(s); }
 function placeholderSVG() {
-  return `<div class="img-placeholder">
-    <span class="pokeball big" aria-hidden="true"></span>
-    <span>No image</span>
-  </div>`;
+  return `<div class="img-placeholder"><span class="ph-glyph">✦</span><span>No image</span></div>`;
 }

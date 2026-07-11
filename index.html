@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Pokémon card inventory — browse cards available on Whatnot.">
-  <title>Pokémon Card Inventory</title>
+  <meta name="description" content="Sukrill Pokémon Cards — browse the collection available on Whatnot.">
+  <title>Sukrill Pokémon Cards</title>
 
   <!-- Google tag (gtag.js) — GA4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-R3QS1TP7BN"></script>
@@ -20,19 +20,26 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23ffcb05' stroke='%23222' stroke-width='2'/%3E%3Cpath d='M1 16h30' stroke='%23222' stroke-width='3'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%23fff' stroke='%23222' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="icon" href="logo.png">
 </head>
 <body>
   <header class="site-header">
     <div class="header-inner">
-      <div class="brand">
-        <span class="pokeball" aria-hidden="true"></span>
-        <h1>Card Inventory</h1>
-      </div>
-      <div class="stats" id="headline-stats">
-        <div class="stat"><span class="stat-num" id="stat-count">—</span><span class="stat-lbl">Cards</span></div>
-        <div class="stat"><span class="stat-num" id="stat-value">—</span><span class="stat-lbl">Total Value</span></div>
-        <div class="stat"><span class="stat-num" id="stat-updated">—</span><span class="stat-lbl">Updated</span></div>
+      <a class="brand" href="./" aria-label="Sukrill Pokémon Cards">
+        <img class="brand-logo" src="logo.png" alt="Sukrill logo" width="42" height="42">
+        <h1>Sukrill Pokémon Cards</h1>
+      </a>
+      <div class="header-actions">
+        <button id="waiting-btn" class="hbtn" title="Cards you're waiting for">
+          🔔 <span class="hbtn-label">Waiting</span> <span id="waiting-count" class="hbtn-badge">0</span>
+        </button>
+        <button id="wishlist-btn" class="hbtn hbtn-wish" title="Your wishlist">
+          ❤️ <span class="hbtn-label">Wishlist</span> <span id="wishlist-count" class="hbtn-badge">0</span>
+        </button>
+        <div class="stats">
+          <div class="stat"><span class="stat-num" id="stat-count">—</span><span class="stat-lbl">Cards</span></div>
+          <div class="stat stat-updated"><span class="stat-num" id="stat-updated">—</span><span class="stat-lbl">Updated</span></div>
+        </div>
       </div>
     </div>
   </header>
@@ -66,7 +73,7 @@
   <main class="container">
     <div id="grid" class="grid" aria-live="polite"></div>
     <div id="empty" class="empty" hidden>
-      <span class="pokeball big" aria-hidden="true"></span>
+      <span class="empty-glyph" aria-hidden="true">✦</span>
       <p>No cards match your search.</p>
     </div>
     <div id="sentinel" class="sentinel"></div>
@@ -97,12 +104,45 @@
             <p id="m-notes"></p>
           </div>
           <a id="m-buy" class="btn btn-buy" href="#" target="_blank" rel="noopener">🛒 Buy on Whatnot</a>
+          <button id="m-notify" class="btn btn-notify" hidden>🔔 Notify Me If Available</button>
           <div class="modal-actions">
+            <button id="m-wish" class="btn btn-ghost">＋ Add to Wishlist</button>
             <button id="m-copy" class="btn btn-ghost">📋 Copy info</button>
             <button id="m-share" class="btn btn-ghost">🔗 Copy link</button>
           </div>
         </div>
       </div>
+    </div>
+  </div>
+
+  <!-- Wishlist sheet -->
+  <div id="wishlist-modal" class="modal" hidden>
+    <div class="modal-backdrop" data-close-wish></div>
+    <div class="sheet" role="dialog" aria-modal="true" aria-label="Wishlist">
+      <div class="sheet-head">
+        <h2 id="wl-title">❤️ My Wishlist</h2>
+        <button class="modal-close" data-close-wish aria-label="Close">&times;</button>
+      </div>
+      <p id="wl-shared-note" class="sheet-note" hidden></p>
+      <div id="wl-list" class="wl-list"></div>
+      <div id="wl-empty" class="wl-empty">Your wishlist is empty — tap the heart on any card to save it.</div>
+      <div class="sheet-actions" id="wl-actions">
+        <button id="wl-share" class="btn btn-buy">🔗 Share Wishlist</button>
+        <button id="wl-message" class="btn btn-ghost">💬 Message Sukrill on Whatnot</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Waiting-for (notify) sheet -->
+  <div id="waiting-modal" class="modal" hidden>
+    <div class="modal-backdrop" data-close-wait></div>
+    <div class="sheet" role="dialog" aria-modal="true" aria-label="Cards I'm waiting for">
+      <div class="sheet-head">
+        <h2>🔔 Cards I'm Waiting For</h2>
+        <button class="modal-close" data-close-wait aria-label="Close">&times;</button>
+      </div>
+      <div id="wait-list" class="wl-list"></div>
+      <div id="wait-empty" class="wl-empty">You're not waiting on any cards yet. Open a sold card and tap “Notify Me”.</div>
     </div>
   </div>
 
