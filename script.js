@@ -31,7 +31,8 @@ const els = {
   resultCount: document.getElementById('result-count'),
   resetBtn:    document.getElementById('reset-btn'),
   statCount:   document.getElementById('stat-count'),
-  statUpdated: document.getElementById('stat-updated'),
+  syncDate:    document.getElementById('sync-date'),
+  syncTime:    document.getElementById('sync-time'),
   sentinel:    document.getElementById('sentinel'),
   loadMoreWrap:document.getElementById('load-more-wrap'),
   loadMore:    document.getElementById('load-more'),
@@ -105,8 +106,22 @@ function normalize(c) {
 // ── Headline stats (Total Value intentionally NOT shown) ──
 function renderHeadline(data) {
   const count = data.totalCards ?? state.all.length;
-  els.statCount.textContent   = count.toLocaleString();
-  els.statUpdated.textContent = data.lastUpdated ? formatDate(data.lastUpdated) : '—';
+  els.statCount.textContent = count.toLocaleString();
+  // "Inventory Last Synced" — date + time. Time comes from inventory.json's
+  // lastUpdated when it includes a T<time> component; otherwise date only.
+  const { date, time } = splitSync(data.lastUpdated || '');
+  els.syncDate.textContent = date || '—';
+  els.syncTime.textContent = time || '';
+}
+
+function splitSync(raw) {
+  if (!raw) return { date: '', time: '' };
+  const hasTime = String(raw).includes('T');
+  const d = new Date(hasTime ? raw : raw + 'T00:00:00');
+  if (isNaN(d)) return { date: String(raw), time: '' };
+  const date = d.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+  const time = hasTime ? d.toLocaleTimeString(undefined, { hour: 'numeric', minute: '2-digit' }) : '';
+  return { date, time };
 }
 
 // ── Filter dropdowns ──────────────────────────────────────
