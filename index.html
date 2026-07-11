@@ -53,7 +53,7 @@
       <div class="search-row">
         <div class="search-wrap">
           <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.3-4.3M11 19a8 8 0 100-16 8 8 0 000 16z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-          <input type="search" id="search" placeholder="Search name, set, card # or inventory ID…" autocomplete="off">
+          <input type="search" id="search" aria-label="Search cards by name, set, card number, or inventory ID" placeholder="Search name, set, card # or inventory ID…" autocomplete="off">
           <button id="search-clear" class="search-clear" aria-label="Clear search" hidden>&times;</button>
         </div>
         <button id="filters-toggle" class="filters-toggle" aria-label="Show filters and sort" aria-expanded="false">
@@ -82,11 +82,11 @@
         </label>
       </div>
     </div>
-    <div class="result-line"><span id="result-count">Loading…</span><button id="reset-btn" class="reset-btn" hidden>Reset filters</button></div>
+    <div class="result-line"><span id="result-count" aria-live="polite" role="status">Loading…</span><button id="reset-btn" class="reset-btn" hidden>Reset filters</button></div>
   </div>
 
   <main class="container">
-    <div id="grid" class="grid" aria-live="polite"></div>
+    <div id="grid" class="grid"></div>
     <div id="empty" class="empty" hidden>
       <span class="empty-glyph" aria-hidden="true">✦</span>
       <p>No cards match your search.</p>

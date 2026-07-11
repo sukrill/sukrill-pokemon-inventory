@@ -62,10 +62,22 @@ const els = {
   waitEmpty:   document.getElementById('wait-empty'),
 };
 
+// Element to restore keyboard focus to when a modal/sheet closes.
+let lastFocused = null;
+
 // ── Analytics (GA4) ───────────────────────────────────────
 function track(name, params) {
   try { if (typeof window.gtag === 'function') window.gtag('event', name, params || {}); }
   catch (_) { /* never let analytics break the UI */ }
+}
+
+// Loading skeleton shown while inventory.json is being fetched.
+function showSkeletons(n) {
+  els.grid.innerHTML = Array.from({ length: n }, () =>
+    '<div class="card skel" aria-hidden="true">' +
+      '<div class="card-img-wrap"><div class="skel-box"></div></div>' +
+      '<div class="card-body"><div class="skel-line"></div><div class="skel-line short"></div></div>' +
+    '</div>').join('');
 }
 
 // ── Boot ──────────────────────────────────────────────────
@@ -73,6 +85,7 @@ init();
 
 async function init() {
   try {
+    showSkeletons(12);
     const res = await fetch('inventory.json', { cache: 'no-cache' });
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
@@ -87,7 +100,10 @@ async function init() {
     openFromURL();
     openSharedWishlistFromURL();
   } catch (err) {
-    els.resultCount.textContent = 'Could not load inventory.json — ' + err.message;
+    els.grid.innerHTML = '';
+    els.empty.hidden = false;
+    els.empty.querySelector('p').textContent = 'Inventory could not be loaded. Please refresh the page.';
+    els.resultCount.textContent = 'Failed to load inventory';
     console.error(err);
   }
 }
@@ -203,6 +219,7 @@ function closeFilters() {
   els.filtersBackdrop.hidden = true;
   els.filtersToggle.setAttribute('aria-expanded', 'false');
   if (allSheetsClosed()) document.body.style.overflow = '';
+  els.filtersToggle.focus({ preventScroll: true });
 }
 function activeFilterCount() {
   let n = 0;
@@ -369,8 +386,10 @@ function openModal(id, pushUrl) {
   m.querySelector('#m-copy').onclick  = () => { copyText(cardText(c)); toast('Card info copied'); };
   m.querySelector('#m-share').onclick = () => { copyText(shareURL(c.id)); toast('Shareable link copied'); };
 
+  lastFocused = document.activeElement;
   m.hidden = false;
   document.body.style.overflow = 'hidden';
+  m.querySelector('.modal-close').focus({ preventScroll: true });
   if (pushUrl) history.pushState({ card: c.id }, '', shareURL(c.id, true));
 
   track('card_view', { inventory_id: c.id, card_name: c.name, price: c.price, set: c.set });
@@ -393,13 +412,39 @@ function closeModal() {
   if (els.modal.hidden) return;
   els.modal.hidden = true;
   if (allSheetsClosed()) document.body.style.overflow = '';
-  if (location.search.includes('card=')) history.pushState({}, '', location.pathname + location.search.replace(/([?&])card=[^&]*&?/, '$1').replace(/[?&]$/, ''));
+  // Robustly strip only the ?card param, preserving any other params
+  const params = new URLSearchParams(location.search);
+  if (params.has('card')) {
+    params.delete('card');
+    const qs = params.toString();
+    history.pushState({}, '', location.pathname + (qs ? '?' + qs : ''));
+  }
+  restoreFocus();
+}
+
+function restoreFocus() {
+  if (lastFocused && typeof lastFocused.focus === 'function') {
+    lastFocused.focus({ preventScroll: true });
+  }
+  lastFocused = null;
 }
 
 function openFromURL() {
   const id = new URLSearchParams(location.search).get('card');
-  if (id) openModal(id, false);
-  else if (!els.modal.hidden) closeModal();
+  if (id) {
+    if (state.byId.has(String(id))) {
+      openModal(id, false);
+    } else {
+      // Malformed / stale ?card= → clean it up instead of leaving a dead URL
+      toast('That card is no longer available');
+      const params = new URLSearchParams(location.search);
+      params.delete('card');
+      const qs = params.toString();
+      history.replaceState({}, '', location.pathname + (qs ? '?' + qs : ''));
+    }
+  } else if (!els.modal.hidden) {
+    closeModal();
+  }
 }
 
 /* ============================================================
@@ -607,11 +652,18 @@ function renderWaiting() {
 /* ============================================================
    Sheet open/close helpers
    ============================================================ */
-function openSheet(sheet) { sheet.hidden = false; document.body.style.overflow = 'hidden'; }
+function openSheet(sheet) {
+  lastFocused = document.activeElement;
+  sheet.hidden = false;
+  document.body.style.overflow = 'hidden';
+  const close = sheet.querySelector('.modal-close');
+  if (close) close.focus({ preventScroll: true });
+}
 function closeSheet(sheet) {
   sheet.hidden = true;
   if (sheet === els.wishModal) delete els.wishModal.dataset.mode;
   if (allSheetsClosed()) document.body.style.overflow = '';
+  restoreFocus();
 }
 function allSheetsClosed() { return els.modal.hidden && els.wishModal.hidden && els.waitModal.hidden; }
 
