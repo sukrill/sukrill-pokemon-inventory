@@ -70,12 +70,11 @@
         <select id="filter-set" aria-label="Filter by set"><option value="">All Sets</option></select>
         <select id="filter-condition" aria-label="Filter by condition"><option value="">All Conditions</option></select>
         <select id="sort" aria-label="Sort">
-          <option value="newest">Newest</option>
+          <option value="inv-asc">Inventory #</option>
           <option value="name-asc">Name A–Z</option>
           <option value="name-desc">Name Z–A</option>
           <option value="price-asc">Price: Low–High</option>
           <option value="price-desc">Price: High–Low</option>
-          <option value="qty-desc">Quantity</option>
         </select>
         <label class="instock-toggle">
           <input type="checkbox" id="filter-instock"> In stock only
@@ -141,9 +140,15 @@
       <p id="wl-shared-note" class="sheet-note" hidden></p>
       <div id="wl-list" class="wl-list"></div>
       <div id="wl-empty" class="wl-empty">Your wishlist is empty — tap the heart on any card to save it.</div>
+      <div id="wl-totals" class="wl-totals" hidden>
+        <span><strong id="wl-total-count">0</strong> cards</span>
+        <span>Est. value <strong id="wl-total-value" class="wl-total-value">$0</strong></span>
+      </div>
       <div class="sheet-actions" id="wl-actions">
-        <button id="wl-share" class="btn btn-buy">🔗 Share Wishlist</button>
-        <button id="wl-message" class="btn btn-ghost">💬 Message Sukrill on Whatnot</button>
+        <button id="wl-message" class="btn btn-buy">💬 Message Sukrill</button>
+        <button id="wl-share" class="btn btn-ghost">🔗 Share</button>
+        <button id="wl-copy-nums" class="btn btn-ghost">＃ Copy Inventory #s</button>
+        <button id="wl-clear" class="btn btn-ghost wl-clear-btn">🗑 Clear</button>
       </div>
     </div>
   </div>

@@ -327,8 +327,22 @@ button { font-family: inherit; cursor: pointer; }
 .wl-rm:hover { border-color: var(--red); color: var(--red); }
 .wl-add { flex-shrink: 0; min-height: 40px; padding: 8px 14px; border-radius: 8px; background: var(--card-2); border: 1px solid var(--border-2); color: var(--text); font-size: .8rem; font-weight: 600; }
 .wl-add.added { border-color: var(--red); color: #ffb3bd; }
+.wl-totals {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 10px 18px; border-top: 1px solid var(--border);
+  font-size: .84rem; color: var(--text-dim);
+}
+.wl-totals strong { color: var(--text); font-weight: 700; }
+.wl-total-value { color: var(--accent) !important; }
 .sheet-actions { display: flex; gap: 10px; padding: 12px 16px 16px; border-top: 1px solid var(--border); flex-wrap: wrap; }
-.sheet-actions .btn { margin-top: 0; }
+.sheet-actions .btn { margin-top: 0; flex: 1 1 auto; }
+.wl-clear-btn:hover { border-color: var(--red); color: var(--red); }
+
+/* Wishlist micro-animations */
+@keyframes heart-pop { 0% { transform: scale(1); } 45% { transform: scale(1.4); } 100% { transform: scale(1); } }
+.card-heart.pop { animation: heart-pop .32s ease; }
+@keyframes badge-bounce { 0% { transform: scale(1); } 40% { transform: scale(1.35); } 100% { transform: scale(1); } }
+.hbtn-badge.bounce { animation: badge-bounce .3s ease; }
 
 /* ── Toast ──────────────────────────────────────────────── */
 .toast {

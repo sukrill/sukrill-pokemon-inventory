@@ -54,6 +54,11 @@ const els = {
   wishActions: document.getElementById('wl-actions'),
   wishShare:   document.getElementById('wl-share'),
   wishMessage: document.getElementById('wl-message'),
+  wishTotals:  document.getElementById('wl-totals'),
+  wishTotCount:document.getElementById('wl-total-count'),
+  wishTotValue:document.getElementById('wl-total-value'),
+  wishCopyNums:document.getElementById('wl-copy-nums'),
+  wishClear:   document.getElementById('wl-clear'),
   // waiting / notify
   waitBtn:     document.getElementById('waiting-btn'),
   waitCount:   document.getElementById('waiting-count'),
@@ -65,11 +70,38 @@ const els = {
 // Element to restore keyboard focus to when a modal/sheet closes.
 let lastFocused = null;
 
-// ── Analytics (GA4) ───────────────────────────────────────
+/* ============================================================
+   ANALYTICS — single reusable helper (never duplicate event code)
+   Every event flows through track():
+     1. sent to GA4 (gtag)
+     2. appended to a local rolling buffer in localStorage
+   The buffer future-proofs a later export to the "Website Analytics"
+   Google Sheet tab (no Apps Script yet). Because every wishlist/view/buy
+   action is captured uniformly with an inventory_id, the data can later be
+   aggregated to answer: most wishlisted / viewed / shared / bought / searched.
+   ============================================================ */
+const EVENT_BUFFER_KEY = 'sukrill_events_v1';
+const EVENT_BUFFER_MAX = 500;
+
 function track(name, params) {
-  try { if (typeof window.gtag === 'function') window.gtag('event', name, params || {}); }
+  params = params || {};
+  // 1) Google Analytics 4
+  try { if (typeof window.gtag === 'function') window.gtag('event', name, params); }
   catch (_) { /* never let analytics break the UI */ }
+  // 2) Local rolling buffer for future export
+  try {
+    const arr = JSON.parse(localStorage.getItem(EVENT_BUFFER_KEY) || '[]');
+    arr.push({ event: name, params, ts: Date.now() });
+    if (arr.length > EVENT_BUFFER_MAX) arr.splice(0, arr.length - EVENT_BUFFER_MAX);
+    localStorage.setItem(EVENT_BUFFER_KEY, JSON.stringify(arr));
+  } catch (_) { /* private mode / quota — ignore */ }
 }
+
+// Exposed for a future export routine (e.g. POST the buffer to a sheet endpoint).
+window.getAnalyticsBuffer = function () {
+  try { return JSON.parse(localStorage.getItem(EVENT_BUFFER_KEY) || '[]'); }
+  catch (_) { return []; }
+};
 
 // Loading skeleton shown while inventory.json is being fetched.
 function showSkeletons(n) {
@@ -159,14 +191,16 @@ function bindEvents() {
   els.search.addEventListener('input', debounce(() => {
     els.searchClear.hidden = !els.search.value;
     apply();
-  }, 120));
+    const q = els.search.value.trim();
+    if (q.length >= 2) track('search', { search_term: q.toLowerCase(), results: state.filtered.length });
+  }, 300));
   els.searchClear.addEventListener('click', () => {
     els.search.value = ''; els.searchClear.hidden = true; apply(); els.search.focus();
   });
-  els.filterSet.addEventListener('change', apply);
-  els.filterCond.addEventListener('change', apply);
-  els.filterStock.addEventListener('change', apply);
-  els.sort.addEventListener('change', apply);
+  els.filterSet.addEventListener('change', () => { apply(); track('filter', { filter_type: 'set', value: els.filterSet.value || '(all)' }); });
+  els.filterCond.addEventListener('change', () => { apply(); track('filter', { filter_type: 'condition', value: els.filterCond.value || '(all)' }); });
+  els.filterStock.addEventListener('change', () => { apply(); track('filter', { filter_type: 'in_stock', value: els.filterStock.checked }); });
+  els.sort.addEventListener('change', () => { apply(); track('sort', { sort_by: els.sort.value }); });
   els.resetBtn.addEventListener('click', resetFilters);
   els.loadMore.addEventListener('click', renderNextBatch);
 
@@ -198,12 +232,14 @@ function bindEvents() {
   els.waitModal.addEventListener('click', (e) => { if (e.target.dataset.closeWait !== undefined) closeSheet(els.waitModal); });
   els.wishShare.addEventListener('click', shareWishlist);
   els.wishMessage.addEventListener('click', messageSukrill);
+  els.wishCopyNums.addEventListener('click', copyInventoryNumbers);
+  els.wishClear.addEventListener('click', clearWishlist);
 }
 
 function resetFilters() {
   els.search.value = ''; els.searchClear.hidden = true;
   els.filterSet.value = ''; els.filterCond.value = '';
-  els.filterStock.checked = false; els.sort.value = 'newest';
+  els.filterStock.checked = false; els.sort.value = 'inv-asc';
   apply();
 }
 
@@ -226,7 +262,7 @@ function activeFilterCount() {
   if (els.filterSet.value) n++;
   if (els.filterCond.value && els.filterCond.style.display !== 'none') n++;
   if (els.filterStock.checked) n++;
-  if (els.sort.value !== 'newest') n++;
+  if (els.sort.value !== 'inv-asc') n++;
   return n;
 }
 
@@ -252,7 +288,7 @@ function apply() {
   list.sort(sorter(els.sort.value));
   state.filtered = list;
 
-  const filtersActive = q || fSet || fCond || inStock || els.sort.value !== 'newest';
+  const filtersActive = q || fSet || fCond || inStock || els.sort.value !== 'inv-asc';
   els.resetBtn.hidden = !filtersActive;
   els.resultCount.textContent =
     `${list.length.toLocaleString()} card${list.length === 1 ? '' : 's'}` +
@@ -275,10 +311,9 @@ function sorter(mode) {
     case 'name-desc': return (a, b) => b.name.localeCompare(a.name);
     case 'price-asc': return (a, b) => a.price - b.price;
     case 'price-desc':return (a, b) => b.price - a.price;
-    case 'qty-desc':  return (a, b) => b.quantity - a.quantity || a.name.localeCompare(b.name);
-    case 'newest':
-    default:          return (a, b) => (b.dateAdded || '').localeCompare(a.dateAdded || '')
-                                       || (Number(b.id) - Number(a.id));
+    case 'inv-asc':
+    default:          // default: ascending by inventory number
+                      return (a, b) => (Number(a.id) - Number(b.id)) || a.id.localeCompare(b.id);
   }
 }
 
@@ -313,7 +348,8 @@ function cardEl(c) {
       ${oos ? '<span class="badge-oos">Sold</span>' : ''}
       <button class="card-heart${wished ? ' active' : ''}" data-id="${escapeAttr(c.id)}"
               title="${wished ? 'Remove from wishlist' : 'Add to wishlist'}"
-              aria-label="Toggle wishlist">${wished ? '❤️' : '🤍'}</button>
+              aria-label="${wished ? 'Remove ' + escapeAttr(c.name) + ' from wishlist' : 'Add ' + escapeAttr(c.name) + ' to wishlist'}"
+              aria-pressed="${wished ? 'true' : 'false'}">${wished ? '❤️' : '🤍'}</button>
     </div>
     <div class="card-body">
       <div class="card-name">${escapeHtml(c.name)}</div>
@@ -327,7 +363,12 @@ function cardEl(c) {
   el.addEventListener('click', () => openModal(c.id, true));
   el.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openModal(c.id, true); } });
   const heart = el.querySelector('.card-heart');
-  heart.addEventListener('click', (e) => { e.stopPropagation(); toggleWish(c.id); });
+  heart.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const willAdd = !isWished(c.id);
+    toggleWish(c.id);
+    if (willAdd) { heart.classList.remove('pop'); void heart.offsetWidth; heart.classList.add('pop'); }
+  });
   return el;
 }
 
@@ -370,8 +411,11 @@ function openModal(id, pushUrl) {
   buy.href = c.listingUrl || SHOP_URL;
   buy.hidden = oos;                          // no buy link for sold-out cards
   buy.onclick = () => {
-    if (hasListing) track('whatnot_listing_click', { inventory_id: c.id, card_name: c.name, price: c.price });
-    else            track('whatnot_shop_click',    { source: 'inventory_site', inventory_id: c.id, card_name: c.name });
+    // Single buy_click event; destination preserves the shop-vs-listing distinction.
+    track('buy_click', {
+      inventory_id: c.id, card_name: c.name, price: c.price,
+      destination: hasListing ? 'listing' : 'shop',
+    });
   };
 
   // Notify-me (sold cards only)
@@ -392,7 +436,7 @@ function openModal(id, pushUrl) {
   m.querySelector('.modal-close').focus({ preventScroll: true });
   if (pushUrl) history.pushState({ card: c.id }, '', shareURL(c.id, true));
 
-  track('card_view', { inventory_id: c.id, card_name: c.name, price: c.price, set: c.set });
+  track('card_open', { inventory_id: c.id, card_name: c.name, price: c.price, set: c.set });
 }
 
 function syncWishBtn(btn, c) {
@@ -429,10 +473,12 @@ function restoreFocus() {
   lastFocused = null;
 }
 
-function openFromURL() {
+function openFromURL(evt) {
   const id = new URLSearchParams(location.search).get('card');
   if (id) {
     if (state.byId.has(String(id))) {
+      // Only count as a deep link on first load, not on back/forward (popstate)
+      if (!evt || evt.type !== 'popstate') track('deep_link_open', { type: 'card', inventory_id: String(id) });
       openModal(id, false);
     } else {
       // Malformed / stale ?card= → clean it up instead of leaving a dead URL
@@ -451,8 +497,13 @@ function openFromURL() {
    WISHLIST
    ============================================================ */
 function getWish() {
-  try { return JSON.parse(localStorage.getItem(WISH_KEY)) || []; }
-  catch (_) { return []; }
+  try {
+    const v = JSON.parse(localStorage.getItem(WISH_KEY));
+    // Corrupt/legacy data → clean, de-duplicated array of non-empty id strings
+    return Array.isArray(v)
+      ? [...new Set(v.filter(x => x !== null && x !== undefined && x !== '').map(String))]
+      : [];
+  } catch (_) { return []; }
 }
 function saveWish(arr) { try { localStorage.setItem(WISH_KEY, JSON.stringify(arr)); } catch (_) {} }
 function isWished(id) { return getWish().includes(String(id)); }
@@ -477,13 +528,20 @@ function toggleWish(id) {
 
 function updateWishUI() {
   const arr = getWish();
-  els.wishCount.textContent = arr.length;
-  // sync any hearts currently in the grid
+  // Header badge — instant count + a subtle bounce when it changes
+  if (els.wishCount.textContent !== String(arr.length)) {
+    els.wishCount.textContent = arr.length;
+    els.wishCount.classList.remove('bounce');
+    void els.wishCount.offsetWidth;           // restart the animation
+    els.wishCount.classList.add('bounce');
+  }
+  // sync any hearts currently in the grid (targeted, no full re-render)
   document.querySelectorAll('.card-heart').forEach(h => {
     const on = arr.includes(h.dataset.id);
     h.classList.toggle('active', on);
     h.textContent = on ? '❤️' : '🤍';
     h.title = on ? 'Remove from wishlist' : 'Add to wishlist';
+    h.setAttribute('aria-pressed', on ? 'true' : 'false');
   });
   // if the wishlist sheet is open (own list), re-render it
   if (!els.wishModal.hidden && els.wishModal.dataset.mode !== 'shared') renderWishlist();
@@ -501,15 +559,25 @@ function openWishlist() {
 function renderWishlist() {
   const ids = getWish();
   els.wishActions.querySelectorAll('button').forEach(b => b.disabled = ids.length === 0);
-  if (!ids.length) { els.wishList.innerHTML = ''; els.wishEmpty.hidden = false; return; }
+  if (!ids.length) {
+    els.wishList.innerHTML = '';
+    els.wishEmpty.hidden = false;
+    els.wishTotals.hidden = true;
+    return;
+  }
   els.wishEmpty.hidden = true;
   els.wishList.innerHTML = ids.map(id => {
     const c = state.byId.get(id);
     if (!c) return wlMissingRow(id);
-    return wlRow(c, `<button class="wl-rm" title="Remove" data-rm="${escapeAttr(c.id)}">✕</button>`);
+    return wlRow(c, `<button class="wl-rm" title="Remove ${escapeAttr(c.name)}" aria-label="Remove ${escapeAttr(c.name)}" data-rm="${escapeAttr(c.id)}">✕</button>`);
   }).join('');
   els.wishList.querySelectorAll('[data-rm]').forEach(b =>
     b.addEventListener('click', () => toggleWish(b.dataset.rm)));
+  // Running total count + estimated value (only cards still in inventory)
+  const totalValue = ids.reduce((s, id) => { const c = state.byId.get(id); return s + (c ? c.price : 0); }, 0);
+  els.wishTotCount.textContent = ids.length;
+  els.wishTotValue.textContent = '$' + totalValue.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  els.wishTotals.hidden = false;
 }
 
 function wlRow(c, actionHtml) {
@@ -549,46 +617,65 @@ function shareWishlist() {
 
 function openSharedWishlistFromURL() {
   const raw = new URLSearchParams(location.search).get('wishlist');
-  if (!raw) return;
-  const ids = raw.split(',').map(s => s.trim()).filter(Boolean);
-  if (!ids.length) return;
-  els.wishModal.dataset.mode = 'shared';
-  els.wishTitle.textContent = '🎁 Shared Wishlist';
-  els.wishNote.hidden = false;
-  els.wishNote.textContent = `Someone shared ${ids.length} card${ids.length === 1 ? '' : 's'} with you. Add any to your own wishlist.`;
-  els.wishActions.hidden = true;
-  els.wishEmpty.hidden = true;
-  els.wishList.innerHTML = ids.map(id => {
-    const c = state.byId.get(id);
-    if (!c) return wlMissingRow(id);
-    const added = isWished(id);
-    return wlRow(c, `<button class="wl-add${added ? ' added' : ''}" data-add="${escapeAttr(id)}">${added ? '❤️ Added' : '＋ Add'}</button>`);
-  }).join('');
-  els.wishList.querySelectorAll('[data-add]').forEach(b =>
-    b.addEventListener('click', () => {
-      const id = b.dataset.add;
-      if (!isWished(id)) toggleWish(id);
-      b.classList.add('added'); b.textContent = '❤️ Added';
-    }));
-  openSheet(els.wishModal);
+  if (raw == null) return;
+  // Parse + sanitize ids (tolerate malformed URLs: junk, spaces, dupes)
+  const ids = [...new Set(
+    raw.split(',').map(s => s.trim()).filter(s => /^[A-Za-z0-9-]+$/.test(s))
+  )];
+  // Clean the param from the URL so a refresh won't re-merge and links stay tidy
+  const params = new URLSearchParams(location.search);
+  params.delete('wishlist');
+  const qs = params.toString();
+  history.replaceState({}, '', location.pathname + (qs ? '?' + qs : ''));
+
+  if (!ids.length) { toast('That shared wishlist link was empty or invalid'); return; }
+
+  // Automatically rebuild the viewer's wishlist by merging in the shared ids (dedup)
+  const current = getWish();
+  const merged = [...new Set([...current, ...ids])];
+  saveWish(merged);
+  updateWishUI();
+
+  track('deep_link_open', { type: 'wishlist', number_of_cards: ids.length });
+  openWishlist();
+  toast('Wishlist loaded.');
 }
 
 // ── Message Sukrill ───────────────────────────────────────
+// Builds a clean message (inventory numbers only) and copies it. We do NOT
+// automate Whatnot messaging — the user pastes it into a Whatnot DM themselves.
 function messageSukrill() {
   const ids = getWish();
   if (!ids.length) { toast('Your wishlist is empty'); return; }
-  const lines = ids.map(id => {
-    const c = state.byId.get(id);
-    return c ? `#${c.id} - ${c.name} - $${c.price.toFixed(2)}` : `#${id}`;
-  });
   const msg =
-    `Hey Sukrill! I'm interested in these Pokémon cards:\n\n` +
-    lines.join('\n') +
-    `\n\nCan you let me know availability and shipping?`;
+    `Hi Sukrill!\n\n` +
+    `I was browsing your inventory website and I'm interested in these cards:\n\n` +
+    ids.join('\n') +
+    `\n\nCould you let me know if they're still available?\n\nThanks!`;
   copyText(msg);
-  track('contact_request', { number_of_cards: ids.length });
-  toast('Message copied — opening Whatnot…');
-  setTimeout(() => window.open(SHOP_URL, '_blank', 'noopener'), 600);
+  track('message_sukrill', { number_of_cards: ids.length });
+  toast('Message copied — paste it into a Whatnot DM to Sukrill 💬', 3500);
+}
+
+// ── Copy inventory numbers (numbers only, one per line) ──────
+function copyInventoryNumbers() {
+  const ids = getWish();
+  if (!ids.length) { toast('Your wishlist is empty'); return; }
+  copyText(ids.join('\n'));
+  track('wishlist_copy', { type: 'inventory_numbers', number_of_cards: ids.length });
+  toast('Inventory numbers copied');
+}
+
+// ── Clear wishlist (with confirmation) ──────────────────────
+function clearWishlist() {
+  const ids = getWish();
+  if (!ids.length) { toast('Your wishlist is already empty'); return; }
+  if (!window.confirm(`Clear all ${ids.length} card${ids.length === 1 ? '' : 's'} from your wishlist?`)) return;
+  saveWish([]);
+  track('wishlist_remove', { inventory_id: 'all', cleared: ids.length });
+  updateWishUI();
+  renderWishlist();
+  toast('Wishlist cleared');
 }
 
 /* ============================================================
@@ -701,14 +788,14 @@ function fallbackCopy(text) {
 
 // ── Toast ─────────────────────────────────────────────────
 let toastTimer;
-function toast(msg) {
+function toast(msg, duration) {
   els.toast.textContent = msg; els.toast.hidden = false;
   requestAnimationFrame(() => els.toast.classList.add('show'));
   clearTimeout(toastTimer);
   toastTimer = setTimeout(() => {
     els.toast.classList.remove('show');
     setTimeout(() => { els.toast.hidden = true; }, 250);
-  }, 1800);
+  }, duration || 1800);
 }
 
 // ── Utilities ─────────────────────────────────────────────
