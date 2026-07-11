@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#000000">
   <meta name="description" content="Sukrill Pokémon Cards — browse the collection available on Whatnot.">
   <title>Sukrill Pokémon Cards</title>
 
@@ -49,12 +50,23 @@
 
   <div class="toolbar" id="toolbar">
     <div class="toolbar-inner">
-      <div class="search-wrap">
-        <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.3-4.3M11 19a8 8 0 100-16 8 8 0 000 16z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-        <input type="search" id="search" placeholder="Search name, set, card # or inventory ID…" autocomplete="off">
-        <button id="search-clear" class="search-clear" aria-label="Clear search" hidden>&times;</button>
+      <div class="search-row">
+        <div class="search-wrap">
+          <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 21l-4.3-4.3M11 19a8 8 0 100-16 8 8 0 000 16z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <input type="search" id="search" placeholder="Search name, set, card # or inventory ID…" autocomplete="off">
+          <button id="search-clear" class="search-clear" aria-label="Clear search" hidden>&times;</button>
+        </div>
+        <button id="filters-toggle" class="filters-toggle" aria-label="Show filters and sort" aria-expanded="false">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <span>Filters</span><span id="filters-count" class="filters-count" hidden>0</span>
+        </button>
       </div>
-      <div class="filters">
+      <div id="filters-backdrop" class="filters-backdrop" hidden></div>
+      <div id="filters" class="filters">
+        <div class="filters-sheet-head">
+          <span class="filters-sheet-title">Filters &amp; Sort</span>
+          <button id="filters-done" class="filters-done">Done</button>
+        </div>
         <select id="filter-set" aria-label="Filter by set"><option value="">All Sets</option></select>
         <select id="filter-condition" aria-label="Filter by condition"><option value="">All Conditions</option></select>
         <select id="sort" aria-label="Sort">
@@ -96,7 +108,7 @@
       <button class="modal-close" data-close aria-label="Close">&times;</button>
       <div class="modal-body">
         <div class="modal-img-wrap">
-          <img id="m-img" alt="" loading="lazy">
+          <img id="m-img" alt="" loading="lazy" decoding="async">
         </div>
         <div class="modal-info">
           <h2 id="m-name"></h2>

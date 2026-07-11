@@ -30,6 +30,11 @@ const els = {
   sort:        document.getElementById('sort'),
   resultCount: document.getElementById('result-count'),
   resetBtn:    document.getElementById('reset-btn'),
+  filtersToggle:  document.getElementById('filters-toggle'),
+  filtersPanel:   document.getElementById('filters'),
+  filtersBackdrop:document.getElementById('filters-backdrop'),
+  filtersDone:    document.getElementById('filters-done'),
+  filtersCount:   document.getElementById('filters-count'),
   statCount:   document.getElementById('stat-count'),
   syncDate:    document.getElementById('sync-date'),
   syncTime:    document.getElementById('sync-time'),
@@ -149,6 +154,11 @@ function bindEvents() {
   els.resetBtn.addEventListener('click', resetFilters);
   els.loadMore.addEventListener('click', renderNextBatch);
 
+  // Mobile filters bottom sheet
+  els.filtersToggle.addEventListener('click', openFilters);
+  els.filtersDone.addEventListener('click', closeFilters);
+  els.filtersBackdrop.addEventListener('click', closeFilters);
+
   const io = new IntersectionObserver((entries) => {
     if (entries[0].isIntersecting) renderNextBatch();
   }, { rootMargin: '600px' });
@@ -158,7 +168,8 @@ function bindEvents() {
   els.modal.addEventListener('click', (e) => { if (e.target.dataset.close !== undefined) closeModal(); });
   document.addEventListener('keydown', (e) => {
     if (e.key !== 'Escape') return;
-    if (!els.waitModal.hidden) closeSheet(els.waitModal);
+    if (els.filtersPanel.classList.contains('open')) closeFilters();
+    else if (!els.waitModal.hidden) closeSheet(els.waitModal);
     else if (!els.wishModal.hidden) closeSheet(els.wishModal);
     else closeModal();
   });
@@ -178,6 +189,28 @@ function resetFilters() {
   els.filterSet.value = ''; els.filterCond.value = '';
   els.filterStock.checked = false; els.sort.value = 'newest';
   apply();
+}
+
+// ── Mobile filters bottom sheet ───────────────────────────
+function openFilters() {
+  els.filtersPanel.classList.add('open');
+  els.filtersBackdrop.hidden = false;
+  els.filtersToggle.setAttribute('aria-expanded', 'true');
+  document.body.style.overflow = 'hidden';
+}
+function closeFilters() {
+  els.filtersPanel.classList.remove('open');
+  els.filtersBackdrop.hidden = true;
+  els.filtersToggle.setAttribute('aria-expanded', 'false');
+  if (allSheetsClosed()) document.body.style.overflow = '';
+}
+function activeFilterCount() {
+  let n = 0;
+  if (els.filterSet.value) n++;
+  if (els.filterCond.value && els.filterCond.style.display !== 'none') n++;
+  if (els.filterStock.checked) n++;
+  if (els.sort.value !== 'newest') n++;
+  return n;
 }
 
 // ── Search + filter + sort ────────────────────────────────
@@ -207,6 +240,11 @@ function apply() {
   els.resultCount.textContent =
     `${list.length.toLocaleString()} card${list.length === 1 ? '' : 's'}` +
     (filtersActive ? ` (of ${state.all.length.toLocaleString()})` : '');
+
+  // Filter-count badge on the mobile toggle (search is not counted here)
+  const fc = activeFilterCount();
+  els.filtersCount.textContent = fc;
+  els.filtersCount.hidden = fc === 0;
 
   els.grid.innerHTML = '';
   state.rendered = 0;
@@ -250,7 +288,7 @@ function cardEl(c) {
   el.innerHTML = `
     <div class="card-img-wrap">
       ${c.image
-        ? `<img alt="${escapeHtml(c.name)}" loading="lazy" src="${escapeAttr(c.image)}"
+        ? `<img alt="${escapeHtml(c.name)}" loading="lazy" decoding="async" src="${escapeAttr(c.image)}"
                onload="this.classList.add('loaded')"
                onerror="this.replaceWith(makePlaceholder())">`
         : PLACEHOLDER}

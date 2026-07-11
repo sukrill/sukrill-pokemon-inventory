@@ -1,0 +1,48 @@
+name: CI — validate site
+
+# Runs on every push and PR. Fails loudly (red ✗ on the commit) if the site
+# has broken HTML/CSS/JS, an invalid inventory.json, or missing internal assets,
+# so problems are caught before they go live on GitHub Pages.
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate JavaScript syntax
+        run: node --check script.js
+
+      - name: Validate inventory.json
+        run: |
+          node -e "
+            const d = JSON.parse(require('fs').readFileSync('inventory.json','utf8'));
+            if (!Array.isArray(d.cards)) throw new Error('inventory.json: cards[] is missing');
+            if (!('lastUpdated' in d)) throw new Error('inventory.json: lastUpdated is missing');
+            console.log('inventory.json OK —', d.cards.length, 'cards, lastUpdated', d.lastUpdated);
+          "
+
+      - name: Lint HTML
+        run: npx --yes htmlhint@1 index.html
+
+      - name: Validate CSS (syntax)
+        run: npx --yes stylelint@16 styles.css
+
+      - name: Check internal links & image assets
+        run: python3 scripts/check_links.py
+
+      - name: Build check passed
+        run: echo "✓ Site validated — safe to deploy."
