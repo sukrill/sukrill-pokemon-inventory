@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-12T00:06",
-  "totalCards": 300,
-  "totalValue": 17083.0,
+  "lastUpdated": "2026-07-12T01:36",
+  "totalCards": 308,
+  "totalValue": 18618.0,
   "cards": [
     {
       "id": "0252",
@@ -13,6 +13,18 @@
       "quantity": 1,
       "image": "images/0252.jpg",
       "dateAdded": "2026-07-11",
+      "notes": ""
+    },
+    {
+      "id": "0251",
+      "name": "Espeon & Deoxys GX",
+      "set": "SM Promos",
+      "number": "SM240",
+      "condition": "Near Mint",
+      "price": 130.0,
+      "quantity": 1,
+      "image": "images/0251.jpg",
+      "dateAdded": "2026-07-12",
       "notes": ""
     },
     {
@@ -61,6 +73,66 @@
       "quantity": 1,
       "image": "images/0411.jpg",
       "dateAdded": "2026-07-10",
+      "notes": ""
+    },
+    {
+      "id": "0226",
+      "name": "Typhlosion ex",
+      "set": "Sandstorm",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 170.0,
+      "quantity": 1,
+      "image": "images/0226.jpg",
+      "dateAdded": "2026-07-12",
+      "notes": ""
+    },
+    {
+      "id": "0208",
+      "name": "Light Arcanine",
+      "set": "Neo Destiny",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 310.0,
+      "quantity": 1,
+      "image": "images/0208.jpg",
+      "dateAdded": "2026-07-12",
+      "notes": ""
+    },
+    {
+      "id": "0204",
+      "name": "Pikachu",
+      "set": "208/S-P (Yu Nagaba)",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 180.0,
+      "quantity": 1,
+      "image": "images/0204.jpg",
+      "dateAdded": "2026-07-12",
+      "notes": ""
+    },
+    {
+      "id": "0203",
+      "name": "Ampharos EX (87 Full Art)",
+      "set": "Ancient Origins",
+      "number": "XY",
+      "condition": "Near Mint",
+      "price": 50.0,
+      "quantity": 1,
+      "image": "images/0203.jpg",
+      "dateAdded": "2026-07-12",
+      "notes": ""
+    },
+    {
+      "id": "0225",
+      "name": "Snorlax",
+      "set": "WoTC Promo",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 400.0,
+      "quantity": 1,
+      "image": "images/0225.jpg",
+      "dateAdded": "2026-07-12",
       "notes": ""
     },
     {
@@ -1444,15 +1516,27 @@
       "notes": ""
     },
     {
-      "id": "0264",
+      "id": "0262",
       "name": "Roseanne's Research",
       "set": "125/132 (League Promo)",
       "number": "",
       "condition": "Near Mint",
       "price": 10.0,
       "quantity": 1,
-      "image": "images/0264.jpg",
-      "dateAdded": "2026-06-04",
+      "image": "",
+      "dateAdded": "2026-07-12",
+      "notes": ""
+    },
+    {
+      "id": "0235",
+      "name": "Radiant Eevee 092/127",
+      "set": "",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 45.0,
+      "quantity": 1,
+      "image": "images/0235.jpg",
+      "dateAdded": "2026-07-12",
       "notes": ""
     },
     {
@@ -1801,6 +1885,18 @@
       "quantity": 1,
       "image": "images/0371.jpg",
       "dateAdded": "2026-06-17",
+      "notes": ""
+    },
+    {
+      "id": "0230",
+      "name": "Ditto Metamong 173/SV-P Korean Exclusive Promo",
+      "set": "",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 250.0,
+      "quantity": 1,
+      "image": "images/0230.jpg",
+      "dateAdded": "2026-07-12",
       "notes": ""
     },
     {
