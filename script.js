@@ -1,8 +1,7 @@
 /* ============================================================
-   Sukrill Pokémon Cards — vanilla JS
-   Grid + search/filter/sort + card modal (existing), plus:
-   wishlist (localStorage), share wishlist, message Sukrill,
-   notify-me waiting list, and GA4 event tracking.
+   Sukrill's Pokémon Cards — vanilla JS
+   Grid + search/filter/sort + card modal, wishlist (localStorage),
+   share wishlist, message Sukrill, and GA4 event tracking.
    ============================================================ */
 'use strict';
 
@@ -10,7 +9,7 @@ const PAGE_SIZE = 60;
 const PLACEHOLDER = placeholderSVG();
 const SHOP_URL = 'https://www.whatnot.com/user/sukrill/shop';
 const WISH_KEY   = 'sukrill_wishlist_v1';   // array of inventory ids
-const NOTIFY_KEY = 'sukrill_notify_v1';     // array of {id, name, date}
+const LEGACY_NOTIFY_KEY = 'sukrill_notify_v1';   // removed feature — cleaned up on load
 
 const state = {
   all: [],
@@ -59,12 +58,6 @@ const els = {
   wishTotValue:document.getElementById('wl-total-value'),
   wishCopyNums:document.getElementById('wl-copy-nums'),
   wishClear:   document.getElementById('wl-clear'),
-  // waiting / notify
-  waitBtn:     document.getElementById('waiting-btn'),
-  waitCount:   document.getElementById('waiting-count'),
-  waitModal:   document.getElementById('waiting-modal'),
-  waitList:    document.getElementById('wait-list'),
-  waitEmpty:   document.getElementById('wait-empty'),
 };
 
 // Element to restore keyboard focus to when a modal/sheet closes.
@@ -127,7 +120,7 @@ async function init() {
     buildFilterOptions();
     bindEvents();
     updateWishUI();
-    updateWaitingCount();
+    try { localStorage.removeItem(LEGACY_NOTIFY_KEY); } catch (_) {}  // purge removed feature's storage
     apply();
     openFromURL();
     openSharedWishlistFromURL();
@@ -172,8 +165,11 @@ function splitSync(raw) {
   const hasTime = String(raw).includes('T');
   const d = new Date(hasTime ? raw : raw + 'T00:00:00');
   if (isNaN(d)) return { date: String(raw), time: '' };
-  const date = d.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
-  const time = hasTime ? d.toLocaleTimeString(undefined, { hour: 'numeric', minute: '2-digit' }) : '';
+  // e.g. "July 12, 2026" · "7:04 PM CST" — time includes the local timezone
+  const date = d.toLocaleDateString(undefined, { month: 'long', day: 'numeric', year: 'numeric' });
+  const time = hasTime
+    ? d.toLocaleTimeString(undefined, { hour: 'numeric', minute: '2-digit', timeZoneName: 'short' })
+    : '';
   return { date, time };
 }
 
@@ -219,17 +215,32 @@ function bindEvents() {
   document.addEventListener('keydown', (e) => {
     if (e.key !== 'Escape') return;
     if (els.filtersPanel.classList.contains('open')) closeFilters();
-    else if (!els.waitModal.hidden) closeSheet(els.waitModal);
     else if (!els.wishModal.hidden) closeSheet(els.wishModal);
     else closeModal();
   });
   window.addEventListener('popstate', openFromURL);
 
-  // Wishlist / waiting header buttons
+  // "/" focuses the search field (unless already typing in a field)
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== '/' || e.metaKey || e.ctrlKey || e.altKey) return;
+    const el = document.activeElement;
+    const tag = el && el.tagName;
+    if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || (el && el.isContentEditable)) return;
+    e.preventDefault();
+    els.search.focus();
+  });
+
+  // Subtle shadow under the sticky header once the page scrolls
+  const stickyHeader = document.getElementById('sticky-header');
+  if (stickyHeader) {
+    const onScroll = () => stickyHeader.classList.toggle('scrolled', window.scrollY > 4);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  }
+
+  // Wishlist header button
   els.wishBtn.addEventListener('click', openWishlist);
-  els.waitBtn.addEventListener('click', openWaiting);
   els.wishModal.addEventListener('click', (e) => { if (e.target.dataset.closeWish !== undefined) closeSheet(els.wishModal); });
-  els.waitModal.addEventListener('click', (e) => { if (e.target.dataset.closeWait !== undefined) closeSheet(els.waitModal); });
   els.wishShare.addEventListener('click', shareWishlist);
   els.wishMessage.addEventListener('click', messageSukrill);
   els.wishCopyNums.addEventListener('click', copyInventoryNumbers);
@@ -349,7 +360,9 @@ function cardEl(c) {
       <button class="card-heart${wished ? ' active' : ''}" data-id="${escapeAttr(c.id)}"
               title="${wished ? 'Remove from wishlist' : 'Add to wishlist'}"
               aria-label="${wished ? 'Remove ' + escapeAttr(c.name) + ' from wishlist' : 'Add ' + escapeAttr(c.name) + ' to wishlist'}"
-              aria-pressed="${wished ? 'true' : 'false'}">${wished ? '❤️' : '🤍'}</button>
+              aria-pressed="${wished ? 'true' : 'false'}">
+        <svg class="heart-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+      </button>
     </div>
     <div class="card-body">
       <div class="card-name">${escapeHtml(c.name)}</div>
@@ -418,11 +431,6 @@ function openModal(id, pushUrl) {
     });
   };
 
-  // Notify-me (sold cards only)
-  const notify = m.querySelector('#m-notify');
-  notify.hidden = !oos;
-  if (oos) syncNotifyBtn(notify, c);
-
   // Wishlist toggle
   const wish = m.querySelector('#m-wish');
   syncWishBtn(wish, c);
@@ -444,12 +452,6 @@ function syncWishBtn(btn, c) {
   btn.textContent = on ? '❤️ In Wishlist — Remove' : '＋ Add to Wishlist';
   btn.classList.toggle('active', on);
   btn.onclick = () => { toggleWish(c.id); syncWishBtn(btn, c); };
-}
-function syncNotifyBtn(btn, c) {
-  const on = isNotifying(c.id);
-  btn.textContent = on ? '✓ You’ll be notified' : '🔔 Notify Me If Available';
-  btn.classList.toggle('active', on);
-  btn.onclick = () => { toggleNotify(c.id); syncNotifyBtn(btn, c); };
 }
 
 function closeModal() {
@@ -535,11 +537,11 @@ function updateWishUI() {
     void els.wishCount.offsetWidth;           // restart the animation
     els.wishCount.classList.add('bounce');
   }
-  // sync any hearts currently in the grid (targeted, no full re-render)
+  // sync any hearts currently in the grid (targeted, no full re-render).
+  // Toggle class/aria only — the SVG stays; CSS handles outline↔filled.
   document.querySelectorAll('.card-heart').forEach(h => {
     const on = arr.includes(h.dataset.id);
     h.classList.toggle('active', on);
-    h.textContent = on ? '❤️' : '🤍';
     h.title = on ? 'Remove from wishlist' : 'Add to wishlist';
     h.setAttribute('aria-pressed', on ? 'true' : 'false');
   });
@@ -679,64 +681,6 @@ function clearWishlist() {
 }
 
 /* ============================================================
-   NOTIFY / WAITING LIST
-   ============================================================ */
-function getNotify() {
-  try { return JSON.parse(localStorage.getItem(NOTIFY_KEY)) || []; }
-  catch (_) { return []; }
-}
-function saveNotify(arr) { try { localStorage.setItem(NOTIFY_KEY, JSON.stringify(arr)); } catch (_) {} }
-function isNotifying(id) { return getNotify().some(x => x.id === String(id)); }
-
-function toggleNotify(id) {
-  id = String(id);
-  const c = state.byId.get(id);
-  let arr = getNotify();
-  if (arr.some(x => x.id === id)) {
-    arr = arr.filter(x => x.id !== id);
-    saveNotify(arr);
-    toast('Removed from your waiting list');
-  } else {
-    arr.push({ id, name: c ? c.name : '', date: new Date().toISOString().slice(0, 10) });
-    saveNotify(arr);
-    track('notify_request', { inventory_id: id, card_name: c ? c.name : '' });
-    toast('We saved it — you’re on the waiting list 🔔');
-  }
-  updateWaitingCount();
-  if (!els.waitModal.hidden) renderWaiting();
-}
-
-function updateWaitingCount() { els.waitCount.textContent = getNotify().length; }
-
-function openWaiting() { renderWaiting(); openSheet(els.waitModal); }
-
-function renderWaiting() {
-  const arr = getNotify();
-  if (!arr.length) { els.waitList.innerHTML = ''; els.waitEmpty.hidden = false; return; }
-  els.waitEmpty.hidden = true;
-  els.waitList.innerHTML = arr.map(w => {
-    const c = state.byId.get(w.id);
-    const inStock = c && c.quantity > 0;
-    const price = c ? `$${c.price.toFixed(2)}` : '';
-    const thumb = c && c.image
-      ? `<img class="wl-thumb" src="${escapeAttr(c.image)}" alt="" loading="lazy" onerror="this.outerHTML='<div class=\\'wl-thumb-ph\\'>✦</div>'">`
-      : `<div class="wl-thumb-ph">✦</div>`;
-    return `<div class="wl-item">
-      ${thumb}
-      <div class="wl-info">
-        <div class="wl-name">${escapeHtml(w.name || (c ? c.name : 'Card #' + w.id))}</div>
-        <div class="wl-sub">#${escapeHtml(w.id)} · added ${escapeHtml(formatDate(w.date))}</div>
-        <div class="wl-avail ${inStock ? 'in' : 'out'}">${inStock ? 'Back in stock!' : 'Still waiting'}</div>
-      </div>
-      <div class="wl-price">${price}</div>
-      <button class="wl-rm" data-rmn="${escapeAttr(w.id)}" title="Remove">✕</button>
-    </div>`;
-  }).join('');
-  els.waitList.querySelectorAll('[data-rmn]').forEach(b =>
-    b.addEventListener('click', () => toggleNotify(b.dataset.rmn)));
-}
-
-/* ============================================================
    Sheet open/close helpers
    ============================================================ */
 function openSheet(sheet) {
@@ -752,7 +696,7 @@ function closeSheet(sheet) {
   if (allSheetsClosed()) document.body.style.overflow = '';
   restoreFocus();
 }
-function allSheetsClosed() { return els.modal.hidden && els.wishModal.hidden && els.waitModal.hidden; }
+function allSheetsClosed() { return els.modal.hidden && els.wishModal.hidden; }
 
 /* ============================================================
    Copy / share helpers
@@ -809,5 +753,5 @@ function formatDate(iso) {
 function escapeHtml(s) { return String(s).replace(/[&<>"']/g, m => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[m])); }
 function escapeAttr(s) { return escapeHtml(s); }
 function placeholderSVG() {
-  return `<div class="img-placeholder"><span class="ph-glyph">✦</span><span>No image</span></div>`;
+  return `<div class="img-placeholder"><img class="ph-logo" src="logo.png" alt="" aria-hidden="true"><span>Photo Coming Soon</span></div>`;
 }
