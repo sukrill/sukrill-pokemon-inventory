@@ -1,8 +1,68 @@
 {
-  "lastUpdated": "2026-07-10T16:27",
-  "totalCards": 295,
-  "totalValue": 17087.0,
+  "lastUpdated": "2026-07-12T00:06",
+  "totalCards": 300,
+  "totalValue": 17083.0,
   "cards": [
+    {
+      "id": "0252",
+      "name": "Tauros",
+      "set": "ME04: Chaos Rising",
+      "number": "096/086",
+      "condition": "Near Mint",
+      "price": 8.0,
+      "quantity": 1,
+      "image": "images/0252.jpg",
+      "dateAdded": "2026-07-11",
+      "notes": ""
+    },
+    {
+      "id": "0314",
+      "name": "Pikachu",
+      "set": "SV: Scarlet & Violet 151",
+      "number": "173/165",
+      "condition": "Near Mint",
+      "price": 85.0,
+      "quantity": 1,
+      "image": "images/0314.jpg",
+      "dateAdded": "2026-07-10",
+      "notes": ""
+    },
+    {
+      "id": "0370",
+      "name": "Herdier",
+      "set": "SV: White Flare",
+      "number": "155/086",
+      "condition": "Near Mint",
+      "price": 26.0,
+      "quantity": 1,
+      "image": "images/0370.jpg",
+      "dateAdded": "2026-07-10",
+      "notes": ""
+    },
+    {
+      "id": "0383",
+      "name": "Foongus",
+      "set": "SV: Black Bolt",
+      "number": "095/086",
+      "condition": "Near Mint",
+      "price": 24.0,
+      "quantity": 1,
+      "image": "images/0383.jpg",
+      "dateAdded": "2026-07-10",
+      "notes": ""
+    },
+    {
+      "id": "0411",
+      "name": "Archen",
+      "set": "SV: White Flare",
+      "number": "131/086",
+      "condition": "Near Mint",
+      "price": 15.0,
+      "quantity": 1,
+      "image": "images/0411.jpg",
+      "dateAdded": "2026-07-10",
+      "notes": ""
+    },
     {
       "id": "0269",
       "name": "Eiscue ex",
@@ -11,8 +71,20 @@
       "condition": "Near Mint",
       "price": 14.0,
       "quantity": 1,
-      "image": "",
+      "image": "images/0269.jpg",
       "dateAdded": "2026-07-05",
+      "notes": ""
+    },
+    {
+      "id": "0361",
+      "name": "Pikachu",
+      "set": "SM Promos",
+      "number": "SM227",
+      "condition": "Near Mint",
+      "price": 23.0,
+      "quantity": 1,
+      "image": "images/0361.jpg",
+      "dateAdded": "2026-07-10",
       "notes": ""
     },
     {
@@ -23,7 +95,7 @@
       "condition": "Near Mint",
       "price": 10.0,
       "quantity": 1,
-      "image": "",
+      "image": "images/0243.jpg",
       "dateAdded": "2026-07-05",
       "notes": ""
     },
@@ -323,7 +395,7 @@
       "condition": "Near Mint",
       "price": 26.0,
       "quantity": 1,
-      "image": "",
+      "image": "images/0276.jpg",
       "dateAdded": "2026-07-05",
       "notes": ""
     },
@@ -760,6 +832,18 @@
       "notes": ""
     },
     {
+      "id": "0392",
+      "name": "Espeon ex",
+      "set": "SV: Scarlet & Violet Promo Cards",
+      "number": "175",
+      "condition": "Near Mint",
+      "price": 29.0,
+      "quantity": 1,
+      "image": "images/0392.jpg",
+      "dateAdded": "2026-07-10",
+      "notes": ""
+    },
+    {
       "id": "0277",
       "name": "Meloetta",
       "set": "ME: Mega Evolution Promo",
@@ -853,18 +937,6 @@
       "quantity": 1,
       "image": "images/0338.jpg",
       "dateAdded": "2026-06-05",
-      "notes": ""
-    },
-    {
-      "id": "0234",
-      "name": "Maushold ex",
-      "set": "SV04: Paradox Rift",
-      "number": "233/182",
-      "condition": "Near Mint",
-      "price": 23.0,
-      "quantity": 1,
-      "image": "images/0234.jpg",
-      "dateAdded": "2026-06-29",
       "notes": ""
     },
     {
@@ -1055,7 +1127,7 @@
       "condition": "Near Mint",
       "price": 20.0,
       "quantity": 1,
-      "image": "",
+      "image": "images/0476.jpg",
       "dateAdded": "2026-07-05",
       "notes": ""
     },
@@ -1067,7 +1139,7 @@
       "condition": "Near Mint",
       "price": 15.0,
       "quantity": 1,
-      "image": "",
+      "image": "images/0349.jpg",
       "dateAdded": "2026-07-05",
       "notes": ""
     },
@@ -1223,7 +1295,7 @@
       "condition": "Near Mint",
       "price": 13.0,
       "quantity": 1,
-      "image": "",
+      "image": "images/0290.jpg",
       "dateAdded": "2026-07-05",
       "notes": ""
     },
@@ -1384,6 +1456,18 @@
       "notes": ""
     },
     {
+      "id": "0282",
+      "name": "Slowpoke",
+      "set": "Great Encounters",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 10.0,
+      "quantity": 1,
+      "image": "images/0282.jpg",
+      "dateAdded": "2026-07-11",
+      "notes": ""
+    },
+    {
       "id": "0331",
       "name": "Eiscue",
       "set": "SV02: Paldea Evolved",
@@ -1456,6 +1540,18 @@
       "notes": ""
     },
     {
+      "id": "0325",
+      "name": "Phione",
+      "set": "SV06: Twilight Masquerade",
+      "number": "175/167",
+      "condition": "Near Mint",
+      "price": 16.0,
+      "quantity": 1,
+      "image": "",
+      "dateAdded": "2026-07-10",
+      "notes": ""
+    },
+    {
       "id": "0528",
       "name": "Togepi",
       "set": "WoTC Promo",
@@ -1476,18 +1572,6 @@
       "price": 50.0,
       "quantity": 1,
       "image": "images/0261.jpg",
-      "dateAdded": "2026-06-04",
-      "notes": ""
-    },
-    {
-      "id": "0239",
-      "name": "Snorunt",
-      "set": "SV04: Paradox Rift",
-      "number": "188/182",
-      "condition": "Near Mint",
-      "price": 12.0,
-      "quantity": 1,
-      "image": "images/0239.jpg",
       "dateAdded": "2026-06-04",
       "notes": ""
     },
@@ -1787,7 +1871,7 @@
       "condition": "Near Mint",
       "price": 120.0,
       "quantity": 1,
-      "image": "",
+      "image": "images/0215.jpg",
       "dateAdded": "2026-07-05",
       "notes": ""
     },
@@ -2068,18 +2152,6 @@
       "notes": ""
     },
     {
-      "id": "0324",
-      "name": "Glaceon",
-      "set": "Black and White Promos",
-      "number": "BW90",
-      "condition": "Near Mint",
-      "price": 56.0,
-      "quantity": 1,
-      "image": "images/0324.jpg",
-      "dateAdded": "2026-06-09",
-      "notes": ""
-    },
-    {
       "id": "0712",
       "name": "Meloetta",
       "set": "XY Promos",
@@ -2267,7 +2339,7 @@
       "condition": "Near Mint",
       "price": 20.0,
       "quantity": 1,
-      "image": "",
+      "image": "images/0297.jpg",
       "dateAdded": "2026-07-05",
       "notes": ""
     },
@@ -2296,18 +2368,6 @@
       "notes": ""
     },
     {
-      "id": "0332",
-      "name": "Glaceon V (Full Art)",
-      "set": "SWSH07: Evolving Skies",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 32.0,
-      "quantity": 1,
-      "image": "images/0332.jpg",
-      "dateAdded": "2026-06-04",
-      "notes": ""
-    },
-    {
       "id": "0409",
       "name": "Raikou V",
       "set": "Crown Zenith: Galarian Gallery",
@@ -2317,30 +2377,6 @@
       "quantity": 1,
       "image": "images/0409.jpg",
       "dateAdded": "2026-06-09",
-      "notes": ""
-    },
-    {
-      "id": "0245",
-      "name": "Umbreon V",
-      "set": "SWSH09: Brilliant Stars Trainer Gallery",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 75.0,
-      "quantity": 1,
-      "image": "images/0245.jpg",
-      "dateAdded": "2026-06-04",
-      "notes": ""
-    },
-    {
-      "id": "0249",
-      "name": "Mimikyu VMAX",
-      "set": "SWSH09: Brilliant Stars Trainer Gallery",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 85.0,
-      "quantity": 1,
-      "image": "images/0249.jpg",
-      "dateAdded": "2026-06-04",
       "notes": ""
     },
     {
@@ -2485,6 +2521,18 @@
       "quantity": 1,
       "image": "images/0501.jpg",
       "dateAdded": "2026-06-04",
+      "notes": ""
+    },
+    {
+      "id": "0364",
+      "name": "Mimikyu V (Full Art)",
+      "set": "SWSH05: Battle Styles",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 52.0,
+      "quantity": 1,
+      "image": "images/0364.jpg",
+      "dateAdded": "2026-07-10",
       "notes": ""
     },
     {
@@ -2639,7 +2687,7 @@
       "condition": "Near Mint",
       "price": 130.0,
       "quantity": 1,
-      "image": "",
+      "image": "images/0341.jpg",
       "dateAdded": "2026-07-05",
       "notes": ""
     },
@@ -2665,6 +2713,18 @@
       "quantity": 1,
       "image": "images/0425.jpg",
       "dateAdded": "2026-06-04",
+      "notes": ""
+    },
+    {
+      "id": "0329",
+      "name": "Pikachu",
+      "set": "42/146 (2014 Movie Promo)",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 18.0,
+      "quantity": 1,
+      "image": "images/0329.jpg",
+      "dateAdded": "2026-07-10",
       "notes": ""
     },
     {
@@ -2735,7 +2795,7 @@
       "condition": "Near Mint",
       "price": 70.0,
       "quantity": 1,
-      "image": "",
+      "image": "images/0294.jpg",
       "dateAdded": "2026-07-05",
       "notes": ""
     },
@@ -2749,6 +2809,18 @@
       "quantity": 1,
       "image": "images/0369.jpg",
       "dateAdded": "2026-06-04",
+      "notes": ""
+    },
+    {
+      "id": "0342",
+      "name": "Pikachu",
+      "set": "SWSH11: Lost Origin Trainer Gallery",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 63.0,
+      "quantity": 1,
+      "image": "images/0342.jpg",
+      "dateAdded": "2026-07-10",
       "notes": ""
     },
     {
@@ -2771,7 +2843,7 @@
       "condition": "Near Mint",
       "price": 120.0,
       "quantity": 1,
-      "image": "",
+      "image": "images/0348.jpg",
       "dateAdded": "2026-07-05",
       "notes": ""
     },
@@ -2812,18 +2884,6 @@
       "notes": ""
     },
     {
-      "id": "0337",
-      "name": "Sylveon V",
-      "set": "SWSH09: Brilliant Stars Trainer Gallery",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 90.0,
-      "quantity": 1,
-      "image": "images/0337.jpg",
-      "dateAdded": "2026-06-29",
-      "notes": ""
-    },
-    {
       "id": "0287",
       "name": "Clive",
       "set": "SV: Paldean Fates",
@@ -2855,7 +2915,7 @@
       "condition": "Near Mint",
       "price": 25.0,
       "quantity": 1,
-      "image": "",
+      "image": "images/0357.jpg",
       "dateAdded": "2026-07-05",
       "notes": ""
     },
