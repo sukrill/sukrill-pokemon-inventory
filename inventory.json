@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-17T21:52",
-  "totalCards": 276,
-  "totalValue": 16700.0,
+  "lastUpdated": "2026-07-18T01:39",
+  "totalCards": 298,
+  "totalValue": 17772.0,
   "cards": [
     {
       "id": "0520",
@@ -328,6 +328,30 @@
       "notes": ""
     },
     {
+      "id": "0262",
+      "name": "Budew",
+      "set": "ME: Ascended Heroes",
+      "number": "221/217",
+      "condition": "Near Mint",
+      "price": 13.0,
+      "quantity": 1,
+      "image": "images/0262.jpg",
+      "dateAdded": "2026-07-18",
+      "notes": ""
+    },
+    {
+      "id": "0344",
+      "name": "Whismur",
+      "set": "League & Championship Cards",
+      "number": "73/106 (City Championships)",
+      "condition": "Near Mint",
+      "price": 20.0,
+      "quantity": 1,
+      "image": "images/0344.jpg",
+      "dateAdded": "2026-07-18",
+      "notes": ""
+    },
+    {
       "id": "0445",
       "name": "Spinarak (Peelable Ditto)",
       "set": "Pokemon GO",
@@ -544,6 +568,18 @@
       "notes": ""
     },
     {
+      "id": "0286",
+      "name": "Falkner's Togetic",
+      "set": "Pokemon VS",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 80.0,
+      "quantity": 1,
+      "image": "images/0286.jpg",
+      "dateAdded": "2026-07-18",
+      "notes": ""
+    },
+    {
       "id": "0267",
       "name": "Ampharos",
       "set": "ME04: Chaos Rising",
@@ -748,6 +784,30 @@
       "notes": ""
     },
     {
+      "id": "0328",
+      "name": "Team Rocket's Mimikyu",
+      "set": "ME: Ascended Heroes",
+      "number": "238/217",
+      "condition": "Near Mint",
+      "price": 42.0,
+      "quantity": 1,
+      "image": "images/0328.jpg",
+      "dateAdded": "2026-07-18",
+      "notes": ""
+    },
+    {
+      "id": "0271",
+      "name": "Cinccino ex",
+      "set": "ME04: Chaos Rising",
+      "number": "105/086",
+      "condition": "Near Mint",
+      "price": 11.0,
+      "quantity": 1,
+      "image": "images/0271.jpg",
+      "dateAdded": "2026-07-18",
+      "notes": ""
+    },
+    {
       "id": "0309",
       "name": "Rosa's Encouragement",
       "set": "ME03: Perfect Order",
@@ -757,6 +817,18 @@
       "quantity": 1,
       "image": "images/0309.jpg",
       "dateAdded": "2026-06-04",
+      "notes": ""
+    },
+    {
+      "id": "0278",
+      "name": "Dachsbun ex",
+      "set": "SV07: Stellar Crown",
+      "number": "169/142",
+      "condition": "Near Mint",
+      "price": 75.0,
+      "quantity": 1,
+      "image": "images/0278.jpg",
+      "dateAdded": "2026-07-18",
       "notes": ""
     },
     {
@@ -1133,7 +1205,7 @@
     },
     {
       "id": "0360",
-      "name": "0Squawkabilly ex",
+      "name": "Squawkabilly ex",
       "set": "SV02: Paldea Evolved",
       "number": "264/193",
       "condition": "Near Mint",
@@ -1324,6 +1396,18 @@
       "notes": ""
     },
     {
+      "id": "0341",
+      "name": "Tinkatuff",
+      "set": "SV02: Paldea Evolved",
+      "number": "217/193",
+      "condition": "Near Mint",
+      "price": 40.0,
+      "quantity": 1,
+      "image": "images/0341.jpg",
+      "dateAdded": "2026-07-18",
+      "notes": ""
+    },
+    {
       "id": "0385",
       "name": "Jirachi V (Full Art)",
       "set": "SWSH10: Astral Radiance",
@@ -1432,6 +1516,18 @@
       "notes": ""
     },
     {
+      "id": "0217",
+      "name": "Radiant Eevee 092/127",
+      "set": "",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 45.0,
+      "quantity": 1,
+      "image": "",
+      "dateAdded": "2026-07-18",
+      "notes": ""
+    },
+    {
       "id": "0321",
       "name": "Eiscue",
       "set": "SV02: Paldea Evolved",
@@ -1465,6 +1561,18 @@
       "quantity": 1,
       "image": "images/0308.jpg",
       "dateAdded": "2026-06-17",
+      "notes": ""
+    },
+    {
+      "id": "0276",
+      "name": "Clobbopus",
+      "set": "SV08: Surging Sparks",
+      "number": "207/191",
+      "condition": "Near Mint",
+      "price": 10.0,
+      "quantity": 1,
+      "image": "images/0276.jpg",
+      "dateAdded": "2026-07-18",
       "notes": ""
     },
     {
@@ -1513,6 +1621,18 @@
       "quantity": 1,
       "image": "images/0446.jpg",
       "dateAdded": "2026-06-14",
+      "notes": ""
+    },
+    {
+      "id": "0300",
+      "name": "Pokemon Collector",
+      "set": "HeartGold SoulSilver",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 11.0,
+      "quantity": 1,
+      "image": "images/0300.jpg",
+      "dateAdded": "2026-07-18",
       "notes": ""
     },
     {
@@ -1780,6 +1900,18 @@
       "notes": ""
     },
     {
+      "id": "0279",
+      "name": "Eevee",
+      "set": "SWSH09: Brilliant Stars Trainer Gallery",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 25.0,
+      "quantity": 1,
+      "image": "images/0279.jpg",
+      "dateAdded": "2026-07-18",
+      "notes": ""
+    },
+    {
       "id": "0281",
       "name": "Blissey V",
       "set": "SWSH12: Silver Tempest Trainer Gallery",
@@ -1816,6 +1948,18 @@
       "notes": ""
     },
     {
+      "id": "0228",
+      "name": "Altaria",
+      "set": "Crown Zenith: Galarian Gallery",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 18.0,
+      "quantity": 1,
+      "image": "images/0228.jpg",
+      "dateAdded": "2026-07-18",
+      "notes": ""
+    },
+    {
       "id": "0859",
       "name": "______'s Chansey",
       "set": "Gym Challenge",
@@ -1849,6 +1993,30 @@
       "quantity": 1,
       "image": "images/0495.jpg",
       "dateAdded": "2026-06-26",
+      "notes": ""
+    },
+    {
+      "id": "0205",
+      "name": "Minun",
+      "set": "Hidden Legends",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 35.0,
+      "quantity": 1,
+      "image": "images/0205.jpg",
+      "dateAdded": "2026-07-18",
+      "notes": ""
+    },
+    {
+      "id": "0206",
+      "name": "Plusle",
+      "set": "Hidden Legends",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 50.0,
+      "quantity": 1,
+      "image": "",
+      "dateAdded": "2026-07-18",
       "notes": ""
     },
     {
@@ -1969,6 +2137,18 @@
       "quantity": 1,
       "image": "images/0374.jpg",
       "dateAdded": "2026-06-04",
+      "notes": ""
+    },
+    {
+      "id": "0235",
+      "name": "Minccino",
+      "set": "SV05: Temporal Forces",
+      "number": "182/162",
+      "condition": "Near Mint",
+      "price": 30.0,
+      "quantity": 1,
+      "image": "images/0235.jpg",
+      "dateAdded": "2026-07-18",
       "notes": ""
     },
     {
@@ -2116,6 +2296,18 @@
       "notes": ""
     },
     {
+      "id": "0259",
+      "name": "Armored Mewtwo",
+      "set": "SM-P: Sun & Moon Promos",
+      "number": "365/SM-P",
+      "condition": "Near Mint",
+      "price": 85.0,
+      "quantity": 1,
+      "image": "images/0259.jpg",
+      "dateAdded": "2026-07-18",
+      "notes": ""
+    },
+    {
       "id": "0450",
       "name": "Piplup",
       "set": "ME02: Phantasmal Flames",
@@ -2209,6 +2401,18 @@
       "quantity": 1,
       "image": "images/0297.jpg",
       "dateAdded": "2026-07-05",
+      "notes": ""
+    },
+    {
+      "id": "0301",
+      "name": "Raikou V",
+      "set": "Crown Zenith: Galarian Gallery",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 55.0,
+      "quantity": 1,
+      "image": "images/0301.jpg",
+      "dateAdded": "2026-07-18",
       "notes": ""
     },
     {
@@ -2332,6 +2536,18 @@
       "notes": ""
     },
     {
+      "id": "0306",
+      "name": "Sabrina's Gengar",
+      "set": "Gym Challenge",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 150.0,
+      "quantity": 1,
+      "image": "images/0306.jpg",
+      "dateAdded": "2026-07-18",
+      "notes": ""
+    },
+    {
       "id": "0364",
       "name": "Mimikyu V (Full Art)",
       "set": "SWSH05: Battle Styles",
@@ -2365,6 +2581,18 @@
       "quantity": 1,
       "image": "images/0474.jpg",
       "dateAdded": "2026-06-04",
+      "notes": ""
+    },
+    {
+      "id": "0255",
+      "name": "Snorlax",
+      "set": "SWSH: Sword & Shield Promo Cards",
+      "number": "SWSH032",
+      "condition": "Near Mint",
+      "price": 32.0,
+      "quantity": 1,
+      "image": "images/0255.jpg",
+      "dateAdded": "2026-07-18",
       "notes": ""
     },
     {
@@ -2452,6 +2680,18 @@
       "notes": ""
     },
     {
+      "id": "0248",
+      "name": "Sylveon GX",
+      "set": "Guardians Rising",
+      "number": "SM",
+      "condition": "Near Mint",
+      "price": 25.0,
+      "quantity": 1,
+      "image": "images/0248.jpg",
+      "dateAdded": "2026-07-18",
+      "notes": ""
+    },
+    {
       "id": "0368",
       "name": "Light Slowbro",
       "set": "Neo Destiny",
@@ -2473,6 +2713,18 @@
       "quantity": 1,
       "image": "images/0434.jpg",
       "dateAdded": "2026-06-04",
+      "notes": ""
+    },
+    {
+      "id": "0239",
+      "name": "Pikachu",
+      "set": "SM Promos",
+      "number": "SM162",
+      "condition": "Near Mint",
+      "price": 130.0,
+      "quantity": 1,
+      "image": "images/0239.jpg",
+      "dateAdded": "2026-07-18",
       "notes": ""
     },
     {
@@ -2629,6 +2881,18 @@
       "quantity": 1,
       "image": "images/0317.jpg",
       "dateAdded": "2026-06-04",
+      "notes": ""
+    },
+    {
+      "id": "0251",
+      "name": "Sylveon V",
+      "set": "SWSH09: Brilliant Stars Trainer Gallery",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 90.0,
+      "quantity": 1,
+      "image": "images/0251.jpg",
+      "dateAdded": "2026-07-18",
       "notes": ""
     },
     {
