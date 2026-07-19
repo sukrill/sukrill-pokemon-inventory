@@ -112,13 +112,15 @@ button { font-family: inherit; cursor: pointer; }
 .brand-logo {
   width: 42px; height: 42px; object-fit: contain; flex-shrink: 0;
   filter: drop-shadow(0 2px 6px rgba(0,0,0,.6));
-  animation: logo-spin 4s linear infinite;   /* Pokéstop keeps spinning (paused for reduced-motion) */
+  animation: logo-spin 1.3s linear 2;   /* two intro spins on page load, then rests */
 }
 /* Horizontal (Y-axis) spin like a real Pokéstop coin, with a little 3D depth */
 @keyframes logo-spin {
   from { transform: perspective(320px) rotateY(0deg); }
   to   { transform: perspective(320px) rotateY(360deg); }
 }
+/* After the intro it only spins while you hover the logo/name — lighter on the page */
+.brand:hover .brand-logo { animation: logo-spin 1.4s linear infinite; }
 .brand-text { display: flex; flex-direction: column; line-height: 1.15; min-width: 0; }
 .brand-title { font-size: 1.16rem; font-weight: 700; letter-spacing: .2px; white-space: nowrap; }
 .brand-subtitle { font-size: .72rem; color: var(--text-dim); font-weight: 400; margin-top: 1px; white-space: nowrap; }
