@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#000000">
-  <meta name="description" content="Sukrill's Pokémon Cards — browse my current Whatnot inventory.">
-  <title>Sukrill's Pokémon Cards</title>
+  <meta name="description" content="Sukrill's Pokéstop — browse my current Whatnot inventory.">
+  <title>Sukrill's Pokéstop</title>
 
   <!-- Google tag (gtag.js) — GA4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-R3QS1TP7BN"></script>
@@ -27,10 +27,10 @@
   <div class="sticky-header" id="sticky-header">
   <header class="site-header">
     <div class="header-top">
-      <a class="brand" href="./" aria-label="Sukrill's Pokémon Cards">
-        <img class="brand-logo" src="logo.png" alt="Sukrill logo" width="42" height="42">
+      <a class="brand" href="./" aria-label="Sukrill's Pokéstop">
+        <img class="brand-logo" src="pokestop.png" alt="Sukrill's Pokéstop logo" width="42" height="42">
         <span class="brand-text">
-          <span class="brand-title">Sukrill's Pokémon Cards</span>
+          <span class="brand-title">Sukrill's Pokéstop</span>
           <span class="brand-subtitle">Browse my current Whatnot inventory</span>
         </span>
       </a>
@@ -52,7 +52,11 @@
       </div>
       <div class="header-actions">
         <button id="wishlist-btn" class="hbtn hbtn-wish" title="Your wishlist" aria-label="Open wishlist">
-          <svg class="hbtn-heart" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+          <svg class="hbtn-heart" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                  fill="#ff2453" stroke="#2b0a11" stroke-width="1.6" stroke-linejoin="round"/>
+            <path d="M7.7 6c-1.4.1-2.5 1.2-2.5 2.7 0 .6.1 1.1.4 1.6" fill="none" stroke="#ff9bad" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
           <span class="hbtn-label">Wishlist</span> <span id="wishlist-count" class="hbtn-badge">0</span>
         </button>
         <div class="stats">
@@ -164,10 +168,10 @@
         <span>Est. value <strong id="wl-total-value" class="wl-total-value">$0</strong></span>
       </div>
       <div class="sheet-actions" id="wl-actions">
-        <button id="wl-message" class="btn btn-buy">💬 Message Sukrill</button>
+        <button id="wl-message" class="btn btn-buy">💬 Copy Wishlist and send a message to Sukrill</button>
         <button id="wl-share" class="btn btn-ghost">🔗 Share</button>
-        <button id="wl-copy-nums" class="btn btn-ghost">＃ Copy Inventory #s</button>
-        <button id="wl-clear" class="btn btn-ghost wl-clear-btn">🗑 Clear</button>
+        <button id="wl-copy-nums" class="btn btn-ghost">Copy Inventory #s</button>
+        <button id="wl-clear" class="btn btn-ghost wl-clear-btn">🗑 Clear List</button>
       </div>
     </div>
   </div>

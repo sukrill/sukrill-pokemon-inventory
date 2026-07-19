@@ -13,7 +13,8 @@
   --text:      #f5f5f7;
   --text-dim:  #a1a1ab;
   --muted:     #7c7c88;   /* lightened for AA contrast on small text over black */
-  --accent:    #e2b45a;   /* restrained gold — price emphasis */
+  --accent:    #e2b45a;   /* restrained gold — kept for accents */
+  --price:     #38bdf8;   /* sky blue — price text */
   --accent-soft: rgba(226,180,90,.12);
   --red:       #ef5b6b;
   --green:     #45c67d;
@@ -36,6 +37,32 @@ body {
 /* Comfortable, momentum scrolling for any scroll container */
 .modal-card, .sheet, .wl-list, .filters { -webkit-overflow-scrolling: touch; }
 img { display: block; max-width: 100%; }
+
+/* ── Dreamy pastel backdrop behind the scrolling content (dark-based so text stays readable) ── */
+body::before {
+  content: ''; position: fixed; inset: 0; z-index: -2; pointer-events: none;
+  background:
+    radial-gradient(42% 34% at 12% 16%, rgba(255,168,205,.22), transparent 72%),
+    radial-gradient(40% 32% at 88% 20%, rgba(150,200,255,.20), transparent 72%),
+    radial-gradient(44% 36% at 82% 84%, rgba(201,171,255,.19), transparent 72%),
+    radial-gradient(38% 32% at 16% 86%, rgba(255,228,150,.15), transparent 72%),
+    radial-gradient(52% 40% at 50% 50%, rgba(120,220,235,.08), transparent 75%),
+    #07070c;
+  filter: blur(3px);
+  animation: bg-drift 26s ease-in-out infinite alternate;
+}
+@keyframes bg-drift {
+  from { transform: scale(1.06) translate(-1.2%, -1%); }
+  to   { transform: scale(1.13) translate(1.2%, 1.6%); }
+}
+/* Kawaii motif scatter (pastel diamonds, sparkles, dewdrops, dots) that drifts slowly */
+body::after {
+  content: ''; position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: .5;
+  background: url("bg-motifs.svg") repeat;
+  background-size: 560px 560px;
+  animation: motif-drift 70s linear infinite;
+}
+@keyframes motif-drift { to { background-position: 560px 560px; } }
 button { font-family: inherit; cursor: pointer; }
 
 /* Visible keyboard focus for every interactive element (mouse users unaffected) */
@@ -85,6 +112,12 @@ button { font-family: inherit; cursor: pointer; }
 .brand-logo {
   width: 42px; height: 42px; object-fit: contain; flex-shrink: 0;
   filter: drop-shadow(0 2px 6px rgba(0,0,0,.6));
+  animation: logo-spin 4s linear infinite;   /* Pokéstop keeps spinning (paused for reduced-motion) */
+}
+/* Horizontal (Y-axis) spin like a real Pokéstop coin, with a little 3D depth */
+@keyframes logo-spin {
+  from { transform: perspective(320px) rotateY(0deg); }
+  to   { transform: perspective(320px) rotateY(360deg); }
 }
 .brand-text { display: flex; flex-direction: column; line-height: 1.15; min-width: 0; }
 .brand-title { font-size: 1.16rem; font-weight: 700; letter-spacing: .2px; white-space: nowrap; }
@@ -118,9 +151,18 @@ button { font-family: inherit; cursor: pointer; }
 }
 .hbtn:hover { border-color: var(--border-2); background: var(--card-2); }
 .hbtn:active { transform: scale(.97); }
-.hbtn-heart { width: 15px; height: 15px; fill: var(--red); flex-shrink: 0; }
+.hbtn-heart { width: 19px; height: 19px; flex-shrink: 0; transform-origin: center; overflow: visible; }
 .hbtn-wish { border-color: rgba(239,91,107,.35); }
 .hbtn-wish:hover { border-color: var(--red); }
+/* Comic heart beats (lub-dub) while hovering the wishlist button */
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  15%      { transform: scale(1.32); }
+  28%      { transform: scale(1); }
+  42%      { transform: scale(1.18); }
+  56%      { transform: scale(1); }
+}
+.hbtn-wish:hover .hbtn-heart { animation: heartbeat 1.1s ease-in-out infinite; }
 .hbtn-badge {
   min-width: 20px; text-align: center; background: var(--card-2);
   border-radius: 20px; padding: 1px 7px; font-size: .74rem; color: var(--text-dim);
@@ -269,7 +311,7 @@ button { font-family: inherit; cursor: pointer; }
 .card-set { font-size: .68rem; color: var(--text-dim); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .card-meta { font-size: .64rem; color: var(--muted); }
 .card-foot { margin-top: auto; padding-top: 8px; display: flex; align-items: baseline; justify-content: space-between; gap: 6px; }
-.card-price { font-size: 1.05rem; font-weight: 800; color: var(--accent); letter-spacing: .2px; }
+.card-price { font-size: 1.05rem; font-weight: 800; color: var(--price); letter-spacing: .2px; }
 .card-qty { font-size: .64rem; color: var(--text-dim); }
 /* Inventory number — clean, prominent pill */
 .card-id {
@@ -312,7 +354,7 @@ button { font-family: inherit; cursor: pointer; }
 .modal-img-wrap img { max-height: 340px; width: auto; border-radius: 10px; box-shadow: var(--shadow); }
 .modal-info { padding: 18px 20px 22px; }
 .modal-info h2 { font-size: 1.25rem; font-weight: 700; line-height: 1.25; }
-.modal-price { font-size: 1.5rem; font-weight: 800; color: var(--accent); margin: 6px 0 14px; }
+.modal-price { font-size: 1.5rem; font-weight: 800; color: var(--price); margin: 6px 0 14px; }
 .modal-dl { display: grid; grid-template-columns: auto 1fr; gap: 8px 16px; font-size: .88rem; }
 .modal-dl dt { color: var(--muted); }
 .modal-dl dd { color: var(--text); text-align: right; font-weight: 500; }
@@ -332,6 +374,34 @@ button { font-family: inherit; cursor: pointer; }
   box-shadow: 0 4px 16px rgba(226,180,90,.22);
 }
 .btn-buy:hover { transform: translateY(-2px); box-shadow: 0 6px 22px rgba(226,180,90,.34); }
+
+/* Message Sukrill button — Whatnot brand yellow + black text (Buy on Whatnot stays gold) */
+#wl-message {
+  background: #ffed00;   /* Whatnot yellow */
+  color: #1a1a1a;        /* near-black, matching the whatnot wordmark */
+  box-shadow: 0 4px 16px rgba(255,237,0,.28);
+}
+#wl-message:hover { box-shadow: 0 6px 22px rgba(255,237,0,.45); }
+
+/* Playful "I want that!" bubble that pops when a card is wishlisted */
+.want-bubble {
+  position: fixed; z-index: 60; transform: translate(-50%, -100%);
+  background: var(--red); color: #fff; font-weight: 800; font-size: .82rem;
+  white-space: nowrap; padding: 7px 12px; border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0,0,0,.45); pointer-events: none;
+  animation: want-pop 1.15s cubic-bezier(.2,.8,.3,1) forwards;
+}
+.want-bubble::after {
+  content: ''; position: absolute; left: 50%; bottom: -5px; transform: translateX(-50%);
+  border: 6px solid transparent; border-top-color: var(--red); border-bottom: 0;
+}
+@keyframes want-pop {
+  0%   { opacity: 0; transform: translate(-50%, -70%)  scale(.5); }
+  20%  { opacity: 1; transform: translate(-50%, -112%) scale(1.08); }
+  35%  {             transform: translate(-50%, -106%) scale(1); }
+  75%  { opacity: 1; transform: translate(-50%, -136%) scale(1); }
+  100% { opacity: 0; transform: translate(-50%, -162%) scale(.95); }
+}
 
 /* ── Sheets (wishlist) ──────────────────────────────────── */
 .sheet {
@@ -355,7 +425,7 @@ button { font-family: inherit; cursor: pointer; }
 .wl-avail { font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; }
 .wl-avail.in { color: var(--green); }
 .wl-avail.out { color: var(--red); }
-.wl-price { font-size: .95rem; font-weight: 800; color: var(--accent); flex-shrink: 0; }
+.wl-price { font-size: .95rem; font-weight: 800; color: var(--price); flex-shrink: 0; }
 .wl-rm { flex-shrink: 0; width: 40px; height: 40px; border-radius: 8px; background: var(--card-2); border: 1px solid var(--border); color: var(--text-dim); font-size: 1.05rem; }
 .wl-rm:hover { border-color: var(--red); color: var(--red); }
 .wl-add { flex-shrink: 0; min-height: 40px; padding: 8px 14px; border-radius: 8px; background: var(--card-2); border: 1px solid var(--border-2); color: var(--text); font-size: .8rem; font-weight: 600; }

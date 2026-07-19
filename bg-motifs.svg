@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560">
+  <!-- Original kawaii scatter: pastel diamonds, sparkles, dewdrops, dots -->
+  <g opacity="0.62">
+    <!-- diamonds -->
+    <rect x="-13" y="-13" width="26" height="26" rx="4" transform="translate(72,104) rotate(45)" fill="#ffb3d1"/>
+    <rect x="-10" y="-10" width="20" height="20" rx="3" transform="translate(508,470) rotate(45)" fill="#b7f0da"/>
+    <rect x="-8"  y="-8"  width="16" height="16" rx="3" transform="translate(300,300) rotate(45)" fill="#a9d4ff"/>
+    <!-- 4-point sparkles -->
+    <path transform="translate(286,74)" fill="#ffe39a" d="M0,-18 C2.5,-5 5,-2.5 18,0 C5,2.5 2.5,5 0,18 C-2.5,5 -5,2.5 -18,0 C-5,-2.5 -2.5,-5 0,-18 Z"/>
+    <path transform="translate(430,392) scale(.8)" fill="#ffb3d1" d="M0,-18 C2.5,-5 5,-2.5 18,0 C5,2.5 2.5,5 0,18 C-2.5,5 -5,2.5 -18,0 C-5,-2.5 -2.5,-5 0,-18 Z"/>
+    <path transform="translate(86,446) scale(.62)" fill="#ffe39a" d="M0,-18 C2.5,-5 5,-2.5 18,0 C5,2.5 2.5,5 0,18 C-2.5,5 -5,2.5 -18,0 C-5,-2.5 -2.5,-5 0,-18 Z"/>
+    <path transform="translate(470,150) scale(.7)" fill="#c9b8ff" d="M0,-18 C2.5,-5 5,-2.5 18,0 C5,2.5 2.5,5 0,18 C-2.5,5 -5,2.5 -18,0 C-5,-2.5 -2.5,-5 0,-18 Z"/>
+    <!-- dewdrops -->
+    <path transform="translate(140,320)" fill="#c9b8ff" d="M0,-16 C9,-3 9,7 0,13 C-9,7 -9,-3 0,-16 Z"/>
+    <path transform="translate(360,510) rotate(18)" fill="#a9d4ff" d="M0,-14 C8,-3 8,6 0,11 C-8,6 -8,-3 0,-14 Z"/>
+    <!-- dots -->
+    <circle cx="232" cy="200" r="6" fill="#a9d4ff"/>
+    <circle cx="392" cy="232" r="5" fill="#ffb3d1"/>
+    <circle cx="40"  cy="232" r="4" fill="#ffe39a"/>
+    <circle cx="536" cy="312" r="5" fill="#c9b8ff"/>
+    <circle cx="176" cy="524" r="4" fill="#ffb3d1"/>
+    <circle cx="520" cy="60"  r="4" fill="#b7f0da"/>
+    <!-- comic-style hearts (soft, with ink outline) -->
+    <path transform="translate(206,150) scale(1.05)" fill="#ff7a9c" stroke="#3a0d16" stroke-width="1.4" stroke-linejoin="round"
+          d="M0,-3 C-2.4,-8 -9,-7.6 -9,-1.6 C-9,3 -3.4,6.4 0,9 C3.4,6.4 9,3 9,-1.6 C9,-7.6 2.4,-8 0,-3 Z"/>
+    <path transform="translate(456,336) scale(.82)" fill="#ff9db4" stroke="#3a0d16" stroke-width="1.6" stroke-linejoin="round"
+          d="M0,-3 C-2.4,-8 -9,-7.6 -9,-1.6 C-9,3 -3.4,6.4 0,9 C3.4,6.4 9,3 9,-1.6 C9,-7.6 2.4,-8 0,-3 Z"/>
+    <path transform="translate(112,486) scale(1.2)" fill="#ffb3c8" stroke="#3a0d16" stroke-width="1.2" stroke-linejoin="round"
+          d="M0,-3 C-2.4,-8 -9,-7.6 -9,-1.6 C-9,3 -3.4,6.4 0,9 C3.4,6.4 9,3 9,-1.6 C9,-7.6 2.4,-8 0,-3 Z"/>
+  </g>
+</svg>

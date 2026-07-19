@@ -370,7 +370,6 @@ function cardEl(c) {
       <div class="card-meta">${escapeHtml([c.number, c.condition].filter(Boolean).join(' · ') || '')}</div>
       <div class="card-foot">
         <span class="card-price">$${c.price.toFixed(2)}</span>
-        <span class="card-qty">${oos ? 'Out of stock' : 'Qty ' + c.quantity}</span>
       </div>
     </div>`;
   el.addEventListener('click', () => openModal(c.id, true));
@@ -510,6 +509,33 @@ function getWish() {
 function saveWish(arr) { try { localStorage.setItem(WISH_KEY, JSON.stringify(arr)); } catch (_) {} }
 function isWished(id) { return getWish().includes(String(id)); }
 
+// Playful "I want that!" bubble popped above the clicked heart (or the modal add button)
+function showWantBubble(id) {
+  if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    toast('Added to wishlist ❤️');
+    return;
+  }
+  const mWish = document.getElementById('m-wish');
+  const modalOpen = mWish && mWish.offsetParent !== null;   // card modal is showing
+  let anchor = mWish;
+  if (!modalOpen) {
+    try {
+      const sel = '.card-heart[data-id="' + (window.CSS && CSS.escape ? CSS.escape(String(id)) : id) + '"]';
+      anchor = document.querySelector(sel) || mWish;
+    } catch (_) { anchor = mWish; }
+  }
+  if (!anchor) { toast('Added to wishlist ❤️'); return; }
+  const r = anchor.getBoundingClientRect();
+  const b = document.createElement('div');
+  b.className = 'want-bubble';
+  b.textContent = 'I want that!';
+  b.style.left = (r.left + r.width / 2) + 'px';
+  b.style.top  = r.top + 'px';
+  document.body.appendChild(b);
+  b.addEventListener('animationend', () => b.remove());
+  setTimeout(() => { if (b.parentNode) b.remove(); }, 1400);   // safety cleanup
+}
+
 function toggleWish(id) {
   id = String(id);
   const c = state.byId.get(id);
@@ -523,7 +549,7 @@ function toggleWish(id) {
     arr.push(id);                       // dedup guaranteed (we only push when absent)
     saveWish(arr);
     track('wishlist_add', { inventory_id: id, card_name: c ? c.name : '', price: c ? c.price : 0 });
-    toast('Added to wishlist ❤️');
+    showWantBubble(id);
   }
   updateWishUI();
 }
