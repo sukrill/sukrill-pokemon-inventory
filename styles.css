@@ -90,18 +90,24 @@ button { font-family: inherit; cursor: pointer; }
 .brand-title { font-size: 1.16rem; font-weight: 700; letter-spacing: .2px; white-space: nowrap; }
 .brand-subtitle { font-size: .72rem; color: var(--text-dim); font-weight: 400; margin-top: 1px; white-space: nowrap; }
 
-/* Promo banner in the frozen header — centered between brand and actions */
-.promo-banner {
-  flex: 1 1 240px; display: flex; justify-content: center; align-items: center;
-  min-width: 0; text-decoration: none;
+/* Promo social block in the frozen header: [IG icon] [name banner] [TikTok icon] */
+.promo-social {
+  flex: 1 1 260px; display: flex; justify-content: center; align-items: center;
+  gap: 10px; min-width: 0;
 }
-.promo-banner img {
-  max-height: 52px; width: auto; height: auto; max-width: 100%;
-  object-fit: contain; display: block; border-radius: 8px;
-  transition: transform .18s ease, filter .18s ease;
+.promo-banner-img {
+  max-height: 52px; width: auto; height: auto; min-width: 0; max-width: 100%;
+  object-fit: contain; display: block;
 }
-.promo-banner:hover img { transform: scale(1.02); filter: brightness(1.08); }
-.promo-banner:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 10px; }
+.social-icon {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 44px; height: 44px; flex-shrink: 0; color: #fff;
+  border-radius: 12px; text-decoration: none;
+  transition: transform .18s ease, color .18s ease, background .18s ease;
+}
+.social-icon:hover { transform: scale(1.1); color: var(--accent); background: rgba(255,255,255,.06); }
+.social-icon:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.social-icon svg { width: 30px; height: 30px; }
 
 .header-actions { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .hbtn {
@@ -433,9 +439,11 @@ button { font-family: inherit; cursor: pointer; }
   .brand-subtitle { font-size: .66rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .hbtn-label { display: none; }
   .header-actions { gap: 8px; }
-  /* Promo banner drops to its own full-width line under the header row */
-  .promo-banner { order: 10; flex-basis: 100%; margin-top: 2px; }
-  .promo-banner img { max-height: 42px; }
+  /* Promo social block drops to its own full-width line under the header row */
+  .promo-social { order: 10; flex-basis: 100%; margin-top: 2px; }
+  .promo-banner-img { max-height: 40px; }
+  .social-icon { width: 40px; height: 40px; }
+  .social-icon svg { width: 26px; height: 26px; }
   .hbtn { height: 40px; }
   .toolbar-inner { padding: 8px 14px; }
   .result-line { padding: 0 14px 6px; }
