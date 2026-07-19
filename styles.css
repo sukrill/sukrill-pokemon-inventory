@@ -345,6 +345,31 @@ button { font-family: inherit; cursor: pointer; }
   border-radius: 18px; box-shadow: var(--shadow); animation: pop .18s ease;
 }
 @keyframes pop { from { transform: scale(.97); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+
+/* ── Card details as a right-hand FLYOUT (page + header stay visible behind) ── */
+#modal { place-items: stretch end; padding: 0; }
+#modal .modal-backdrop { background: rgba(0,0,0,.45); backdrop-filter: blur(1.5px); }
+#modal .modal-card {
+  width: min(430px, 94vw); max-width: 430px; height: 100%; max-height: 100%;
+  border-radius: 0; border: none; border-left: 1px solid var(--border);
+  box-shadow: -14px 0 40px rgba(0,0,0,.5);
+  animation: flyout-in .28s cubic-bezier(.22,.72,.24,1);
+}
+@keyframes flyout-in { from { transform: translateX(100%); } to { transform: translateX(0); } }
+/* stack image over details in the narrow panel (overrides the wide-screen row layout) */
+#modal .modal-body { flex-direction: column; }
+#modal .modal-img-wrap { flex: none; }
+@keyframes sheet-up { from { transform: translateY(100%); } to { transform: translateY(0); } }
+@media (max-width: 560px) {
+  /* On phones the card details rise from the BOTTOM instead of sliding in from the right */
+  #modal { place-items: end stretch; }
+  #modal .modal-card {
+    width: 100%; max-width: 100%; height: auto; max-height: 92vh;
+    border: none; border-radius: 18px 18px 0 0;
+    box-shadow: 0 -14px 40px rgba(0,0,0,.5);
+    animation: sheet-up .28s cubic-bezier(.22,.72,.24,1);
+  }
+}
 .modal-close {
   position: absolute; top: 10px; right: 12px; z-index: 3;
   width: 44px; height: 44px; border-radius: 50%;

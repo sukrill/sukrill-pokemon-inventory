@@ -404,7 +404,7 @@ function openModal(id, pushUrl) {
 
   const rows = [
     ['Set', c.set], ['Card #', c.number], ['Condition', c.condition],
-    ['Quantity', c.quantity > 0 ? c.quantity : 'Out of stock'],
+    ...(c.quantity <= 0 ? [['Status', 'Sold']] : []),   // qty is always 1 when in stock — omit it
     ['Inventory ID', '#' + c.id],
     ['Added', c.dateAdded ? formatDate(c.dateAdded) : ''],
   ].filter(([, v]) => v !== '' && v != null);
