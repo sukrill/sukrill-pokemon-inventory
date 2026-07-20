@@ -24,6 +24,14 @@
   <link rel="icon" href="logo.png">
 </head>
 <body>
+  <div id="splash" class="splash" aria-hidden="true">
+    <div class="splash-inner">
+      <img class="splash-logo" src="pokestop.png" alt="" width="104" height="104">
+      <div class="splash-title">Sukrill's Pokéstop</div>
+      <div class="splash-tag">Loading the collection…</div>
+    </div>
+  </div>
+
   <div class="sticky-header" id="sticky-header">
   <header class="site-header">
     <div class="header-top">
@@ -172,6 +180,16 @@
         <button id="wl-share" class="btn btn-ghost">🔗 Share</button>
         <button id="wl-copy-nums" class="btn btn-ghost">Copy Inventory #s</button>
         <button id="wl-clear" class="btn btn-ghost wl-clear-btn">🗑 Clear List</button>
+      </div>
+      <div class="pay-row">
+        <a class="pay pay-venmo" href="https://venmo.com/u/RadiantSukrill" target="_blank" rel="noopener"
+           onclick="track('payment_click', { method: 'venmo' })">
+          <span class="pay-ic">V</span> Venmo <b>@RadiantSukrill</b>
+        </a>
+        <a class="pay pay-cashapp" href="https://cash.app/$RadiantSukrill" target="_blank" rel="noopener"
+           onclick="track('payment_click', { method: 'cashapp' })">
+          <span class="pay-ic">$</span> Cash App <b>$RadiantSukrill</b>
+        </a>
       </div>
     </div>
   </div>

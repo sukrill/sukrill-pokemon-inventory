@@ -106,6 +106,16 @@ function showSkeletons(n) {
 }
 
 // ── Boot ──────────────────────────────────────────────────
+const _splashStart = performance.now();
+function hideSplash() {
+  const s = document.getElementById('splash');
+  if (!s) return;
+  const wait = Math.max(0, 2500 - (performance.now() - _splashStart));   // show ≥2.5s
+  setTimeout(() => {
+    s.classList.add('splash-hide');
+    setTimeout(() => s.remove(), 550);   // remove after the fade
+  }, wait);
+}
 init();
 
 async function init() {
@@ -130,6 +140,8 @@ async function init() {
     els.empty.querySelector('p').textContent = 'Inventory could not be loaded. Please refresh the page.';
     els.resultCount.textContent = 'Failed to load inventory';
     console.error(err);
+  } finally {
+    hideSplash();   // always clear the splash, even on error
   }
 }
 
@@ -682,7 +694,7 @@ function messageSukrill() {
     `\n\nCould you let me know if they're still available?\n\nThanks!`;
   copyText(msg);
   track('message_sukrill', { number_of_cards: ids.length });
-  toast('Message copied — paste it into a Whatnot DM to Sukrill 💬', 3500);
+  toast('Message copied! DM it to Sukrill on Whatnot, Instagram, or TikTok 💬', 4000);
 }
 
 // ── Copy inventory numbers (numbers only, one per line) ──────
