@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-24T00:30",
-  "totalCards": 312,
-  "totalValue": 17921.0,
+  "lastUpdated": "2026-07-24T15:44",
+  "totalCards": 295,
+  "totalValue": 17234.0,
   "cards": [
     {
       "id": "0440",
@@ -144,30 +144,6 @@
       "price": 19.0,
       "quantity": 1,
       "image": "images/0472.jpg",
-      "dateAdded": "2026-07-23",
-      "notes": ""
-    },
-    {
-      "id": "0471",
-      "name": "Shuckle GX",
-      "set": "Lost Thunder",
-      "number": "SM",
-      "condition": "Near Mint",
-      "price": 10.0,
-      "quantity": 1,
-      "image": "images/0471.jpg",
-      "dateAdded": "2026-07-23",
-      "notes": ""
-    },
-    {
-      "id": "0469",
-      "name": "Salamence GX",
-      "set": "Dragon Majesty",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 10.0,
-      "quantity": 1,
-      "image": "images/0469.jpg",
       "dateAdded": "2026-07-23",
       "notes": ""
     },
@@ -405,7 +381,7 @@
       "set": "Blister Exclusives",
       "number": "20/162 (Cosmos Holo)",
       "condition": "Near Mint",
-      "price": 10.0,
+      "price": 13.0,
       "quantity": 1,
       "image": "images/0363.jpg",
       "dateAdded": "2026-07-23",
@@ -736,18 +712,6 @@
       "notes": ""
     },
     {
-      "id": "0444",
-      "name": "Solosis",
-      "set": "SV: Black Bolt",
-      "number": "118/086",
-      "condition": "Near Mint",
-      "price": 44.0,
-      "quantity": 1,
-      "image": "images/0444.jpg",
-      "dateAdded": "2026-06-14",
-      "notes": ""
-    },
-    {
       "id": "0442",
       "name": "Rowlet",
       "set": "ME: Mega Evolution Promo",
@@ -781,18 +745,6 @@
       "quantity": 1,
       "image": "images/0246.jpg",
       "dateAdded": "2026-06-26",
-      "notes": ""
-    },
-    {
-      "id": "0430",
-      "name": "Magmar",
-      "set": "Vending Machine cards Series 3 (Green)",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 24.0,
-      "quantity": 1,
-      "image": "images/0430.jpg",
-      "dateAdded": "2026-06-14",
       "notes": ""
     },
     {
@@ -1000,18 +952,6 @@
       "notes": ""
     },
     {
-      "id": "0600",
-      "name": "Mischievous Pichu",
-      "set": "",
-      "number": "214/S-P",
-      "condition": "Near Mint",
-      "price": 60.0,
-      "quantity": 1,
-      "image": "images/0600.jpg",
-      "dateAdded": "2026-07-12",
-      "notes": ""
-    },
-    {
       "id": "0319",
       "name": "Charizard V (Full Art)",
       "set": "SWSH09: Brilliant Stars",
@@ -1192,18 +1132,6 @@
       "notes": ""
     },
     {
-      "id": "0278",
-      "name": "Dachsbun ex",
-      "set": "SV07: Stellar Crown",
-      "number": "169/142",
-      "condition": "Near Mint",
-      "price": 75.0,
-      "quantity": 1,
-      "image": "images/0278.jpg",
-      "dateAdded": "2026-07-18",
-      "notes": ""
-    },
-    {
       "id": "0257",
       "name": "Dusknoir",
       "set": "SV: Shrouded Fable",
@@ -1228,18 +1156,6 @@
       "notes": ""
     },
     {
-      "id": "0200",
-      "name": "Erika's Tangela",
-      "set": "ME: Ascended Heroes",
-      "number": "218/217",
-      "condition": "Near Mint",
-      "price": 36.0,
-      "quantity": 1,
-      "image": "images/0200.jpg",
-      "dateAdded": "2026-06-20",
-      "notes": ""
-    },
-    {
       "id": "0273",
       "name": "Dragonite GX (Secret)",
       "set": "Unified Minds",
@@ -1260,18 +1176,6 @@
       "price": 140.0,
       "quantity": 1,
       "image": "images/0274.jpg",
-      "dateAdded": "2026-06-04",
-      "notes": ""
-    },
-    {
-      "id": "0277",
-      "name": "Meloetta",
-      "set": "ME: Mega Evolution Promo",
-      "number": "026",
-      "condition": "Near Mint",
-      "price": 21.0,
-      "quantity": 1,
-      "image": "images/0277.jpg",
       "dateAdded": "2026-06-04",
       "notes": ""
     },
@@ -1372,18 +1276,6 @@
       "notes": ""
     },
     {
-      "id": "0201",
-      "name": "Marill",
-      "set": "ME: Ascended Heroes",
-      "number": "232/217",
-      "condition": "Near Mint",
-      "price": 25.0,
-      "quantity": 1,
-      "image": "images/0201.jpg",
-      "dateAdded": "2026-06-20",
-      "notes": ""
-    },
-    {
       "id": "0218",
       "name": "Espurr",
       "set": "ME03: Perfect Order",
@@ -1441,18 +1333,6 @@
       "quantity": 1,
       "image": "images/0453.jpg",
       "dateAdded": "2026-06-14",
-      "notes": ""
-    },
-    {
-      "id": "0433",
-      "name": "Slurpuff",
-      "set": "ME: Ascended Heroes",
-      "number": "236/217",
-      "condition": "Near Mint",
-      "price": 16.0,
-      "quantity": 1,
-      "image": "images/0433.jpg",
-      "dateAdded": "2026-07-12",
       "notes": ""
     },
     {
@@ -1684,6 +1564,18 @@
       "notes": ""
     },
     {
+      "id": "0275",
+      "name": "Maushold",
+      "set": "SV02: Paldea Evolved",
+      "number": "226/193",
+      "condition": "Near Mint",
+      "price": 100.0,
+      "quantity": 1,
+      "image": "images/0275.jpg",
+      "dateAdded": "2026-07-24",
+      "notes": ""
+    },
+    {
       "id": "0336",
       "name": "Surfing Pikachu",
       "set": "WoTC Promo",
@@ -1744,6 +1636,18 @@
       "notes": ""
     },
     {
+      "id": "0346",
+      "name": "Roseanne's Research",
+      "set": "125/132 (League Promo)",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 10.0,
+      "quantity": 1,
+      "image": "images/0346.jpg",
+      "dateAdded": "2026-07-24",
+      "notes": ""
+    },
+    {
       "id": "0217",
       "name": "Radiant Eevee 092/127",
       "set": "",
@@ -1789,18 +1693,6 @@
       "quantity": 1,
       "image": "images/0276.jpg",
       "dateAdded": "2026-07-18",
-      "notes": ""
-    },
-    {
-      "id": "0212",
-      "name": "Pikachu",
-      "set": "POP Series 9",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 16.0,
-      "quantity": 1,
-      "image": "images/0212.jpg",
-      "dateAdded": "2026-07-23",
       "notes": ""
     },
     {
@@ -1861,18 +1753,6 @@
       "quantity": 1,
       "image": "images/0300.jpg",
       "dateAdded": "2026-07-18",
-      "notes": ""
-    },
-    {
-      "id": "0458",
-      "name": "Dark Haunter",
-      "set": "Neo Destiny",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 18.0,
-      "quantity": 1,
-      "image": "images/0458.jpg",
-      "dateAdded": "2026-07-19",
       "notes": ""
     },
     {
@@ -1957,18 +1837,6 @@
       "quantity": 1,
       "image": "images/0381.jpg",
       "dateAdded": "2026-07-23",
-      "notes": ""
-    },
-    {
-      "id": "0509",
-      "name": "Sylveon GX (Full Art)",
-      "set": "Guardians Rising",
-      "number": "SM",
-      "condition": "Near Mint",
-      "price": 95.0,
-      "quantity": 1,
-      "image": "images/0509.jpg",
-      "dateAdded": "2026-06-04",
       "notes": ""
     },
     {
@@ -2313,7 +2181,7 @@
       "set": "Pokemon VS",
       "number": "",
       "condition": "Near Mint",
-      "price": 60.0,
+      "price": 70.0,
       "quantity": 1,
       "image": "images/0373.jpg",
       "dateAdded": "2026-06-04",
@@ -2728,18 +2596,6 @@
       "notes": ""
     },
     {
-      "id": "0501",
-      "name": "Zapdos",
-      "set": "Generations",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 30.0,
-      "quantity": 1,
-      "image": "images/0501.jpg",
-      "dateAdded": "2026-06-04",
-      "notes": ""
-    },
-    {
       "id": "0306",
       "name": "Sabrina's Gengar",
       "set": "Gym Challenge",
@@ -2848,18 +2704,6 @@
       "notes": ""
     },
     {
-      "id": "0303",
-      "name": "Mew",
-      "set": "Crown Zenith: Galarian Gallery",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 70.0,
-      "quantity": 1,
-      "image": "images/0303.jpg",
-      "dateAdded": "2026-06-04",
-      "notes": ""
-    },
-    {
       "id": "0451",
       "name": "Palkia G Lv.X",
       "set": "Platinum",
@@ -2905,18 +2749,6 @@
       "quantity": 1,
       "image": "images/0368.jpg",
       "dateAdded": "2026-06-09",
-      "notes": ""
-    },
-    {
-      "id": "0239",
-      "name": "Pikachu",
-      "set": "SM Promos",
-      "number": "SM162",
-      "condition": "Near Mint",
-      "price": 130.0,
-      "quantity": 1,
-      "image": "images/0239.jpg",
-      "dateAdded": "2026-07-18",
       "notes": ""
     },
     {
@@ -2992,18 +2824,6 @@
       "notes": ""
     },
     {
-      "id": "0294",
-      "name": "Gyarados",
-      "set": "XY Promos",
-      "number": "XY109",
-      "condition": "Near Mint",
-      "price": 70.0,
-      "quantity": 1,
-      "image": "images/0294.jpg",
-      "dateAdded": "2026-07-05",
-      "notes": ""
-    },
-    {
       "id": "0369",
       "name": "Jirachi",
       "set": "Alternate Art Promos",
@@ -3073,18 +2893,6 @@
       "quantity": 1,
       "image": "images/0498.jpg",
       "dateAdded": "2026-06-26",
-      "notes": ""
-    },
-    {
-      "id": "0317",
-      "name": "Meloetta EX (Full Art)",
-      "set": "Legendary Treasures: Radiant Collection",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 35.0,
-      "quantity": 1,
-      "image": "images/0317.jpg",
-      "dateAdded": "2026-06-04",
       "notes": ""
     },
     {
@@ -3265,18 +3073,6 @@
       "quantity": 1,
       "image": "images/0403.jpg",
       "dateAdded": "2026-07-23",
-      "notes": ""
-    },
-    {
-      "id": "0493",
-      "name": "Ash's Pikachu",
-      "set": "SM Promos",
-      "number": "SM108",
-      "condition": "Near Mint",
-      "price": 50.0,
-      "quantity": 1,
-      "image": "images/0493.jpg",
-      "dateAdded": "2026-07-17",
       "notes": ""
     },
     {
@@ -3573,7 +3369,7 @@
       "set": "SM Promos",
       "number": "SM111",
       "condition": "Near Mint",
-      "price": 45.0,
+      "price": 50.0,
       "quantity": 1,
       "image": "images/0497.jpg",
       "dateAdded": "2026-06-26",
@@ -3597,7 +3393,7 @@
       "set": "XY Promos",
       "number": "XY123",
       "condition": "Near Mint",
-      "price": 190.0,
+      "price": 210.0,
       "quantity": 1,
       "image": "images/0664.jpg",
       "dateAdded": "2026-06-04",

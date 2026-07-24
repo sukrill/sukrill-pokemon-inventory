@@ -682,15 +682,21 @@ function openSharedWishlistFromURL() {
 }
 
 // ── Message Sukrill ───────────────────────────────────────
-// Builds a clean message (inventory numbers only) and copies it. We do NOT
-// automate Whatnot messaging — the user pastes it into a Whatnot DM themselves.
+// Builds a clean message and copies it. Each line is "id · Name - Set" when the
+// card is still in inventory, falling back to the bare inventory number if not.
+// We do NOT automate Whatnot messaging — the user pastes it into a DM themselves.
 function messageSukrill() {
   const ids = getWish();
   if (!ids.length) { toast('Your wishlist is empty'); return; }
+  const lines = ids.map(id => {
+    const c = state.byId.get(String(id));
+    if (!c) return id;
+    return `${id} · ${c.name}${c.set ? ' - ' + c.set : ''}`;
+  });
   const msg =
-    `Hi Sukrill!\n\n` +
+    `Hi Suk!\n\n` +
     `I was browsing your inventory website and I'm interested in these cards:\n\n` +
-    ids.join('\n') +
+    lines.join('\n') +
     `\n\nCould you let me know if they're still available?\n\nThanks!`;
   copyText(msg);
   track('message_sukrill', { number_of_cards: ids.length });
