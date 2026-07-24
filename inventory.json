@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-23T21:16",
-  "totalCards": 311,
-  "totalValue": 17703.0,
+  "lastUpdated": "2026-07-24T00:30",
+  "totalCards": 312,
+  "totalValue": 17921.0,
   "cards": [
     {
       "id": "0440",
@@ -11,7 +11,7 @@
       "condition": "Near Mint",
       "price": 45.0,
       "quantity": 1,
-      "image": "",
+      "image": "images/0440.jpg",
       "dateAdded": "2026-07-23",
       "notes": ""
     },
@@ -47,7 +47,7 @@
       "condition": "Near Mint",
       "price": 12.0,
       "quantity": 1,
-      "image": "",
+      "image": "images/0483.jpg",
       "dateAdded": "2026-07-23",
       "notes": ""
     },
@@ -179,7 +179,7 @@
       "condition": "Near Mint",
       "price": 10.0,
       "quantity": 1,
-      "image": "",
+      "image": "images/0467.jpg",
       "dateAdded": "2026-07-23",
       "notes": ""
     },
@@ -361,18 +361,6 @@
       "quantity": 1,
       "image": "images/0220.jpg",
       "dateAdded": "2026-07-23",
-      "notes": ""
-    },
-    {
-      "id": "0439",
-      "name": "Ditto",
-      "set": "Delta Species",
-      "number": "038/113 (Mr. Mime)",
-      "condition": "Near Mint",
-      "price": 52.0,
-      "quantity": 1,
-      "image": "images/0439.jpg",
-      "dateAdded": "2026-07-19",
       "notes": ""
     },
     {
@@ -2776,6 +2764,18 @@
       "notes": ""
     },
     {
+      "id": "0701",
+      "name": "Mew EX (Full Art)",
+      "set": "Legendary Treasures: Radiant Collection",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 150.0,
+      "quantity": 1,
+      "image": "images/0701.jpg",
+      "dateAdded": "2026-07-24",
+      "notes": ""
+    },
+    {
       "id": "0482",
       "name": "Latios EX (101 Full Art)",
       "set": "Roaring Skies",
@@ -2941,6 +2941,18 @@
       "quantity": 1,
       "image": "images/0329.jpg",
       "dateAdded": "2026-07-10",
+      "notes": ""
+    },
+    {
+      "id": "0700",
+      "name": "M Gardevoir EX (Full Art)",
+      "set": "Generations: Radiant Collection",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 120.0,
+      "quantity": 1,
+      "image": "images/0700.jpg",
+      "dateAdded": "2026-07-24",
       "notes": ""
     },
     {
