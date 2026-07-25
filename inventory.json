@@ -1,8 +1,80 @@
 {
-  "lastUpdated": "2026-07-24T15:44",
-  "totalCards": 295,
-  "totalValue": 17234.0,
+  "lastUpdated": "2026-07-25T02:18",
+  "totalCards": 310,
+  "totalValue": 17549.0,
   "cards": [
+    {
+      "id": "0240",
+      "name": "Fomantis",
+      "set": "ME05: Pitch Black",
+      "number": "085/084",
+      "condition": "Near Mint",
+      "price": 10.0,
+      "quantity": 1,
+      "image": "images/0240.jpg",
+      "dateAdded": "2026-07-25",
+      "notes": ""
+    },
+    {
+      "id": "0357",
+      "name": "Rayquaza",
+      "set": "SWSH: Sword & Shield Promo Cards",
+      "number": "SWSH029",
+      "condition": "Near Mint",
+      "price": 10.0,
+      "quantity": 1,
+      "image": "images/0357.jpg",
+      "dateAdded": "2026-07-25",
+      "notes": ""
+    },
+    {
+      "id": "0385",
+      "name": "Jirachi",
+      "set": "SWSH04: Vivid Voltage",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 13.0,
+      "quantity": 1,
+      "image": "images/0385.jpg",
+      "dateAdded": "2026-07-25",
+      "notes": ""
+    },
+    {
+      "id": "0387",
+      "name": "Flygon",
+      "set": "ME02: Phantasmal Flames",
+      "number": "101/094",
+      "condition": "Near Mint",
+      "price": 10.0,
+      "quantity": 1,
+      "image": "images/0387.jpg",
+      "dateAdded": "2026-07-25",
+      "notes": ""
+    },
+    {
+      "id": "0388",
+      "name": "Emolga",
+      "set": "McDonald's Promos 2012",
+      "number": "6/12",
+      "condition": "Near Mint",
+      "price": 12.0,
+      "quantity": 1,
+      "image": "images/0388.jpg",
+      "dateAdded": "2026-07-25",
+      "notes": ""
+    },
+    {
+      "id": "0423",
+      "name": "Celebi",
+      "set": "SWSH04: Vivid Voltage",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 12.0,
+      "quantity": 1,
+      "image": "images/0423.jpg",
+      "dateAdded": "2026-07-25",
+      "notes": ""
+    },
     {
       "id": "0440",
       "name": "Palkia GX (Secret)",
@@ -604,18 +676,6 @@
       "notes": ""
     },
     {
-      "id": "0465",
-      "name": "Umbreon V (Full Art)",
-      "set": "SWSH07: Evolving Skies",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 72.0,
-      "quantity": 1,
-      "image": "images/0465.jpg",
-      "dateAdded": "2026-06-17",
-      "notes": ""
-    },
-    {
       "id": "0464",
       "name": "Celebi EX (141 Full Art)",
       "set": "Boundaries Crossed",
@@ -625,6 +685,18 @@
       "quantity": 1,
       "image": "images/0464.jpg",
       "dateAdded": "2026-06-17",
+      "notes": ""
+    },
+    {
+      "id": "0282",
+      "name": "Pikachu (1)",
+      "set": "WoTC Promo",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 32.0,
+      "quantity": 1,
+      "image": "images/0282.jpg",
+      "dateAdded": "2026-07-25",
       "notes": ""
     },
     {
@@ -829,6 +901,18 @@
       "quantity": 1,
       "image": "images/0224.jpg",
       "dateAdded": "2026-06-09",
+      "notes": ""
+    },
+    {
+      "id": "0204",
+      "name": "Ditto",
+      "set": "Delta Species",
+      "number": "61/113 (Charmander)",
+      "condition": "Near Mint",
+      "price": 54.0,
+      "quantity": 1,
+      "image": "images/0204.jpg",
+      "dateAdded": "2026-07-25",
       "notes": ""
     },
     {
@@ -1180,6 +1264,18 @@
       "notes": ""
     },
     {
+      "id": "0304",
+      "name": "Virizion",
+      "set": "SV: White Flare",
+      "number": "095/086",
+      "condition": "Near Mint",
+      "price": 35.0,
+      "quantity": 1,
+      "image": "images/0304.jpg",
+      "dateAdded": "2026-07-25",
+      "notes": ""
+    },
+    {
       "id": "0429",
       "name": "Piplup",
       "set": "ME: Mega Evolution Promo",
@@ -1261,6 +1357,18 @@
       "quantity": 1,
       "image": "images/0211.jpg",
       "dateAdded": "2026-07-23",
+      "notes": ""
+    },
+    {
+      "id": "0395",
+      "name": "Dark Wigglytuff",
+      "set": "Neo Destiny",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 25.0,
+      "quantity": 1,
+      "image": "images/0395.jpg",
+      "dateAdded": "2026-07-25",
       "notes": ""
     },
     {
@@ -1393,6 +1501,30 @@
       "quantity": 1,
       "image": "images/0311.jpg",
       "dateAdded": "2026-06-09",
+      "notes": ""
+    },
+    {
+      "id": "0233",
+      "name": "Fidough",
+      "set": "SV01: Scarlet & Violet Base Set",
+      "number": "213/198",
+      "condition": "Near Mint",
+      "price": 34.0,
+      "quantity": 1,
+      "image": "images/0233.jpg",
+      "dateAdded": "2026-07-25",
+      "notes": ""
+    },
+    {
+      "id": "0339",
+      "name": "Squawkabilly ex",
+      "set": "SV02: Paldea Evolved",
+      "number": "264/193",
+      "condition": "Near Mint",
+      "price": 15.0,
+      "quantity": 1,
+      "image": "images/0339.jpg",
+      "dateAdded": "2026-07-25",
       "notes": ""
     },
     {
@@ -1564,6 +1696,30 @@
       "notes": ""
     },
     {
+      "id": "0234",
+      "name": "Jirachi V (Full Art)",
+      "set": "SWSH10: Astral Radiance",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 29.0,
+      "quantity": 1,
+      "image": "images/0234.jpg",
+      "dateAdded": "2026-07-25",
+      "notes": ""
+    },
+    {
+      "id": "0370",
+      "name": "Mantyke",
+      "set": "SV04: Paradox Rift",
+      "number": "189/182",
+      "condition": "Near Mint",
+      "price": 45.0,
+      "quantity": 1,
+      "image": "images/0370.jpg",
+      "dateAdded": "2026-07-25",
+      "notes": ""
+    },
+    {
       "id": "0275",
       "name": "Maushold",
       "set": "SV02: Paldea Evolved",
@@ -1657,6 +1813,18 @@
       "quantity": 1,
       "image": "images/0217.jpg",
       "dateAdded": "2026-07-18",
+      "notes": ""
+    },
+    {
+      "id": "0392",
+      "name": "Eiscue",
+      "set": "SV02: Paldea Evolved",
+      "number": "205/193",
+      "condition": "Near Mint",
+      "price": 26.0,
+      "quantity": 1,
+      "image": "images/0392.jpg",
+      "dateAdded": "2026-07-25",
       "notes": ""
     },
     {
@@ -2929,6 +3097,18 @@
       "quantity": 1,
       "image": "images/0237.jpg",
       "dateAdded": "2026-07-13",
+      "notes": ""
+    },
+    {
+      "id": "0321",
+      "name": "Tapu Koko ex",
+      "set": "SV04: Paradox Rift",
+      "number": "247/182",
+      "condition": "Near Mint",
+      "price": 25.0,
+      "quantity": 1,
+      "image": "images/0321.jpg",
+      "dateAdded": "2026-07-25",
       "notes": ""
     },
     {
