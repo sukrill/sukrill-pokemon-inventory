@@ -24,6 +24,7 @@ const els = {
   search:      document.getElementById('search'),
   searchClear: document.getElementById('search-clear'),
   filterSet:   document.getElementById('filter-set'),
+  filterTag:   document.getElementById('filter-tag'),
   filterCond:  document.getElementById('filter-condition'),
   filterStock: document.getElementById('filter-instock'),
   sort:        document.getElementById('sort'),
@@ -158,6 +159,7 @@ function normalize(c) {
     dateAdded: c.dateAdded || '',
     notes:     c.notes || '',
     listingUrl:c.listingUrl || '',
+    tags:      Array.isArray(c.tags) ? c.tags.map(String).filter(Boolean) : [],
   };
 }
 
@@ -192,6 +194,21 @@ function buildFilterOptions() {
   for (const s of sets)  els.filterSet.appendChild(new Option(s, s));
   for (const c of conds) els.filterCond.appendChild(new Option(c, c));
   if (conds.length <= 1) els.filterCond.style.display = 'none';
+
+  // Tag dropdown: only tags shared by 2+ cards, so one-off notes/typos don't
+  // clutter it. (All tags remain searchable regardless — see apply().) Matched
+  // case-insensitively; the most common casing is shown as the label.
+  const counts = new Map();   // lowerKey -> {label, count}
+  for (const c of state.all)
+    for (const t of c.tags) {
+      const k = t.toLowerCase();
+      const e = counts.get(k) || { label: t, count: 0 };
+      e.count++; counts.set(k, e);
+    }
+  const tags = [...counts.values()].filter(e => e.count >= 2)
+                 .sort((a, b) => a.label.localeCompare(b.label));
+  for (const { label } of tags) els.filterTag.appendChild(new Option(label, label.toLowerCase()));
+  if (!tags.length) els.filterTag.style.display = 'none';
 }
 
 // ── Events ────────────────────────────────────────────────
@@ -206,6 +223,7 @@ function bindEvents() {
     els.search.value = ''; els.searchClear.hidden = true; apply(); els.search.focus();
   });
   els.filterSet.addEventListener('change', () => { apply(); track('filter', { filter_type: 'set', value: els.filterSet.value || '(all)' }); });
+  els.filterTag.addEventListener('change', () => { apply(); track('filter', { filter_type: 'type', value: els.filterTag.value || '(all)' }); });
   els.filterCond.addEventListener('change', () => { apply(); track('filter', { filter_type: 'condition', value: els.filterCond.value || '(all)' }); });
   els.filterStock.addEventListener('change', () => { apply(); track('filter', { filter_type: 'in_stock', value: els.filterStock.checked }); });
   els.sort.addEventListener('change', () => { apply(); track('sort', { sort_by: els.sort.value }); });
@@ -261,7 +279,7 @@ function bindEvents() {
 
 function resetFilters() {
   els.search.value = ''; els.searchClear.hidden = true;
-  els.filterSet.value = ''; els.filterCond.value = '';
+  els.filterSet.value = ''; els.filterTag.value = ''; els.filterCond.value = '';
   els.filterStock.checked = false; els.sort.value = 'inv-asc';
   apply();
 }
@@ -283,6 +301,7 @@ function closeFilters() {
 function activeFilterCount() {
   let n = 0;
   if (els.filterSet.value) n++;
+  if (els.filterTag.value && els.filterTag.style.display !== 'none') n++;
   if (els.filterCond.value && els.filterCond.style.display !== 'none') n++;
   if (els.filterStock.checked) n++;
   if (els.sort.value !== 'inv-asc') n++;
@@ -293,16 +312,19 @@ function activeFilterCount() {
 function apply() {
   const q      = els.search.value.trim().toLowerCase();
   const fSet   = els.filterSet.value;
+  const fTag   = els.filterTag.value;   // stored lower-case
   const fCond  = els.filterCond.value;
   const inStock= els.filterStock.checked;
   const terms  = q.split(/\s+/).filter(Boolean);
 
   let list = state.all.filter(c => {
     if (fSet && c.set !== fSet) return false;
+    if (fTag && !c.tags.some(t => t.toLowerCase() === fTag)) return false;
     if (fCond && c.condition !== fCond) return false;
     if (inStock && c.quantity <= 0) return false;
     if (terms.length) {
-      const hay = (c.name + ' ' + c.set + ' ' + c.number + ' ' + c.id).toLowerCase();
+      // tags (Cute, Pink, illustrator names…) are searchable even when not in the dropdown
+      const hay = (c.name + ' ' + c.set + ' ' + c.number + ' ' + c.id + ' ' + c.tags.join(' ')).toLowerCase();
       if (!terms.every(t => hay.includes(t))) return false;
     }
     return true;
@@ -311,7 +333,7 @@ function apply() {
   list.sort(sorter(els.sort.value));
   state.filtered = list;
 
-  const filtersActive = q || fSet || fCond || inStock || els.sort.value !== 'inv-asc';
+  const filtersActive = q || fSet || fTag || fCond || inStock || els.sort.value !== 'inv-asc';
   els.resetBtn.hidden = !filtersActive;
   els.resultCount.textContent =
     `${list.length.toLocaleString()} card${list.length === 1 ? '' : 's'}` +
@@ -422,6 +444,27 @@ function openModal(id, pushUrl) {
   ].filter(([, v]) => v !== '' && v != null);
   m.querySelector('#m-details').innerHTML =
     rows.map(([k, v]) => `<dt>${escapeHtml(k)}</dt><dd>${escapeHtml(String(v))}</dd>`).join('');
+
+  // Tag chips (Cute, Pink, illustrator…). Clicking one filters the grid by it.
+  const tagsWrap = m.querySelector('#m-tags');
+  if (c.tags.length) {
+    tagsWrap.hidden = false;
+    tagsWrap.innerHTML = c.tags.map(t =>
+      `<button type="button" class="tag-chip" data-tag="${escapeAttr(t.toLowerCase())}">${escapeHtml(t)}</button>`
+    ).join('');
+    tagsWrap.querySelectorAll('.tag-chip').forEach(btn =>
+      btn.addEventListener('click', () => {
+        const val = btn.dataset.tag;
+        const opt = [...els.filterTag.options].find(o => o.value === val);
+        closeModal();
+        if (opt) { els.filterTag.value = val; }        // dropdown-backed tag
+        else { els.search.value = btn.textContent; els.searchClear.hidden = false; }  // rare tag → search
+        apply();
+        track('filter', { filter_type: 'type', value: val, source: 'chip' });
+      }));
+  } else {
+    tagsWrap.hidden = true; tagsWrap.innerHTML = '';
+  }
 
   const notesWrap = m.querySelector('#m-notes-wrap');
   if (c.notes) { notesWrap.hidden = false; m.querySelector('#m-notes').textContent = c.notes; }
