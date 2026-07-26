@@ -8,7 +8,8 @@
 const PAGE_SIZE = 60;
 const PLACEHOLDER = placeholderSVG();
 const SHOP_URL = 'https://www.whatnot.com/user/sukrill/shop';
-const WISH_KEY   = 'sukrill_wishlist_v1';   // array of inventory ids
+const WISH_KEY   = 'sukrill_wishlist_v1';   // LEGACY: array of inventory ids (migrated on load)
+const WISH_KEY2  = 'sukrill_wishlist_v2';   // current: [{id, name, set}] — identity-aware
 const LEGACY_NOTIFY_KEY = 'sukrill_notify_v1';   // removed feature — cleaned up on load
 
 const state = {
@@ -127,6 +128,14 @@ async function init() {
     const data = await res.json();
     state.all = (data.cards || []).map(normalize);
     state.byId = new Map(state.all.map(c => [c.id, c]));
+    // Identity index (name+set) — the reuse-proof way to match a saved wishlist
+    // item to a current card. First card wins on the rare duplicate identity.
+    state.byIdent = new Map();
+    for (const c of state.all) {
+      const k = identKey(c.name, c.set);
+      if (!state.byIdent.has(k)) state.byIdent.set(k, c);
+    }
+    migrateWishlist();   // upgrade v1 number-only lists → v2 identity snapshots
     renderHeadline(data);
     buildFilterOptions();
     bindEvents();
@@ -552,17 +561,84 @@ function openFromURL(evt) {
 /* ============================================================
    WISHLIST
    ============================================================ */
+// Identity key — how a saved card is matched to a live one. Inventory numbers get
+// REUSED, so we key wishlist items by name+set instead. Kept forgiving (case /
+// whitespace) since both sides come from the same generator.
+function identKey(name, set) {
+  return ((name || '') + '||' + (set || '')).toLowerCase().replace(/\s+/g, ' ').trim();
+}
+
+// Canonical wishlist = array of {id, name, set}. Reads v2; if absent, migrates a
+// legacy v1 number-only list (name/set filled in later by migrateWishlist()).
 function getWish() {
   try {
-    const v = JSON.parse(localStorage.getItem(WISH_KEY));
-    // Corrupt/legacy data → clean, de-duplicated array of non-empty id strings
-    return Array.isArray(v)
-      ? [...new Set(v.filter(x => x !== null && x !== undefined && x !== '').map(String))]
-      : [];
-  } catch (_) { return []; }
+    const v2 = JSON.parse(localStorage.getItem(WISH_KEY2));
+    if (Array.isArray(v2)) {
+      const seen = new Set(), out = [];
+      for (const e of v2) {
+        const id = String((e && e.id != null ? e.id : e) || '').trim();
+        if (!id || seen.has(id)) continue;
+        seen.add(id);
+        out.push({ id, name: String((e && e.name) || ''), set: String((e && e.set) || '') });
+      }
+      return out;
+    }
+  } catch (_) {}
+  try {
+    const v1 = JSON.parse(localStorage.getItem(WISH_KEY));   // legacy: ["0202", …]
+    if (Array.isArray(v1)) {
+      const seen = new Set(), out = [];
+      for (const x of v1) {
+        const id = String(x || '').trim();
+        if (id && !seen.has(id)) { seen.add(id); out.push({ id, name: '', set: '' }); }
+      }
+      return out;
+    }
+  } catch (_) {}
+  return [];
 }
-function saveWish(arr) { try { localStorage.setItem(WISH_KEY, JSON.stringify(arr)); } catch (_) {} }
-function isWished(id) { return getWish().includes(String(id)); }
+function saveWish(entries) { try { localStorage.setItem(WISH_KEY2, JSON.stringify(entries)); } catch (_) {} }
+function getWishIds() { return getWish().map(e => e.id); }
+
+// Resolve a saved entry to the CURRENT live card. With a saved identity we match
+// by name+set and NEVER by number — that's what stops a reused number from
+// swapping in a different card, and it re-links a card that returned under a new #.
+function resolveWish(e) {
+  if (e.name || e.set) return state.byIdent.get(identKey(e.name, e.set)) || null;
+  return state.byId.get(String(e.id)) || null;   // legacy id-only entry
+}
+
+// Current inventory ids that are wished (for grid hearts / buttons).
+function wishedIdSet() {
+  const s = new Set();
+  for (const e of getWish()) { const c = resolveWish(e); if (c) s.add(c.id); }
+  return s;
+}
+
+// Is the card currently at inventory #id on the wishlist? (identity-aware)
+function isWished(id) {
+  const c = state.byId.get(String(id));
+  const entries = getWish();
+  if (c) {
+    const key = identKey(c.name, c.set);
+    return entries.some(e => (e.name || e.set) ? identKey(e.name, e.set) === key : String(e.id) === String(c.id));
+  }
+  return entries.some(e => String(e.id) === String(id));
+}
+
+// One-time upgrade: fill name/set on any id-only entries from current inventory,
+// then persist as v2. Best-effort — a number already reused can only snapshot
+// whatever it points to now, but every future add stores identity at add-time.
+function migrateWishlist() {
+  const entries = getWish();
+  for (const e of entries) {
+    if (!e.name && !e.set) {
+      const c = state.byId.get(String(e.id));
+      if (c) { e.name = c.name; e.set = c.set; }
+    }
+  }
+  saveWish(entries);
+}
 
 // Playful "I want that!" bubble popped above the clicked heart (or the modal add button)
 function showWantBubble(id) {
@@ -593,16 +669,23 @@ function showWantBubble(id) {
 
 function toggleWish(id) {
   id = String(id);
-  const c = state.byId.get(id);
-  let arr = getWish();
-  if (arr.includes(id)) {
-    arr = arr.filter(x => x !== id);
-    saveWish(arr);
+  const c = state.byId.get(id);          // the live card at this number (may be null if gone)
+  let entries = getWish();
+  if (isWished(id)) {
+    // Remove by identity when we have a card; otherwise by the saved number.
+    if (c) {
+      const key = identKey(c.name, c.set);
+      entries = entries.filter(e => (e.name || e.set) ? identKey(e.name, e.set) !== key : String(e.id) !== id);
+    } else {
+      entries = entries.filter(e => String(e.id) !== id);
+    }
+    saveWish(entries);
     track('wishlist_remove', { inventory_id: id });
     toast('Removed from wishlist');
   } else {
-    arr.push(id);                       // dedup guaranteed (we only push when absent)
-    saveWish(arr);
+    // Store a name+set snapshot so a future number reuse can never swap the card.
+    entries.push(c ? { id: c.id, name: c.name, set: c.set } : { id, name: '', set: '' });
+    saveWish(entries);
     track('wishlist_add', { inventory_id: id, card_name: c ? c.name : '', price: c ? c.price : 0 });
     showWantBubble(id);
   }
@@ -610,18 +693,19 @@ function toggleWish(id) {
 }
 
 function updateWishUI() {
-  const arr = getWish();
+  const entries = getWish();
   // Header badge — instant count + a subtle bounce when it changes
-  if (els.wishCount.textContent !== String(arr.length)) {
-    els.wishCount.textContent = arr.length;
+  if (els.wishCount.textContent !== String(entries.length)) {
+    els.wishCount.textContent = entries.length;
     els.wishCount.classList.remove('bounce');
     void els.wishCount.offsetWidth;           // restart the animation
     els.wishCount.classList.add('bounce');
   }
   // sync any hearts currently in the grid (targeted, no full re-render).
   // Toggle class/aria only — the SVG stays; CSS handles outline↔filled.
+  const wished = wishedIdSet();
   document.querySelectorAll('.card-heart').forEach(h => {
-    const on = arr.includes(h.dataset.id);
+    const on = wished.has(h.dataset.id);
     h.classList.toggle('active', on);
     h.title = on ? 'Remove from wishlist' : 'Add to wishlist';
     h.setAttribute('aria-pressed', on ? 'true' : 'false');
@@ -640,25 +724,25 @@ function openWishlist() {
 }
 
 function renderWishlist() {
-  const ids = getWish();
-  els.wishActions.querySelectorAll('button').forEach(b => b.disabled = ids.length === 0);
-  if (!ids.length) {
+  const entries = getWish();
+  els.wishActions.querySelectorAll('button').forEach(b => b.disabled = entries.length === 0);
+  if (!entries.length) {
     els.wishList.innerHTML = '';
     els.wishEmpty.hidden = false;
     els.wishTotals.hidden = true;
     return;
   }
   els.wishEmpty.hidden = true;
-  els.wishList.innerHTML = ids.map(id => {
-    const c = state.byId.get(id);
-    if (!c) return wlMissingRow(id);
+  els.wishList.innerHTML = entries.map(e => {
+    const c = resolveWish(e);          // match by identity, not by number
+    if (!c) return wlMissingRow(e);    // saved card not currently in inventory
     return wlRow(c, `<button class="wl-rm" title="Remove ${escapeAttr(c.name)}" aria-label="Remove ${escapeAttr(c.name)}" data-rm="${escapeAttr(c.id)}">✕</button>`);
   }).join('');
   els.wishList.querySelectorAll('[data-rm]').forEach(b =>
     b.addEventListener('click', () => toggleWish(b.dataset.rm)));
-  // Running total count + estimated value (only cards still in inventory)
-  const totalValue = ids.reduce((s, id) => { const c = state.byId.get(id); return s + (c ? c.price : 0); }, 0);
-  els.wishTotCount.textContent = ids.length;
+  // Running total count + estimated value (only cards still available)
+  const totalValue = entries.reduce((s, e) => { const c = resolveWish(e); return s + (c ? c.price : 0); }, 0);
+  els.wishTotCount.textContent = entries.length;
   els.wishTotValue.textContent = '$' + totalValue.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   els.wishTotals.hidden = false;
 }
@@ -679,18 +763,23 @@ function wlRow(c, actionHtml) {
     ${actionHtml}
   </div>`;
 }
-function wlMissingRow(id) {
+function wlMissingRow(e) {
+  // Show the SAVED card (name/set) — not a bare, possibly-reused number.
+  const label = e.name ? escapeHtml(e.name) : ('Card #' + escapeHtml(e.id));
+  const sub   = e.name
+    ? (e.set ? escapeHtml(e.set) + ' · Not currently available' : 'Not currently available')
+    : 'No longer in inventory';
   return `<div class="wl-item">
     <div class="wl-thumb-ph">✦</div>
-    <div class="wl-info"><div class="wl-name">Card #${escapeHtml(id)}</div>
-      <div class="wl-sub">No longer in inventory</div></div>
-    <button class="wl-rm" data-rm="${escapeAttr(id)}" title="Remove">✕</button>
+    <div class="wl-info"><div class="wl-name">${label}</div>
+      <div class="wl-sub wl-avail out">${sub}</div></div>
+    <button class="wl-rm" data-rm="${escapeAttr(e.id)}" title="Remove">✕</button>
   </div>`;
 }
 
 // ── Share wishlist ────────────────────────────────────────
 function shareWishlist() {
-  const ids = getWish();
+  const ids = getWishIds();
   if (!ids.length) { toast('Your wishlist is empty'); return; }
   const url = `${location.origin}${location.pathname}?wishlist=${ids.join(',')}`;
   copyText(url);
@@ -713,10 +802,26 @@ function openSharedWishlistFromURL() {
 
   if (!ids.length) { toast('That shared wishlist link was empty or invalid'); return; }
 
-  // Automatically rebuild the viewer's wishlist by merging in the shared ids (dedup)
+  // Merge shared ids into the viewer's wishlist. Snapshot identity from the
+  // viewer's current inventory so shared items get the same reuse protection;
+  // dedup by identity (falling back to number for cards not currently listed).
   const current = getWish();
-  const merged = [...new Set([...current, ...ids])];
-  saveWish(merged);
+  const haveIds   = new Set(current.map(e => e.id));
+  const haveIdent = new Set(current.filter(e => e.name || e.set).map(e => identKey(e.name, e.set)));
+  for (const id of ids) {
+    const c = state.byId.get(String(id));
+    if (c) {
+      const k = identKey(c.name, c.set);
+      if (haveIdent.has(k)) continue;
+      current.push({ id: c.id, name: c.name, set: c.set });
+      haveIdent.add(k); haveIds.add(c.id);
+    } else {
+      if (haveIds.has(String(id))) continue;
+      current.push({ id: String(id), name: '', set: '' });
+      haveIds.add(String(id));
+    }
+  }
+  saveWish(current);
   updateWishUI();
 
   track('deep_link_open', { type: 'wishlist', number_of_cards: ids.length });
@@ -729,12 +834,13 @@ function openSharedWishlistFromURL() {
 // card is still in inventory, falling back to the bare inventory number if not.
 // We do NOT automate Whatnot messaging — the user pastes it into a DM themselves.
 function messageSukrill() {
-  const ids = getWish();
-  if (!ids.length) { toast('Your wishlist is empty'); return; }
-  const lines = ids.map(id => {
-    const c = state.byId.get(String(id));
-    if (!c) return id;
-    return `${id} · ${c.name}${c.set ? ' - ' + c.set : ''}`;
+  const entries = getWish();
+  if (!entries.length) { toast('Your wishlist is empty'); return; }
+  const lines = entries.map(e => {
+    const c = resolveWish(e);                       // current card by identity
+    const id = c ? c.id : e.id;                      // current # if available, else saved #
+    const name = c ? c.name : e.name, set = c ? c.set : e.set;
+    return name ? `${id} · ${name}${set ? ' - ' + set : ''}` : `${id}`;
   });
   const msg =
     `Hi Suk!\n\n` +
@@ -748,20 +854,22 @@ function messageSukrill() {
 
 // ── Copy inventory numbers (numbers only, one per line) ──────
 function copyInventoryNumbers() {
-  const ids = getWish();
-  if (!ids.length) { toast('Your wishlist is empty'); return; }
-  copyText(ids.join('\n'));
-  track('wishlist_copy', { type: 'inventory_numbers', number_of_cards: ids.length });
+  const entries = getWish();
+  if (!entries.length) { toast('Your wishlist is empty'); return; }
+  // Prefer the card's CURRENT number when it's still (or again) in inventory.
+  const nums = entries.map(e => { const c = resolveWish(e); return c ? c.id : e.id; });
+  copyText(nums.join('\n'));
+  track('wishlist_copy', { type: 'inventory_numbers', number_of_cards: nums.length });
   toast('Inventory numbers copied');
 }
 
 // ── Clear wishlist (with confirmation) ──────────────────────
 function clearWishlist() {
-  const ids = getWish();
-  if (!ids.length) { toast('Your wishlist is already empty'); return; }
-  if (!window.confirm(`Clear all ${ids.length} card${ids.length === 1 ? '' : 's'} from your wishlist?`)) return;
+  const entries = getWish();
+  if (!entries.length) { toast('Your wishlist is already empty'); return; }
+  if (!window.confirm(`Clear all ${entries.length} card${entries.length === 1 ? '' : 's'} from your wishlist?`)) return;
   saveWish([]);
-  track('wishlist_remove', { inventory_id: 'all', cleared: ids.length });
+  track('wishlist_remove', { inventory_id: 'all', cleared: entries.length });
   updateWishUI();
   renderWishlist();
   toast('Wishlist cleared');
