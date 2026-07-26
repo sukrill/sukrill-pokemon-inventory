@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-26T00:42",
+  "lastUpdated": "2026-07-26T15:51",
   "totalCards": 310,
-  "totalValue": 17657.0,
+  "totalValue": 17658.0,
   "cards": [
     {
       "id": "0240",
@@ -104,6 +104,20 @@
         "Cute"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA4NDUxOTQ1Ng=="
+    },
+    {
+      "id": "0516",
+      "name": "Galarian Rapidash",
+      "set": "Shining Fates: Shiny Vault",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 16.0,
+      "quantity": 1,
+      "image": "images/0516.jpg",
+      "dateAdded": "2026-07-26",
+      "notes": "",
+      "tags": [],
+      "listingUrl": ""
     },
     {
       "id": "0440",
@@ -550,20 +564,6 @@
         "Cute"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjY0NzM0NA=="
-    },
-    {
-      "id": "0220",
-      "name": "Pichu",
-      "set": "Mysterious Treasures",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 15.0,
-      "quantity": 1,
-      "image": "images/0220.jpg",
-      "dateAdded": "2026-07-23",
-      "notes": "",
-      "tags": [],
-      "listingUrl": ""
     },
     {
       "id": "0456",
@@ -4397,7 +4397,7 @@
       "condition": "Light Played",
       "price": 120.0,
       "quantity": 1,
-      "image": "",
+      "image": "images/0239.jpg",
       "dateAdded": "2026-07-25",
       "notes": "",
       "tags": [
