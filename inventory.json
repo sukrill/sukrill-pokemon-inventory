@@ -1,8 +1,36 @@
 {
-  "lastUpdated": "2026-07-26T15:51",
-  "totalCards": 310,
-  "totalValue": 17658.0,
+  "lastUpdated": "2026-07-26T23:03",
+  "totalCards": 318,
+  "totalValue": 17848.0,
   "cards": [
+    {
+      "id": "0277",
+      "name": "Salamence",
+      "set": "Dragon Vault",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 10.0,
+      "quantity": 1,
+      "image": "images/0277.jpg",
+      "dateAdded": "2026-07-26",
+      "notes": "",
+      "tags": [],
+      "listingUrl": ""
+    },
+    {
+      "id": "0294",
+      "name": "Latias",
+      "set": "Dragon Vault",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 16.0,
+      "quantity": 1,
+      "image": "images/0294.jpg",
+      "dateAdded": "2026-07-26",
+      "notes": "",
+      "tags": [],
+      "listingUrl": ""
+    },
     {
       "id": "0240",
       "name": "Fomantis",
@@ -564,6 +592,20 @@
         "Cute"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjY0NzM0NA=="
+    },
+    {
+      "id": "0317",
+      "name": "Ditto",
+      "set": "Delta Species",
+      "number": "038/113 (Mr. Mime)",
+      "condition": "Near Mint",
+      "price": 52.0,
+      "quantity": 1,
+      "image": "images/0317.jpg",
+      "dateAdded": "2026-07-26",
+      "notes": "",
+      "tags": [],
+      "listingUrl": ""
     },
     {
       "id": "0456",
@@ -1826,6 +1868,20 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTg4MjA5MzkxMg=="
     },
     {
+      "id": "0303",
+      "name": "Erika's Tangela",
+      "set": "ME: Ascended Heroes",
+      "number": "218/217",
+      "condition": "Near Mint",
+      "price": 36.0,
+      "quantity": 1,
+      "image": "images/0303.jpg",
+      "dateAdded": "2026-07-26",
+      "notes": "",
+      "tags": [],
+      "listingUrl": ""
+    },
+    {
       "id": "0273",
       "name": "Dragonite GX (Secret)",
       "set": "Unified Minds",
@@ -1882,6 +1938,20 @@
         "Nature"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTg4MjAzMDkyMw=="
+    },
+    {
+      "id": "0201",
+      "name": "Meloetta",
+      "set": "ME: Mega Evolution Promo",
+      "number": "026",
+      "condition": "Near Mint",
+      "price": 21.0,
+      "quantity": 1,
+      "image": "images/0201.jpg",
+      "dateAdded": "2026-07-26",
+      "notes": "",
+      "tags": [],
+      "listingUrl": ""
     },
     {
       "id": "0429",
@@ -2055,6 +2125,20 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTgyNTEwNjU1MQ=="
     },
     {
+      "id": "0278",
+      "name": "Marill",
+      "set": "ME: Ascended Heroes",
+      "number": "232/217",
+      "condition": "Near Mint",
+      "price": 25.0,
+      "quantity": 1,
+      "image": "images/0278.jpg",
+      "dateAdded": "2026-07-26",
+      "notes": "",
+      "tags": [],
+      "listingUrl": ""
+    },
+    {
       "id": "0218",
       "name": "Espurr",
       "set": "ME03: Perfect Order",
@@ -2144,6 +2228,20 @@
         "Cute"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTc4OTU2NzQ1Nw=="
+    },
+    {
+      "id": "0220",
+      "name": "Slurpuff",
+      "set": "ME: Ascended Heroes",
+      "number": "236/217",
+      "condition": "Near Mint",
+      "price": 16.0,
+      "quantity": 1,
+      "image": "images/0220.jpg",
+      "dateAdded": "2026-07-26",
+      "notes": "",
+      "tags": [],
+      "listingUrl": ""
     },
     {
       "id": "0462",
@@ -3588,6 +3686,20 @@
         "Cute"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTIyNDA2MTUzMg=="
+    },
+    {
+      "id": "0200",
+      "name": "Poke Kid (Full Art)",
+      "set": "Shining Fates",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 14.0,
+      "quantity": 1,
+      "image": "images/0200.jpg",
+      "dateAdded": "2026-07-26",
+      "notes": "",
+      "tags": [],
+      "listingUrl": ""
     },
     {
       "id": "0235",
