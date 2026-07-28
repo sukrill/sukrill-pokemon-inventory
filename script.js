@@ -26,7 +26,6 @@ const els = {
   searchClear: document.getElementById('search-clear'),
   filterSet:   document.getElementById('filter-set'),
   filterTag:   document.getElementById('filter-tag'),
-  filterCond:  document.getElementById('filter-condition'),
   filterStock: document.getElementById('filter-instock'),
   sort:        document.getElementById('sort'),
   resultCount: document.getElementById('result-count'),
@@ -200,10 +199,7 @@ function splitSync(raw) {
 // ── Filter dropdowns ──────────────────────────────────────
 function buildFilterOptions() {
   const sets  = [...new Set(state.all.map(c => c.set).filter(Boolean))].sort((a, b) => a.localeCompare(b));
-  const conds = [...new Set(state.all.map(c => c.condition).filter(Boolean))].sort();
   for (const s of sets)  els.filterSet.appendChild(new Option(s, s));
-  for (const c of conds) els.filterCond.appendChild(new Option(c, c));
-  if (conds.length <= 1) els.filterCond.style.display = 'none';
 
   // Tag dropdown: only tags shared by 2+ cards, so one-off notes/typos don't
   // clutter it. (All tags remain searchable regardless — see apply().) Matched
@@ -234,7 +230,6 @@ function bindEvents() {
   });
   els.filterSet.addEventListener('change', () => { apply(); track('filter', { filter_type: 'set', value: els.filterSet.value || '(all)' }); });
   els.filterTag.addEventListener('change', () => { apply(); track('filter', { filter_type: 'type', value: els.filterTag.value || '(all)' }); });
-  els.filterCond.addEventListener('change', () => { apply(); track('filter', { filter_type: 'condition', value: els.filterCond.value || '(all)' }); });
   els.filterStock.addEventListener('change', () => { apply(); track('filter', { filter_type: 'in_stock', value: els.filterStock.checked }); });
   els.sort.addEventListener('change', () => { apply(); track('sort', { sort_by: els.sort.value }); });
   els.resetBtn.addEventListener('click', resetFilters);
@@ -289,8 +284,8 @@ function bindEvents() {
 
 function resetFilters() {
   els.search.value = ''; els.searchClear.hidden = true;
-  els.filterSet.value = ''; els.filterTag.value = ''; els.filterCond.value = '';
-  els.filterStock.checked = false; els.sort.value = 'inv-asc';
+  els.filterSet.value = ''; els.filterTag.value = '';
+  els.filterStock.checked = false; els.sort.value = '';   // '' restores the "Sort order" label (sorts by inv#)
   apply();
 }
 
@@ -312,9 +307,8 @@ function activeFilterCount() {
   let n = 0;
   if (els.filterSet.value) n++;
   if (els.filterTag.value && els.filterTag.style.display !== 'none') n++;
-  if (els.filterCond.value && els.filterCond.style.display !== 'none') n++;
   if (els.filterStock.checked) n++;
-  if (els.sort.value !== 'inv-asc') n++;
+  if (els.sort.value && els.sort.value !== 'inv-asc') n++;   // '' = default (inv#), not an active filter
   return n;
 }
 
@@ -323,14 +317,12 @@ function apply() {
   const q      = els.search.value.trim().toLowerCase();
   const fSet   = els.filterSet.value;
   const fTag   = els.filterTag.value;   // stored lower-case
-  const fCond  = els.filterCond.value;
   const inStock= els.filterStock.checked;
   const terms  = q.split(/\s+/).filter(Boolean);
 
   let list = state.all.filter(c => {
     if (fSet && c.set !== fSet) return false;
     if (fTag && !c.tags.some(t => t.toLowerCase() === fTag)) return false;
-    if (fCond && c.condition !== fCond) return false;
     if (inStock && c.quantity <= 0) return false;
     if (terms.length) {
       // tags (Cute, Pink, illustrator names…) are searchable even when not in the dropdown
@@ -343,7 +335,7 @@ function apply() {
   list.sort(sorter(els.sort.value));
   state.filtered = list;
 
-  const filtersActive = q || fSet || fTag || fCond || inStock || els.sort.value !== 'inv-asc';
+  const filtersActive = q || fSet || fTag || inStock || (els.sort.value && els.sort.value !== 'inv-asc');
   els.resetBtn.hidden = !filtersActive;
   els.resultCount.textContent =
     `${list.length.toLocaleString()} card${list.length === 1 ? '' : 's'}` +
