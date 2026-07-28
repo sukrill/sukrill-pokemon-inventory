@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27T18:41",
+  "lastUpdated": "2026-07-28T13:46",
   "totalCards": 303,
   "totalValue": 16970.0,
   "cards": [
@@ -12,6 +12,7 @@
       "price": 10.0,
       "quantity": 1,
       "image": "images/0277.jpg",
+      "imageFull": "images/full/0277.jpg",
       "dateAdded": "2026-07-26",
       "notes": "",
       "tags": [],
@@ -26,6 +27,7 @@
       "price": 16.0,
       "quantity": 1,
       "image": "images/0294.jpg",
+      "imageFull": "images/full/0294.jpg",
       "dateAdded": "2026-07-26",
       "notes": "",
       "tags": [],
@@ -40,6 +42,7 @@
       "price": 10.0,
       "quantity": 1,
       "image": "images/0240.jpg",
+      "imageFull": "images/full/0240.jpg",
       "dateAdded": "2026-07-25",
       "notes": "",
       "tags": [
@@ -59,6 +62,7 @@
       "price": 10.0,
       "quantity": 1,
       "image": "images/0357.jpg",
+      "imageFull": "images/full/0357.jpg",
       "dateAdded": "2026-07-25",
       "notes": "",
       "tags": [
@@ -76,6 +80,7 @@
       "price": 13.0,
       "quantity": 1,
       "image": "images/0385.jpg",
+      "imageFull": "images/full/0385.jpg",
       "dateAdded": "2026-07-25",
       "notes": "",
       "tags": [
@@ -92,6 +97,7 @@
       "price": 10.0,
       "quantity": 1,
       "image": "images/0387.jpg",
+      "imageFull": "images/full/0387.jpg",
       "dateAdded": "2026-07-25",
       "notes": "",
       "tags": [
@@ -108,6 +114,7 @@
       "price": 12.0,
       "quantity": 1,
       "image": "images/0388.jpg",
+      "imageFull": "images/full/0388.jpg",
       "dateAdded": "2026-07-25",
       "notes": "",
       "tags": [
@@ -126,6 +133,7 @@
       "price": 12.0,
       "quantity": 1,
       "image": "images/0423.jpg",
+      "imageFull": "images/full/0423.jpg",
       "dateAdded": "2026-07-25",
       "notes": "",
       "tags": [
@@ -142,6 +150,7 @@
       "price": 16.0,
       "quantity": 1,
       "image": "images/0516.jpg",
+      "imageFull": "images/full/0516.jpg",
       "dateAdded": "2026-07-26",
       "notes": "",
       "tags": [],
@@ -156,6 +165,7 @@
       "price": 50.0,
       "quantity": 1,
       "image": "images/0325.jpg",
+      "imageFull": "images/full/0325.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -173,6 +183,7 @@
       "price": 10.0,
       "quantity": 1,
       "image": "images/0484.jpg",
+      "imageFull": "images/full/0484.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -190,6 +201,7 @@
       "price": 12.0,
       "quantity": 1,
       "image": "images/0483.jpg",
+      "imageFull": "images/full/0483.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -207,6 +219,7 @@
       "price": 22.0,
       "quantity": 1,
       "image": "images/0324.jpg",
+      "imageFull": "images/full/0324.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -223,6 +236,7 @@
       "price": 12.0,
       "quantity": 1,
       "image": "images/0305.jpg",
+      "imageFull": "images/full/0305.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -240,6 +254,7 @@
       "price": 12.0,
       "quantity": 1,
       "image": "images/0290.jpg",
+      "imageFull": "images/full/0290.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -256,6 +271,7 @@
       "price": 10.0,
       "quantity": 1,
       "image": "images/0478.jpg",
+      "imageFull": "images/full/0478.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -272,6 +288,7 @@
       "price": 10.0,
       "quantity": 1,
       "image": "images/0447.jpg",
+      "imageFull": "images/full/0447.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -288,6 +305,7 @@
       "price": 10.0,
       "quantity": 1,
       "image": "images/0476.jpg",
+      "imageFull": "images/full/0476.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -304,6 +322,7 @@
       "price": 16.0,
       "quantity": 1,
       "image": "images/0475.jpg",
+      "imageFull": "images/full/0475.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -320,6 +339,7 @@
       "price": 19.0,
       "quantity": 1,
       "image": "images/0472.jpg",
+      "imageFull": "images/full/0472.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -338,6 +358,7 @@
       "price": 10.0,
       "quantity": 1,
       "image": "images/0467.jpg",
+      "imageFull": "images/full/0467.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -354,6 +375,7 @@
       "price": 15.0,
       "quantity": 1,
       "image": "images/0477.jpg",
+      "imageFull": "images/full/0477.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -370,6 +392,7 @@
       "price": 95.0,
       "quantity": 1,
       "image": "images/0248.jpg",
+      "imageFull": "images/full/0248.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -386,6 +409,7 @@
       "price": 260.0,
       "quantity": 1,
       "image": "images/0254.jpg",
+      "imageFull": "images/full/0254.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -402,6 +426,7 @@
       "price": 10.0,
       "quantity": 1,
       "image": "images/0443.jpg",
+      "imageFull": "images/full/0443.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -418,6 +443,7 @@
       "price": 13.0,
       "quantity": 1,
       "image": "images/0242.jpg",
+      "imageFull": "images/full/0242.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -437,6 +463,7 @@
       "price": 240.0,
       "quantity": 1,
       "image": "images/0432.jpg",
+      "imageFull": "images/full/0432.jpg",
       "dateAdded": "2026-07-20",
       "notes": "",
       "tags": [
@@ -456,6 +483,7 @@
       "price": 230.0,
       "quantity": 1,
       "image": "images/0361.jpg",
+      "imageFull": "images/full/0361.jpg",
       "dateAdded": "2026-07-20",
       "notes": "",
       "tags": [
@@ -474,6 +502,7 @@
       "price": 42.0,
       "quantity": 1,
       "image": "images/0502.jpg",
+      "imageFull": "images/full/0502.jpg",
       "dateAdded": "2026-07-19",
       "notes": "",
       "tags": [
@@ -492,6 +521,7 @@
       "price": 18.0,
       "quantity": 1,
       "image": "images/0352.jpg",
+      "imageFull": "images/full/0352.jpg",
       "dateAdded": "2026-07-19",
       "notes": "",
       "tags": [],
@@ -506,6 +536,7 @@
       "price": 14.0,
       "quantity": 1,
       "image": "images/0356.jpg",
+      "imageFull": "images/full/0356.jpg",
       "dateAdded": "2026-07-19",
       "notes": "",
       "tags": [],
@@ -520,6 +551,7 @@
       "price": 30.0,
       "quantity": 1,
       "image": "images/0375.jpg",
+      "imageFull": "images/full/0375.jpg",
       "dateAdded": "2026-07-19",
       "notes": "",
       "tags": [
@@ -536,6 +568,7 @@
       "price": 13.0,
       "quantity": 1,
       "image": "images/0376.jpg",
+      "imageFull": "images/full/0376.jpg",
       "dateAdded": "2026-07-19",
       "notes": "",
       "tags": [],
@@ -550,6 +583,7 @@
       "price": 13.0,
       "quantity": 1,
       "image": "images/0374.jpg",
+      "imageFull": "images/full/0374.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -570,6 +604,7 @@
       "price": 14.0,
       "quantity": 1,
       "image": "images/0404.jpg",
+      "imageFull": "images/full/0404.jpg",
       "dateAdded": "2026-07-19",
       "notes": "",
       "tags": [
@@ -586,6 +621,7 @@
       "price": 18.0,
       "quantity": 1,
       "image": "images/0456.jpg",
+      "imageFull": "images/full/0456.jpg",
       "dateAdded": "2026-07-19",
       "notes": "",
       "tags": [
@@ -603,6 +639,7 @@
       "price": 12.0,
       "quantity": 1,
       "image": "images/0461.jpg",
+      "imageFull": "images/full/0461.jpg",
       "dateAdded": "2026-07-19",
       "notes": "",
       "tags": [
@@ -619,6 +656,7 @@
       "price": 10.0,
       "quantity": 1,
       "image": "images/0463.jpg",
+      "imageFull": "images/full/0463.jpg",
       "dateAdded": "2026-07-19",
       "notes": "",
       "tags": [
@@ -635,6 +673,7 @@
       "price": 13.0,
       "quantity": 1,
       "image": "images/0363.jpg",
+      "imageFull": "images/full/0363.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -651,6 +690,7 @@
       "price": 45.0,
       "quantity": 1,
       "image": "images/0520.jpg",
+      "imageFull": "images/full/0520.jpg",
       "dateAdded": "2026-07-12",
       "notes": "",
       "tags": [
@@ -671,6 +711,7 @@
       "price": 29.0,
       "quantity": 1,
       "image": "images/0518.jpg",
+      "imageFull": "images/full/0518.jpg",
       "dateAdded": "2026-07-12",
       "notes": "",
       "tags": [
@@ -691,6 +732,7 @@
       "price": 75.0,
       "quantity": 1,
       "image": "images/0514.jpg",
+      "imageFull": "images/full/0514.jpg",
       "dateAdded": "2026-07-12",
       "notes": "",
       "tags": [
@@ -710,6 +752,7 @@
       "price": 24.0,
       "quantity": 1,
       "image": "images/0504.jpg",
+      "imageFull": "images/full/0504.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -729,6 +772,7 @@
       "price": 23.0,
       "quantity": 1,
       "image": "images/0503.jpg",
+      "imageFull": "images/full/0503.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -749,6 +793,7 @@
       "price": 92.0,
       "quantity": 1,
       "image": "images/0500.jpg",
+      "imageFull": "images/full/0500.jpg",
       "dateAdded": "2026-07-12",
       "notes": "",
       "tags": [
@@ -768,6 +813,7 @@
       "price": 8.0,
       "quantity": 1,
       "image": "images/0252.jpg",
+      "imageFull": "images/full/0252.jpg",
       "dateAdded": "2026-07-11",
       "notes": "",
       "tags": [],
@@ -782,6 +828,7 @@
       "price": 85.0,
       "quantity": 1,
       "image": "images/0314.jpg",
+      "imageFull": "images/full/0314.jpg",
       "dateAdded": "2026-07-10",
       "notes": "",
       "tags": [
@@ -801,6 +848,7 @@
       "price": 24.0,
       "quantity": 1,
       "image": "images/0383.jpg",
+      "imageFull": "images/full/0383.jpg",
       "dateAdded": "2026-07-10",
       "notes": "",
       "tags": [
@@ -818,6 +866,7 @@
       "price": 15.0,
       "quantity": 1,
       "image": "images/0411.jpg",
+      "imageFull": "images/full/0411.jpg",
       "dateAdded": "2026-07-10",
       "notes": "",
       "tags": [
@@ -834,6 +883,7 @@
       "price": 200.0,
       "quantity": 1,
       "image": "images/0226.jpg",
+      "imageFull": "images/full/0226.jpg",
       "dateAdded": "2026-07-12",
       "notes": "",
       "tags": [
@@ -854,6 +904,7 @@
       "price": 310.0,
       "quantity": 1,
       "image": "images/0208.jpg",
+      "imageFull": "images/full/0208.jpg",
       "dateAdded": "2026-07-12",
       "notes": "",
       "tags": [
@@ -870,6 +921,7 @@
       "price": 50.0,
       "quantity": 1,
       "image": "images/0222.jpg",
+      "imageFull": "images/full/0222.jpg",
       "dateAdded": "2026-07-13",
       "notes": "",
       "tags": [
@@ -887,6 +939,7 @@
       "price": 400.0,
       "quantity": 1,
       "image": "images/0225.jpg",
+      "imageFull": "images/full/0225.jpg",
       "dateAdded": "2026-07-12",
       "notes": "",
       "tags": [
@@ -908,6 +961,7 @@
       "price": 14.0,
       "quantity": 1,
       "image": "images/0269.jpg",
+      "imageFull": "images/full/0269.jpg",
       "dateAdded": "2026-07-05",
       "notes": "",
       "tags": [
@@ -925,6 +979,7 @@
       "price": 10.0,
       "quantity": 1,
       "image": "images/0243.jpg",
+      "imageFull": "images/full/0243.jpg",
       "dateAdded": "2026-07-05",
       "notes": "",
       "tags": [
@@ -941,6 +996,7 @@
       "price": 20.0,
       "quantity": 1,
       "image": "images/0209.jpg",
+      "imageFull": "images/full/0209.jpg",
       "dateAdded": "2026-07-13",
       "notes": "",
       "tags": [
@@ -958,6 +1014,7 @@
       "price": 45.0,
       "quantity": 1,
       "image": "images/0291.jpg",
+      "imageFull": "images/full/0291.jpg",
       "dateAdded": "2026-06-26",
       "notes": "",
       "tags": [
@@ -977,6 +1034,7 @@
       "price": 135.0,
       "quantity": 1,
       "image": "images/0464.jpg",
+      "imageFull": "images/full/0464.jpg",
       "dateAdded": "2026-06-17",
       "notes": "",
       "tags": [
@@ -993,6 +1051,7 @@
       "price": 32.0,
       "quantity": 1,
       "image": "images/0394.jpg",
+      "imageFull": "images/full/0394.jpg",
       "dateAdded": "2026-06-17",
       "notes": "",
       "tags": [
@@ -1012,6 +1071,7 @@
       "price": 18.0,
       "quantity": 1,
       "image": "images/0372.jpg",
+      "imageFull": "images/full/0372.jpg",
       "dateAdded": "2026-07-19",
       "notes": "",
       "tags": [
@@ -1028,6 +1088,7 @@
       "price": 11.0,
       "quantity": 1,
       "image": "images/0250.jpg",
+      "imageFull": "images/full/0250.jpg",
       "dateAdded": "2026-06-17",
       "notes": "",
       "tags": [
@@ -1047,6 +1108,7 @@
       "price": 13.0,
       "quantity": 1,
       "image": "images/0262.jpg",
+      "imageFull": "images/full/0262.jpg",
       "dateAdded": "2026-07-18",
       "notes": "",
       "tags": [
@@ -1065,6 +1127,7 @@
       "price": 20.0,
       "quantity": 1,
       "image": "images/0344.jpg",
+      "imageFull": "images/full/0344.jpg",
       "dateAdded": "2026-07-18",
       "notes": "",
       "tags": [
@@ -1086,6 +1149,7 @@
       "price": 22.0,
       "quantity": 1,
       "image": "images/0445.jpg",
+      "imageFull": "images/full/0445.jpg",
       "dateAdded": "2026-06-14",
       "notes": "",
       "tags": [
@@ -1103,6 +1167,7 @@
       "price": 11.0,
       "quantity": 1,
       "image": "images/0442.jpg",
+      "imageFull": "images/full/0442.jpg",
       "dateAdded": "2026-06-14",
       "notes": "",
       "tags": [
@@ -1124,6 +1189,7 @@
       "price": 100.0,
       "quantity": 1,
       "image": "images/0266.jpg",
+      "imageFull": "images/full/0266.jpg",
       "dateAdded": "2026-07-13",
       "notes": "",
       "tags": [
@@ -1147,6 +1213,7 @@
       "price": 29.0,
       "quantity": 1,
       "image": "images/0246.jpg",
+      "imageFull": "images/full/0246.jpg",
       "dateAdded": "2026-06-26",
       "notes": "",
       "tags": [
@@ -1166,6 +1233,7 @@
       "price": 22.0,
       "quantity": 1,
       "image": "images/0427.jpg",
+      "imageFull": "images/full/0427.jpg",
       "dateAdded": "2026-06-14",
       "notes": "",
       "tags": [
@@ -1185,6 +1253,7 @@
       "price": 10.0,
       "quantity": 1,
       "image": "images/0420.jpg",
+      "imageFull": "images/full/0420.jpg",
       "dateAdded": "2026-06-14",
       "notes": "",
       "tags": [
@@ -1206,6 +1275,7 @@
       "price": 42.0,
       "quantity": 1,
       "image": "images/0415.jpg",
+      "imageFull": "images/full/0415.jpg",
       "dateAdded": "2026-06-14",
       "notes": "",
       "tags": [
@@ -1222,6 +1292,7 @@
       "price": 60.0,
       "quantity": 1,
       "image": "images/0397.jpg",
+      "imageFull": "images/full/0397.jpg",
       "dateAdded": "2026-06-14",
       "notes": "",
       "tags": [
@@ -1239,6 +1310,7 @@
       "price": 35.0,
       "quantity": 1,
       "image": "images/0219.jpg",
+      "imageFull": "images/full/0219.jpg",
       "dateAdded": "2026-06-09",
       "notes": "",
       "tags": [
@@ -1256,6 +1328,7 @@
       "price": 49.0,
       "quantity": 1,
       "image": "images/0221.jpg",
+      "imageFull": "images/full/0221.jpg",
       "dateAdded": "2026-06-09",
       "notes": "",
       "tags": [
@@ -1276,6 +1349,7 @@
       "price": 90.0,
       "quantity": 1,
       "image": "images/0224.jpg",
+      "imageFull": "images/full/0224.jpg",
       "dateAdded": "2026-06-09",
       "notes": "",
       "tags": [
@@ -1294,6 +1368,7 @@
       "price": 54.0,
       "quantity": 1,
       "image": "images/0204.jpg",
+      "imageFull": "images/full/0204.jpg",
       "dateAdded": "2026-07-25",
       "notes": "",
       "tags": [
@@ -1312,6 +1387,7 @@
       "price": 12.0,
       "quantity": 1,
       "image": "images/0399.jpg",
+      "imageFull": "images/full/0399.jpg",
       "dateAdded": "2026-06-09",
       "notes": "",
       "tags": [
@@ -1328,6 +1404,7 @@
       "price": 11.0,
       "quantity": 1,
       "image": "images/0407.jpg",
+      "imageFull": "images/full/0407.jpg",
       "dateAdded": "2026-06-09",
       "notes": "",
       "tags": [
@@ -1348,6 +1425,7 @@
       "price": 13.0,
       "quantity": 1,
       "image": "images/0390.jpg",
+      "imageFull": "images/full/0390.jpg",
       "dateAdded": "2026-06-05",
       "notes": "",
       "tags": [
@@ -1369,6 +1447,7 @@
       "price": 93.0,
       "quantity": 1,
       "image": "images/0384.jpg",
+      "imageFull": "images/full/0384.jpg",
       "dateAdded": "2026-06-05",
       "notes": "",
       "tags": [
@@ -1389,6 +1468,7 @@
       "price": 80.0,
       "quantity": 1,
       "image": "images/0286.jpg",
+      "imageFull": "images/full/0286.jpg",
       "dateAdded": "2026-07-18",
       "notes": "",
       "tags": [
@@ -1408,6 +1488,7 @@
       "price": 24.0,
       "quantity": 1,
       "image": "images/0267.jpg",
+      "imageFull": "images/full/0267.jpg",
       "dateAdded": "2026-06-29",
       "notes": "",
       "tags": [
@@ -1429,6 +1510,7 @@
       "price": 45.0,
       "quantity": 1,
       "image": "images/0380.jpg",
+      "imageFull": "images/full/0380.jpg",
       "dateAdded": "2026-06-05",
       "notes": "",
       "tags": [
@@ -1447,6 +1529,7 @@
       "price": 45.0,
       "quantity": 1,
       "image": "images/0379.jpg",
+      "imageFull": "images/full/0379.jpg",
       "dateAdded": "2026-06-05",
       "notes": "",
       "tags": [
@@ -1465,6 +1548,7 @@
       "price": 45.0,
       "quantity": 1,
       "image": "images/0378.jpg",
+      "imageFull": "images/full/0378.jpg",
       "dateAdded": "2026-06-05",
       "notes": "",
       "tags": [
@@ -1483,6 +1567,7 @@
       "price": 45.0,
       "quantity": 1,
       "image": "images/0377.jpg",
+      "imageFull": "images/full/0377.jpg",
       "dateAdded": "2026-06-05",
       "notes": "",
       "tags": [
@@ -1501,6 +1586,7 @@
       "price": 47.0,
       "quantity": 1,
       "image": "images/0319.jpg",
+      "imageFull": "images/full/0319.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [],
@@ -1515,6 +1601,7 @@
       "price": 18.0,
       "quantity": 1,
       "image": "images/0434.jpg",
+      "imageFull": "images/full/0434.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -1532,6 +1619,7 @@
       "price": 32.0,
       "quantity": 1,
       "image": "images/0326.jpg",
+      "imageFull": "images/full/0326.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -1552,6 +1640,7 @@
       "price": 60.0,
       "quantity": 1,
       "image": "images/0389.jpg",
+      "imageFull": "images/full/0389.jpg",
       "dateAdded": "2026-06-05",
       "notes": "",
       "tags": [
@@ -1572,6 +1661,7 @@
       "price": 85.0,
       "quantity": 1,
       "image": "images/0340.jpg",
+      "imageFull": "images/full/0340.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -1594,6 +1684,7 @@
       "price": 90.0,
       "quantity": 1,
       "image": "images/0343.jpg",
+      "imageFull": "images/full/0343.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -1614,6 +1705,7 @@
       "price": 215.0,
       "quantity": 1,
       "image": "images/0345.jpg",
+      "imageFull": "images/full/0345.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -1633,6 +1725,7 @@
       "price": 78.0,
       "quantity": 1,
       "image": "images/0244.jpg",
+      "imageFull": "images/full/0244.jpg",
       "dateAdded": "2026-06-26",
       "notes": "",
       "tags": [
@@ -1652,6 +1745,7 @@
       "price": 100.0,
       "quantity": 1,
       "image": "images/0355.jpg",
+      "imageFull": "images/full/0355.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -1669,6 +1763,7 @@
       "price": 35.0,
       "quantity": 1,
       "image": "images/0365.jpg",
+      "imageFull": "images/full/0365.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -1688,6 +1783,7 @@
       "price": 65.0,
       "quantity": 1,
       "image": "images/0366.jpg",
+      "imageFull": "images/full/0366.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -1706,6 +1802,7 @@
       "price": 13.0,
       "quantity": 1,
       "image": "images/0227.jpg",
+      "imageFull": "images/full/0227.jpg",
       "dateAdded": "2026-06-20",
       "notes": "",
       "tags": [
@@ -1722,6 +1819,7 @@
       "price": 42.0,
       "quantity": 1,
       "image": "images/0328.jpg",
+      "imageFull": "images/full/0328.jpg",
       "dateAdded": "2026-07-18",
       "notes": "",
       "tags": [
@@ -1738,6 +1836,7 @@
       "price": 11.0,
       "quantity": 1,
       "image": "images/0271.jpg",
+      "imageFull": "images/full/0271.jpg",
       "dateAdded": "2026-07-18",
       "notes": "",
       "tags": [
@@ -1755,6 +1854,7 @@
       "price": 89.0,
       "quantity": 1,
       "image": "images/0309.jpg",
+      "imageFull": "images/full/0309.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -1776,6 +1876,7 @@
       "price": 42.0,
       "quantity": 1,
       "image": "images/0257.jpg",
+      "imageFull": "images/full/0257.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [],
@@ -1790,6 +1891,7 @@
       "price": 34.0,
       "quantity": 1,
       "image": "images/0386.jpg",
+      "imageFull": "images/full/0386.jpg",
       "dateAdded": "2026-06-14",
       "notes": "",
       "tags": [
@@ -1809,6 +1911,7 @@
       "price": 170.0,
       "quantity": 1,
       "image": "images/0273.jpg",
+      "imageFull": "images/full/0273.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -1827,6 +1930,7 @@
       "price": 140.0,
       "quantity": 1,
       "image": "images/0274.jpg",
+      "imageFull": "images/full/0274.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -1850,6 +1954,7 @@
       "price": 35.0,
       "quantity": 1,
       "image": "images/0304.jpg",
+      "imageFull": "images/full/0304.jpg",
       "dateAdded": "2026-07-25",
       "notes": "",
       "tags": [
@@ -1867,6 +1972,7 @@
       "price": 21.0,
       "quantity": 1,
       "image": "images/0201.jpg",
+      "imageFull": "images/full/0201.jpg",
       "dateAdded": "2026-07-26",
       "notes": "",
       "tags": [],
@@ -1881,6 +1987,7 @@
       "price": 24.0,
       "quantity": 1,
       "image": "images/0429.jpg",
+      "imageFull": "images/full/0429.jpg",
       "dateAdded": "2026-06-17",
       "notes": "",
       "tags": [
@@ -1901,6 +2008,7 @@
       "price": 32.0,
       "quantity": 1,
       "image": "images/0264.jpg",
+      "imageFull": "images/full/0264.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -1918,6 +2026,7 @@
       "price": 16.0,
       "quantity": 1,
       "image": "images/0253.jpg",
+      "imageFull": "images/full/0253.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -1936,6 +2045,7 @@
       "price": 11.0,
       "quantity": 1,
       "image": "images/0393.jpg",
+      "imageFull": "images/full/0393.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -1955,6 +2065,7 @@
       "price": 30.0,
       "quantity": 1,
       "image": "images/0338.jpg",
+      "imageFull": "images/full/0338.jpg",
       "dateAdded": "2026-06-05",
       "notes": "",
       "tags": [
@@ -1974,6 +2085,7 @@
       "price": 23.0,
       "quantity": 1,
       "image": "images/0337.jpg",
+      "imageFull": "images/full/0337.jpg",
       "dateAdded": "2026-07-12",
       "notes": "",
       "tags": [
@@ -1992,6 +2104,7 @@
       "price": 80.0,
       "quantity": 1,
       "image": "images/0211.jpg",
+      "imageFull": "images/full/0211.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -2014,6 +2127,7 @@
       "price": 25.0,
       "quantity": 1,
       "image": "images/0395.jpg",
+      "imageFull": "images/full/0395.jpg",
       "dateAdded": "2026-07-25",
       "notes": "",
       "tags": [
@@ -2032,6 +2146,7 @@
       "price": 130.0,
       "quantity": 1,
       "image": "images/0270.jpg",
+      "imageFull": "images/full/0270.jpg",
       "dateAdded": "2026-06-20",
       "notes": "",
       "tags": [
@@ -2052,6 +2167,7 @@
       "price": 25.0,
       "quantity": 1,
       "image": "images/0278.jpg",
+      "imageFull": "images/full/0278.jpg",
       "dateAdded": "2026-07-26",
       "notes": "",
       "tags": [],
@@ -2066,6 +2182,7 @@
       "price": 12.0,
       "quantity": 1,
       "image": "images/0218.jpg",
+      "imageFull": "images/full/0218.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -2083,6 +2200,7 @@
       "price": 60.0,
       "quantity": 1,
       "image": "images/0417.jpg",
+      "imageFull": "images/full/0417.jpg",
       "dateAdded": "2026-07-12",
       "notes": "",
       "tags": [
@@ -2102,6 +2220,7 @@
       "price": 80.0,
       "quantity": 1,
       "image": "images/0260.jpg",
+      "imageFull": "images/full/0260.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -2122,6 +2241,7 @@
       "price": 10.0,
       "quantity": 1,
       "image": "images/0213.jpg",
+      "imageFull": "images/full/0213.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -2139,6 +2259,7 @@
       "price": 10.0,
       "quantity": 1,
       "image": "images/0453.jpg",
+      "imageFull": "images/full/0453.jpg",
       "dateAdded": "2026-06-14",
       "notes": "",
       "tags": [
@@ -2157,6 +2278,7 @@
       "price": 16.0,
       "quantity": 1,
       "image": "images/0220.jpg",
+      "imageFull": "images/full/0220.jpg",
       "dateAdded": "2026-07-26",
       "notes": "",
       "tags": [],
@@ -2171,6 +2293,7 @@
       "price": 42.0,
       "quantity": 1,
       "image": "images/0462.jpg",
+      "imageFull": "images/full/0462.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -2188,6 +2311,7 @@
       "price": 50.0,
       "quantity": 1,
       "image": "images/0459.jpg",
+      "imageFull": "images/full/0459.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -2210,6 +2334,7 @@
       "price": 40.0,
       "quantity": 1,
       "image": "images/0422.jpg",
+      "imageFull": "images/full/0422.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -2228,6 +2353,7 @@
       "price": 12.0,
       "quantity": 1,
       "image": "images/0311.jpg",
+      "imageFull": "images/full/0311.jpg",
       "dateAdded": "2026-06-09",
       "notes": "",
       "tags": [
@@ -2245,6 +2371,7 @@
       "price": 15.0,
       "quantity": 1,
       "image": "images/0339.jpg",
+      "imageFull": "images/full/0339.jpg",
       "dateAdded": "2026-07-25",
       "notes": "",
       "tags": [
@@ -2266,6 +2393,7 @@
       "price": 50.0,
       "quantity": 1,
       "image": "images/0289.jpg",
+      "imageFull": "images/full/0289.jpg",
       "dateAdded": "2026-06-09",
       "notes": "",
       "tags": [
@@ -2286,6 +2414,7 @@
       "price": 10.0,
       "quantity": 1,
       "image": "images/0288.jpg",
+      "imageFull": "images/full/0288.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -2304,6 +2433,7 @@
       "price": 52.0,
       "quantity": 1,
       "image": "images/0436.jpg",
+      "imageFull": "images/full/0436.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -2323,6 +2453,7 @@
       "price": 30.0,
       "quantity": 1,
       "image": "images/0524.jpg",
+      "imageFull": "images/full/0524.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -2340,6 +2471,7 @@
       "price": 40.0,
       "quantity": 1,
       "image": "images/0330.jpg",
+      "imageFull": "images/full/0330.jpg",
       "dateAdded": "2026-07-13",
       "notes": "",
       "tags": [
@@ -2359,6 +2491,7 @@
       "price": 60.0,
       "quantity": 1,
       "image": "images/0231.jpg",
+      "imageFull": "images/full/0231.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -2380,6 +2513,7 @@
       "price": 22.0,
       "quantity": 1,
       "image": "images/0457.jpg",
+      "imageFull": "images/full/0457.jpg",
       "dateAdded": "2026-06-17",
       "notes": "",
       "tags": [
@@ -2399,6 +2533,7 @@
       "price": 11.0,
       "quantity": 1,
       "image": "images/0410.jpg",
+      "imageFull": "images/full/0410.jpg",
       "dateAdded": "2026-06-09",
       "notes": "",
       "tags": [
@@ -2418,6 +2553,7 @@
       "price": 13.0,
       "quantity": 1,
       "image": "images/0470.jpg",
+      "imageFull": "images/full/0470.jpg",
       "dateAdded": "2026-06-20",
       "notes": "",
       "tags": [
@@ -2435,6 +2571,7 @@
       "price": 28.0,
       "quantity": 1,
       "image": "images/0245.jpg",
+      "imageFull": "images/full/0245.jpg",
       "dateAdded": "2026-07-12",
       "notes": "",
       "tags": [
@@ -2456,6 +2593,7 @@
       "price": 10.0,
       "quantity": 1,
       "image": "images/0202.jpg",
+      "imageFull": "images/full/0202.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -2475,6 +2613,7 @@
       "price": 60.0,
       "quantity": 1,
       "image": "images/0521.jpg",
+      "imageFull": "images/full/0521.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -2494,6 +2633,7 @@
       "price": 69.0,
       "quantity": 1,
       "image": "images/0241.jpg",
+      "imageFull": "images/full/0241.jpg",
       "dateAdded": "2026-06-17",
       "notes": "",
       "tags": [
@@ -2511,6 +2651,7 @@
       "price": 40.0,
       "quantity": 1,
       "image": "images/0341.jpg",
+      "imageFull": "images/full/0341.jpg",
       "dateAdded": "2026-07-18",
       "notes": "",
       "tags": [
@@ -2529,6 +2670,7 @@
       "price": 29.0,
       "quantity": 1,
       "image": "images/0234.jpg",
+      "imageFull": "images/full/0234.jpg",
       "dateAdded": "2026-07-25",
       "notes": "",
       "tags": [
@@ -2546,6 +2688,7 @@
       "price": 45.0,
       "quantity": 1,
       "image": "images/0370.jpg",
+      "imageFull": "images/full/0370.jpg",
       "dateAdded": "2026-07-25",
       "notes": "",
       "tags": [
@@ -2563,6 +2706,7 @@
       "price": 100.0,
       "quantity": 1,
       "image": "images/0275.jpg",
+      "imageFull": "images/full/0275.jpg",
       "dateAdded": "2026-07-24",
       "notes": "",
       "tags": [
@@ -2581,6 +2725,7 @@
       "price": 60.0,
       "quantity": 1,
       "image": "images/0336.jpg",
+      "imageFull": "images/full/0336.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -2601,6 +2746,7 @@
       "price": 60.0,
       "quantity": 1,
       "image": "images/0333.jpg",
+      "imageFull": "images/full/0333.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -2618,6 +2764,7 @@
       "price": 24.0,
       "quantity": 1,
       "image": "images/0285.jpg",
+      "imageFull": "images/full/0285.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -2635,6 +2782,7 @@
       "price": 45.0,
       "quantity": 1,
       "image": "images/0296.jpg",
+      "imageFull": "images/full/0296.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -2653,6 +2801,7 @@
       "price": 10.0,
       "quantity": 1,
       "image": "images/0346.jpg",
+      "imageFull": "images/full/0346.jpg",
       "dateAdded": "2026-07-24",
       "notes": "",
       "tags": [
@@ -2674,6 +2823,7 @@
       "price": 45.0,
       "quantity": 1,
       "image": "images/0217.jpg",
+      "imageFull": "images/full/0217.jpg",
       "dateAdded": "2026-07-18",
       "notes": "",
       "tags": [
@@ -2693,6 +2843,7 @@
       "price": 26.0,
       "quantity": 1,
       "image": "images/0392.jpg",
+      "imageFull": "images/full/0392.jpg",
       "dateAdded": "2026-07-25",
       "notes": "",
       "tags": [
@@ -2710,6 +2861,7 @@
       "price": 80.0,
       "quantity": 1,
       "image": "images/0280.jpg",
+      "imageFull": "images/full/0280.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -2726,6 +2878,7 @@
       "price": 75.0,
       "quantity": 1,
       "image": "images/0308.jpg",
+      "imageFull": "images/full/0308.jpg",
       "dateAdded": "2026-06-17",
       "notes": "",
       "tags": [
@@ -2747,6 +2900,7 @@
       "price": 10.0,
       "quantity": 1,
       "image": "images/0276.jpg",
+      "imageFull": "images/full/0276.jpg",
       "dateAdded": "2026-07-18",
       "notes": "",
       "tags": [
@@ -2764,6 +2918,7 @@
       "price": 21.0,
       "quantity": 1,
       "image": "images/0349.jpg",
+      "imageFull": "images/full/0349.jpg",
       "dateAdded": "2026-07-13",
       "notes": "",
       "tags": [
@@ -2782,6 +2937,7 @@
       "price": 30.0,
       "quantity": 1,
       "image": "images/0528.jpg",
+      "imageFull": "images/full/0528.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -2800,6 +2956,7 @@
       "price": 50.0,
       "quantity": 1,
       "image": "images/0261.jpg",
+      "imageFull": "images/full/0261.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -2817,6 +2974,7 @@
       "price": 33.0,
       "quantity": 1,
       "image": "images/0446.jpg",
+      "imageFull": "images/full/0446.jpg",
       "dateAdded": "2026-06-14",
       "notes": "",
       "tags": [
@@ -2833,6 +2991,7 @@
       "price": 11.0,
       "quantity": 1,
       "image": "images/0300.jpg",
+      "imageFull": "images/full/0300.jpg",
       "dateAdded": "2026-07-18",
       "notes": "",
       "tags": [
@@ -2856,6 +3015,7 @@
       "price": 35.0,
       "quantity": 1,
       "image": "images/0480.jpg",
+      "imageFull": "images/full/0480.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -2874,6 +3034,7 @@
       "price": 40.0,
       "quantity": 1,
       "image": "images/0409.jpg",
+      "imageFull": "images/full/0409.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -2892,6 +3053,7 @@
       "price": 35.0,
       "quantity": 1,
       "image": "images/0302.jpg",
+      "imageFull": "images/full/0302.jpg",
       "dateAdded": "2026-06-05",
       "notes": "",
       "tags": [
@@ -2912,6 +3074,7 @@
       "price": 35.0,
       "quantity": 1,
       "image": "images/0398.jpg",
+      "imageFull": "images/full/0398.jpg",
       "dateAdded": "2026-07-12",
       "notes": "",
       "tags": [
@@ -2929,6 +3092,7 @@
       "price": 65.0,
       "quantity": 1,
       "image": "images/0210.jpg",
+      "imageFull": "images/full/0210.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -2948,6 +3112,7 @@
       "price": 15.0,
       "quantity": 1,
       "image": "images/0381.jpg",
+      "imageFull": "images/full/0381.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -2965,6 +3130,7 @@
       "price": 110.0,
       "quantity": 1,
       "image": "images/0335.jpg",
+      "imageFull": "images/full/0335.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -2983,6 +3149,7 @@
       "price": 60.0,
       "quantity": 1,
       "image": "images/0299.jpg",
+      "imageFull": "images/full/0299.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -3003,6 +3170,7 @@
       "price": 100.0,
       "quantity": 1,
       "image": "images/0347.jpg",
+      "imageFull": "images/full/0347.jpg",
       "dateAdded": "2026-07-19",
       "notes": "",
       "tags": [
@@ -3024,6 +3192,7 @@
       "price": 45.0,
       "quantity": 1,
       "image": "images/0391.jpg",
+      "imageFull": "images/full/0391.jpg",
       "dateAdded": "2026-06-05",
       "notes": "",
       "tags": [
@@ -3043,6 +3212,7 @@
       "price": 95.0,
       "quantity": 1,
       "image": "images/0316.jpg",
+      "imageFull": "images/full/0316.jpg",
       "dateAdded": "2026-06-29",
       "notes": "",
       "tags": [
@@ -3062,6 +3232,7 @@
       "price": 110.0,
       "quantity": 1,
       "image": "images/0431.jpg",
+      "imageFull": "images/full/0431.jpg",
       "dateAdded": "2026-06-14",
       "notes": "",
       "tags": [
@@ -3081,6 +3252,7 @@
       "price": 60.0,
       "quantity": 1,
       "image": "images/0312.jpg",
+      "imageFull": "images/full/0312.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -3099,6 +3271,7 @@
       "price": 50.0,
       "quantity": 1,
       "image": "images/0258.jpg",
+      "imageFull": "images/full/0258.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -3116,6 +3289,7 @@
       "price": 48.0,
       "quantity": 1,
       "image": "images/0371.jpg",
+      "imageFull": "images/full/0371.jpg",
       "dateAdded": "2026-06-17",
       "notes": "",
       "tags": [
@@ -3136,6 +3310,7 @@
       "price": 250.0,
       "quantity": 1,
       "image": "images/0230.jpg",
+      "imageFull": "images/full/0230.jpg",
       "dateAdded": "2026-07-12",
       "notes": "",
       "tags": [
@@ -3159,6 +3334,7 @@
       "price": 85.0,
       "quantity": 1,
       "image": "images/0880.jpg",
+      "imageFull": "images/full/0880.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -3177,6 +3353,7 @@
       "price": 45.0,
       "quantity": 1,
       "image": "images/0435.jpg",
+      "imageFull": "images/full/0435.jpg",
       "dateAdded": "2026-07-12",
       "notes": "",
       "tags": [
@@ -3196,6 +3373,7 @@
       "price": 10.0,
       "quantity": 1,
       "image": "images/0256.jpg",
+      "imageFull": "images/full/0256.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -3215,6 +3393,7 @@
       "price": 11.0,
       "quantity": 1,
       "image": "images/0307.jpg",
+      "imageFull": "images/full/0307.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -3231,6 +3410,7 @@
       "price": 25.0,
       "quantity": 1,
       "image": "images/0279.jpg",
+      "imageFull": "images/full/0279.jpg",
       "dateAdded": "2026-07-18",
       "notes": "",
       "tags": [
@@ -3249,6 +3429,7 @@
       "price": 25.0,
       "quantity": 1,
       "image": "images/0281.jpg",
+      "imageFull": "images/full/0281.jpg",
       "dateAdded": "2026-06-29",
       "notes": "",
       "tags": [
@@ -3269,6 +3450,7 @@
       "price": 120.0,
       "quantity": 1,
       "image": "images/0215.jpg",
+      "imageFull": "images/full/0215.jpg",
       "dateAdded": "2026-07-05",
       "notes": "",
       "tags": [
@@ -3288,6 +3470,7 @@
       "price": 100.0,
       "quantity": 1,
       "image": "images/0293.jpg",
+      "imageFull": "images/full/0293.jpg",
       "dateAdded": "2026-06-17",
       "notes": "",
       "tags": [
@@ -3310,6 +3493,7 @@
       "price": 18.0,
       "quantity": 1,
       "image": "images/0228.jpg",
+      "imageFull": "images/full/0228.jpg",
       "dateAdded": "2026-07-18",
       "notes": "",
       "tags": [
@@ -3328,6 +3512,7 @@
       "price": 60.0,
       "quantity": 1,
       "image": "images/0833.jpg",
+      "imageFull": "images/full/0833.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -3344,6 +3529,7 @@
       "price": 45.0,
       "quantity": 1,
       "image": "images/0495.jpg",
+      "imageFull": "images/full/0495.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -3366,6 +3552,7 @@
       "price": 35.0,
       "quantity": 1,
       "image": "images/0205.jpg",
+      "imageFull": "images/full/0205.jpg",
       "dateAdded": "2026-07-18",
       "notes": "",
       "tags": [
@@ -3384,6 +3571,7 @@
       "price": 50.0,
       "quantity": 1,
       "image": "images/0206.jpg",
+      "imageFull": "images/full/0206.jpg",
       "dateAdded": "2026-07-18",
       "notes": "",
       "tags": [
@@ -3404,6 +3592,7 @@
       "price": 15.0,
       "quantity": 1,
       "image": "images/0796.jpg",
+      "imageFull": "images/full/0796.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -3423,6 +3612,7 @@
       "price": 85.0,
       "quantity": 1,
       "image": "images/0787.jpg",
+      "imageFull": "images/full/0787.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -3442,6 +3632,7 @@
       "price": 120.0,
       "quantity": 1,
       "image": "images/0794.jpg",
+      "imageFull": "images/full/0794.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -3459,6 +3650,7 @@
       "price": 22.0,
       "quantity": 1,
       "image": "images/0284.jpg",
+      "imageFull": "images/full/0284.jpg",
       "dateAdded": "2026-06-29",
       "notes": "",
       "tags": [
@@ -3481,6 +3673,7 @@
       "price": 70.0,
       "quantity": 1,
       "image": "images/0373.jpg",
+      "imageFull": "images/full/0373.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -3499,6 +3692,7 @@
       "price": 22.0,
       "quantity": 1,
       "image": "images/0353.jpg",
+      "imageFull": "images/full/0353.jpg",
       "dateAdded": "2026-07-05",
       "notes": "",
       "tags": [
@@ -3517,6 +3711,7 @@
       "price": 30.0,
       "quantity": 1,
       "image": "images/0738.jpg",
+      "imageFull": "images/full/0738.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -3533,6 +3728,7 @@
       "price": 30.0,
       "quantity": 1,
       "image": "images/0235.jpg",
+      "imageFull": "images/full/0235.jpg",
       "dateAdded": "2026-07-18",
       "notes": "",
       "tags": [
@@ -3551,6 +3747,7 @@
       "price": 87.0,
       "quantity": 1,
       "image": "images/0413.jpg",
+      "imageFull": "images/full/0413.jpg",
       "dateAdded": "2026-07-12",
       "notes": "",
       "tags": [
@@ -3570,6 +3767,7 @@
       "price": 23.0,
       "quantity": 1,
       "image": "images/0327.jpg",
+      "imageFull": "images/full/0327.jpg",
       "dateAdded": "2026-06-29",
       "notes": "",
       "tags": [
@@ -3590,6 +3788,7 @@
       "price": 16.0,
       "quantity": 1,
       "image": "images/0332.jpg",
+      "imageFull": "images/full/0332.jpg",
       "dateAdded": "2026-07-12",
       "notes": "",
       "tags": [
@@ -3607,6 +3806,7 @@
       "price": 100.0,
       "quantity": 1,
       "image": "images/0295.jpg",
+      "imageFull": "images/full/0295.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -3627,6 +3827,7 @@
       "price": 96.0,
       "quantity": 1,
       "image": "images/0236.jpg",
+      "imageFull": "images/full/0236.jpg",
       "dateAdded": "2026-06-20",
       "notes": "",
       "tags": [
@@ -3645,6 +3846,7 @@
       "price": 30.0,
       "quantity": 1,
       "image": "images/0712.jpg",
+      "imageFull": "images/full/0712.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -3663,6 +3865,7 @@
       "price": 35.0,
       "quantity": 1,
       "image": "images/0418.jpg",
+      "imageFull": "images/full/0418.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -3683,6 +3886,7 @@
       "price": 60.0,
       "quantity": 1,
       "image": "images/0704.jpg",
+      "imageFull": "images/full/0704.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -3700,6 +3904,7 @@
       "price": 30.0,
       "quantity": 1,
       "image": "images/0846.jpg",
+      "imageFull": "images/full/0846.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -3722,6 +3927,7 @@
       "price": 10.0,
       "quantity": 1,
       "image": "images/0408.jpg",
+      "imageFull": "images/full/0408.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -3741,6 +3947,7 @@
       "price": 40.0,
       "quantity": 1,
       "image": "images/0629.jpg",
+      "imageFull": "images/full/0629.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -3758,6 +3965,7 @@
       "price": 85.0,
       "quantity": 1,
       "image": "images/0259.jpg",
+      "imageFull": "images/full/0259.jpg",
       "dateAdded": "2026-07-18",
       "notes": "",
       "tags": [
@@ -3777,6 +3985,7 @@
       "price": 23.0,
       "quantity": 1,
       "image": "images/0450.jpg",
+      "imageFull": "images/full/0450.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -3793,6 +4002,7 @@
       "price": 50.0,
       "quantity": 1,
       "image": "images/0510.jpg",
+      "imageFull": "images/full/0510.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -3813,6 +4023,7 @@
       "price": 120.0,
       "quantity": 1,
       "image": "images/0367.jpg",
+      "imageFull": "images/full/0367.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -3831,6 +4042,7 @@
       "price": 85.0,
       "quantity": 1,
       "image": "images/0315.jpg",
+      "imageFull": "images/full/0315.jpg",
       "dateAdded": "2026-06-17",
       "notes": "",
       "tags": [
@@ -3848,6 +4060,7 @@
       "price": 65.0,
       "quantity": 1,
       "image": "images/0265.jpg",
+      "imageFull": "images/full/0265.jpg",
       "dateAdded": "2026-07-13",
       "notes": "",
       "tags": [
@@ -3868,6 +4081,7 @@
       "price": 20.0,
       "quantity": 1,
       "image": "images/0297.jpg",
+      "imageFull": "images/full/0297.jpg",
       "dateAdded": "2026-07-05",
       "notes": "",
       "tags": [
@@ -3884,6 +4098,7 @@
       "price": 55.0,
       "quantity": 1,
       "image": "images/0301.jpg",
+      "imageFull": "images/full/0301.jpg",
       "dateAdded": "2026-07-18",
       "notes": "",
       "tags": [
@@ -3901,6 +4116,7 @@
       "price": 30.0,
       "quantity": 1,
       "image": "images/0546.jpg",
+      "imageFull": "images/full/0546.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -3920,6 +4136,7 @@
       "price": 16.0,
       "quantity": 1,
       "image": "images/0362.jpg",
+      "imageFull": "images/full/0362.jpg",
       "dateAdded": "2026-07-19",
       "notes": "",
       "tags": [
@@ -3937,6 +4154,7 @@
       "price": 120.0,
       "quantity": 1,
       "image": "images/0358.jpg",
+      "imageFull": "images/full/0358.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -3954,6 +4172,7 @@
       "price": 46.0,
       "quantity": 1,
       "image": "images/0452.jpg",
+      "imageFull": "images/full/0452.jpg",
       "dateAdded": "2026-06-14",
       "notes": "",
       "tags": [
@@ -3972,6 +4191,7 @@
       "price": 65.0,
       "quantity": 1,
       "image": "images/0906.jpg",
+      "imageFull": "images/full/0906.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -3988,6 +4208,7 @@
       "price": 19.0,
       "quantity": 1,
       "image": "images/0441.jpg",
+      "imageFull": "images/full/0441.jpg",
       "dateAdded": "2026-06-14",
       "notes": "",
       "tags": [],
@@ -4002,6 +4223,7 @@
       "price": 250.0,
       "quantity": 1,
       "image": "images/0523.jpg",
+      "imageFull": "images/full/0523.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [],
@@ -4016,6 +4238,7 @@
       "price": 29.0,
       "quantity": 1,
       "image": "images/0511.jpg",
+      "imageFull": "images/full/0511.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [],
@@ -4030,6 +4253,7 @@
       "price": 30.0,
       "quantity": 1,
       "image": "images/0382.jpg",
+      "imageFull": "images/full/0382.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -4049,6 +4273,7 @@
       "price": 52.0,
       "quantity": 1,
       "image": "images/0364.jpg",
+      "imageFull": "images/full/0364.jpg",
       "dateAdded": "2026-07-10",
       "notes": "",
       "tags": [
@@ -4066,6 +4291,7 @@
       "price": 45.0,
       "quantity": 1,
       "image": "images/0482.jpg",
+      "imageFull": "images/full/0482.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [],
@@ -4080,6 +4306,7 @@
       "price": 30.0,
       "quantity": 1,
       "image": "images/0474.jpg",
+      "imageFull": "images/full/0474.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -4096,6 +4323,7 @@
       "price": 32.0,
       "quantity": 1,
       "image": "images/0255.jpg",
+      "imageFull": "images/full/0255.jpg",
       "dateAdded": "2026-07-18",
       "notes": "",
       "tags": [
@@ -4113,6 +4341,7 @@
       "price": 26.0,
       "quantity": 1,
       "image": "images/0468.jpg",
+      "imageFull": "images/full/0468.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -4129,6 +4358,7 @@
       "price": 54.0,
       "quantity": 1,
       "image": "images/0207.jpg",
+      "imageFull": "images/full/0207.jpg",
       "dateAdded": "2026-06-09",
       "notes": "",
       "tags": [
@@ -4154,6 +4384,7 @@
       "price": 25.0,
       "quantity": 1,
       "image": "images/0416.jpg",
+      "imageFull": "images/full/0416.jpg",
       "dateAdded": "2026-06-09",
       "notes": "",
       "tags": [
@@ -4171,6 +4402,7 @@
       "price": 50.0,
       "quantity": 1,
       "image": "images/0451.jpg",
+      "imageFull": "images/full/0451.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [],
@@ -4185,6 +4417,7 @@
       "price": 70.0,
       "quantity": 1,
       "image": "images/0438.jpg",
+      "imageFull": "images/full/0438.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -4201,6 +4434,7 @@
       "price": 25.0,
       "quantity": 1,
       "image": "images/0359.jpg",
+      "imageFull": "images/full/0359.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -4218,6 +4452,7 @@
       "price": 50.0,
       "quantity": 1,
       "image": "images/0368.jpg",
+      "imageFull": "images/full/0368.jpg",
       "dateAdded": "2026-06-09",
       "notes": "",
       "tags": [
@@ -4236,6 +4471,7 @@
       "price": 120.0,
       "quantity": 1,
       "image": "images/0239.jpg",
+      "imageFull": "images/full/0239.jpg",
       "dateAdded": "2026-07-25",
       "notes": "",
       "tags": [
@@ -4255,6 +4491,7 @@
       "price": 35.0,
       "quantity": 1,
       "image": "images/0425.jpg",
+      "imageFull": "images/full/0425.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [],
@@ -4269,6 +4506,7 @@
       "price": 18.0,
       "quantity": 1,
       "image": "images/0329.jpg",
+      "imageFull": "images/full/0329.jpg",
       "dateAdded": "2026-07-10",
       "notes": "",
       "tags": [
@@ -4286,6 +4524,7 @@
       "price": 120.0,
       "quantity": 1,
       "image": "images/0700.jpg",
+      "imageFull": "images/full/0700.jpg",
       "dateAdded": "2026-07-24",
       "notes": "",
       "tags": [
@@ -4305,6 +4544,7 @@
       "price": 60.0,
       "quantity": 1,
       "image": "images/0322.jpg",
+      "imageFull": "images/full/0322.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -4321,6 +4561,7 @@
       "price": 40.0,
       "quantity": 1,
       "image": "images/0354.jpg",
+      "imageFull": "images/full/0354.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -4339,6 +4580,7 @@
       "price": 65.0,
       "quantity": 1,
       "image": "images/0268.jpg",
+      "imageFull": "images/full/0268.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -4361,6 +4603,7 @@
       "price": 295.0,
       "quantity": 1,
       "image": "images/0369.jpg",
+      "imageFull": "images/full/0369.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -4378,6 +4621,7 @@
       "price": 63.0,
       "quantity": 1,
       "image": "images/0342.jpg",
+      "imageFull": "images/full/0342.jpg",
       "dateAdded": "2026-07-10",
       "notes": "",
       "tags": [
@@ -4397,6 +4641,7 @@
       "price": 94.0,
       "quantity": 1,
       "image": "images/0232.jpg",
+      "imageFull": "images/full/0232.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -4416,6 +4661,7 @@
       "price": 60.0,
       "quantity": 1,
       "image": "images/0412.jpg",
+      "imageFull": "images/full/0412.jpg",
       "dateAdded": "2026-07-12",
       "notes": "",
       "tags": [
@@ -4433,6 +4679,7 @@
       "price": 120.0,
       "quantity": 1,
       "image": "images/0348.jpg",
+      "imageFull": "images/full/0348.jpg",
       "dateAdded": "2026-07-05",
       "notes": "",
       "tags": [
@@ -4451,6 +4698,7 @@
       "price": 45.0,
       "quantity": 1,
       "image": "images/0498.jpg",
+      "imageFull": "images/full/0498.jpg",
       "dateAdded": "2026-06-26",
       "notes": "",
       "tags": [
@@ -4473,6 +4721,7 @@
       "price": 90.0,
       "quantity": 1,
       "image": "images/0251.jpg",
+      "imageFull": "images/full/0251.jpg",
       "dateAdded": "2026-07-18",
       "notes": "",
       "tags": [
@@ -4492,6 +4741,7 @@
       "price": 33.0,
       "quantity": 1,
       "image": "images/0287.jpg",
+      "imageFull": "images/full/0287.jpg",
       "dateAdded": "2026-06-26",
       "notes": "",
       "tags": [
@@ -4512,6 +4762,7 @@
       "price": 12.0,
       "quantity": 1,
       "image": "images/0237.jpg",
+      "imageFull": "images/full/0237.jpg",
       "dateAdded": "2026-07-13",
       "notes": "",
       "tags": [
@@ -4531,6 +4782,7 @@
       "price": 25.0,
       "quantity": 1,
       "image": "images/0321.jpg",
+      "imageFull": "images/full/0321.jpg",
       "dateAdded": "2026-07-25",
       "notes": "",
       "tags": [
@@ -4550,6 +4802,7 @@
       "price": 75.0,
       "quantity": 1,
       "image": "images/0320.jpg",
+      "imageFull": "images/full/0320.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -4566,6 +4819,7 @@
       "price": 18.0,
       "quantity": 1,
       "image": "images/0421.jpg",
+      "imageFull": "images/full/0421.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -4584,6 +4838,7 @@
       "price": 70.0,
       "quantity": 1,
       "image": "images/0460.jpg",
+      "imageFull": "images/full/0460.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -4601,6 +4856,7 @@
       "price": 55.0,
       "quantity": 1,
       "image": "images/0310.jpg",
+      "imageFull": "images/full/0310.jpg",
       "dateAdded": "2026-07-12",
       "notes": "",
       "tags": [
@@ -4619,6 +4875,7 @@
       "price": 80.0,
       "quantity": 1,
       "image": "images/0884.jpg",
+      "imageFull": "images/full/0884.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -4636,6 +4893,7 @@
       "price": 90.0,
       "quantity": 1,
       "image": "images/0313.jpg",
+      "imageFull": "images/full/0313.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -4659,6 +4917,7 @@
       "price": 50.0,
       "quantity": 1,
       "image": "images/0507.jpg",
+      "imageFull": "images/full/0507.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -4678,6 +4937,7 @@
       "price": 36.0,
       "quantity": 1,
       "image": "images/0203.jpg",
+      "imageFull": "images/full/0203.jpg",
       "dateAdded": "2026-07-12",
       "notes": "",
       "tags": [
@@ -4698,6 +4958,7 @@
       "price": 98.0,
       "quantity": 1,
       "image": "images/0249.jpg",
+      "imageFull": "images/full/0249.jpg",
       "dateAdded": "2026-07-12",
       "notes": "",
       "tags": [
@@ -4717,6 +4978,7 @@
       "price": 20.0,
       "quantity": 1,
       "image": "images/0406.jpg",
+      "imageFull": "images/full/0406.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -4733,6 +4995,7 @@
       "price": 45.0,
       "quantity": 1,
       "image": "images/0513.jpg",
+      "imageFull": "images/full/0513.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -4749,6 +5012,7 @@
       "price": 16.0,
       "quantity": 1,
       "image": "images/0403.jpg",
+      "imageFull": "images/full/0403.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -4768,6 +5032,7 @@
       "price": 55.0,
       "quantity": 1,
       "image": "images/0351.jpg",
+      "imageFull": "images/full/0351.jpg",
       "dateAdded": "2026-07-13",
       "notes": "",
       "tags": [
@@ -4788,6 +5053,7 @@
       "price": 30.0,
       "quantity": 1,
       "image": "images/0914.jpg",
+      "imageFull": "images/full/0914.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [],
@@ -4802,6 +5068,7 @@
       "price": 60.0,
       "quantity": 1,
       "image": "images/0272.jpg",
+      "imageFull": "images/full/0272.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -4819,6 +5086,7 @@
       "price": 120.0,
       "quantity": 1,
       "image": "images/0400.jpg",
+      "imageFull": "images/full/0400.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -4835,6 +5103,7 @@
       "price": 60.0,
       "quantity": 1,
       "image": "images/0334.jpg",
+      "imageFull": "images/full/0334.jpg",
       "dateAdded": "2026-06-17",
       "notes": "",
       "tags": [
@@ -4854,6 +5123,7 @@
       "price": 220.0,
       "quantity": 1,
       "image": "images/0424.jpg",
+      "imageFull": "images/full/0424.jpg",
       "dateAdded": "2026-06-14",
       "notes": "",
       "tags": [
@@ -4874,6 +5144,7 @@
       "price": 120.0,
       "quantity": 1,
       "image": "images/0247.jpg",
+      "imageFull": "images/full/0247.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -4892,6 +5163,7 @@
       "price": 140.0,
       "quantity": 1,
       "image": "images/0401.jpg",
+      "imageFull": "images/full/0401.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [],
@@ -4906,6 +5178,7 @@
       "price": 18.0,
       "quantity": 1,
       "image": "images/0437.jpg",
+      "imageFull": "images/full/0437.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -4923,6 +5196,7 @@
       "price": 250.0,
       "quantity": 1,
       "image": "images/0419.jpg",
+      "imageFull": "images/full/0419.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -4940,6 +5214,7 @@
       "price": 80.0,
       "quantity": 1,
       "image": "images/0283.jpg",
+      "imageFull": "images/full/0283.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -4958,6 +5233,7 @@
       "price": 50.0,
       "quantity": 1,
       "image": "images/0323.jpg",
+      "imageFull": "images/full/0323.jpg",
       "dateAdded": "2026-07-13",
       "notes": "",
       "tags": [
@@ -4976,6 +5252,7 @@
       "price": 35.0,
       "quantity": 1,
       "image": "images/0350.jpg",
+      "imageFull": "images/full/0350.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -4996,6 +5273,7 @@
       "price": 65.0,
       "quantity": 1,
       "image": "images/0671.jpg",
+      "imageFull": "images/full/0671.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -5014,6 +5292,7 @@
       "price": 40.0,
       "quantity": 1,
       "image": "images/0263.jpg",
+      "imageFull": "images/full/0263.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -5030,6 +5309,7 @@
       "price": 27.0,
       "quantity": 1,
       "image": "images/0405.jpg",
+      "imageFull": "images/full/0405.jpg",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -5048,6 +5328,7 @@
       "price": 120.0,
       "quantity": 1,
       "image": "images/0223.jpg",
+      "imageFull": "images/full/0223.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -5068,6 +5349,7 @@
       "price": 80.0,
       "quantity": 1,
       "image": "images/0449.jpg",
+      "imageFull": "images/full/0449.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -5086,6 +5368,7 @@
       "price": 60.0,
       "quantity": 1,
       "image": "images/0216.jpg",
+      "imageFull": "images/full/0216.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -5103,6 +5386,7 @@
       "price": 110.0,
       "quantity": 1,
       "image": "images/0691.jpg",
+      "imageFull": "images/full/0691.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -5120,6 +5404,7 @@
       "price": 65.0,
       "quantity": 1,
       "image": "images/0692.jpg",
+      "imageFull": "images/full/0692.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [],
@@ -5134,6 +5419,7 @@
       "price": 23.0,
       "quantity": 1,
       "image": "images/0837.jpg",
+      "imageFull": "images/full/0837.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -5150,6 +5436,7 @@
       "price": 47.0,
       "quantity": 1,
       "image": "images/0494.jpg",
+      "imageFull": "images/full/0494.jpg",
       "dateAdded": "2026-06-26",
       "notes": "",
       "tags": [
@@ -5172,6 +5459,7 @@
       "price": 45.0,
       "quantity": 1,
       "image": "images/0496.jpg",
+      "imageFull": "images/full/0496.jpg",
       "dateAdded": "2026-06-26",
       "notes": "",
       "tags": [
@@ -5194,6 +5482,7 @@
       "price": 50.0,
       "quantity": 1,
       "image": "images/0497.jpg",
+      "imageFull": "images/full/0497.jpg",
       "dateAdded": "2026-06-26",
       "notes": "",
       "tags": [
@@ -5216,6 +5505,7 @@
       "price": 85.0,
       "quantity": 1,
       "image": "images/0499.jpg",
+      "imageFull": "images/full/0499.jpg",
       "dateAdded": "2026-06-26",
       "notes": "",
       "tags": [
@@ -5238,6 +5528,7 @@
       "price": 210.0,
       "quantity": 1,
       "image": "images/0664.jpg",
+      "imageFull": "images/full/0664.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [],
@@ -5252,6 +5543,7 @@
       "price": 90.0,
       "quantity": 1,
       "image": "images/0298.jpg",
+      "imageFull": "images/full/0298.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -5269,6 +5561,7 @@
       "price": 145.0,
       "quantity": 1,
       "image": "images/0881.jpg",
+      "imageFull": "images/full/0881.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -5287,6 +5580,7 @@
       "price": 25.0,
       "quantity": 1,
       "image": "images/0658.jpg",
+      "imageFull": "images/full/0658.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [],
@@ -5301,6 +5595,7 @@
       "price": 29.0,
       "quantity": 1,
       "image": "images/0229.jpg",
+      "imageFull": "images/full/0229.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -5318,6 +5613,7 @@
       "price": 45.0,
       "quantity": 1,
       "image": "images/0454.jpg",
+      "imageFull": "images/full/0454.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -5334,6 +5630,7 @@
       "price": 85.0,
       "quantity": 1,
       "image": "images/0647.jpg",
+      "imageFull": "images/full/0647.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [],
@@ -5348,6 +5645,7 @@
       "price": 44.0,
       "quantity": 1,
       "image": "images/0565.jpg",
+      "imageFull": "images/full/0565.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [],
@@ -5362,6 +5660,7 @@
       "price": 95.0,
       "quantity": 1,
       "image": "images/0214.jpg",
+      "imageFull": "images/full/0214.jpg",
       "dateAdded": "2026-06-20",
       "notes": "",
       "tags": [
@@ -5382,6 +5681,7 @@
       "price": 73.0,
       "quantity": 1,
       "image": "images/0238.jpg",
+      "imageFull": "images/full/0238.jpg",
       "dateAdded": "2026-06-20",
       "notes": "",
       "tags": [
@@ -5402,6 +5702,7 @@
       "price": 135.0,
       "quantity": 1,
       "image": "images/0641.jpg",
+      "imageFull": "images/full/0641.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [],
@@ -5416,6 +5717,7 @@
       "price": 180.0,
       "quantity": 1,
       "image": "images/0318.jpg",
+      "imageFull": "images/full/0318.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -5432,6 +5734,7 @@
       "price": 130.0,
       "quantity": 1,
       "image": "images/0636.jpg",
+      "imageFull": "images/full/0636.jpg",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [

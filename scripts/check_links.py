@@ -23,11 +23,12 @@ inv = json.loads((root / "inventory.json").read_text(encoding="utf-8"))
 cards = inv.get("cards", [])
 missing = 0
 for c in cards:
-    img = (c.get("image") or "").strip()
-    if img and not (root / img).exists():
-        missing += 1
-        if missing <= 10:
-            errors.append(f"inventory.json image missing: {img} (card #{c.get('id')})")
+    for key in ("image", "imageFull"):     # thumbnail + high-res detail image
+        img = (c.get(key) or "").strip()
+        if img and not (root / img).exists():
+            missing += 1
+            if missing <= 10:
+                errors.append(f"inventory.json {key} missing: {img} (card #{c.get('id')})")
 if missing > 10:
     errors.append(f"...and {missing - 10} more missing card images")
 

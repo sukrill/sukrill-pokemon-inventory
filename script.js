@@ -165,6 +165,7 @@ function normalize(c) {
     price:     Number(c.price) || 0,
     quantity:  Number(c.quantity) || 0,
     image:     c.image || '',
+    imageFull: c.imageFull || c.image || '',   // high-res for the detail flyout + zoom
     dateAdded: c.dateAdded || '',
     notes:     c.notes || '',
     listingUrl:c.listingUrl || '',
@@ -439,8 +440,17 @@ function openModal(id, pushUrl) {
   if (!c) return;
   const m = els.modal;
   const img = m.querySelector('#m-img');
-  if (c.image) { img.src = c.image; img.alt = c.name; img.style.display = ''; img.onerror = () => { img.style.display = 'none'; }; }
-  else { img.removeAttribute('src'); img.style.display = 'none'; }
+  const full = c.imageFull || c.image;
+  if (c.image) {
+    img.src = full; img.alt = c.name; img.style.display = '';
+    img.onerror = () => { img.style.display = 'none'; };
+    // Click the detail image to open the full-res zoom lightbox
+    img.style.cursor = 'zoom-in';
+    img.title = 'Click to zoom';
+    img.onclick = () => openZoom(full, c.name, c.id);
+  } else {
+    img.removeAttribute('src'); img.style.display = 'none'; img.onclick = null; img.style.cursor = '';
+  }
 
   m.querySelector('#m-name').textContent  = c.name;
   m.querySelector('#m-price').textContent = '$' + c.price.toFixed(2);
@@ -557,6 +567,86 @@ function openFromURL(evt) {
     closeModal();
   }
 }
+
+/* ============================================================
+   IMAGE ZOOM LIGHTBOX  (wheel / pinch / drag-pan)
+   ============================================================ */
+const _z = { scale: 1, tx: 0, ty: 0, min: 1, max: 5 };
+const _zPtrs = new Map();
+let _zPinchDist = 0, _zLast = null;
+
+function _zClamp(v, a, b) { return Math.max(a, Math.min(b, v)); }
+function _zApply() {
+  const img = document.getElementById('zoom-img');
+  if (!img) return;
+  _z.scale = _zClamp(_z.scale, _z.min, _z.max);
+  if (_z.scale <= 1.001) { _z.tx = 0; _z.ty = 0; }
+  img.style.transform = `translate(${_z.tx}px, ${_z.ty}px) scale(${_z.scale})`;
+  img.style.cursor = _z.scale > 1 ? 'grab' : 'zoom-in';
+}
+function _zBy(f) { _z.scale = _zClamp(_z.scale * f, _z.min, _z.max); if (_z.scale <= 1.001) { _z.tx = 0; _z.ty = 0; } _zApply(); }
+
+function openZoom(src, alt, id) {
+  const ov = document.getElementById('zoom-overlay');
+  const img = document.getElementById('zoom-img');
+  if (!ov || !img || !src) return;
+  img.src = src; img.alt = alt || '';
+  _z.scale = 1; _z.tx = 0; _z.ty = 0; _zApply();
+  ov.hidden = false;
+  document.body.style.overflow = 'hidden';
+  try { track('image_zoom', { inventory_id: id || '' }); } catch (_) {}
+}
+function closeZoom() {
+  const ov = document.getElementById('zoom-overlay');
+  if (!ov || ov.hidden) return;
+  ov.hidden = true;
+  const img = document.getElementById('zoom-img');
+  if (img) img.removeAttribute('src');
+  _zPtrs.clear(); _zPinchDist = 0; _zLast = null;
+  // keep the scroll lock if the card modal is still open behind the lightbox
+  if (els.modal && els.modal.hidden && (typeof allSheetsClosed !== 'function' || allSheetsClosed()))
+    document.body.style.overflow = '';
+}
+
+(function initZoom() {
+  const ov = document.getElementById('zoom-overlay');
+  const img = document.getElementById('zoom-img');
+  if (!ov || !img) return;
+  ov.addEventListener('wheel', e => { e.preventDefault(); _zBy(e.deltaY < 0 ? 1.15 : 0.87); }, { passive: false });
+  img.addEventListener('dblclick', e => { e.preventDefault(); _z.scale = _z.scale > 1 ? 1 : 2.5; if (_z.scale === 1) { _z.tx = 0; _z.ty = 0; } _zApply(); });
+  img.addEventListener('pointerdown', e => {
+    img.setPointerCapture(e.pointerId);
+    _zPtrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (_zPtrs.size === 1) _zLast = { x: e.clientX, y: e.clientY };
+  });
+  img.addEventListener('pointermove', e => {
+    if (!_zPtrs.has(e.pointerId)) return;
+    _zPtrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    const pts = [..._zPtrs.values()];
+    if (pts.length >= 2) {
+      const d = Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y);
+      if (_zPinchDist) _zBy(d / _zPinchDist);
+      _zPinchDist = d; _zLast = null;
+    } else if (pts.length === 1 && _z.scale > 1 && _zLast) {
+      _z.tx += e.clientX - _zLast.x; _z.ty += e.clientY - _zLast.y;
+      _zLast = { x: e.clientX, y: e.clientY }; _zApply();
+    }
+  });
+  const up = e => {
+    _zPtrs.delete(e.pointerId);
+    if (_zPtrs.size < 2) _zPinchDist = 0;
+    _zLast = _zPtrs.size === 1 ? { ...[..._zPtrs.values()][0] } : null;
+  };
+  img.addEventListener('pointerup', up);
+  img.addEventListener('pointercancel', up);
+  ov.addEventListener('click', e => { if (e.target === ov) closeZoom(); });
+  const closeBtn = document.getElementById('zoom-close');
+  if (closeBtn) closeBtn.addEventListener('click', closeZoom);
+  // Capture phase so Escape closes the lightbox BEFORE the card modal handler.
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && !ov.hidden) { e.stopPropagation(); closeZoom(); }
+  }, true);
+})();
 
 /* ============================================================
    WISHLIST
