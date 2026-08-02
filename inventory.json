@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-02T00:49",
-  "totalCards": 292,
-  "totalValue": 15498.0,
+  "lastUpdated": "2026-08-02T00:54",
+  "totalCards": 294,
+  "totalValue": 15547.0,
   "cards": [
     {
       "id": "0360",
@@ -865,6 +865,24 @@
       "notes": "",
       "tags": [],
       "listingUrl": ""
+    },
+    {
+      "id": "0261",
+      "name": "Typhlosion",
+      "set": "Blister Exclusives",
+      "number": "20/162 (Cosmos Holo)",
+      "condition": "Near Mint",
+      "price": 13.0,
+      "quantity": 1,
+      "image": "images/0261.jpg",
+      "imageFull": "images/full/0261.jpg",
+      "dateAdded": "2026-08-02",
+      "notes": "",
+      "tags": [
+        "Promo",
+        "Shiburingaru"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTY3MjUyOTg4Nw=="
     },
     {
       "id": "0520",
@@ -4816,6 +4834,26 @@
         "Pink"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTk1NjQ4NjYz"
+    },
+    {
+      "id": "0259",
+      "name": "Dedenne GX",
+      "set": "Alternate Art Promos",
+      "number": "195a/214",
+      "condition": "Near Mint",
+      "price": 36.0,
+      "quantity": 1,
+      "image": "images/0259.jpg",
+      "imageFull": "images/full/0259.jpg",
+      "dateAdded": "2026-08-02",
+      "notes": "",
+      "tags": [
+        "365/SM-P",
+        "Promo",
+        "Japanese",
+        "JPN"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE4OTQ1MDI5Mg=="
     },
     {
       "id": "0406",
