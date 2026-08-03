@@ -1,8 +1,106 @@
 {
-  "lastUpdated": "2026-08-02T17:51",
-  "totalCards": 293,
-  "totalValue": 15427.0,
+  "lastUpdated": "2026-08-03T15:59",
+  "totalCards": 303,
+  "totalValue": 16115.0,
   "cards": [
+    {
+      "id": "0405",
+      "name": "Shining Rayquaza",
+      "set": "Shining Legends",
+      "number": "",
+      "condition": "Light Played",
+      "price": 136.0,
+      "quantity": 1,
+      "image": "images/0405.jpg",
+      "imageFull": "images/full/0405.jpg",
+      "dateAdded": "2026-08-03",
+      "notes": "",
+      "tags": [
+        "Pink",
+        "Eeveelution",
+        "Fairy"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0MTU5"
+    },
+    {
+      "id": "0396",
+      "name": "Cinccino",
+      "set": "SV: Black Bolt",
+      "number": "153/086",
+      "condition": "Near Mint",
+      "price": 40.0,
+      "quantity": 1,
+      "image": "images/0396.jpg",
+      "imageFull": "images/full/0396.jpg",
+      "dateAdded": "2026-08-03",
+      "notes": "",
+      "tags": [
+        "TG22/TG30",
+        "Cute",
+        "People"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA4NjEzOTY4Mg=="
+    },
+    {
+      "id": "0387",
+      "name": "Misty's Vitality",
+      "set": "ME05: Pitch Black",
+      "number": "111/084",
+      "condition": "Near Mint",
+      "price": 40.0,
+      "quantity": 1,
+      "image": "images/0387.jpg",
+      "imageFull": "images/full/0387.jpg",
+      "dateAdded": "2026-08-03",
+      "notes": "",
+      "tags": [
+        "Ryoto Muriyama"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA4NDUzNDIwOQ=="
+    },
+    {
+      "id": "0367",
+      "name": "Minun",
+      "set": "Supreme Victors",
+      "number": "",
+      "condition": "Light Played",
+      "price": 26.0,
+      "quantity": 1,
+      "image": "images/0367.jpg",
+      "imageFull": "images/full/0367.jpg",
+      "dateAdded": "2026-08-03",
+      "notes": "",
+      "tags": [
+        "RC29/RC32",
+        "Cute",
+        "Multiple Pokemon"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE0NTAxODUxNw=="
+    },
+    {
+      "id": "0230",
+      "name": "Ditto",
+      "set": "EX Delta Species",
+      "number": "64/113 (Squirtle)",
+      "condition": "Near Mint",
+      "price": 50.0,
+      "quantity": 1,
+      "image": "images/0230.jpg",
+      "imageFull": "images/full/0230.jpg",
+      "dateAdded": "2026-08-03",
+      "notes": "",
+      "tags": [
+        "173/SV-P",
+        "Ditto Lapras",
+        "Ditto Pikachu",
+        "Ditto Magikarp",
+        "Multiple Pokemon",
+        "Korean Exclusive",
+        "Promo",
+        "Cute"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQ0MjI3ODA5Nw=="
+    },
     {
       "id": "0360",
       "name": "Mega Excadrill ex",
@@ -258,23 +356,6 @@
         "Cute"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA4NDUzNjg5MQ=="
-    },
-    {
-      "id": "0387",
-      "name": "Flygon",
-      "set": "ME02: Phantasmal Flames",
-      "number": "101/094",
-      "condition": "Near Mint",
-      "price": 10.0,
-      "quantity": 1,
-      "image": "images/0387.jpg",
-      "imageFull": "images/full/0387.jpg",
-      "dateAdded": "2026-07-25",
-      "notes": "",
-      "tags": [
-        "Ryoto Muriyama"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA4NDUzNDIwOQ=="
     },
     {
       "id": "0388",
@@ -785,6 +866,23 @@
         "Cute"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjY0NzM0NA=="
+    },
+    {
+      "id": "0363",
+      "name": "Ditto (Geodude)",
+      "set": "Delta Species",
+      "number": "",
+      "condition": "Light Played",
+      "price": 23.0,
+      "quantity": 1,
+      "image": "images/0363.jpg",
+      "imageFull": "images/full/0363.jpg",
+      "dateAdded": "2026-08-03",
+      "notes": "",
+      "tags": [
+        "Promo"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjU0MTE5Mw=="
     },
     {
       "id": "0292",
@@ -1482,6 +1580,26 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTkxMzk4NTQxNg=="
     },
     {
+      "id": "0402",
+      "name": "Ditto",
+      "set": "Delta Species",
+      "number": "61/113 (Charmander)",
+      "condition": "Near Mint",
+      "price": 54.0,
+      "quantity": 1,
+      "image": "images/0402.jpg",
+      "imageFull": "images/full/0402.jpg",
+      "dateAdded": "2026-08-03",
+      "notes": "",
+      "tags": [
+        "Cute",
+        "Floral",
+        "Flowers",
+        "Whimsical"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTk0ODg5MDc1Nw=="
+    },
+    {
       "id": "0399",
       "name": "Numel",
       "set": "ME: Ascended Heroes",
@@ -1679,6 +1797,21 @@
         "Indonesian Exclusive"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTg5ODAyNjA2Mg=="
+    },
+    {
+      "id": "0801",
+      "name": "Mischievous Pichu",
+      "set": "",
+      "number": "214/S-P",
+      "condition": "Near Mint",
+      "price": 60.0,
+      "quantity": 1,
+      "image": "images/0801.jpg",
+      "imageFull": "images/full/0801.jpg",
+      "dateAdded": "2026-08-02",
+      "notes": "",
+      "tags": [],
+      "listingUrl": ""
     },
     {
       "id": "0319",
@@ -3395,6 +3528,26 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQxNzk5OTExNQ=="
     },
     {
+      "id": "0700",
+      "name": "Flareon EX (Full Art)",
+      "set": "Generations: Radiant Collection",
+      "number": "RC28/RC32",
+      "condition": "Near Mint",
+      "price": 185.0,
+      "quantity": 1,
+      "image": "images/0700.jpg",
+      "imageFull": "images/full/0700.jpg",
+      "dateAdded": "2026-08-03",
+      "notes": "",
+      "tags": [
+        "RC31/RC32",
+        "Cute",
+        "Mega",
+        "Full ARt"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAzOTExNDcwMQ=="
+    },
+    {
       "id": "0256",
       "name": "Flaaffy",
       "set": "SWSH12: Silver Tempest Trainer Gallery",
@@ -4000,6 +4153,26 @@
         "Flowers"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE0NjA1NjcxOQ=="
+    },
+    {
+      "id": "0413",
+      "name": "Mimikyu",
+      "set": "SM Promos",
+      "number": "SM163",
+      "condition": "Near Mint",
+      "price": 60.0,
+      "quantity": 1,
+      "image": "images/0413.jpg",
+      "imageFull": "images/full/0413.jpg",
+      "dateAdded": "2026-08-03",
+      "notes": "",
+      "tags": [
+        "Cute",
+        "Pink",
+        "Dawn",
+        "People"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTIxMTU2MDUyMg=="
     },
     {
       "id": "0315",
@@ -5389,6 +5562,21 @@
       "notes": "",
       "tags": [],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTUxNDQ4NTY2"
+    },
+    {
+      "id": "0414",
+      "name": "Shuckle GX (Full Art)",
+      "set": "Lost Thunder",
+      "number": "SM",
+      "condition": "Near Mint",
+      "price": 24.0,
+      "quantity": 1,
+      "image": "images/0414.jpg",
+      "imageFull": "images/full/0414.jpg",
+      "dateAdded": "2026-08-03",
+      "notes": "",
+      "tags": [],
+      "listingUrl": ""
     },
     {
       "id": "0229",
