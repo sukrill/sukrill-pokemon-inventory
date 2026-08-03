@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-03T16:03",
-  "totalCards": 303,
-  "totalValue": 16115.0,
+  "lastUpdated": "2026-08-03T16:11",
+  "totalCards": 305,
+  "totalValue": 16310.0,
   "cards": [
     {
       "id": "0405",
@@ -321,6 +321,25 @@
       "notes": "",
       "tags": [],
       "listingUrl": ""
+    },
+    {
+      "id": "0421",
+      "name": "Fomantis",
+      "set": "ME05: Pitch Black",
+      "number": "085/084",
+      "condition": "Near Mint",
+      "price": 10.0,
+      "quantity": 1,
+      "image": "images/0421.jpg",
+      "imageFull": "images/full/0421.jpg",
+      "dateAdded": "2026-08-03",
+      "notes": "",
+      "tags": [
+        "208",
+        "Promo",
+        "Cute"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAwOTY3NTg2OQ=="
     },
     {
       "id": "0357",
@@ -4420,6 +4439,21 @@
         "Cute"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA1NTg1NTQ0MA=="
+    },
+    {
+      "id": "0702",
+      "name": "Mew EX (Full Art)",
+      "set": "Legendary Treasures: Radiant Collection",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 185.0,
+      "quantity": 1,
+      "image": "images/0702.jpg",
+      "imageFull": "images/full/0702.jpg",
+      "dateAdded": "2026-08-03",
+      "notes": "",
+      "tags": [],
+      "listingUrl": ""
     },
     {
       "id": "0482",
