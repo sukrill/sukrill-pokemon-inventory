@@ -77,6 +77,42 @@ let lastFocused = null;
 const EVENT_BUFFER_KEY = 'sukrill_events_v1';
 const EVENT_BUFFER_MAX = 500;
 
+// ── Interest collector (Google Apps Script Web App → "Website Analytics" sheet) ──
+// Deployed Apps Script Web App URL (ends in /exec). Empty = off.
+const ANALYTICS_ENDPOINT = 'https://script.google.com/macros/s/AKfycbwXmn59zzsVa-_UvPP8QDJWVVptzY-oPRJmNNTPi7e-y6WQa_21G7IpiE_TKP04OQ/exec';
+// Only these "interest" events are sent to the sheet (search/filter/sort are noise).
+const COLLECT_EVENTS = new Set(['wishlist_add', 'card_open', 'buy_click', 'message_sukrill', 'image_zoom']);
+
+// Stable per-visitor id so the dashboard can count unique interest, not just hits.
+function _sid() {
+  try {
+    let s = localStorage.getItem('sukrill_sid_v1');
+    if (!s) { s = (Date.now().toString(36) + Math.random().toString(36).slice(2, 8)); localStorage.setItem('sukrill_sid_v1', s); }
+    return s;
+  } catch (_) { return ''; }
+}
+
+function _sendInterest(name, params) {
+  if (!ANALYTICS_ENDPOINT || !COLLECT_EVENTS.has(name)) return;
+  const payload = JSON.stringify({
+    event: name,
+    inventory_id: params.inventory_id || '',
+    card_name: params.card_name || '',
+    set: params.set || '',
+    price: (params.price != null ? params.price : ''),
+    session: _sid(),
+  });
+  try {
+    // text/plain avoids a CORS preflight Apps Script can't answer; fire-and-forget.
+    if (navigator.sendBeacon) {
+      navigator.sendBeacon(ANALYTICS_ENDPOINT, new Blob([payload], { type: 'text/plain' }));
+    } else {
+      fetch(ANALYTICS_ENDPOINT, { method: 'POST', mode: 'no-cors', keepalive: true,
+        headers: { 'Content-Type': 'text/plain' }, body: payload });
+    }
+  } catch (_) { /* never let analytics break the UI */ }
+}
+
 function track(name, params) {
   params = params || {};
   // 1) Google Analytics 4
@@ -89,6 +125,8 @@ function track(name, params) {
     if (arr.length > EVENT_BUFFER_MAX) arr.splice(0, arr.length - EVENT_BUFFER_MAX);
     localStorage.setItem(EVENT_BUFFER_KEY, JSON.stringify(arr));
   } catch (_) { /* private mode / quota — ignore */ }
+  // 3) Interest collector → Google Sheet (only when configured)
+  _sendInterest(name, params);
 }
 
 // Exposed for a future export routine (e.g. POST the buffer to a sheet endpoint).
