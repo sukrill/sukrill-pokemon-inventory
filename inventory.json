@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-04T23:50",
-  "totalCards": 301,
-  "totalValue": 15797.0,
+  "lastUpdated": "2026-08-05T19:06",
+  "totalCards": 285,
+  "totalValue": 15176.0,
   "cards": [
     {
       "id": "0405",
@@ -57,25 +57,6 @@
         "Ryoto Muriyama"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA4NDUzNDIwOQ=="
-    },
-    {
-      "id": "0367",
-      "name": "Minun",
-      "set": "Supreme Victors",
-      "number": "",
-      "condition": "Light Played",
-      "price": 26.0,
-      "quantity": 1,
-      "image": "images/0367.jpg",
-      "imageFull": "images/full/0367.jpg",
-      "dateAdded": "2026-08-03",
-      "notes": "",
-      "tags": [
-        "RC29/RC32",
-        "Cute",
-        "Multiple Pokemon"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE0NTAxODUxNw=="
     },
     {
       "id": "0360",
@@ -570,7 +551,7 @@
       "set": "Skyridge",
       "number": "",
       "condition": "Light Played",
-      "price": 95.0,
+      "price": 115.0,
       "quantity": 1,
       "image": "images/0248.jpg",
       "imageFull": "images/full/0248.jpg",
@@ -812,38 +793,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjY0NzM0NA=="
     },
     {
-      "id": "0200",
-      "name": "Pichu",
-      "set": "Mysterious Treasures",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 18.0,
-      "quantity": 1,
-      "image": "images/0200.jpg",
-      "imageFull": "images/full/0200.jpg",
-      "dateAdded": "2026-08-04",
-      "notes": "",
-      "tags": [],
-      "listingUrl": ""
-    },
-    {
-      "id": "0363",
-      "name": "Ditto (Geodude)",
-      "set": "Delta Species",
-      "number": "",
-      "condition": "Light Played",
-      "price": 23.0,
-      "quantity": 1,
-      "image": "images/0363.jpg",
-      "imageFull": "images/full/0363.jpg",
-      "dateAdded": "2026-08-03",
-      "notes": "",
-      "tags": [
-        "Promo"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjU0MTE5Mw=="
-    },
-    {
       "id": "0292",
       "name": "Mewtwo (14)",
       "set": "WoTC Promo",
@@ -862,27 +811,6 @@
         "Trainer"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTcxODM1MDY4NQ=="
-    },
-    {
-      "id": "0238",
-      "name": "Weavile",
-      "set": "ME: Ascended Heroes",
-      "number": "228/217",
-      "condition": "Near Mint",
-      "price": 12.0,
-      "quantity": 1,
-      "image": "images/0238.jpg",
-      "imageFull": "images/full/0238.jpg",
-      "dateAdded": "2026-07-31",
-      "notes": "",
-      "tags": [
-        "Promo",
-        "Eeveelution",
-        "Cute",
-        "Mutliple Pokemon",
-        "Cameo"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTUxNDQ4MzUw"
     },
     {
       "id": "0317",
@@ -1070,7 +998,7 @@
       "set": "WoTC Promo",
       "number": "",
       "condition": "Light Played",
-      "price": 400.0,
+      "price": 420.0,
       "quantity": 1,
       "image": "images/0225.jpg",
       "imageFull": "images/full/0225.jpg",
@@ -1299,24 +1227,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTkzMTM1Mzg4MA=="
     },
     {
-      "id": "0445",
-      "name": "Spinarak (Peelable Ditto)",
-      "set": "Pokemon GO",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 22.0,
-      "quantity": 1,
-      "image": "images/0445.jpg",
-      "imageFull": "images/full/0445.jpg",
-      "dateAdded": "2026-06-14",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Interactive"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTkzMTMzNjMyNQ=="
-    },
-    {
       "id": "0442",
       "name": "Rowlet",
       "set": "ME: Mega Evolution Promo",
@@ -1465,7 +1375,7 @@
       "set": "Secret Wonders",
       "number": "",
       "condition": "Light Played",
-      "price": 33.0,
+      "price": 36.0,
       "quantity": 1,
       "image": "images/0219.jpg",
       "imageFull": "images/full/0219.jpg",
@@ -1516,26 +1426,6 @@
         "Zard"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTkxMzk4NTQxNg=="
-    },
-    {
-      "id": "0402",
-      "name": "Ditto",
-      "set": "Delta Species",
-      "number": "61/113 (Charmander)",
-      "condition": "Near Mint",
-      "price": 54.0,
-      "quantity": 1,
-      "image": "images/0402.jpg",
-      "imageFull": "images/full/0402.jpg",
-      "dateAdded": "2026-08-03",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Floral",
-        "Flowers",
-        "Whimsical"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTk0ODg5MDc1Nw=="
     },
     {
       "id": "0399",
@@ -2013,7 +1903,7 @@
       "set": "Unified Minds",
       "number": "SM",
       "condition": "Near Mint",
-      "price": 170.0,
+      "price": 190.0,
       "quantity": 1,
       "image": "images/0273.jpg",
       "imageFull": "images/full/0273.jpg",
@@ -2401,21 +2291,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTc4OTUwMjEyMA=="
     },
     {
-      "id": "0303",
-      "name": "Lucario & Melmetal GX",
-      "set": "SM Promos",
-      "number": "SM192",
-      "condition": "Near Mint",
-      "price": 65.0,
-      "quantity": 1,
-      "image": "images/0303.jpg",
-      "imageFull": "images/full/0303.jpg",
-      "dateAdded": "2026-07-30",
-      "notes": "",
-      "tags": [],
-      "listingUrl": ""
-    },
-    {
       "id": "0211",
       "name": "Spheal",
       "set": "SV08: Surging Sparks",
@@ -2444,7 +2319,7 @@
       "set": "POP Series 2",
       "number": "",
       "condition": "Light Played",
-      "price": 40.0,
+      "price": 49.0,
       "quantity": 1,
       "image": "images/0422.jpg",
       "imageFull": "images/full/0422.jpg",
@@ -2896,7 +2771,7 @@
       "set": "Vending Machine cards Series 3 (Green)",
       "number": "",
       "condition": "Light Played",
-      "price": 24.0,
+      "price": 27.0,
       "quantity": 1,
       "image": "images/0285.jpg",
       "imageFull": "images/full/0285.jpg",
@@ -3082,26 +2957,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTY4NzcyNTk5Ng=="
     },
     {
-      "id": "0210",
-      "name": "Magikarp",
-      "set": "SWSH02: Rebel Clash",
-      "number": "",
-      "condition": "Light Played",
-      "price": 30.0,
-      "quantity": 1,
-      "image": "images/0210.jpg",
-      "imageFull": "images/full/0210.jpg",
-      "dateAdded": "2026-07-31",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Sleeping",
-        "Team Rocket",
-        "Food"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTY2MTA5NTczMw=="
-    },
-    {
       "id": "0349",
       "name": "Mimikyu (Delta Species)",
       "set": "SWSH: Sword & Shield Promo Cards",
@@ -3155,25 +3010,6 @@
         "Cute"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTY3MjMxNjg3OQ=="
-    },
-    {
-      "id": "0480",
-      "name": "Psyduck",
-      "set": "Neo Destiny",
-      "number": "",
-      "condition": "Light Played",
-      "price": 35.0,
-      "quantity": 1,
-      "image": "images/0480.jpg",
-      "imageFull": "images/full/0480.jpg",
-      "dateAdded": "2026-06-04",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Yuka Morii",
-        "Vintage"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTY2OTAyMDM5MQ=="
     },
     {
       "id": "0230",
@@ -3692,41 +3528,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTM3MjMzOTY5NA=="
     },
     {
-      "id": "0710",
-      "name": "PokeKyun Swirlix",
-      "set": "CP3: PokeKyun Collection",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 36.0,
-      "quantity": 1,
-      "image": "images/0710.jpg",
-      "imageFull": "images/full/0710.jpg",
-      "dateAdded": "2026-08-04",
-      "notes": "",
-      "tags": [],
-      "listingUrl": ""
-    },
-    {
-      "id": "0240",
-      "name": "Dark Slowking",
-      "set": "Neo Destiny",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 40.0,
-      "quantity": 1,
-      "image": "images/0240.jpg",
-      "imageFull": "images/full/0240.jpg",
-      "dateAdded": "2026-07-31",
-      "notes": "",
-      "tags": [
-        "Floral",
-        "Cute",
-        "Flowers",
-        "Nature"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA4NDU1MTQ2Ng=="
-    },
-    {
       "id": "0495",
       "name": "Ash's Pikachu",
       "set": "SM Promos",
@@ -4159,26 +3960,6 @@
         "Flowers"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE0NjA1NjcxOQ=="
-    },
-    {
-      "id": "0413",
-      "name": "Mimikyu",
-      "set": "SM Promos",
-      "number": "SM163",
-      "condition": "Near Mint",
-      "price": 60.0,
-      "quantity": 1,
-      "image": "images/0413.jpg",
-      "imageFull": "images/full/0413.jpg",
-      "dateAdded": "2026-08-03",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Pink",
-        "Dawn",
-        "People"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTIxMTU2MDUyMg=="
     },
     {
       "id": "0315",
@@ -5172,7 +4953,7 @@
       "set": "Black and White Promos",
       "number": "BW88",
       "condition": "Light Played",
-      "price": 50.0,
+      "price": 60.0,
       "quantity": 1,
       "image": "images/0323.jpg",
       "imageFull": "images/full/0323.jpg",
@@ -5243,24 +5024,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0MTY5"
     },
     {
-      "id": "0241",
-      "name": "Sylveon GX",
-      "set": "Alternate Art Promos",
-      "number": "92a/145",
-      "condition": "Near Mint",
-      "price": 27.0,
-      "quantity": 1,
-      "image": "images/0241.jpg",
-      "imageFull": "images/full/0241.jpg",
-      "dateAdded": "2026-08-02",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Beach"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTczMTQyOTQzOQ=="
-    },
-    {
       "id": "0223",
       "name": "Mew V (Alternate Full Art)",
       "set": "SWSH08: Fusion Strike",
@@ -5280,24 +5043,6 @@
         "Cameo"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0MTA3"
-    },
-    {
-      "id": "0306",
-      "name": "Jolteon VMAX",
-      "set": "SWSH: Sword & Shield Promo Cards",
-      "number": "SWSH184",
-      "condition": "Light Played",
-      "price": 85.0,
-      "quantity": 1,
-      "image": "images/0306.jpg",
-      "imageFull": "images/full/0306.jpg",
-      "dateAdded": "2026-07-30",
-      "notes": "",
-      "tags": [
-        "Vintage",
-        "Ghost Pokemon"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA1NTg1NTQ4Mw=="
     },
     {
       "id": "0216",
@@ -5590,43 +5335,6 @@
       "notes": "",
       "tags": [],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTUxNDQ4MzY1"
-    },
-    {
-      "id": "0282",
-      "name": "Vaporeon VMAX",
-      "set": "SWSH: Sword & Shield Promo Cards",
-      "number": "SWSH182",
-      "condition": "Light Played",
-      "price": 100.0,
-      "quantity": 1,
-      "image": "images/0282.jpg",
-      "imageFull": "images/full/0282.jpg",
-      "dateAdded": "2026-07-30",
-      "notes": "",
-      "tags": [
-        "Promo",
-        "Vintage",
-        "Black Star Promo"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTk0ODkwMjU2Nw=="
-    },
-    {
-      "id": "0311",
-      "name": "Flareon VMAX",
-      "set": "SWSH: Sword & Shield Promo Cards",
-      "number": "SWSH180",
-      "condition": "Near Mint",
-      "price": 73.0,
-      "quantity": 1,
-      "image": "images/0311.jpg",
-      "imageFull": "images/full/0311.jpg",
-      "dateAdded": "2026-07-30",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Nature"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTc2OTQwNTQ4OA=="
     },
     {
       "id": "0641",
