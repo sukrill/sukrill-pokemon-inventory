@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-06T08:11",
-  "totalCards": 293,
-  "totalValue": 15536.0,
+  "lastUpdated": "2026-08-06T14:30",
+  "totalCards": 278,
+  "totalValue": 14856.0,
   "cards": [
     {
       "id": "0405",
@@ -444,23 +444,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA3NTk1NDg0NA=="
     },
     {
-      "id": "0478",
-      "name": "Zapdos ex",
-      "set": "SV: Scarlet & Violet 151",
-      "number": "192/165",
-      "condition": "Near Mint",
-      "price": 10.0,
-      "quantity": 1,
-      "image": "images/0478.jpg",
-      "imageFull": "images/full/0478.jpg",
-      "dateAdded": "2026-07-23",
-      "notes": "",
-      "tags": [
-        "Full Art"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA3NTk0MDgzNA=="
-    },
-    {
       "id": "0447",
       "name": "Alakazam ex",
       "set": "SV: Paldean Fates",
@@ -793,24 +776,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjY0NzM0NA=="
     },
     {
-      "id": "0209",
-      "name": "Pichu",
-      "set": "Mysterious Treasures",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 18.0,
-      "quantity": 1,
-      "image": "images/0209.jpg",
-      "imageFull": "images/full/0209.jpg",
-      "dateAdded": "2026-08-06",
-      "notes": "",
-      "tags": [
-        "Cameo",
-        "Cute"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTk4OTU2NjM3Nw=="
-    },
-    {
       "id": "0292",
       "name": "Mewtwo (14)",
       "set": "WoTC Promo",
@@ -904,21 +869,6 @@
         "Cute"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjAzNjE5NjE3NA=="
-    },
-    {
-      "id": "0252",
-      "name": "Tauros",
-      "set": "ME04: Chaos Rising",
-      "number": "096/086",
-      "condition": "Near Mint",
-      "price": 8.0,
-      "quantity": 1,
-      "image": "images/0252.jpg",
-      "imageFull": "images/full/0252.jpg",
-      "dateAdded": "2026-07-11",
-      "notes": "",
-      "tags": [],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjAzMjgwMjQyOA=="
     },
     {
       "id": "0314",
@@ -1386,42 +1336,6 @@
         "Tomokazu Komiya"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTkzMTIzNzgyOQ=="
-    },
-    {
-      "id": "0397",
-      "name": "Amoonguss",
-      "set": "SV: Black Bolt",
-      "number": "096/086",
-      "condition": "Near Mint",
-      "price": 60.0,
-      "quantity": 1,
-      "image": "images/0397.jpg",
-      "imageFull": "images/full/0397.jpg",
-      "dateAdded": "2026-06-14",
-      "notes": "",
-      "tags": [
-        "Multiple Pokemon",
-        "OKUBO"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTkzMTIyODIwNw=="
-    },
-    {
-      "id": "0219",
-      "name": "Ampharos",
-      "set": "Secret Wonders",
-      "number": "",
-      "condition": "Light Played",
-      "price": 36.0,
-      "quantity": 1,
-      "image": "images/0219.jpg",
-      "imageFull": "images/full/0219.jpg",
-      "dateAdded": "2026-06-09",
-      "notes": "",
-      "tags": [
-        "Kouki Saitou",
-        "Cosmos Holo"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTkxMzk5MzYxMA=="
     },
     {
       "id": "0221",
@@ -2747,24 +2661,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTczMTQyNDc2OA=="
     },
     {
-      "id": "0234",
-      "name": "Jirachi V (Full Art)",
-      "set": "SWSH10: Astral Radiance",
-      "number": "",
-      "condition": "Light Played",
-      "price": 27.0,
-      "quantity": 1,
-      "image": "images/0234.jpg",
-      "imageFull": "images/full/0234.jpg",
-      "dateAdded": "2026-07-25",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Pink"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTczMTQxNzg1OQ=="
-    },
-    {
       "id": "0370",
       "name": "Mantyke",
       "set": "SV04: Paradox Rift",
@@ -2857,27 +2753,6 @@
         "Corphish Cameo"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTcxODM4MTY3MQ=="
-    },
-    {
-      "id": "0289",
-      "name": "Miriam",
-      "set": "SV01: Scarlet & Violet Base Set",
-      "number": "251/198",
-      "condition": "Near Mint",
-      "price": 38.0,
-      "quantity": 1,
-      "image": "images/0289.jpg",
-      "imageFull": "images/full/0289.jpg",
-      "dateAdded": "2026-07-30",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Pink",
-        "Nature",
-        "Floral",
-        "Flowers"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTc2OTM2NjM2OA=="
     },
     {
       "id": "0346",
@@ -3108,51 +2983,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTY2MTA5NTczMw=="
     },
     {
-      "id": "0230",
-      "name": "Togepi",
-      "set": "Neo Destiny",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 40.0,
-      "quantity": 1,
-      "image": "images/0230.jpg",
-      "imageFull": "images/full/0230.jpg",
-      "dateAdded": "2026-08-04",
-      "notes": "",
-      "tags": [
-        "173/SV-P",
-        "Ditto Lapras",
-        "Ditto Pikachu",
-        "Ditto Magikarp",
-        "Multiple Pokemon",
-        "Korean Exclusive",
-        "Promo",
-        "Cute"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQ0MjI3ODA5Nw=="
-    },
-    {
-      "id": "0302",
-      "name": "3 vs 3 Dugtrio Team Battle",
-      "set": "Vending Machine cards Series 3 (Green)",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 35.0,
-      "quantity": 1,
-      "image": "images/0302.jpg",
-      "imageFull": "images/full/0302.jpg",
-      "dateAdded": "2026-06-05",
-      "notes": "",
-      "tags": [
-        "Nobuyuki Habu",
-        "Japanese Exclusive",
-        "Cute",
-        "People",
-        "EXTRA RULE"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTY2MTQwNjY0OQ=="
-    },
-    {
       "id": "0398",
       "name": "Moomoo Milk",
       "set": "Gold, Silver, to a",
@@ -3289,28 +3119,6 @@
       "notes": "",
       "tags": [],
       "listingUrl": ""
-    },
-    {
-      "id": "0347",
-      "name": "20 Damage from Confusion",
-      "set": "EXTRA RULE",
-      "number": "Vending Machine cards Series 3 (Green)",
-      "condition": "Near Mint",
-      "price": 100.0,
-      "quantity": 1,
-      "image": "images/0347.jpg",
-      "imageFull": "images/full/0347.jpg",
-      "dateAdded": "2026-07-19",
-      "notes": "",
-      "tags": [
-        "No. 02",
-        "Nobuyuki Habu",
-        "Japanese Exclusive",
-        "EXTRA RULE",
-        "Meowth",
-        "Cute"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQ4NTMzOTUwNA=="
     },
     {
       "id": "0391",
@@ -3470,26 +3278,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQxNzk5OTExNQ=="
     },
     {
-      "id": "0700",
-      "name": "Flareon EX (Full Art)",
-      "set": "Generations: Radiant Collection",
-      "number": "RC28/RC32",
-      "condition": "Near Mint",
-      "price": 185.0,
-      "quantity": 1,
-      "image": "images/0700.jpg",
-      "imageFull": "images/full/0700.jpg",
-      "dateAdded": "2026-08-03",
-      "notes": "",
-      "tags": [
-        "RC31/RC32",
-        "Cute",
-        "Mega",
-        "Full ARt"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAzOTExNDcwMQ=="
-    },
-    {
       "id": "0256",
       "name": "Flaaffy",
       "set": "SWSH12: Silver Tempest Trainer Gallery",
@@ -3605,25 +3393,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTM3OTQzMDQ4NA=="
     },
     {
-      "id": "0228",
-      "name": "Altaria",
-      "set": "Crown Zenith: Galarian Gallery",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 18.0,
-      "quantity": 1,
-      "image": "images/0228.jpg",
-      "imageFull": "images/full/0228.jpg",
-      "dateAdded": "2026-07-18",
-      "notes": "",
-      "tags": [
-        "GG19/GG70",
-        "Cute",
-        "Pink"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTM3MjMzOTY5NA=="
-    },
-    {
       "id": "0495",
       "name": "Ash's Pikachu",
       "set": "SM Promos",
@@ -3645,46 +3414,6 @@
         "Sun & Moon Promos"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTM1MjYwMjU4MA=="
-    },
-    {
-      "id": "0205",
-      "name": "Minun",
-      "set": "Hidden Legends",
-      "number": "",
-      "condition": "Light Played",
-      "price": 35.0,
-      "quantity": 1,
-      "image": "images/0205.jpg",
-      "imageFull": "images/full/0205.jpg",
-      "dateAdded": "2026-07-18",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Rainbow",
-        "Stars"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTI5MzgwNzAyMQ=="
-    },
-    {
-      "id": "0206",
-      "name": "Plusle",
-      "set": "Hidden Legends",
-      "number": "",
-      "condition": "Light Played",
-      "price": 45.0,
-      "quantity": 1,
-      "image": "images/0206.jpg",
-      "imageFull": "images/full/0206.jpg",
-      "dateAdded": "2026-07-18",
-      "notes": "",
-      "tags": [
-        "Hearts",
-        "Cute",
-        "Pink",
-        "Rainbow",
-        "Heart holo sleeve included!"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTI5MzgwNjU2Mg=="
     },
     {
       "id": "0796",
@@ -4706,26 +4435,6 @@
         "Pink"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAwOTY3NjEzMg=="
-    },
-    {
-      "id": "0321",
-      "name": "Tapu Koko ex",
-      "set": "SV04: Paradox Rift",
-      "number": "247/182",
-      "condition": "Near Mint",
-      "price": 25.0,
-      "quantity": 1,
-      "image": "images/0321.jpg",
-      "imageFull": "images/full/0321.jpg",
-      "dateAdded": "2026-07-25",
-      "notes": "",
-      "tags": [
-        "SIR",
-        "Cute",
-        "Pink",
-        "Sunset"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAwOTY3NTkyMQ=="
     },
     {
       "id": "0320",
