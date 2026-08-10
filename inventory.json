@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-08T01:18",
-  "totalCards": 286,
-  "totalValue": 15580.0,
+  "lastUpdated": "2026-08-09T23:55",
+  "totalCards": 294,
+  "totalValue": 16219.0,
   "cards": [
     {
       "id": "0289",
@@ -765,25 +765,21 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAwOTY3NTkyMQ=="
     },
     {
-      "id": "0374",
+      "id": "0297",
       "name": "Espeon",
       "set": "SWSH: Sword & Shield Promo Cards",
       "number": "SWSH174",
-      "condition": "Light Played",
+      "condition": "Near Mint",
       "price": 13.0,
       "quantity": 1,
-      "image": "images/0374.jpg",
-      "imageFull": "images/full/0374.jpg",
-      "dateAdded": "2026-07-23",
+      "image": "images/0297.jpg",
+      "imageFull": "images/full/0297.jpg",
+      "dateAdded": "2026-08-09",
       "notes": "",
       "tags": [
-        "Promo",
-        "Cute",
-        "Eeveelution",
-        "Floral",
-        "Tika Matsuno"
+        "Dragon"
       ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjY2NDUxNw=="
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTEyODkwNzY3MQ=="
     },
     {
       "id": "0359",
@@ -1281,6 +1277,24 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTkzMTI5ODQ1Mw=="
     },
     {
+      "id": "0255",
+      "name": "Oshawott",
+      "set": "SV: White Flare",
+      "number": "105/086",
+      "condition": "Light Played",
+      "price": 100.0,
+      "quantity": 1,
+      "image": "images/0255.jpg",
+      "imageFull": "images/full/0255.jpg",
+      "dateAdded": "2026-08-09",
+      "notes": "",
+      "tags": [
+        "Promo",
+        "Cute"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA0NTA0MTMzNg=="
+    },
+    {
       "id": "0246",
       "name": "Minior",
       "set": "SV04: Paradox Rift",
@@ -1360,6 +1374,24 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTkzMTIzNzgyOQ=="
     },
     {
+      "id": "0397",
+      "name": "Amoonguss",
+      "set": "SV: Black Bolt",
+      "number": "096/086",
+      "condition": "Near Mint",
+      "price": 60.0,
+      "quantity": 1,
+      "image": "images/0397.jpg",
+      "imageFull": "images/full/0397.jpg",
+      "dateAdded": "2026-08-09",
+      "notes": "",
+      "tags": [
+        "Multiple Pokemon",
+        "OKUBO"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTkzMTIyODIwNw=="
+    },
+    {
       "id": "0221",
       "name": "Bulbasaur",
       "set": "ME: Mega Evolution Promo",
@@ -1398,6 +1430,30 @@
         "Zard"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTkxMzk4NTQxNg=="
+    },
+    {
+      "id": "0266",
+      "name": "Emolga",
+      "set": "SV: Black Bolt",
+      "number": "112/086",
+      "condition": "Near Mint",
+      "price": 26.0,
+      "quantity": 1,
+      "image": "images/0266.jpg",
+      "imageFull": "images/full/0266.jpg",
+      "dateAdded": "2026-08-09",
+      "notes": "",
+      "tags": [
+        "Cute",
+        "Sleeping",
+        "Beach",
+        "Floral",
+        "Flowers",
+        "Ocean",
+        "Sea",
+        "Nature"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTkzMTI5MDMxNw=="
     },
     {
       "id": "0399",
@@ -3003,6 +3059,27 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTkxMzk5MzYxMA=="
     },
     {
+      "id": "0302",
+      "name": "3 vs 3 Dugtrio Team Battle",
+      "set": "Vending Machine cards Series 3 (Green)",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 35.0,
+      "quantity": 1,
+      "image": "images/0302.jpg",
+      "imageFull": "images/full/0302.jpg",
+      "dateAdded": "2026-08-09",
+      "notes": "",
+      "tags": [
+        "Nobuyuki Habu",
+        "Japanese Exclusive",
+        "Cute",
+        "People",
+        "EXTRA RULE"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTY2MTQwNjY0OQ=="
+    },
+    {
       "id": "0398",
       "name": "Moomoo Milk",
       "set": "Gold, Silver, to a",
@@ -3160,6 +3237,28 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTM3MjMzOTY5NA=="
     },
     {
+      "id": "0347",
+      "name": "20 Damage from Confusion",
+      "set": "EXTRA RULE",
+      "number": "Vending Machine cards Series 3 (Green)",
+      "condition": "Near Mint",
+      "price": 100.0,
+      "quantity": 1,
+      "image": "images/0347.jpg",
+      "imageFull": "images/full/0347.jpg",
+      "dateAdded": "2026-08-09",
+      "notes": "",
+      "tags": [
+        "No. 02",
+        "Nobuyuki Habu",
+        "Japanese Exclusive",
+        "EXTRA RULE",
+        "Meowth",
+        "Cute"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQ4NTMzOTUwNA=="
+    },
+    {
       "id": "0391",
       "name": "Machoke",
       "set": "Vending Machine cards Series 2 (Red)",
@@ -3315,6 +3414,21 @@
         "Gm Pack Horizon"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQxNzk5OTExNQ=="
+    },
+    {
+      "id": "0703",
+      "name": "Flareon EX (Full Art)",
+      "set": "Generations: Radiant Collection",
+      "number": "RC28/RC32",
+      "condition": "Near Mint",
+      "price": 185.0,
+      "quantity": 1,
+      "image": "images/0703.jpg",
+      "imageFull": "images/full/0703.jpg",
+      "dateAdded": "2026-08-09",
+      "notes": "",
+      "tags": [],
+      "listingUrl": ""
     },
     {
       "id": "0702",
@@ -3502,6 +3616,27 @@
         "Stars"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTI5MzgwNzAyMQ=="
+    },
+    {
+      "id": "0206",
+      "name": "Plusle",
+      "set": "Hidden Legends",
+      "number": "",
+      "condition": "Light Played",
+      "price": 48.0,
+      "quantity": 1,
+      "image": "images/0206.jpg",
+      "imageFull": "images/full/0206.jpg",
+      "dateAdded": "2026-08-09",
+      "notes": "",
+      "tags": [
+        "Hearts",
+        "Cute",
+        "Pink",
+        "Rainbow",
+        "Heart holo sleeve included!"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTI5MzgwNjU2Mg=="
     },
     {
       "id": "0796",
@@ -3947,6 +4082,21 @@
         "Cameo"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTEyODkwNzc0OA=="
+    },
+    {
+      "id": "0705",
+      "name": "Gardevoir EX (Full Art)",
+      "set": "Generations: Radiant Collection",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 85.0,
+      "quantity": 1,
+      "image": "images/0705.jpg",
+      "imageFull": "images/full/0705.jpg",
+      "dateAdded": "2026-08-09",
+      "notes": "",
+      "tags": [],
+      "listingUrl": ""
     },
     {
       "id": "0275",
