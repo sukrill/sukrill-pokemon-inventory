@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-12T01:02",
-  "totalCards": 291,
-  "totalValue": 15988.0,
+  "lastUpdated": "2026-08-12T11:42",
+  "totalCards": 279,
+  "totalValue": 15456.0,
   "cards": [
     {
       "id": "0207",
@@ -364,42 +364,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA4NDU0MTE4OA=="
     },
     {
-      "id": "0388",
-      "name": "Emolga",
-      "set": "McDonald's Promos 2012",
-      "number": "6/12",
-      "condition": "Light Played",
-      "price": 12.0,
-      "quantity": 1,
-      "image": "images/0388.jpg",
-      "imageFull": "images/full/0388.jpg",
-      "dateAdded": "2026-07-25",
-      "notes": "",
-      "tags": [
-        "Promo",
-        "Kouki Saitou",
-        "Cute"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA4NDUzMDk2Mw=="
-    },
-    {
-      "id": "0423",
-      "name": "Celebi",
-      "set": "SWSH04: Vivid Voltage",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 12.0,
-      "quantity": 1,
-      "image": "images/0423.jpg",
-      "imageFull": "images/full/0423.jpg",
-      "dateAdded": "2026-07-25",
-      "notes": "",
-      "tags": [
-        "Cute"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA4NDUxOTQ1Ng=="
-    },
-    {
       "id": "0325",
       "name": "Azumarill",
       "set": "Team Rocket Returns",
@@ -714,25 +678,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjY4MjExMg=="
     },
     {
-      "id": "0321",
-      "name": "Minun",
-      "set": "EX Trainer Kit 2: Plusle & Minun",
-      "number": "",
-      "condition": "Light Played",
-      "price": 18.0,
-      "quantity": 1,
-      "image": "images/0321.jpg",
-      "imageFull": "images/full/0321.jpg",
-      "dateAdded": "2026-08-07",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Connecting Art",
-        "Connecting Cards"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjY3NTkxNQ=="
-    },
-    {
       "id": "0359",
       "name": "Dratini (2)",
       "set": "Dragon Vault",
@@ -748,23 +693,6 @@
         "Cute"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjY0OTk1MQ=="
-    },
-    {
-      "id": "0404",
-      "name": "Dragonair (4)",
-      "set": "Dragon Vault",
-      "number": "",
-      "condition": "Light Played",
-      "price": 14.0,
-      "quantity": 1,
-      "image": "images/0404.jpg",
-      "imageFull": "images/full/0404.jpg",
-      "dateAdded": "2026-07-19",
-      "notes": "",
-      "tags": [
-        "Cute"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjY0NzM0NA=="
     },
     {
       "id": "0353",
@@ -801,23 +729,6 @@
         "Vintage"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjU2MjE0OA=="
-    },
-    {
-      "id": "0317",
-      "name": "Dragonite",
-      "set": "Miscellaneous Cards & Products",
-      "number": "96/149 (Cosmos Holo)",
-      "condition": "Light Played",
-      "price": 10.0,
-      "quantity": 1,
-      "image": "images/0317.jpg",
-      "imageFull": "images/full/0317.jpg",
-      "dateAdded": "2026-07-30",
-      "notes": "",
-      "tags": [
-        "Promo"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjU0NjAyNg=="
     },
     {
       "id": "0261",
@@ -1155,28 +1066,6 @@
         "Yoko Hishida"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTk0ODEzMTI2MA=="
-    },
-    {
-      "id": "0344",
-      "name": "Whismur",
-      "set": "League & Championship Cards",
-      "number": "73/106 (City Championships)",
-      "condition": "Light Played",
-      "price": 20.0,
-      "quantity": 1,
-      "image": "images/0344.jpg",
-      "imageFull": "images/full/0344.jpg",
-      "dateAdded": "2026-07-18",
-      "notes": "",
-      "tags": [
-        "Promo",
-        "Stamped",
-        "Hajime Kusajima",
-        "Cute",
-        "Crying",
-        "Vintage"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTkzMTM1Mzg4MA=="
     },
     {
       "id": "0297",
@@ -1851,26 +1740,6 @@
       "notes": "",
       "tags": [],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTg4MjEwNTc2Nw=="
-    },
-    {
-      "id": "0386",
-      "name": "Aipom",
-      "set": "SV04: Paradox Rift",
-      "number": "211/182",
-      "condition": "Near Mint",
-      "price": 34.0,
-      "quantity": 1,
-      "image": "images/0386.jpg",
-      "imageFull": "images/full/0386.jpg",
-      "dateAdded": "2026-06-14",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Nature",
-        "Multiple Pokemon",
-        "Yuka Morii"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTg4MjA5MzkxMg=="
     },
     {
       "id": "0273",
@@ -3037,24 +2906,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTY2MTQwNjY0OQ=="
     },
     {
-      "id": "0398",
-      "name": "Moomoo Milk",
-      "set": "Gold, Silver, to a",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 35.0,
-      "quantity": 1,
-      "image": "images/0398.jpg",
-      "imageFull": "images/full/0398.jpg",
-      "dateAdded": "2026-07-12",
-      "notes": "",
-      "tags": [
-        "Tomokazu Komiya",
-        "BANNED"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTY2MTI4MDgyOA=="
-    },
-    {
       "id": "0204",
       "name": "Rocket's Snorlax",
       "set": "Gym Heroes",
@@ -3173,27 +3024,6 @@
         "PokeKyun Collection"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTUwMjk5NjI4OQ=="
-    },
-    {
-      "id": "0228",
-      "name": "Grimer",
-      "set": "Rocket Gang",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 60.0,
-      "quantity": 1,
-      "image": "images/0228.jpg",
-      "imageFull": "images/full/0228.jpg",
-      "dateAdded": "2026-08-07",
-      "notes": "",
-      "tags": [
-        "No. 088",
-        "Kagemaru Himeno",
-        "Banned Japanese Card",
-        "Japanese Exclusive",
-        "Banned Pokemon Card"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQ4NTMzOTU1Mw=="
     },
     {
       "id": "0347",
@@ -3372,27 +3202,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQxNzk5OTExNQ=="
     },
     {
-      "id": "0703",
-      "name": "Flareon EX (Full Art)",
-      "set": "Generations: Radiant Collection",
-      "number": "RC28/RC32",
-      "condition": "Near Mint",
-      "price": 185.0,
-      "quantity": 1,
-      "image": "images/0703.jpg",
-      "imageFull": "images/full/0703.jpg",
-      "dateAdded": "2026-08-09",
-      "notes": "",
-      "tags": [
-        "RC28/RC32",
-        "Cute",
-        "Eeveelution",
-        "Multiple Pokemon",
-        "Cameo"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQxNTUyMDg3Mg=="
-    },
-    {
       "id": "0702",
       "name": "Mew EX (Full Art)",
       "set": "Legendary Treasures: Radiant Collection",
@@ -3488,26 +3297,6 @@
         "Nurse"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQwMDc1MTI0OQ=="
-    },
-    {
-      "id": "0220",
-      "name": "Sylveon CBB2C-09 15/15",
-      "set": "Horizon Gem Pack Vol 2",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 120.0,
-      "quantity": 1,
-      "image": "images/0220.jpg",
-      "imageFull": "images/full/0220.jpg",
-      "dateAdded": "2026-07-31",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Pink",
-        "Flowers",
-        "Floral"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTM5OTI2MDgyNA=="
     },
     {
       "id": "0293",
@@ -3621,8 +3410,8 @@
       "condition": "Near Mint",
       "price": 15.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0796.jpg",
+      "imageFull": "images/full/0796.jpg",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -3641,8 +3430,8 @@
       "condition": "Near Mint",
       "price": 85.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0787.jpg",
+      "imageFull": "images/full/0787.jpg",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -3661,8 +3450,8 @@
       "condition": "Near Mint",
       "price": 120.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0794.jpg",
+      "imageFull": "images/full/0794.jpg",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -3679,8 +3468,8 @@
       "condition": "Near Mint",
       "price": 19.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0247.jpg",
+      "imageFull": "images/full/0247.jpg",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -3702,8 +3491,8 @@
       "condition": "Light Played",
       "price": 70.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0373.jpg",
+      "imageFull": "images/full/0373.jpg",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -3721,8 +3510,8 @@
       "condition": "Near Mint",
       "price": 30.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0738.jpg",
+      "imageFull": "images/full/0738.jpg",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -3738,8 +3527,8 @@
       "condition": "Near Mint",
       "price": 14.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0203.jpg",
+      "imageFull": "images/full/0203.jpg",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -3758,8 +3547,8 @@
       "condition": "Near Mint",
       "price": 30.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0235.jpg",
+      "imageFull": "images/full/0235.jpg",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -3777,8 +3566,8 @@
       "condition": "Near Mint",
       "price": 83.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0215.jpg",
+      "imageFull": "images/full/0215.jpg",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -3797,8 +3586,8 @@
       "condition": "Near Mint",
       "price": 23.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0327.jpg",
+      "imageFull": "images/full/0327.jpg",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -3818,8 +3607,8 @@
       "condition": "Near Mint",
       "price": 16.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0332.jpg",
+      "imageFull": "images/full/0332.jpg",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -3836,8 +3625,8 @@
       "condition": "Near Mint",
       "price": 80.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0295.jpg",
+      "imageFull": "images/full/0295.jpg",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -3857,8 +3646,8 @@
       "condition": "Near Mint",
       "price": 35.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0418.jpg",
+      "imageFull": "images/full/0418.jpg",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -3878,8 +3667,8 @@
       "condition": "Near Mint",
       "price": 60.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0704.jpg",
+      "imageFull": "images/full/0704.jpg",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -3896,8 +3685,8 @@
       "condition": "Near Mint",
       "price": 30.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0846.jpg",
+      "imageFull": "images/full/0846.jpg",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -3919,8 +3708,8 @@
       "condition": "Near Mint",
       "price": 10.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0408.jpg",
+      "imageFull": "images/full/0408.jpg",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -3939,8 +3728,8 @@
       "condition": "Light Played",
       "price": 40.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0629.jpg",
+      "imageFull": "images/full/0629.jpg",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -3957,8 +3746,8 @@
       "condition": "Near Mint",
       "price": 23.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0450.jpg",
+      "imageFull": "images/full/0450.jpg",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -3974,8 +3763,8 @@
       "condition": "Light Played",
       "price": 50.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0510.jpg",
+      "imageFull": "images/full/0510.jpg",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -3995,8 +3784,8 @@
       "condition": "Near Mint",
       "price": 65.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0255.jpg",
+      "imageFull": "images/full/0255.jpg",
       "dateAdded": "2026-08-12",
       "notes": "",
       "tags": [
@@ -4020,8 +3809,8 @@
       "condition": "Light Played",
       "price": 120.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0700.jpg",
+      "imageFull": "images/full/0700.jpg",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -4683,26 +4472,6 @@
         "Cameo"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAxMDQ2ODE2MA=="
-    },
-    {
-      "id": "0237",
-      "name": "Altaria",
-      "set": "SWSH12: Silver Tempest Trainer Gallery",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 12.0,
-      "quantity": 1,
-      "image": "",
-      "imageFull": "",
-      "dateAdded": "2026-08-11",
-      "notes": "",
-      "tags": [
-        "TG11/TG30",
-        "Cute",
-        "People",
-        "Pink"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAwOTY3NjEzMg=="
     },
     {
       "id": "0265",
