@@ -1,8 +1,31 @@
 {
-  "lastUpdated": "2026-08-15T22:55",
-  "totalCards": 269,
-  "totalValue": 14909.0,
+  "lastUpdated": "2026-08-16T01:02",
+  "totalCards": 272,
+  "totalValue": 15239.0,
   "cards": [
+    {
+      "id": "0940",
+      "name": "Charmander",
+      "set": "17/113 (Build-A-Bear Workshop Exclusive)",
+      "number": "",
+      "condition": "New",
+      "price": 70.0,
+      "quantity": 1,
+      "image": "images/0940.jpg",
+      "imageFull": "images/full/0940.jpg",
+      "dateAdded": "2026-08-16",
+      "notes": "",
+      "tags": [
+        "Promo",
+        "Cute",
+        "BAB",
+        "Build A Bear Workshop",
+        "Stamped",
+        "Stamp",
+        "Sealed"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjE3NjQ2NDY3Mg=="
+    },
     {
       "id": "0207",
       "name": "Pachirisu",
@@ -1318,92 +1341,104 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTg5ODA3NjUyMA=="
     },
     {
-      "id": "0380",
+      "id": "0910",
       "name": "Pikachu Berkemeja Batik 101/SV-P Green",
       "set": "Indonesia Journey Promo",
       "number": "",
       "condition": "New",
       "price": 45.0,
       "quantity": 1,
-      "image": "images/0380.jpg",
-      "imageFull": "images/full/0380.jpg",
-      "dateAdded": "2026-06-05",
+      "image": "images/0910.jpg",
+      "imageFull": "images/full/0910.jpg",
+      "dateAdded": "2026-08-16",
       "notes": "",
       "tags": [
         "Indonesia Journey Promo",
         "Cute",
-        "Indonesian Exclusive"
+        "Indonesian Exclusive",
+        "Stamped",
+        "Stamp",
+        "Sealed"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTg5ODAzNTc2Ng=="
     },
     {
-      "id": "0379",
+      "id": "0912",
       "name": "Pikachu Berkemeja Batik 155/SV-P Blue",
       "set": "Indonesia Journey Promo",
       "number": "",
       "condition": "New",
       "price": 45.0,
       "quantity": 1,
-      "image": "images/0379.jpg",
-      "imageFull": "images/full/0379.jpg",
-      "dateAdded": "2026-06-05",
+      "image": "images/0912.jpg",
+      "imageFull": "images/full/0912.jpg",
+      "dateAdded": "2026-08-16",
       "notes": "",
       "tags": [
         "Indonesia Journey Promo",
         "Cute",
-        "Indonesian Exclusive"
+        "Indonesian Exclusive",
+        "Stamped",
+        "Stamp",
+        "Sealed"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTg5ODAzMjUyMg=="
     },
     {
-      "id": "0378",
+      "id": "0911",
       "name": "Pikachu Berkemeja Batik 190/SV-P Pink",
       "set": "Indonesia Journey Promo",
       "number": "",
       "condition": "New",
       "price": 45.0,
       "quantity": 1,
-      "image": "images/0378.jpg",
-      "imageFull": "images/full/0378.jpg",
-      "dateAdded": "2026-06-05",
+      "image": "images/0911.jpg",
+      "imageFull": "images/full/0911.jpg",
+      "dateAdded": "2026-08-16",
       "notes": "",
       "tags": [
         "Indonesia Journey Promo",
         "Cute",
-        "Indonesian Exclusive"
+        "Indonesian Exclusive",
+        "Stamped",
+        "Stamp",
+        "Sealed"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTg5ODAyOTgyOA=="
     },
     {
-      "id": "0377",
+      "id": "0913",
       "name": "Pikachu Berkemeja Batik 154/SV-P Purple",
       "set": "Indonesia Journey Promo",
       "number": "",
       "condition": "New",
       "price": 45.0,
       "quantity": 1,
-      "image": "images/0377.jpg",
-      "imageFull": "images/full/0377.jpg",
-      "dateAdded": "2026-06-05",
+      "image": "images/0913.jpg",
+      "imageFull": "images/full/0913.jpg",
+      "dateAdded": "2026-08-16",
       "notes": "",
       "tags": [
         "Indonesia Journey Promo",
         "Cute",
-        "Indonesian Exclusive"
+        "Indonesian Exclusive",
+        "Stamped",
+        "Stamp",
+        "Sealed"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTg5ODAyNjA2Mg=="
     },
     {
-      "id": "0801",
+      "id": "0921",
       "name": "Mischievous Pichu",
       "set": "S-P: Sword & Shield Promos",
       "number": "214/S-P",
       "condition": "Near Mint",
       "price": 60.0,
       "quantity": 1,
-      "image": "images/0801.jpg",
-      "imageFull": "images/full/0801.jpg",
-      "dateAdded": "2026-08-02",
+      "image": "images/0921.jpg",
+      "imageFull": "images/full/0921.jpg",
+      "dateAdded": "2026-08-16",
       "notes": "",
       "tags": [
         "214/S-P",
@@ -2994,20 +3029,22 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQ4NDYyOTQ5Mg=="
     },
     {
-      "id": "0312",
+      "id": "0902",
       "name": "Alolan Vulpix",
       "set": "21/145 (Toys R Us Promo)",
       "number": "",
       "condition": "New",
-      "price": 60.0,
+      "price": 50.0,
       "quantity": 1,
-      "image": "images/0312.jpg",
-      "imageFull": "images/full/0312.jpg",
-      "dateAdded": "2026-06-04",
+      "image": "images/0902.jpg",
+      "imageFull": "images/full/0902.jpg",
+      "dateAdded": "2026-08-16",
       "notes": "",
       "tags": [
         "Promo",
         "Cute",
+        "Stamped",
+        "Stamp",
         "Sealed"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQ1MzEwMTkzOA=="
@@ -3050,6 +3087,33 @@
         "Messy"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQ0MjM0NjMwMA=="
+    },
+    {
+      "id": "0930",
+      "name": "Ditto Metamong 173/SV-P Korean Exclusive Promo",
+      "set": "Metamong Promo",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 300.0,
+      "quantity": 1,
+      "image": "images/0930.jpg",
+      "imageFull": "images/full/0930.jpg",
+      "dateAdded": "2026-08-16",
+      "notes": "",
+      "tags": [
+        "173/SV-P",
+        "Ditto Lapras",
+        "Ditto Pikachu",
+        "Ditto Magikarp",
+        "Multiple Pokemon",
+        "Korean Exclusive",
+        "Promo",
+        "Cute",
+        "Stamped",
+        "Stamp",
+        "Sealed"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQ0MjI3ODA5Nw=="
     },
     {
       "id": "0880",
@@ -3248,7 +3312,9 @@
         "I Choose You!",
         "Pokemon The Movie",
         "Sun and Moon Promos",
-        "Sun & Moon Promos"
+        "Sun & Moon Promos",
+        "Stamped",
+        "Stamp"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTM1MjYwMjU4MA=="
     },
@@ -3764,16 +3830,16 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA4NjEzOTcxNA=="
     },
     {
-      "id": "0546",
+      "id": "0931",
       "name": "Iono's Wattrel",
       "set": "SV-P Promo",
       "number": "232/SV-P",
       "condition": "Near Mint",
-      "price": 30.0,
+      "price": 20.0,
       "quantity": 1,
-      "image": "images/0546.jpg",
-      "imageFull": "images/full/0546.jpg",
-      "dateAdded": "2026-08-11",
+      "image": "images/0931.jpg",
+      "imageFull": "images/full/0931.jpg",
+      "dateAdded": "2026-08-16",
       "notes": "",
       "tags": [
         "Japanese Exclusive",
@@ -3839,16 +3905,16 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA4MTM4OTc1Ng=="
     },
     {
-      "id": "0906",
+      "id": "0242",
       "name": "Snorlax VMAX",
       "set": "SWSH01: Sword & Shield Base Set",
       "number": "",
       "condition": "Near Mint",
       "price": 65.0,
       "quantity": 1,
-      "image": "images/0906.jpg",
-      "imageFull": "images/full/0906.jpg",
-      "dateAdded": "2026-08-11",
+      "image": "images/0242.jpg",
+      "imageFull": "images/full/0242.jpg",
+      "dateAdded": "2026-08-16",
       "notes": "",
       "tags": [
         "Cute"
@@ -4294,7 +4360,9 @@
         "I Choose You!",
         "Pokemon The Movie",
         "Sun and Moon Promos",
-        "Sun & Moon Promos"
+        "Sun & Moon Promos",
+        "Stamped",
+        "Stamp"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAxNjc4MDg1NQ=="
     },
@@ -4434,64 +4502,70 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTk4NTc4MTkx"
     },
     {
-      "id": "0884",
+      "id": "0900",
       "name": "Magikarp",
       "set": "22/83 (Toys R Us Promo)",
       "number": "",
       "condition": "Near Mint",
       "price": 80.0,
       "quantity": 1,
-      "image": "images/0884.jpg",
-      "imageFull": "images/full/0884.jpg",
-      "dateAdded": "2026-08-11",
+      "image": "images/0900.jpg",
+      "imageFull": "images/full/0900.jpg",
+      "dateAdded": "2026-08-16",
       "notes": "",
       "tags": [
-        "Sealed",
-        "Promo"
+        "Promo",
+        "Stamped",
+        "Stamp",
+        "Sealed"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTk1NjQ4NzEz"
     },
     {
-      "id": "0313",
+      "id": "0903",
       "name": "Clefairy",
       "set": "50/83 (Toys R Us Promo)",
       "number": "",
       "condition": "Near Mint",
-      "price": 90.0,
+      "price": 45.0,
       "quantity": 1,
-      "image": "images/0313.jpg",
-      "imageFull": "images/full/0313.jpg",
-      "dateAdded": "2026-08-11",
+      "image": "images/0903.jpg",
+      "imageFull": "images/full/0903.jpg",
+      "dateAdded": "2026-08-16",
       "notes": "",
       "tags": [
-        "Sealed",
         "Promo",
         "Cute",
         "Pink",
         "Fairy",
         "Cosmic",
         "Stars",
-        "Sparkles"
+        "Sparkles",
+        "Stamped",
+        "Stamp",
+        "Sealed"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTk1NjQ4Njgy"
     },
     {
-      "id": "0507",
+      "id": "0901",
       "name": "Stufful",
       "set": "110/147 (Toys R Us)",
       "number": "",
       "condition": "Near Mint",
-      "price": 50.0,
+      "price": 25.0,
       "quantity": 1,
-      "image": "images/0507.jpg",
-      "imageFull": "images/full/0507.jpg",
-      "dateAdded": "2026-08-11",
+      "image": "images/0901.jpg",
+      "imageFull": "images/full/0901.jpg",
+      "dateAdded": "2026-08-16",
       "notes": "",
       "tags": [
-        "Sealed",
         "Promo",
         "Cute",
-        "Pink"
+        "Pink",
+        "Stamped",
+        "Stamp",
+        "Sealed"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTk1NjQ4NjYz"
     },
@@ -4569,6 +4643,32 @@
         "Nature"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTkxMDgzMTc0"
+    },
+    {
+      "id": "0920",
+      "name": "Ash's Pikachu",
+      "set": "SM Promos",
+      "number": "SM108",
+      "condition": "Near Mint",
+      "price": 50.0,
+      "quantity": 1,
+      "image": "images/0920.jpg",
+      "imageFull": "images/full/0920.jpg",
+      "dateAdded": "2026-08-16",
+      "notes": "",
+      "tags": [
+        "Sealed",
+        "Promo",
+        "Cute",
+        "I Choose You Pikachu",
+        "I Choose You!",
+        "Pokemon The Movie",
+        "Sun and Moon Promos",
+        "Sun & Moon Promos",
+        "Stamped",
+        "Stamp"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTg0NjMxMjg5"
     },
     {
       "id": "0217",
@@ -4687,8 +4787,8 @@
       "condition": "Light Played",
       "price": 150.0,
       "quantity": 1,
-      "image": "images/0234.jpg",
-      "imageFull": "images/full/0234.jpg",
+      "image": "",
+      "imageFull": "",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -4707,8 +4807,8 @@
       "condition": "Light Played",
       "price": 250.0,
       "quantity": 1,
-      "image": "images/0419.jpg",
-      "imageFull": "images/full/0419.jpg",
+      "image": "",
+      "imageFull": "",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -4882,12 +4982,14 @@
       "notes": "",
       "tags": [
         "Promo",
-        "CuCute",
+        "Cute",
         "I Choose You Pikachu",
         "I Choose You!",
         "Pokemon The Movie",
         "Sun and Moon Promos",
-        "Sun & Moon Promos"
+        "Sun & Moon Promos",
+        "Stamped",
+        "Stamp"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDUzOTg1"
     },
@@ -4910,7 +5012,9 @@
         "I Choose You!",
         "Pokemon The Movie",
         "Sun and Moon Promos",
-        "Sun & Moon Promos"
+        "Sun & Moon Promos",
+        "Stamped",
+        "Stamp"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDUzOTcx"
     },
@@ -4933,7 +5037,9 @@
         "I Choose You!",
         "Pokemon The Movie",
         "Sun and Moon Promos",
-        "Sun & Moon Promos"
+        "Sun & Moon Promos",
+        "Stamped",
+        "Stamp"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDUzOTYx"
     },
@@ -4956,7 +5062,9 @@
         "I Choose You!",
         "Pokemon The Movie",
         "Sun and Moon Promos",
-        "Sun & Moon Promos"
+        "Sun & Moon Promos",
+        "Stamped",
+        "Stamp"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDUzOTUw"
     },
