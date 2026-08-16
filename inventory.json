@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-13T23:53",
-  "totalCards": 277,
-  "totalValue": 15425.0,
+  "lastUpdated": "2026-08-15T22:55",
+  "totalCards": 269,
+  "totalValue": 14909.0,
   "cards": [
     {
       "id": "0207",
@@ -367,24 +367,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA3NjAzOTEzOQ=="
     },
     {
-      "id": "0484",
-      "name": "Gothitelle",
-      "set": "SV: Scarlet & Violet Promo Cards",
-      "number": "211",
-      "condition": "Near Mint",
-      "price": 10.0,
-      "quantity": 1,
-      "image": "images/0484.jpg",
-      "imageFull": "images/full/0484.jpg",
-      "dateAdded": "2026-07-23",
-      "notes": "",
-      "tags": [
-        "211",
-        "Promo"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA3NTk4MDM5Nw=="
-    },
-    {
       "id": "0483",
       "name": "Team Rocket's Murkrow",
       "set": "SV10: Destined Rivals",
@@ -521,26 +503,6 @@
         "Ultra Rare  Dragon"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA3NTg2NjkzMw=="
-    },
-    {
-      "id": "0242",
-      "name": "Vanillish",
-      "set": "SV04: Paradox Rift",
-      "number": "190/182",
-      "condition": "Near Mint",
-      "price": 13.0,
-      "quantity": 1,
-      "image": "images/0242.jpg",
-      "imageFull": "images/full/0242.jpg",
-      "dateAdded": "2026-07-23",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "People",
-        "Food",
-        "Dessert"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA3NTg1MjY3Mg=="
     },
     {
       "id": "0432",
@@ -1032,25 +994,6 @@
         "Home"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTk0ODYzNjU5Nw=="
-    },
-    {
-      "id": "0262",
-      "name": "Budew",
-      "set": "ME: Ascended Heroes",
-      "number": "221/217",
-      "condition": "Near Mint",
-      "price": 13.0,
-      "quantity": 1,
-      "image": "images/0262.jpg",
-      "imageFull": "images/full/0262.jpg",
-      "dateAdded": "2026-07-18",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Cosmic",
-        "Yoko Hishida"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTk0ODEzMTI2MA=="
     },
     {
       "id": "0297",
@@ -3742,24 +3685,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE0NTAxODUxNw=="
     },
     {
-      "id": "0315",
-      "name": "Machamp",
-      "set": "WoTC Promo",
-      "number": "",
-      "condition": "Light Played",
-      "price": 85.0,
-      "quantity": 1,
-      "image": "images/0315.jpg",
-      "imageFull": "images/full/0315.jpg",
-      "dateAdded": "2026-08-11",
-      "notes": "",
-      "tags": [
-        "Promo",
-        "Tomokazu Komiya"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTEyODkwNzc2MA=="
-    },
-    {
       "id": "0284",
       "name": "Light Jolteon",
       "set": "Neo Destiny",
@@ -4646,30 +4571,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTkxMDgzMTc0"
     },
     {
-      "id": "0800",
-      "name": "Ash's Pikachu",
-      "set": "SM Promos",
-      "number": "SM108",
-      "condition": "Near Mint",
-      "price": 50.0,
-      "quantity": 1,
-      "image": "images/0800.jpg",
-      "imageFull": "images/full/0800.jpg",
-      "dateAdded": "2026-08-11",
-      "notes": "",
-      "tags": [
-        "Sealed",
-        "Promo",
-        "Cute",
-        "I Choose You Pikachu",
-        "I Choose You!",
-        "Pokemon The Movie",
-        "Sun and Moon Promos",
-        "Sun & Moon Promos"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTg0NjMxMjg5"
-    },
-    {
       "id": "0217",
       "name": "Morpeko",
       "set": "SV04: Paradox Rift",
@@ -4733,8 +4634,8 @@
       "condition": "Light Played",
       "price": 60.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0334.jpg",
+      "imageFull": "images/full/0334.jpg",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -4753,8 +4654,8 @@
       "condition": "Light Played",
       "price": 140.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0401.jpg",
+      "imageFull": "images/full/0401.jpg",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [],
@@ -4768,8 +4669,8 @@
       "condition": "Near Mint",
       "price": 18.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0437.jpg",
+      "imageFull": "images/full/0437.jpg",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -4786,8 +4687,8 @@
       "condition": "Light Played",
       "price": 150.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0234.jpg",
+      "imageFull": "images/full/0234.jpg",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -4806,8 +4707,8 @@
       "condition": "Light Played",
       "price": 250.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/0419.jpg",
+      "imageFull": "images/full/0419.jpg",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -4815,44 +4716,6 @@
         "Cute"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0MzE5"
-    },
-    {
-      "id": "0283",
-      "name": "Vaporeon",
-      "set": "Black and White Promos",
-      "number": "BW89",
-      "condition": "Light Played",
-      "price": 75.0,
-      "quantity": 1,
-      "image": "",
-      "imageFull": "",
-      "dateAdded": "2026-08-11",
-      "notes": "",
-      "tags": [
-        "Eeveelution",
-        "Cute",
-        "Promo"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0Mjk2"
-    },
-    {
-      "id": "0323",
-      "name": "Flareon",
-      "set": "Black and White Promos",
-      "number": "BW88",
-      "condition": "Light Played",
-      "price": 60.0,
-      "quantity": 1,
-      "image": "",
-      "imageFull": "",
-      "dateAdded": "2026-08-11",
-      "notes": "",
-      "tags": [
-        "Eeveelution",
-        "Cute",
-        "Promo"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0Mjky"
     },
     {
       "id": "0350",
@@ -5096,21 +4959,6 @@
         "Sun & Moon Promos"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDUzOTUw"
-    },
-    {
-      "id": "0664",
-      "name": "Venusaur EX",
-      "set": "XY Promos",
-      "number": "XY123",
-      "condition": "Light Played",
-      "price": 210.0,
-      "quantity": 1,
-      "image": "",
-      "imageFull": "",
-      "dateAdded": "2026-08-11",
-      "notes": "",
-      "tags": [],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTUxNDQ4NzA3"
     },
     {
       "id": "0298",
