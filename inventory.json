@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-17T10:55",
-  "totalCards": 299,
-  "totalValue": 16794.0,
+  "lastUpdated": "2026-08-18T16:48",
+  "totalCards": 296,
+  "totalValue": 16674.0,
   "cards": [
     {
       "id": "0500",
@@ -551,26 +551,6 @@
         "Dragon"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA4NDU0MTE4OA=="
-    },
-    {
-      "id": "0516",
-      "name": "Galarian Rapidash",
-      "set": "Shining Fates: Shiny Vault",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 16.0,
-      "quantity": 1,
-      "image": "images/0516.jpg",
-      "imageFull": "images/full/0516.jpg",
-      "dateAdded": "2026-08-16",
-      "notes": "",
-      "tags": [
-        "SV048/SV122",
-        "Baby Shiny",
-        "Baby Shinies",
-        "Cute"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA3NjU5MjcxOA=="
     },
     {
       "id": "0325",
@@ -3520,25 +3500,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQ0MjI3ODA5Nw=="
     },
     {
-      "id": "0880",
-      "name": "Vileplume",
-      "set": "Southern Islands",
-      "number": "",
-      "condition": "Light Played",
-      "price": 85.0,
-      "quantity": 1,
-      "image": "images/0880.jpg",
-      "imageFull": "images/full/0880.jpg",
-      "dateAdded": "2026-06-04",
-      "notes": "",
-      "tags": [
-        "Promo",
-        "Cute",
-        "Swirl 🌀"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQ0MjI0NDc0NQ=="
-    },
-    {
       "id": "0435",
       "name": "Sprigatito 01 09/09",
       "set": "Gem Pack Vol. 1",
@@ -3546,8 +3507,8 @@
       "condition": "Near Mint",
       "price": 45.0,
       "quantity": 1,
-      "image": "images/0435.jpg",
-      "imageFull": "images/full/0435.jpg",
+      "image": "",
+      "imageFull": "",
       "dateAdded": "2026-07-12",
       "notes": "",
       "tags": [
@@ -3566,8 +3527,8 @@
       "condition": "Light Played",
       "price": 120.0,
       "quantity": 1,
-      "image": "images/0703.jpg",
-      "imageFull": "images/full/0703.jpg",
+      "image": "",
+      "imageFull": "",
       "dateAdded": "2026-08-16",
       "notes": "",
       "tags": [
@@ -3587,8 +3548,8 @@
       "condition": "Near Mint",
       "price": 10.0,
       "quantity": 1,
-      "image": "images/0256.jpg",
-      "imageFull": "images/full/0256.jpg",
+      "image": "",
+      "imageFull": "",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -3607,8 +3568,8 @@
       "condition": "Light Played",
       "price": 11.0,
       "quantity": 1,
-      "image": "images/0307.jpg",
-      "imageFull": "images/full/0307.jpg",
+      "image": "",
+      "imageFull": "",
       "dateAdded": "2026-07-23",
       "notes": "",
       "tags": [
@@ -3624,8 +3585,8 @@
       "condition": "Near Mint",
       "price": 25.0,
       "quantity": 1,
-      "image": "images/0279.jpg",
-      "imageFull": "images/full/0279.jpg",
+      "image": "",
+      "imageFull": "",
       "dateAdded": "2026-07-18",
       "notes": "",
       "tags": [
@@ -3643,8 +3604,8 @@
       "condition": "Light Played",
       "price": 23.0,
       "quantity": 1,
-      "image": "images/0281.jpg",
-      "imageFull": "images/full/0281.jpg",
+      "image": "",
+      "imageFull": "",
       "dateAdded": "2026-06-29",
       "notes": "",
       "tags": [
@@ -3664,8 +3625,8 @@
       "condition": "Near Mint",
       "price": 120.0,
       "quantity": 1,
-      "image": "images/0232.jpg",
-      "imageFull": "images/full/0232.jpg",
+      "image": "",
+      "imageFull": "",
       "dateAdded": "2026-08-16",
       "notes": "",
       "tags": [
@@ -3684,8 +3645,8 @@
       "condition": "Light Played",
       "price": 100.0,
       "quantity": 1,
-      "image": "images/0293.jpg",
-      "imageFull": "images/full/0293.jpg",
+      "image": "",
+      "imageFull": "",
       "dateAdded": "2026-06-17",
       "notes": "",
       "tags": [
@@ -3707,8 +3668,8 @@
       "condition": "Near Mint",
       "price": 19.0,
       "quantity": 1,
-      "image": "images/0303.jpg",
-      "imageFull": "images/full/0303.jpg",
+      "image": "",
+      "imageFull": "",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -3726,8 +3687,8 @@
       "condition": "Near Mint",
       "price": 75.0,
       "quantity": 1,
-      "image": "images/0219.jpg",
-      "imageFull": "images/full/0219.jpg",
+      "image": "",
+      "imageFull": "",
       "dateAdded": "2026-08-16",
       "notes": "",
       "tags": [
@@ -3748,8 +3709,8 @@
       "condition": "Light Played",
       "price": 45.0,
       "quantity": 1,
-      "image": "images/0495.jpg",
-      "imageFull": "images/full/0495.jpg",
+      "image": "",
+      "imageFull": "",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -3773,8 +3734,8 @@
       "condition": "Light Played",
       "price": 36.0,
       "quantity": 1,
-      "image": "images/0205.jpg",
-      "imageFull": "images/full/0205.jpg",
+      "image": "",
+      "imageFull": "",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -3792,8 +3753,8 @@
       "condition": "Light Played",
       "price": 48.0,
       "quantity": 1,
-      "image": "images/0206.jpg",
-      "imageFull": "images/full/0206.jpg",
+      "image": "",
+      "imageFull": "",
       "dateAdded": "2026-08-11",
       "notes": "",
       "tags": [
@@ -4452,21 +4413,6 @@
         "Cute"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA4MTM4OTczNg=="
-    },
-    {
-      "id": "0441",
-      "name": "Rayquaza VMAX",
-      "set": "SWSH07: Evolving Skies",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 19.0,
-      "quantity": 1,
-      "image": "",
-      "imageFull": "",
-      "dateAdded": "2026-08-11",
-      "notes": "",
-      "tags": [],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA4MTM4OTcyMA=="
     },
     {
       "id": "0523",
