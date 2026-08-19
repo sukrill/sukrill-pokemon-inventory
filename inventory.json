@@ -1,8 +1,47 @@
 {
-  "lastUpdated": "2026-08-18T16:48",
-  "totalCards": 296,
-  "totalValue": 16674.0,
+  "lastUpdated": "2026-08-19T13:36",
+  "totalCards": 312,
+  "totalValue": 17293.0,
   "cards": [
+    {
+      "id": "0386",
+      "name": "Pikachu",
+      "set": "20/108 (Build-A-Bear Workshop Exclusive)",
+      "number": "",
+      "condition": "Light Played",
+      "price": 44.0,
+      "quantity": 1,
+      "image": "images/0386.jpg",
+      "imageFull": "images/full/0386.jpg",
+      "dateAdded": "2026-08-18",
+      "notes": "",
+      "tags": [
+        "Promo",
+        "Cute",
+        "Stamped",
+        "Stamp"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjE4NjE5NjYxMw=="
+    },
+    {
+      "id": "0350",
+      "name": "Dhelmise",
+      "set": "ME05: Pitch Black",
+      "number": "091/084",
+      "condition": "Light Played",
+      "price": 10.0,
+      "quantity": 1,
+      "image": "images/0350.jpg",
+      "imageFull": "images/full/0350.jpg",
+      "dateAdded": "2026-08-18",
+      "notes": "",
+      "tags": [
+        "Nakamura Ippan",
+        "Cameo",
+        "Multiple Pokemon"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjE4NjEwOTk0MA=="
+    },
     {
       "id": "0500",
       "name": "Pachirisu",
@@ -111,6 +150,27 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjE3ODI3NTQ0NQ=="
     },
     {
+      "id": "0283",
+      "name": "Minun",
+      "set": "POP Series 3",
+      "number": "",
+      "condition": "Light Played",
+      "price": 36.0,
+      "quantity": 1,
+      "image": "images/0283.jpg",
+      "imageFull": "images/full/0283.jpg",
+      "dateAdded": "2026-08-16",
+      "notes": "",
+      "tags": [
+        "Cute",
+        "Connecting Art",
+        "Flowers",
+        "Floral",
+        "Sumiyoshi Kizuki"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjE3ODE1MzY1Mg=="
+    },
+    {
       "id": "0317",
       "name": "Espeon",
       "set": "Undaunted",
@@ -141,7 +201,11 @@
       "dateAdded": "2026-08-16",
       "notes": "",
       "tags": [
-        "Promo"
+        "Promo",
+        "Cute",
+        "Stamped",
+        "Stamp",
+        "Eeveelution"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjE3ODEwNTgxOQ=="
     },
@@ -1295,16 +1359,16 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTk0ODYzNjU5Nw=="
     },
     {
-      "id": "0283",
+      "id": "0266",
       "name": "Budew",
       "set": "ME: Ascended Heroes",
       "number": "221/217",
       "condition": "Near Mint",
       "price": 13.0,
       "quantity": 1,
-      "image": "images/0283.jpg",
-      "imageFull": "images/full/0283.jpg",
-      "dateAdded": "2026-08-16",
+      "image": "images/0266.jpg",
+      "imageFull": "images/full/0266.jpg",
+      "dateAdded": "2026-08-19",
       "notes": "",
       "tags": [
         "Cute",
@@ -1638,28 +1702,6 @@
         "saino misaki"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTg5ODA3NjUyMA=="
-    },
-    {
-      "id": "0910",
-      "name": "Pikachu Berkemeja Batik 101/SV-P Green",
-      "set": "Indonesia Journey Promo",
-      "number": "",
-      "condition": "New",
-      "price": 45.0,
-      "quantity": 1,
-      "image": "images/0910.jpg",
-      "imageFull": "images/full/0910.jpg",
-      "dateAdded": "2026-08-16",
-      "notes": "",
-      "tags": [
-        "Indonesia Journey Promo",
-        "Cute",
-        "Indonesian Exclusive",
-        "Stamped",
-        "Stamp",
-        "Sealed"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTg5ODAzNTc2Ng=="
     },
     {
       "id": "0912",
@@ -2398,6 +2440,26 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTc4OTU2NzQ1Nw=="
     },
     {
+      "id": "0385",
+      "name": "Slurpuff",
+      "set": "ME: Ascended Heroes",
+      "number": "236/217",
+      "condition": "Near Mint",
+      "price": 13.0,
+      "quantity": 1,
+      "image": "images/0385.jpg",
+      "imageFull": "images/full/0385.jpg",
+      "dateAdded": "2026-08-18",
+      "notes": "",
+      "tags": [
+        "Pink",
+        "Cute",
+        "Food",
+        "Dessert"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTc4OTU2MDg0MA=="
+    },
+    {
       "id": "0462",
       "name": "Raichu GX (Secret)",
       "set": "Shining Legends",
@@ -2952,6 +3014,25 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTcxODI4OTU5MQ=="
     },
     {
+      "id": "0397",
+      "name": "Radiant Eevee Chinese Exclusive",
+      "set": "Card",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 47.0,
+      "quantity": 1,
+      "image": "images/0397.jpg",
+      "imageFull": "images/full/0397.jpg",
+      "dateAdded": "2026-08-18",
+      "notes": "",
+      "tags": [
+        "Cute",
+        "Chinese Exclusive",
+        "Super Pink Show"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTcxMzUzMDE0MA=="
+    },
+    {
       "id": "0392",
       "name": "Eiscue",
       "set": "SV02: Paldea Evolved",
@@ -2985,6 +3066,23 @@
         "Multiple Pokemon"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTcxMjQ4MjM2Nw=="
+    },
+    {
+      "id": "0398",
+      "name": "Blissey (Prime)",
+      "set": "HeartGold SoulSilver",
+      "number": "",
+      "condition": "Light Played",
+      "price": 65.0,
+      "quantity": 1,
+      "image": "images/0398.jpg",
+      "imageFull": "images/full/0398.jpg",
+      "dateAdded": "2026-08-19",
+      "notes": "",
+      "tags": [
+        "Pink"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTcxMjQ2NTcyMQ=="
     },
     {
       "id": "0226",
@@ -3231,6 +3329,30 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTY2MDM3ODQwOQ=="
     },
     {
+      "id": "0708",
+      "name": "PokeKyun Slurpuff",
+      "set": "CP3: PokeKyun Collection",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 36.0,
+      "quantity": 1,
+      "image": "images/0708.jpg",
+      "imageFull": "images/full/0708.jpg",
+      "dateAdded": "2026-08-19",
+      "notes": "",
+      "tags": [
+        "Pink",
+        "Fairy",
+        "Japanese",
+        "Multiple Pokemon",
+        "Cute",
+        "PokeKyun Collection",
+        "Radiant Collection",
+        "Cameo"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTY1NTYwNjYxOA=="
+    },
+    {
       "id": "0381",
       "name": "Galarian Ponyta",
       "set": "SWSH: Sword & Shield Promo Cards",
@@ -3400,8 +3522,8 @@
       "condition": "Near Mint",
       "price": 100.0,
       "quantity": 1,
-      "image": "images/0431.jpg",
-      "imageFull": "images/full/0431.jpg",
+      "image": "",
+      "imageFull": "",
       "dateAdded": "2026-06-14",
       "notes": "",
       "tags": [
@@ -3420,8 +3542,8 @@
       "condition": "New",
       "price": 50.0,
       "quantity": 1,
-      "image": "images/0902.jpg",
-      "imageFull": "images/full/0902.jpg",
+      "image": "",
+      "imageFull": "",
       "dateAdded": "2026-08-16",
       "notes": "",
       "tags": [
@@ -3441,8 +3563,8 @@
       "condition": "Near Mint",
       "price": 47.0,
       "quantity": 1,
-      "image": "images/0258.jpg",
-      "imageFull": "images/full/0258.jpg",
+      "image": "",
+      "imageFull": "",
       "dateAdded": "2026-06-04",
       "notes": "",
       "tags": [
@@ -3459,8 +3581,8 @@
       "condition": "Near Mint",
       "price": 48.0,
       "quantity": 1,
-      "image": "images/0371.jpg",
-      "imageFull": "images/full/0371.jpg",
+      "image": "",
+      "imageFull": "",
       "dateAdded": "2026-06-17",
       "notes": "",
       "tags": [
@@ -3480,8 +3602,8 @@
       "condition": "Near Mint",
       "price": 300.0,
       "quantity": 1,
-      "image": "images/0930.jpg",
-      "imageFull": "images/full/0930.jpg",
+      "image": "",
+      "imageFull": "",
       "dateAdded": "2026-08-16",
       "notes": "",
       "tags": [
@@ -3680,6 +3802,27 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTM3MjMzOTY5NA=="
     },
     {
+      "id": "0707",
+      "name": "PokeKyun Swirlix",
+      "set": "CP3: PokeKyun Collection",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 36.0,
+      "quantity": 1,
+      "image": "",
+      "imageFull": "",
+      "dateAdded": "2026-08-19",
+      "notes": "",
+      "tags": [
+        "Cute",
+        "Pink",
+        "Japanese",
+        "Radiant Collection",
+        "PokeKyun Collection"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTM2OTEwMDMyOQ=="
+    },
+    {
       "id": "0219",
       "name": "______'s Chansey",
       "set": "Challenge from the Darkness",
@@ -3700,6 +3843,23 @@
         "Pink"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTM1NjEzODEwMQ=="
+    },
+    {
+      "id": "0323",
+      "name": "Dark Slowking",
+      "set": "Neo Destiny",
+      "number": "",
+      "condition": "Light Played",
+      "price": 45.0,
+      "quantity": 1,
+      "image": "",
+      "imageFull": "",
+      "dateAdded": "2026-08-18",
+      "notes": "",
+      "tags": [
+        "Tomokazu Komiya"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTM1NjEzODA3Ng=="
     },
     {
       "id": "0495",
@@ -3822,6 +3982,26 @@
         "Cute"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTI4NTcyMTE2NA=="
+    },
+    {
+      "id": "0710",
+      "name": "Jirachi",
+      "set": "Generations: Radiant Collection",
+      "number": "",
+      "condition": "Light Played",
+      "price": 18.0,
+      "quantity": 1,
+      "image": "",
+      "imageFull": "",
+      "dateAdded": "2026-08-19",
+      "notes": "",
+      "tags": [
+        "RC13/RC32",
+        "Hearts",
+        "Cute",
+        "Pink"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTI4MjIxMDc4MA=="
     },
     {
       "id": "0247",
@@ -3979,6 +4159,23 @@
         "Abstract"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTIxMTU2MDQ5Ng=="
+    },
+    {
+      "id": "0379",
+      "name": "Hisuian Growlithe",
+      "set": "SV06: Twilight Masquerade",
+      "number": "181/167",
+      "condition": "Near Mint",
+      "price": 33.0,
+      "quantity": 1,
+      "image": "",
+      "imageFull": "",
+      "dateAdded": "2026-08-18",
+      "notes": "",
+      "tags": [
+        "Cute"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTIxMTU2MDQ4OA=="
     },
     {
       "id": "0295",
@@ -4224,6 +4421,28 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE0NTAxODUxNw=="
     },
     {
+      "id": "0716",
+      "name": "Sylveon EX",
+      "set": "Generations: Radiant Collection",
+      "number": "",
+      "condition": "Light Played",
+      "price": 80.0,
+      "quantity": 1,
+      "image": "",
+      "imageFull": "",
+      "dateAdded": "2026-08-19",
+      "notes": "",
+      "tags": [
+        "RC21/RC32",
+        "Pink",
+        "Eeveelution",
+        "Cute",
+        "Multiple Pokemon",
+        "Cameo"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE0NTAxODUwMA=="
+    },
+    {
       "id": "0284",
       "name": "Light Jolteon",
       "set": "Neo Destiny",
@@ -4284,6 +4503,26 @@
         "Cameo"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTEwOTIwMDkwNQ=="
+    },
+    {
+      "id": "0717",
+      "name": "Emolga (Full Art)",
+      "set": "Legendary Treasures: Radiant Collection",
+      "number": "",
+      "condition": "Light Played",
+      "price": 75.0,
+      "quantity": 1,
+      "image": "",
+      "imageFull": "",
+      "dateAdded": "2026-08-19",
+      "notes": "",
+      "tags": [
+        "RC23/RC25",
+        "Cute",
+        "Pink",
+        "Hearts"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTEwOTE5NTk3Nw=="
     },
     {
       "id": "0275",
@@ -4428,6 +4667,25 @@
       "notes": "",
       "tags": [],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA3MzM5Mjg0MA=="
+    },
+    {
+      "id": "0711",
+      "name": "Meloetta EX",
+      "set": "Legendary Treasures: Radiant Collection",
+      "number": "",
+      "condition": "Light Played",
+      "price": 16.0,
+      "quantity": 1,
+      "image": "",
+      "imageFull": "",
+      "dateAdded": "2026-08-19",
+      "notes": "",
+      "tags": [
+        "RC11/RC25",
+        "Cute",
+        "Musical Notes"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA1NTg1NTY0OA=="
     },
     {
       "id": "0511",
@@ -5281,6 +5539,26 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTY1MjUxODMz"
     },
     {
+      "id": "0380",
+      "name": "Mega Lopunny & Jigglypuff GX",
+      "set": "Cosmic Eclipse",
+      "number": "SM",
+      "condition": "Light Played",
+      "price": 33.0,
+      "quantity": 1,
+      "image": "",
+      "imageFull": "",
+      "dateAdded": "2026-08-18",
+      "notes": "",
+      "tags": [
+        "Tag Team",
+        "Cute",
+        "Multiple Pokemon",
+        "Mitsuhiro Arita"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTY0OTE3NzQx"
+    },
+    {
       "id": "0437",
       "name": "Caterpie",
       "set": "SV: Scarlet & Violet 151",
@@ -5335,6 +5613,27 @@
         "Cute"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0MzE5"
+    },
+    {
+      "id": "0383",
+      "name": "Piplup",
+      "set": "32/156 (Toys R Us)",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 45.0,
+      "quantity": 1,
+      "image": "",
+      "imageFull": "",
+      "dateAdded": "2026-08-18",
+      "notes": "",
+      "tags": [
+        "Cute",
+        "Promo",
+        "Shibuzoh",
+        "Stamped",
+        "Stamp"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0MjYy"
     },
     {
       "id": "0671",
@@ -5635,6 +5934,30 @@
         "Full Art"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTUxNDQ4NTM4"
+    },
+    {
+      "id": "0388",
+      "name": "Meloetta",
+      "set": "XY Promos",
+      "number": "XY120",
+      "condition": "Light Played",
+      "price": 32.0,
+      "quantity": 1,
+      "image": "",
+      "imageFull": "",
+      "dateAdded": "2026-08-18",
+      "notes": "",
+      "tags": [
+        "Promo",
+        "Cute",
+        "Musical Notes",
+        "Music",
+        "Cosmic",
+        "Space",
+        "Galactic",
+        "Moon"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTUxNDQ4NTAx"
     },
     {
       "id": "0229",
