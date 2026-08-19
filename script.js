@@ -17,7 +17,16 @@ const state = {
   filtered: [],
   rendered: 0,
   byId: new Map(),          // id -> card
+  direct: false,            // "Direct" toggle — knocks 5% off every shown price
 };
+
+// Direct-sale discount (buying directly, off Whatnot). Applied to display only.
+const DIRECT_RATE = 0.05;
+function shownPrice(c) {
+  const p = Number(c && c.price) || 0;
+  return state.direct ? p * (1 - DIRECT_RATE) : p;
+}
+function fmtUSD(n) { return '$' + (Number(n) || 0).toFixed(2); }
 
 const els = {
   grid:        document.getElementById('grid'),
@@ -311,6 +320,12 @@ function bindEvents() {
     onScroll();
   }
 
+  // "Direct" price toggle — 5% off every shown price when on
+  const directSwitch = document.getElementById('direct-switch');
+  if (directSwitch) {
+    directSwitch.addEventListener('change', () => setDirect(directSwitch.checked));
+  }
+
   // Wishlist header button
   els.wishBtn.addEventListener('click', openWishlist);
   els.wishModal.addEventListener('click', (e) => { if (e.target.dataset.closeWish !== undefined) closeSheet(els.wishModal); });
@@ -390,6 +405,21 @@ function apply() {
   renderNextBatch();
 }
 
+// Flip the "Direct" 5%-off pricing on/off and refresh everything showing a price
+function setDirect(on) {
+  state.direct = !!on;
+  document.body.classList.toggle('direct-on', state.direct);
+  apply();                                   // redraw the grid at the new prices
+  if (!els.wishModal.hidden) renderWishlist();  // wishlist rows + total
+  // Live-update an open card modal
+  if (!els.modal.hidden && els.modal.dataset.cardId) {
+    const c = state.byId.get(String(els.modal.dataset.cardId));
+    const mp = els.modal.querySelector('#m-price');
+    if (c && mp) mp.textContent = fmtUSD(shownPrice(c));
+  }
+  track('direct_toggle', { on: state.direct });
+}
+
 function sorter(mode) {
   switch (mode) {
     case 'name-asc':  return (a, b) => a.name.localeCompare(b.name);
@@ -443,7 +473,7 @@ function cardEl(c) {
       <div class="card-set">${escapeHtml(c.set || '—')}</div>
       <div class="card-meta">${escapeHtml([c.number, c.condition].filter(Boolean).join(' · ') || '')}</div>
       <div class="card-foot">
-        <span class="card-price">$${c.price.toFixed(2)}</span>
+        <span class="card-price${state.direct ? ' direct' : ''}">${fmtUSD(shownPrice(c))}</span>
       </div>
     </div>`;
   el.addEventListener('click', () => openModal(c.id, true));
@@ -482,8 +512,9 @@ function openModal(id, pushUrl) {
     img.removeAttribute('src'); img.style.display = 'none'; img.onclick = null; img.style.cursor = '';
   }
 
+  m.dataset.cardId = c.id;   // let the Direct toggle re-price an open modal
   m.querySelector('#m-name').textContent  = c.name;
-  m.querySelector('#m-price').textContent = '$' + c.price.toFixed(2);
+  m.querySelector('#m-price').textContent = fmtUSD(shownPrice(c));
 
   const rows = [
     ['Set', c.set], ['Card #', c.number], ['Condition', c.condition],
@@ -861,7 +892,7 @@ function renderWishlist() {
   els.wishList.querySelectorAll('[data-rm]').forEach(b =>
     b.addEventListener('click', () => toggleWish(b.dataset.rm)));
   // Running total count + estimated value (only cards still available)
-  const totalValue = entries.reduce((s, e) => { const c = resolveWish(e); return s + (c ? c.price : 0); }, 0);
+  const totalValue = entries.reduce((s, e) => { const c = resolveWish(e); return s + (c ? shownPrice(c) : 0); }, 0);
   els.wishTotCount.textContent = entries.length;
   els.wishTotValue.textContent = '$' + totalValue.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   els.wishTotals.hidden = false;
@@ -879,7 +910,7 @@ function wlRow(c, actionHtml) {
       <div class="wl-sub">#${escapeHtml(c.id)}${c.set ? ' · ' + escapeHtml(c.set) : ''}</div>
       <div class="wl-avail ${inStock ? 'in' : 'out'}">${inStock ? 'In stock' : 'Sold out'}</div>
     </div>
-    <div class="wl-price">$${c.price.toFixed(2)}</div>
+    <div class="wl-price">${fmtUSD(shownPrice(c))}</div>
     ${actionHtml}
   </div>`;
 }
