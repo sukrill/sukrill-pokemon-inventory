@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-20T23:02",
-  "totalCards": 315,
-  "totalValue": 17378.0,
+  "lastUpdated": "2026-08-21T15:47",
+  "totalCards": 316,
+  "totalValue": 17424.0,
   "cards": [
     {
       "id": "0727",
@@ -235,22 +235,21 @@
     },
     {
       "id": "0317",
-      "name": "Ditto",
-      "set": "Delta Species",
-      "number": "038/113 (Mr. Mime)",
+      "name": "Espeon",
+      "set": "Undaunted",
+      "number": "",
       "condition": "Light Played",
-      "price": 95.0,
+      "price": 46.0,
       "quantity": 1,
       "image": "images/0317.jpg",
       "imageFull": "images/full/0317.jpg",
       "dateAdded": "2026-08-16",
       "notes": "",
       "tags": [
-        "Yuka Morii",
-        "Clay",
-        "Cute"
+        "Cute",
+        "Eeveelution"
       ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjU5MDE0Mg=="
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjE3ODEyMjQ0OA=="
     },
     {
       "id": "0237",
@@ -967,6 +966,25 @@
         "Cute"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjY0NzM0NA=="
+    },
+    {
+      "id": "0402",
+      "name": "Ditto",
+      "set": "POP Series 3",
+      "number": "",
+      "condition": "Light Played",
+      "price": 95.0,
+      "quantity": 1,
+      "image": "images/0402.jpg",
+      "imageFull": "images/full/0402.jpg",
+      "dateAdded": "2026-08-21",
+      "notes": "",
+      "tags": [
+        "Yuka Morii",
+        "Clay",
+        "Cute"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjU5MDE0Mg=="
     },
     {
       "id": "0353",
