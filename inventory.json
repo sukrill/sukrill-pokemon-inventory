@@ -1,8 +1,28 @@
 {
-  "lastUpdated": "2026-08-19T19:04",
-  "totalCards": 320,
-  "totalValue": 17570.0,
+  "lastUpdated": "2026-08-20T23:02",
+  "totalCards": 315,
+  "totalValue": 17378.0,
   "cards": [
+    {
+      "id": "0727",
+      "name": "Chikorita",
+      "set": "RC1/RC32",
+      "number": "Generations: Radiant Collection",
+      "condition": "Light Played",
+      "price": 17.0,
+      "quantity": 1,
+      "image": "images/0727.jpg",
+      "imageFull": "images/full/0727.jpg",
+      "dateAdded": "2026-08-20",
+      "notes": "",
+      "tags": [
+        "RC1/RC32",
+        "Cute",
+        "Multiple Pokemon",
+        "Pikachu Cameo"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjE4OTkyOTc2OA=="
+    },
     {
       "id": "0726",
       "name": "Cinccino",
@@ -233,27 +253,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjU5MDE0Mg=="
     },
     {
-      "id": "0315",
-      "name": "Eevee",
-      "set": "63/98 (Build-A-Bear Workshop Exclusive)",
-      "number": "",
-      "condition": "Light Played",
-      "price": 39.0,
-      "quantity": 1,
-      "image": "images/0315.jpg",
-      "imageFull": "images/full/0315.jpg",
-      "dateAdded": "2026-08-16",
-      "notes": "",
-      "tags": [
-        "Promo",
-        "Cute",
-        "Stamped",
-        "Stamp",
-        "Eeveelution"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjE3ODEwNTgxOQ=="
-    },
-    {
       "id": "0237",
       "name": "Karen's Houndoom",
       "set": "Pokemon VS",
@@ -369,27 +368,6 @@
         "Sumiyoshi Kizuki"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjEzNDg1NDc2OA=="
-    },
-    {
-      "id": "0252",
-      "name": "1st Edition Togepi",
-      "set": "Neo Destiny",
-      "number": "",
-      "condition": "Light Played",
-      "price": 60.0,
-      "quantity": 1,
-      "image": "images/0252.jpg",
-      "imageFull": "images/full/0252.jpg",
-      "dateAdded": "2026-08-07",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Yuka Morii",
-        "Vintage",
-        "First Edition",
-        "Clay"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjEzNDg0NDcxMA=="
     },
     {
       "id": "0329",
@@ -2270,26 +2248,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTg2Mzc1OTQ4NA=="
     },
     {
-      "id": "0338",
-      "name": "Chuck's Tauros",
-      "set": "Pokemon VS",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 30.0,
-      "quantity": 1,
-      "image": "images/0338.jpg",
-      "imageFull": "images/full/0338.jpg",
-      "dateAdded": "2026-06-05",
-      "notes": "",
-      "tags": [
-        "Pokemon VS",
-        "Japanese Exclusive",
-        "1st Edition",
-        "VS Series"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTg1ODcyMDg3OA=="
-    },
-    {
       "id": "0337",
       "name": "Maushold ex",
       "set": "SV04: Paradox Rift",
@@ -3058,25 +3016,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTcxODI4OTU5MQ=="
     },
     {
-      "id": "0397",
-      "name": "Radiant Eevee Chinese Exclusive",
-      "set": "Card",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 47.0,
-      "quantity": 1,
-      "image": "images/0397.jpg",
-      "imageFull": "images/full/0397.jpg",
-      "dateAdded": "2026-08-18",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Chinese Exclusive",
-        "Super Pink Show"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTcxMzUzMDE0MA=="
-    },
-    {
       "id": "0392",
       "name": "Eiscue",
       "set": "SV02: Paldea Evolved",
@@ -3726,26 +3665,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQxNTUwNzQzMQ=="
     },
     {
-      "id": "0256",
-      "name": "Flaaffy",
-      "set": "SWSH12: Silver Tempest Trainer Gallery",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 10.0,
-      "quantity": 1,
-      "image": "images/0256.jpg",
-      "imageFull": "images/full/0256.jpg",
-      "dateAdded": "2026-07-23",
-      "notes": "",
-      "tags": [
-        "TG03/TG30",
-        "Cute",
-        "Pink",
-        "People"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQwMDc1MTg0MQ=="
-    },
-    {
       "id": "0307",
       "name": "Ice Rider Calyrex V",
       "set": "SWSH10: Astral Radiance Trainer Gallery",
@@ -3780,27 +3699,6 @@
         "Cute"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQwMDc1MTMzMA=="
-    },
-    {
-      "id": "0281",
-      "name": "Blissey V",
-      "set": "SWSH12: Silver Tempest Trainer Gallery",
-      "number": "",
-      "condition": "Light Played",
-      "price": 23.0,
-      "quantity": 1,
-      "image": "images/0281.jpg",
-      "imageFull": "images/full/0281.jpg",
-      "dateAdded": "2026-06-29",
-      "notes": "",
-      "tags": [
-        "TG22/TG30",
-        "Cute",
-        "Pink",
-        "People",
-        "Nurse"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQwMDc1MTI0OQ=="
     },
     {
       "id": "0232",
