@@ -24,7 +24,8 @@ const state = {
 const DIRECT_RATE = 0.05;
 function shownPrice(c) {
   const p = Number(c && c.price) || 0;
-  return state.direct ? p * (1 - DIRECT_RATE) : p;
+  // Direct price: 5% off, then rounded DOWN to the nearest whole dollar
+  return state.direct ? Math.floor(p * (1 - DIRECT_RATE)) : p;
 }
 function fmtUSD(n) { return '$' + (Number(n) || 0).toFixed(2); }
 
