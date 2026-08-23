@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-08-23T00:30",
+  "lastUpdated": "2026-08-23T14:44",
   "totalCards": 322,
-  "totalValue": 18028.0,
+  "totalValue": 18161.0,
   "cards": [
     {
       "id": "0357",
-      "name": "Pikachu",
+      "name": "Raichu- POP Series 9",
       "set": "POP Series 9",
       "number": "",
       "condition": "Light Played",
@@ -3683,6 +3683,28 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQ1MzA3Mjk4NA=="
     },
     {
+      "id": "0445",
+      "name": "Togepi & Cleffa & Igglybuff GX",
+      "set": "Alternate Art Promos",
+      "number": "143a/236",
+      "condition": "Near Mint",
+      "price": 365.0,
+      "quantity": 1,
+      "image": "images/0445.jpg",
+      "imageFull": "images/full/0445.jpg",
+      "dateAdded": "2026-08-23",
+      "notes": "",
+      "tags": [
+        "Promo",
+        "Fairy",
+        "Pink",
+        "Cute",
+        "Cameo",
+        "Multiple Pokemon"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQ1MzA1NzM4NA=="
+    },
+    {
       "id": "0371",
       "name": "Mischievous Pichu",
       "set": "S-P: Sword & Shield Promos",
@@ -5168,24 +5190,6 @@
         "Bellsprout Cameo"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAzOTExNDU4NQ=="
-    },
-    {
-      "id": "0369",
-      "name": "Jirachi",
-      "set": "Alternate Art Promos",
-      "number": "XY67a",
-      "condition": "Light Played",
-      "price": 232.0,
-      "quantity": 1,
-      "image": "images/0369.jpg",
-      "imageFull": "images/full/0369.jpg",
-      "dateAdded": "2026-08-11",
-      "notes": "",
-      "tags": [
-        "Promo",
-        "Cute"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAzOTExNDM2Ng=="
     },
     {
       "id": "0342",
