@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-23T14:44",
-  "totalCards": 322,
-  "totalValue": 18161.0,
+  "lastUpdated": "2026-08-25T13:52",
+  "totalCards": 320,
+  "totalValue": 18141.0,
   "cards": [
     {
       "id": "0357",
@@ -649,8 +649,8 @@
       "condition": "Near Mint",
       "price": 14.0,
       "quantity": 1,
-      "image": "images/0287.jpg",
-      "imageFull": "images/full/0287.jpg",
+      "image": "",
+      "imageFull": "",
       "dateAdded": "2026-08-02",
       "notes": "",
       "tags": [
@@ -864,23 +864,6 @@
         "Dragon"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA3NTg4MzQ5OQ=="
-    },
-    {
-      "id": "0443",
-      "name": "Gyarados VMAX",
-      "set": "SWSH07: Evolving Skies",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 10.0,
-      "quantity": 1,
-      "image": "images/0443.jpg",
-      "imageFull": "images/full/0443.jpg",
-      "dateAdded": "2026-07-23",
-      "notes": "",
-      "tags": [
-        "Ultra Rare  Dragon"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA3NTg2NjkzMw=="
     },
     {
       "id": "0372",
@@ -3751,26 +3734,6 @@
         "Sealed"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQ0MjI3ODA5Nw=="
-    },
-    {
-      "id": "0435",
-      "name": "Sprigatito 01 09/09",
-      "set": "Gem Pack Vol. 1",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 10.0,
-      "quantity": 1,
-      "image": "images/0435.jpg",
-      "imageFull": "images/full/0435.jpg",
-      "dateAdded": "2026-07-12",
-      "notes": "",
-      "tags": [
-        "CBB1C-01 09/09",
-        "Simplified Chinese Exclusive",
-        "Cute",
-        "Gm Pack Horizon"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQxNzk5OTExNQ=="
     },
     {
       "id": "0703",
