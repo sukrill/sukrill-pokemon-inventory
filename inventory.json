@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-26T17:50",
-  "totalCards": 324,
-  "totalValue": 18187.0,
+  "lastUpdated": "2026-08-28T20:54",
+  "totalCards": 321,
+  "totalValue": 18134.0,
   "cards": [
     {
       "id": "0430",
@@ -195,49 +195,6 @@
         "Pikachu Cameo"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjE4OTkyOTc2OA=="
-    },
-    {
-      "id": "0726",
-      "name": "Cinccino",
-      "set": "RC19/RC25",
-      "number": "Legendary Treasures Radiant Collection",
-      "condition": "Light Played",
-      "price": 19.0,
-      "quantity": 1,
-      "image": "images/0726.jpg",
-      "imageFull": "images/full/0726.jpg",
-      "dateAdded": "2026-08-19",
-      "notes": "",
-      "tags": [
-        "RC19/RC25",
-        "Cute",
-        "Hearts",
-        "Dessert",
-        "Treat",
-        "Candy"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjE4OTkyMzg0Nw=="
-    },
-    {
-      "id": "0725",
-      "name": "Raichu",
-      "set": "RC9/RC32",
-      "number": "Generations: Radiant Collection",
-      "condition": "Light Played",
-      "price": 20.0,
-      "quantity": 1,
-      "image": "images/0725.jpg",
-      "imageFull": "images/full/0725.jpg",
-      "dateAdded": "2026-08-19",
-      "notes": "",
-      "tags": [
-        "RC9/RC32",
-        "Cute",
-        "Flowers",
-        "Floral",
-        "Charms"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjE4OTkxNjMxOA=="
     },
     {
       "id": "0386",
@@ -4244,26 +4201,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTIyNDA2MTUzMg=="
     },
     {
-      "id": "0203",
-      "name": "Poke Kid (Full Art)",
-      "set": "Shining Fates",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 14.0,
-      "quantity": 1,
-      "image": "images/0203.jpg",
-      "imageFull": "images/full/0203.jpg",
-      "dateAdded": "2026-08-11",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Hearts",
-        "Trainer",
-        "People"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTIxMTU2MDU4OA=="
-    },
-    {
       "id": "0235",
       "name": "Minccino",
       "set": "SV05: Temporal Forces",
@@ -4922,7 +4859,7 @@
       "quantity": 1,
       "image": "images/0523.jpg",
       "imageFull": "images/full/0523.jpg",
-      "dateAdded": "2026-08-11",
+      "dateAdded": "2026-08-28",
       "notes": "",
       "tags": [],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA3MzM5Mjg0MA=="
@@ -6285,7 +6222,7 @@
       "name": "Charizard & Braixen GX (Secret)",
       "set": "Cosmic Eclipse",
       "number": "SM - 251/236",
-      "condition": "Near Mint",
+      "condition": "Light Played",
       "price": 180.0,
       "quantity": 1,
       "image": "images/0318.jpg",
