@@ -1,8 +1,81 @@
 {
-  "lastUpdated": "2026-08-28T20:54",
-  "totalCards": 321,
-  "totalValue": 18134.0,
+  "lastUpdated": "2026-08-31T23:25",
+  "totalCards": 332,
+  "totalValue": 18539.0,
   "cards": [
+    {
+      "id": "0203",
+      "name": "Politoed (8)",
+      "set": "Neo Discovery",
+      "number": "",
+      "condition": "Moderately Played",
+      "price": 45.0,
+      "quantity": 1,
+      "image": "images/0203.jpg",
+      "imageFull": "images/full/0203.jpg",
+      "dateAdded": "2026-08-31",
+      "notes": "",
+      "tags": [],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjI0MDcwMDA5MA=="
+    },
+    {
+      "id": "0440",
+      "name": "Scorbunny",
+      "set": "ME: Mega Evolution Promo",
+      "number": "053",
+      "condition": "Near Mint",
+      "price": 10.0,
+      "quantity": 1,
+      "image": "images/0440.jpg",
+      "imageFull": "images/full/0440.jpg",
+      "dateAdded": "2026-08-31",
+      "notes": "",
+      "tags": [
+        "053",
+        "Promo",
+        "Cute",
+        "Stamp"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjI0MDY3NDc0MQ=="
+    },
+    {
+      "id": "0447",
+      "name": "Xerneas",
+      "set": "ME04: Chaos Rising",
+      "number": "091/086",
+      "condition": "Near Mint",
+      "price": 11.0,
+      "quantity": 1,
+      "image": "images/0447.jpg",
+      "imageFull": "images/full/0447.jpg",
+      "dateAdded": "2026-08-31",
+      "notes": "",
+      "tags": [
+        "Pink",
+        "Floral",
+        "Flowers",
+        "Cute"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjI0MDYzODg3NQ=="
+    },
+    {
+      "id": "0452",
+      "name": "Cramorant",
+      "set": "SV06: Twilight Masquerade",
+      "number": "176/167",
+      "condition": "Near Mint",
+      "price": 10.0,
+      "quantity": 1,
+      "image": "images/0452.jpg",
+      "imageFull": "images/full/0452.jpg",
+      "dateAdded": "2026-08-31",
+      "notes": "",
+      "tags": [
+        "Cute",
+        "Fujimoto Gold"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjI0MDYzMjQzMg=="
+    },
     {
       "id": "0430",
       "name": "Eevee Horizon Gem Pack Vol 2",
@@ -107,6 +180,24 @@
         "Dolls"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjIxODg4MDA0OA=="
+    },
+    {
+      "id": "0357",
+      "name": "Raichu- POP Series 9",
+      "set": "POP Series 9",
+      "number": "",
+      "condition": "Light Played",
+      "price": 19.0,
+      "quantity": 1,
+      "image": "images/0357.jpg",
+      "imageFull": "images/full/0357.jpg",
+      "dateAdded": "2026-08-31",
+      "notes": "",
+      "tags": [
+        "Cute",
+        "Midori Harada"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjIwMzc0Mzc3Mw=="
     },
     {
       "id": "0338",
@@ -302,29 +393,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjE3ODY5NTI2Nw=="
     },
     {
-      "id": "0447",
-      "name": "Professor Elm's Lecture",
-      "set": "188a/214 (League Challenge) [2nd Place]",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 45.0,
-      "quantity": 1,
-      "image": "images/0447.jpg",
-      "imageFull": "images/full/0447.jpg",
-      "dateAdded": "2026-08-16",
-      "notes": "",
-      "tags": [
-        "Promo",
-        "Cute",
-        "Cameo",
-        "Multiple Pokemon",
-        "Stamp",
-        "Stamped",
-        "League and Championship Cards"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjE3ODY5NDMxMg=="
-    },
-    {
       "id": "0344",
       "name": "Pichu",
       "set": "POP Series 9",
@@ -405,16 +473,16 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjE3ODAzMTQ4Mw=="
     },
     {
-      "id": "0940",
+      "id": "0908",
       "name": "Charmander",
       "set": "17/113 (Build-A-Bear Workshop Exclusive)",
       "number": "",
       "condition": "New",
       "price": 64.0,
       "quantity": 1,
-      "image": "images/0940.jpg",
-      "imageFull": "images/full/0940.jpg",
-      "dateAdded": "2026-08-16",
+      "image": "images/0908.jpg",
+      "imageFull": "images/full/0908.jpg",
+      "dateAdded": "2026-08-31",
       "notes": "",
       "tags": [
         "Promo",
@@ -908,6 +976,23 @@
         "Dragon"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA3NTg4MzQ5OQ=="
+    },
+    {
+      "id": "0444",
+      "name": "Gyarados VMAX",
+      "set": "SWSH07: Evolving Skies",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 12.0,
+      "quantity": 1,
+      "image": "images/0444.jpg",
+      "imageFull": "images/full/0444.jpg",
+      "dateAdded": "2026-08-31",
+      "notes": "",
+      "tags": [
+        "Dragon"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA3NTg2NjkzMw=="
     },
     {
       "id": "0372",
@@ -4201,6 +4286,26 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTIyNDA2MTUzMg=="
     },
     {
+      "id": "0441",
+      "name": "Poke Kid (Full Art)",
+      "set": "Shining Fates",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 14.0,
+      "quantity": 1,
+      "image": "images/0441.jpg",
+      "imageFull": "images/full/0441.jpg",
+      "dateAdded": "2026-08-31",
+      "notes": "",
+      "tags": [
+        "Cute",
+        "Hearts",
+        "Trainer",
+        "People"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTIxMTU2MDU4OA=="
+    },
+    {
       "id": "0235",
       "name": "Minccino",
       "set": "SV05: Temporal Forces",
@@ -4432,6 +4537,21 @@
         "Cute"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE2NDc1MTg5Nw=="
+    },
+    {
+      "id": "0455",
+      "name": "Steelix",
+      "set": "ME01: Mega Evolution",
+      "number": "150/132",
+      "condition": "Near Mint",
+      "price": 12.0,
+      "quantity": 1,
+      "image": "images/0455.jpg",
+      "imageFull": "images/full/0455.jpg",
+      "dateAdded": "2026-08-31",
+      "notes": "",
+      "tags": [],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE1ODI2NTYxOA=="
     },
     {
       "id": "0367",
@@ -4882,6 +5002,25 @@
         "Musical Notes"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA1NTg1NTY0OA=="
+    },
+    {
+      "id": "0443",
+      "name": "Mimikyu (Secret)",
+      "set": "Cosmic Eclipse",
+      "number": "SM",
+      "condition": "Light Played",
+      "price": 75.0,
+      "quantity": 1,
+      "image": "images/0443.jpg",
+      "imageFull": "images/full/0443.jpg",
+      "dateAdded": "2026-08-31",
+      "notes": "",
+      "tags": [
+        "Cute",
+        "People",
+        "MISCUT"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA1NTg1NTYxNA=="
     },
     {
       "id": "0511",
@@ -5793,25 +5932,63 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0MzE5"
     },
     {
-      "id": "0383",
-      "name": "Piplup",
-      "set": "32/156 (Toys R Us)",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 36.0,
+      "id": "0433",
+      "name": "Vaporeon",
+      "set": "Black and White Promos",
+      "number": "BW89",
+      "condition": "Light Played",
+      "price": 96.0,
       "quantity": 1,
-      "image": "images/0383.jpg",
-      "imageFull": "images/full/0383.jpg",
-      "dateAdded": "2026-08-18",
+      "image": "images/0433.jpg",
+      "imageFull": "images/full/0433.jpg",
+      "dateAdded": "2026-08-31",
       "notes": "",
       "tags": [
+        "Eeveelution",
         "Cute",
-        "Promo",
-        "Shibuzoh",
-        "Stamped",
-        "Stamp"
+        "Promo"
       ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0MjYy"
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0Mjk2"
+    },
+    {
+      "id": "0435",
+      "name": "Flareon",
+      "set": "Black and White Promos",
+      "number": "BW88",
+      "condition": "Light Played",
+      "price": 68.0,
+      "quantity": 1,
+      "image": "images/0435.jpg",
+      "imageFull": "images/full/0435.jpg",
+      "dateAdded": "2026-08-31",
+      "notes": "",
+      "tags": [
+        "Eeveelution",
+        "Cute",
+        "Promo"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0Mjky"
+    },
+    {
+      "id": "0434",
+      "name": "Leafeon",
+      "set": "Black and White Promos",
+      "number": "BW87",
+      "condition": "Light Played",
+      "price": 87.0,
+      "quantity": 1,
+      "image": "images/0434.jpg",
+      "imageFull": "images/full/0434.jpg",
+      "dateAdded": "2026-08-31",
+      "notes": "",
+      "tags": [
+        "Eeveelution",
+        "Promo",
+        "Cute",
+        "Floral",
+        "Flowers"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0Mjg2"
     },
     {
       "id": "0671",
@@ -5848,6 +6025,25 @@
         "Eeveelution"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0MTY5"
+    },
+    {
+      "id": "0383",
+      "name": "Sylveon GX",
+      "set": "Alternate Art Promos",
+      "number": "92a/145",
+      "condition": "Near Mint",
+      "price": 27.0,
+      "quantity": 1,
+      "image": "images/0383.jpg",
+      "imageFull": "images/full/0383.jpg",
+      "dateAdded": "2026-08-31",
+      "notes": "",
+      "tags": [
+        "Pink",
+        "Eeveelution",
+        "Fairy"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0MTU5"
     },
     {
       "id": "0223",
