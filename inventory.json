@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-31T23:25",
-  "totalCards": 332,
-  "totalValue": 18539.0,
+  "lastUpdated": "2026-09-02T10:23",
+  "totalCards": 329,
+  "totalValue": 18672.0,
   "cards": [
     {
       "id": "0203",
@@ -77,6 +77,25 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjI0MDYzMjQzMg=="
     },
     {
+      "id": "0456",
+      "name": "Mewtwo & Mew GX (Secret)",
+      "set": "Unified Minds",
+      "number": "SM",
+      "condition": "Near Mint",
+      "price": 250.0,
+      "quantity": 1,
+      "image": "images/0456.jpg",
+      "imageFull": "images/full/0456.jpg",
+      "dateAdded": "2026-09-01",
+      "notes": "",
+      "tags": [
+        "Tag Team",
+        "Foreign",
+        "Italian"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjI0MDU4MjI0Ng=="
+    },
+    {
       "id": "0430",
       "name": "Eevee Horizon Gem Pack Vol 2",
       "set": "Horizon Gem Pack Vol 2",
@@ -117,27 +136,6 @@
         "Multiple Pokemon"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjIxODkyNTYyOA=="
-    },
-    {
-      "id": "0472",
-      "name": "Pikachu Player's Celebration CS4.1C",
-      "set": "Pikachu Player's Celebration",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 18.0,
-      "quantity": 1,
-      "image": "images/0472.jpg",
-      "imageFull": "images/full/0472.jpg",
-      "dateAdded": "2026-08-26",
-      "notes": "",
-      "tags": [
-        "Chinese 004/004",
-        "Cute",
-        "Pikachu",
-        "Cameo",
-        "Multiple Pokemon"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjIxODkxOTE4MA=="
     },
     {
       "id": "0471",
@@ -685,23 +683,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjEyMTQ0MDgxOA=="
     },
     {
-      "id": "0360",
-      "name": "Mega Excadrill ex",
-      "set": "ME05: Pitch Black",
-      "number": "103/084",
-      "condition": "Near Mint",
-      "price": 10.0,
-      "quantity": 1,
-      "image": "images/0360.jpg",
-      "imageFull": "images/full/0360.jpg",
-      "dateAdded": "2026-08-02",
-      "notes": "",
-      "tags": [
-        "Keisuke Azuma"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjExNDU3NTUwOA=="
-    },
-    {
       "id": "0355",
       "name": "Zacian",
       "set": "ME02: Phantasmal Flames",
@@ -715,24 +696,6 @@
       "notes": "",
       "tags": [],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjExNDU3MjE1OQ=="
-    },
-    {
-      "id": "0300",
-      "name": "Exeggutor",
-      "set": "ME01: Mega Evolution",
-      "number": "135/132",
-      "condition": "Near Mint",
-      "price": 10.0,
-      "quantity": 1,
-      "image": "images/0300.jpg",
-      "imageFull": "images/full/0300.jpg",
-      "dateAdded": "2026-08-02",
-      "notes": "",
-      "tags": [
-        "Nature",
-        "Cute"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjExNDQ4NTY0Ng=="
     },
     {
       "id": "0299",
@@ -1321,16 +1284,16 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjAzNjAzODYwMA=="
     },
     {
-      "id": "0306",
+      "id": "0360",
       "name": "Tauros",
       "set": "ME04: Chaos Rising",
       "number": "096/086",
       "condition": "Near Mint",
       "price": 10.0,
       "quantity": 1,
-      "image": "images/0306.jpg",
-      "imageFull": "images/full/0306.jpg",
-      "dateAdded": "2026-08-07",
+      "image": "images/0360.jpg",
+      "imageFull": "images/full/0360.jpg",
+      "dateAdded": "2026-09-02",
       "notes": "",
       "tags": [],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjAzMjgwMjQyOA=="
@@ -3235,6 +3198,24 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTcxODI4OTU5MQ=="
     },
     {
+      "id": "0306",
+      "name": "Radiant Eevee Chinese Exclusive",
+      "set": "Card",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 47.0,
+      "quantity": 1,
+      "image": "images/0306.jpg",
+      "imageFull": "images/full/0306.jpg",
+      "dateAdded": "2026-09-02",
+      "notes": "",
+      "tags": [
+        "Cute",
+        "Chinese Exclusive"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTcxMzUzMDE0MA=="
+    },
+    {
       "id": "0392",
       "name": "Eiscue",
       "set": "SV02: Paldea Evolved",
@@ -3886,16 +3867,16 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQxNTUwNzQzMQ=="
     },
     {
-      "id": "0256",
+      "id": "0300",
       "name": "Flaaffy",
       "set": "SWSH12: Silver Tempest Trainer Gallery",
       "number": "",
       "condition": "Near Mint",
       "price": 10.0,
       "quantity": 1,
-      "image": "images/0256.jpg",
-      "imageFull": "images/full/0256.jpg",
-      "dateAdded": "2026-08-23",
+      "image": "images/0300.jpg",
+      "imageFull": "images/full/0300.jpg",
+      "dateAdded": "2026-09-02",
       "notes": "",
       "tags": [
         "TG03/TG30",
@@ -4126,26 +4107,6 @@
         "Rainbow"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTI5MzgwNjU2Mg=="
-    },
-    {
-      "id": "0424",
-      "name": "Pikachu P 291 SV-P Gym Event Promo",
-      "set": "",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 15.0,
-      "quantity": 1,
-      "image": "images/0424.jpg",
-      "imageFull": "images/full/0424.jpg",
-      "dateAdded": "2026-08-19",
-      "notes": "",
-      "tags": [
-        "291/SV-P",
-        "Promo",
-        "Cute",
-        "Japanese Exclusive"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTI4NzE4OTAyMQ=="
     },
     {
       "id": "0427",
@@ -4898,24 +4859,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA4NjEzOTY4MA=="
     },
     {
-      "id": "0362",
-      "name": "Espeon VMAX",
-      "set": "SWSH07: Evolving Skies",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 16.0,
-      "quantity": 1,
-      "image": "images/0362.jpg",
-      "imageFull": "images/full/0362.jpg",
-      "dateAdded": "2026-08-11",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Eeveelution"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA4MTM4OTk0MQ=="
-    },
-    {
       "id": "0358",
       "name": "Solgaleo & Lunala GX (Secret)",
       "set": "Cosmic Eclipse",
@@ -4934,16 +4877,16 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA4MTM4OTc4MQ=="
     },
     {
-      "id": "0439",
+      "id": "0256",
       "name": "Sylveon V (Full Art)",
       "set": "SWSH07: Evolving Skies",
       "number": "",
       "condition": "Near Mint",
       "price": 42.0,
       "quantity": 1,
-      "image": "images/0439.jpg",
-      "imageFull": "images/full/0439.jpg",
-      "dateAdded": "2026-08-11",
+      "image": "images/0256.jpg",
+      "imageFull": "images/full/0256.jpg",
+      "dateAdded": "2026-09-02",
       "notes": "",
       "tags": [
         "Cute",
@@ -4975,7 +4918,7 @@
       "set": "",
       "number": "",
       "condition": "Near Mint",
-      "price": 250.0,
+      "price": 225.0,
       "quantity": 1,
       "image": "images/0523.jpg",
       "imageFull": "images/full/0523.jpg",
@@ -5919,7 +5862,7 @@
       "set": "Black and White Promos",
       "number": "BW93",
       "condition": "Light Played",
-      "price": 235.0,
+      "price": 165.0,
       "quantity": 1,
       "image": "images/0419.jpg",
       "imageFull": "images/full/0419.jpg",
