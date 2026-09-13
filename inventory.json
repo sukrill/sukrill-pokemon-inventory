@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-02T10:28",
-  "totalCards": 329,
-  "totalValue": 18672.0,
+  "lastUpdated": "2026-09-13T02:38",
+  "totalCards": 309,
+  "totalValue": 17646.0,
   "cards": [
     {
       "id": "0203",
@@ -94,90 +94,6 @@
         "Italian"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjI0MDU4MjI0Ng=="
-    },
-    {
-      "id": "0430",
-      "name": "Eevee Horizon Gem Pack Vol 2",
-      "set": "Horizon Gem Pack Vol 2",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 88.0,
-      "quantity": 1,
-      "image": "images/0430.jpg",
-      "imageFull": "images/full/0430.jpg",
-      "dateAdded": "2026-08-26",
-      "notes": "",
-      "tags": [
-        "01 15/15",
-        "Chinese Horizon Gem Pack Vol 2",
-        "Cute",
-        "Flowers",
-        "Floral"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjIxODk4MjA1NA=="
-    },
-    {
-      "id": "0473",
-      "name": "Pikachu Player's Celebration CS6.1C",
-      "set": "Pikachu Player's Celebration",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 18.0,
-      "quantity": 1,
-      "image": "images/0473.jpg",
-      "imageFull": "images/full/0473.jpg",
-      "dateAdded": "2026-08-26",
-      "notes": "",
-      "tags": [
-        "Chinese 004/004",
-        "Cute",
-        "Pikachu",
-        "Cameo",
-        "Multiple Pokemon"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjIxODkyNTYyOA=="
-    },
-    {
-      "id": "0471",
-      "name": "Pikachu Player's Celebration CS5.1C",
-      "set": "Pikachu Player's Celebration",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 18.0,
-      "quantity": 1,
-      "image": "images/0471.jpg",
-      "imageFull": "images/full/0471.jpg",
-      "dateAdded": "2026-08-26",
-      "notes": "",
-      "tags": [
-        "Chinese 004/004",
-        "Cute",
-        "Pikachu",
-        "Cameo",
-        "Multiple Pokemon"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjIxODkxODI5OA=="
-    },
-    {
-      "id": "0369",
-      "name": "Influencer's Introduction",
-      "set": "MP1: Start Deck 100 Battle Collection CoroCiao Version",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 30.0,
-      "quantity": 1,
-      "image": "images/0369.jpg",
-      "imageFull": "images/full/0369.jpg",
-      "dateAdded": "2026-08-26",
-      "notes": "",
-      "tags": [
-        "Shimaris Yukichi",
-        "Cute",
-        "Cameo",
-        "Home",
-        "Dolls"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjIxODg4MDA0OA=="
     },
     {
       "id": "0357",
@@ -512,25 +428,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjE1OTgzODc4MA=="
     },
     {
-      "id": "0201",
-      "name": "Pachirisu",
-      "set": "Majestic Dawn",
-      "number": "",
-      "condition": "Light Played",
-      "price": 10.0,
-      "quantity": 1,
-      "image": "images/0201.jpg",
-      "imageFull": "images/full/0201.jpg",
-      "dateAdded": "2026-08-12",
-      "notes": "",
-      "tags": [
-        "Tomokazu Komiya",
-        "Cute",
-        "Vintage"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjE1OTgzNjkzMQ=="
-    },
-    {
       "id": "0289",
       "name": "Pachirisu",
       "set": "Call of Legends",
@@ -715,23 +612,6 @@
         "Ryoto Muriyama"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjExNDQ4MjgwMw=="
-    },
-    {
-      "id": "0287",
-      "name": "Aegislash",
-      "set": "SV04: Paradox Rift",
-      "number": "210/182",
-      "condition": "Near Mint",
-      "price": 14.0,
-      "quantity": 1,
-      "image": "images/0287.jpg",
-      "imageFull": "images/full/0287.jpg",
-      "dateAdded": "2026-08-02",
-      "notes": "",
-      "tags": [
-        "Takumi Wada"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjExNDQ3NTczNQ=="
     },
     {
       "id": "0277",
@@ -1710,23 +1590,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTkzMTI0NjU2Nw=="
     },
     {
-      "id": "0415",
-      "name": "Baxcalibur",
-      "set": "SV02: Paldea Evolved",
-      "number": "210/193",
-      "condition": "Near Mint",
-      "price": 42.0,
-      "quantity": 1,
-      "image": "images/0415.jpg",
-      "imageFull": "images/full/0415.jpg",
-      "dateAdded": "2026-06-14",
-      "notes": "",
-      "tags": [
-        "Tomokazu Komiya"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTkzMTIzNzgyOQ=="
-    },
-    {
       "id": "0311",
       "name": "Amoonguss",
       "set": "SV: Black Bolt",
@@ -1764,25 +1627,6 @@
         "Pikachu Stamp"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTkxMzk4OTAwMw=="
-    },
-    {
-      "id": "0224",
-      "name": "Charizard & Braixen GX (Full Art)",
-      "set": "Cosmic Eclipse",
-      "number": "SM",
-      "condition": "Light Played",
-      "price": 95.0,
-      "quantity": 1,
-      "image": "images/0224.jpg",
-      "imageFull": "images/full/0224.jpg",
-      "dateAdded": "2026-06-09",
-      "notes": "",
-      "tags": [
-        "Tag Team",
-        "Multiple Pokemon",
-        "Zard"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTkxMzk4NTQxNg=="
     },
     {
       "id": "0399",
@@ -2805,27 +2649,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTc2OTM4NDE4MA=="
     },
     {
-      "id": "0331",
-      "name": "Deerling",
-      "set": "SV05: Temporal Forces",
-      "number": "165/162",
-      "condition": "Near Mint",
-      "price": 46.0,
-      "quantity": 1,
-      "image": "images/0331.jpg",
-      "imageFull": "images/full/0331.jpg",
-      "dateAdded": "2026-07-30",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Pink",
-        "Nature",
-        "Floral",
-        "Flowers"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTc2OTM2NjM2OA=="
-    },
-    {
       "id": "0288",
       "name": "Clamperl",
       "set": "SV10: Destined Rivals",
@@ -2870,7 +2693,7 @@
       "set": "POP Series 4",
       "number": "",
       "condition": "Light Played",
-      "price": 30.0,
+      "price": 40.0,
       "quantity": 1,
       "image": "images/0524.jpg",
       "imageFull": "images/full/0524.jpg",
@@ -3455,7 +3278,7 @@
       "set": "Vending Machine cards Series 3 (Green)",
       "number": "",
       "condition": "Near Mint",
-      "price": 35.0,
+      "price": 43.0,
       "quantity": 1,
       "image": "images/0302.jpg",
       "imageFull": "images/full/0302.jpg",
@@ -4033,7 +3856,7 @@
       "set": "Neo Destiny",
       "number": "",
       "condition": "Light Played",
-      "price": 50.0,
+      "price": 53.0,
       "quantity": 1,
       "image": "images/0323.jpg",
       "imageFull": "images/full/0323.jpg",
@@ -4043,31 +3866,6 @@
         "Tomokazu Komiya"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTM1NjEzODA3Ng=="
-    },
-    {
-      "id": "0495",
-      "name": "Ash's Pikachu",
-      "set": "SM Promos",
-      "number": "SM113",
-      "condition": "Light Played",
-      "price": 45.0,
-      "quantity": 1,
-      "image": "images/0495.jpg",
-      "imageFull": "images/full/0495.jpg",
-      "dateAdded": "2026-08-11",
-      "notes": "",
-      "tags": [
-        "Promo",
-        "Cute",
-        "I Choose You Pikachu",
-        "I Choose You!",
-        "Pokemon The Movie",
-        "Sun and Moon Promos",
-        "Sun & Moon Promos",
-        "Stamped",
-        "Stamp"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTM1MjYwMjU4MA=="
     },
     {
       "id": "0205",
@@ -4087,26 +3885,6 @@
         "Stars"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTI5MzgwNzAyMQ=="
-    },
-    {
-      "id": "0206",
-      "name": "Plusle",
-      "set": "EX Hidden Legends",
-      "number": "",
-      "condition": "Light Played",
-      "price": 45.0,
-      "quantity": 1,
-      "image": "images/0206.jpg",
-      "imageFull": "images/full/0206.jpg",
-      "dateAdded": "2026-08-11",
-      "notes": "",
-      "tags": [
-        "Hearts",
-        "Cute",
-        "Pink",
-        "Rainbow"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTI5MzgwNjU2Mg=="
     },
     {
       "id": "0427",
@@ -5403,27 +5181,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAxMDY2MDI0OA=="
     },
     {
-      "id": "0230",
-      "name": "Clive",
-      "set": "SV: Paldean Fates",
-      "number": "236/091",
-      "condition": "Near Mint",
-      "price": 32.0,
-      "quantity": 1,
-      "image": "images/0230.jpg",
-      "imageFull": "images/full/0230.jpg",
-      "dateAdded": "2026-08-12",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "SIR",
-        "Multiple Pokemon",
-        "People",
-        "Cameo"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAxMDQ2ODE2MA=="
-    },
-    {
       "id": "0228",
       "name": "Altaria",
       "set": "SWSH12: Silver Tempest Trainer Gallery",
@@ -5499,25 +5256,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAwNTkxMTYwMg=="
     },
     {
-      "id": "0310",
-      "name": "Gengar",
-      "set": "SWSH11: Lost Origin Trainer Gallery",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 50.0,
-      "quantity": 1,
-      "image": "images/0310.jpg",
-      "imageFull": "images/full/0310.jpg",
-      "dateAdded": "2026-08-11",
-      "notes": "",
-      "tags": [
-        "TG06/TG30",
-        "Akira Komayama",
-        "People"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTk4NTc4MTkx"
-    },
-    {
       "id": "0900",
       "name": "Magikarp",
       "set": "22/83 (Toys R Us Promo)",
@@ -5543,7 +5281,7 @@
       "set": "50/83 (Toys R Us Promo)",
       "number": "",
       "condition": "Near Mint",
-      "price": 45.0,
+      "price": 63.0,
       "quantity": 1,
       "image": "images/0903.jpg",
       "imageFull": "images/full/0903.jpg",
@@ -5584,27 +5322,6 @@
         "Sealed"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTk1NjQ4NjYz"
-    },
-    {
-      "id": "0259",
-      "name": "Dedenne GX",
-      "set": "Alternate Art Promos",
-      "number": "195a/214",
-      "condition": "Near Mint",
-      "price": 34.0,
-      "quantity": 1,
-      "image": "images/0259.jpg",
-      "imageFull": "images/full/0259.jpg",
-      "dateAdded": "2026-08-11",
-      "notes": "",
-      "tags": [
-        "Promo",
-        "Cute",
-        "Derpy",
-        "Squishy Face",
-        "kanahei"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTkxMDgzMjYx"
     },
     {
       "id": "0406",
@@ -5659,32 +5376,6 @@
         "Nature"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTkxMDgzMTc0"
-    },
-    {
-      "id": "0920",
-      "name": "Ash's Pikachu",
-      "set": "SM Promos",
-      "number": "SM108",
-      "condition": "Near Mint",
-      "price": 44.0,
-      "quantity": 1,
-      "image": "images/0920.jpg",
-      "imageFull": "images/full/0920.jpg",
-      "dateAdded": "2026-08-16",
-      "notes": "",
-      "tags": [
-        "Sealed",
-        "Promo",
-        "Cute",
-        "I Choose You Pikachu",
-        "I Choose You!",
-        "Pokemon The Movie",
-        "Sun and Moon Promos",
-        "Sun & Moon Promos",
-        "Stamped",
-        "Stamp"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTg0NjMxMjg5"
     },
     {
       "id": "0217",
@@ -5824,7 +5515,7 @@
       "set": "SV: Scarlet & Violet 151",
       "number": "172/165",
       "condition": "Near Mint",
-      "price": 18.0,
+      "price": 20.0,
       "quantity": 1,
       "image": "images/0437.jpg",
       "imageFull": "images/full/0437.jpg",
@@ -5855,24 +5546,6 @@
         "Multiple Pokemon"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0Mzc2"
-    },
-    {
-      "id": "0419",
-      "name": "Umbreon",
-      "set": "Black and White Promos",
-      "number": "BW93",
-      "condition": "Light Played",
-      "price": 165.0,
-      "quantity": 1,
-      "image": "images/0419.jpg",
-      "imageFull": "images/full/0419.jpg",
-      "dateAdded": "2026-08-11",
-      "notes": "",
-      "tags": [
-        "Eeveelutions",
-        "Cute"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0MzE5"
     },
     {
       "id": "0433",
@@ -5987,27 +5660,6 @@
         "Fairy"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0MTU5"
-    },
-    {
-      "id": "0223",
-      "name": "Mew V (Alternate Full Art)",
-      "set": "SWSH08: Fusion Strike",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 120.0,
-      "quantity": 1,
-      "image": "images/0223.jpg",
-      "imageFull": "images/full/0223.jpg",
-      "dateAdded": "2026-08-11",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Multiple Pokemon",
-        "Pink",
-        "Legendary",
-        "Cameo"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0MTA3"
     },
     {
       "id": "0238",
@@ -6133,31 +5785,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDUzOTcx"
     },
     {
-      "id": "0497",
-      "name": "Ash's Pikachu",
-      "set": "SM Promos",
-      "number": "SM111",
-      "condition": "Light Played",
-      "price": 46.0,
-      "quantity": 1,
-      "image": "images/0497.jpg",
-      "imageFull": "images/full/0497.jpg",
-      "dateAdded": "2026-08-11",
-      "notes": "",
-      "tags": [
-        "Promo",
-        "Cute",
-        "I Choose You Pikachu",
-        "I Choose You!",
-        "Pokemon The Movie",
-        "Sun and Moon Promos",
-        "Sun & Moon Promos",
-        "Stamped",
-        "Stamp"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDUzOTYx"
-    },
-    {
       "id": "0499",
       "name": "Ash's Pikachu",
       "set": "SM Promos",
@@ -6233,24 +5860,6 @@
       "notes": "",
       "tags": [],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTUxNDQ4NTY2"
-    },
-    {
-      "id": "0414",
-      "name": "Shuckle GX (Full Art)",
-      "set": "Lost Thunder",
-      "number": "SM",
-      "condition": "Light Played",
-      "price": 24.0,
-      "quantity": 1,
-      "image": "images/0414.jpg",
-      "imageFull": "images/full/0414.jpg",
-      "dateAdded": "2026-08-11",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Full Art"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTUxNDQ4NTM4"
     },
     {
       "id": "0388",
@@ -6347,7 +5956,7 @@
       "set": "Legend Maker 5/92",
       "number": "",
       "condition": "Light Played",
-      "price": 135.0,
+      "price": 168.0,
       "quantity": 1,
       "image": "images/0641.jpg",
       "imageFull": "images/full/0641.jpg",
@@ -6357,29 +5966,12 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTQ1ODc3NjY4"
     },
     {
-      "id": "0318",
-      "name": "Charizard & Braixen GX (Secret)",
-      "set": "Cosmic Eclipse",
-      "number": "SM - 251/236",
-      "condition": "Light Played",
-      "price": 180.0,
-      "quantity": 1,
-      "image": "images/0318.jpg",
-      "imageFull": "images/full/0318.jpg",
-      "dateAdded": "2026-08-11",
-      "notes": "",
-      "tags": [
-        "Tag Team"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6ODk3MjUxNjU0"
-    },
-    {
       "id": "0636",
       "name": "Jirachi EX (98 Full Art)",
       "set": "Plasma Blast",
       "number": "",
       "condition": "Light Played",
-      "price": 130.0,
+      "price": 176.0,
       "quantity": 1,
       "image": "images/0636.jpg",
       "imageFull": "images/full/0636.jpg",
