@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-11T19:03",
-  "totalCards": 288,
-  "totalValue": 16227.0,
+  "lastUpdated": "2026-10-13T19:03",
+  "totalCards": 284,
+  "totalValue": 16055.0,
   "cards": [
     {
       "id": "0203",
@@ -1553,28 +1553,6 @@
         "Sealed"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTg5ODAzMjUyMg=="
-    },
-    {
-      "id": "0911",
-      "name": "Pikachu Berkemeja Batik 190/SV-P Pink",
-      "set": "Indonesia Journey Promo",
-      "number": "",
-      "condition": "New",
-      "price": 45.0,
-      "quantity": 1,
-      "image": "images/0911.jpg",
-      "imageFull": "images/full/0911.jpg",
-      "dateAdded": "2026-08-16",
-      "notes": "",
-      "tags": [
-        "Indonesia Journey Promo",
-        "Cute",
-        "Indonesian Exclusive",
-        "Stamped",
-        "Stamp",
-        "Sealed"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTg5ODAyOTgyOA=="
     },
     {
       "id": "0913",
@@ -3811,27 +3789,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTIxMTU2MDQ3OQ=="
     },
     {
-      "id": "0418",
-      "name": "Pikachu",
-      "set": "SV: Scarlet & Violet Promo Cards",
-      "number": "088",
-      "condition": "Near Mint",
-      "price": 35.0,
-      "quantity": 1,
-      "image": "images/0418.jpg",
-      "imageFull": "images/full/0418.jpg",
-      "dateAdded": "2026-08-11",
-      "notes": "",
-      "tags": [
-        "088",
-        "Promo",
-        "Cute",
-        "Flowers",
-        "Floral"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTIxMTU2MDMxNw=="
-    },
-    {
       "id": "0404",
       "name": "Palkia LV.X",
       "set": "DP-P",
@@ -4606,26 +4563,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAzOTExNDU4NQ=="
     },
     {
-      "id": "0342",
-      "name": "Pikachu",
-      "set": "SWSH11: Lost Origin Trainer Gallery",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 48.0,
-      "quantity": 1,
-      "image": "images/0342.jpg",
-      "imageFull": "images/full/0342.jpg",
-      "dateAdded": "2026-08-11",
-      "notes": "",
-      "tags": [
-        "TG05/TG30",
-        "Cute",
-        "People",
-        "Sleeping"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAzOTExNDM1MQ=="
-    },
-    {
       "id": "0236",
       "name": "Vaporeon V",
       "set": "SWSH: Sword & Shield Promo Cards",
@@ -4664,24 +4601,6 @@
         "Cameo"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAzOTExNDI5MQ=="
-    },
-    {
-      "id": "0412",
-      "name": "Pikachu (Secret)",
-      "set": "Crown Zenith",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 44.0,
-      "quantity": 1,
-      "image": "images/0412.jpg",
-      "imageFull": "images/full/0412.jpg",
-      "dateAdded": "2026-08-11",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Pink"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAzOTExNDI2MA=="
     },
     {
       "id": "0348",
