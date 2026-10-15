@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-13T19:03",
-  "totalCards": 284,
-  "totalValue": 16055.0,
+  "lastUpdated": "2026-10-14T19:04",
+  "totalCards": 282,
+  "totalValue": 15930.0,
   "cards": [
     {
       "id": "0203",
@@ -3393,26 +3393,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQwMDc1MTMzMA=="
     },
     {
-      "id": "0232",
-      "name": "Sylveon CBB2C-09 15/15",
-      "set": "Horizon Gem Pack Vol 2",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 120.0,
-      "quantity": 1,
-      "image": "images/0232.jpg",
-      "imageFull": "images/full/0232.jpg",
-      "dateAdded": "2026-08-16",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Pink",
-        "Flowers",
-        "Floral"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTM5OTI2MDgyNA=="
-    },
-    {
       "id": "0293",
       "name": "Igglybuff",
       "set": "Skyridge",
@@ -3936,31 +3916,6 @@
         "Rainbow"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE0NTAxODcxNg=="
-    },
-    {
-      "id": "0247",
-      "name": "Mimikyu",
-      "set": "SM Promos",
-      "number": "SM163",
-      "condition": "Near Mint",
-      "price": 65.0,
-      "quantity": 1,
-      "image": "images/0247.jpg",
-      "imageFull": "images/full/0247.jpg",
-      "dateAdded": "2026-10-05",
-      "notes": "",
-      "tags": [
-        "Promo",
-        "Pink",
-        "Cute",
-        "Fairy",
-        "Floral",
-        "Flowers",
-        "Saya Tsuruta",
-        "Sun and Moon Promos",
-        "Sun & Moon Promos"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE0NTAxODY4Nw=="
     },
     {
       "id": "0718",
@@ -5361,7 +5316,7 @@
       "set": "Southern Islands",
       "number": "",
       "condition": "Light Played",
-      "price": 160.0,
+      "price": 220.0,
       "quantity": 1,
       "image": "images/0413.jpg",
       "imageFull": "images/full/0413.jpg",
