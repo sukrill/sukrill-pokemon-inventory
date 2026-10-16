@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-14T19:04",
-  "totalCards": 282,
-  "totalValue": 15930.0,
+  "lastUpdated": "2026-10-15T19:03",
+  "totalCards": 280,
+  "totalValue": 15795.0,
   "cards": [
     {
       "id": "0203",
@@ -5010,25 +5010,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0Mzc2"
     },
     {
-      "id": "0433",
-      "name": "Vaporeon",
-      "set": "Black and White Promos",
-      "number": "BW89",
-      "condition": "Light Played",
-      "price": 75.0,
-      "quantity": 1,
-      "image": "images/0433.jpg",
-      "imageFull": "images/full/0433.jpg",
-      "dateAdded": "2026-08-31",
-      "notes": "",
-      "tags": [
-        "Eeveelution",
-        "Cute",
-        "Promo"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0Mjk2"
-    },
-    {
       "id": "0435",
       "name": "Flareon",
       "set": "Black and White Promos",
@@ -5046,27 +5027,6 @@
         "Promo"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0Mjky"
-    },
-    {
-      "id": "0434",
-      "name": "Leafeon",
-      "set": "Black and White Promos",
-      "number": "BW87",
-      "condition": "Light Played",
-      "price": 60.0,
-      "quantity": 1,
-      "image": "images/0434.jpg",
-      "imageFull": "images/full/0434.jpg",
-      "dateAdded": "2026-08-31",
-      "notes": "",
-      "tags": [
-        "Eeveelution",
-        "Promo",
-        "Cute",
-        "Floral",
-        "Flowers"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0Mjg2"
     },
     {
       "id": "0671",
