@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-17T01:44",
-  "totalCards": 296,
-  "totalValue": 16407.0,
+  "lastUpdated": "2026-10-17T02:03",
+  "totalCards": 300,
+  "totalValue": 16935.0,
   "cards": [
     {
       "id": "0304",
@@ -134,25 +134,25 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjI0MDU4MjI0Ng=="
     },
     {
-      "id": "0217",
-      "name": "Morpeko",
-      "set": "SV04: Paradox Rift",
-      "number": "206/182",
+      "id": "0277",
+      "name": "Influencer's Introduction",
+      "set": "MP1: Start Deck 100 Battle Collection CoroCiao Version",
+      "number": "",
       "condition": "Near Mint",
-      "price": 65.0,
+      "price": 30.0,
       "quantity": 1,
-      "image": "images/0217.jpg",
-      "imageFull": "images/full/0217.jpg",
-      "dateAdded": "2026-08-11",
+      "image": "images/0277.jpg",
+      "imageFull": "images/full/0277.jpg",
+      "dateAdded": "2026-10-17",
       "notes": "",
       "tags": [
+        "Shimaris Yukichi",
         "Cute",
-        "Candy",
-        "Treats",
-        "Food",
-        "Sweets"
+        "Cameo",
+        "Home",
+        "Dolls"
       ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTg0MjQ2MDQx"
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjIxODg4MDA0OA=="
     },
     {
       "id": "0357",
@@ -1147,27 +1147,25 @@
     },
     {
       "id": "0225",
-      "name": "Mega Lopunny & Jigglypuff GX (Alternate Full Art)",
-      "set": "Cosmic Eclipse",
-      "number": "SM",
+      "name": "Snorlax",
+      "set": "WoTC Promo",
+      "number": "",
       "condition": "Light Played",
-      "price": 330.0,
+      "price": 400.0,
       "quantity": 1,
       "image": "images/0225.jpg",
       "imageFull": "images/full/0225.jpg",
       "dateAdded": "2026-07-12",
       "notes": "",
       "tags": [
-        "Shibuzoh",
+        "Promo",
+        "Craig Turvey",
         "Cute",
-        "Cameo",
-        "Multiple Pokemon",
-        "Floral",
-        "Whimsical",
-        "Flowers",
-        "Tag Team"
+        "Sleeping",
+        "Vintage",
+        "WoTC"
       ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0MDI4"
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjAyNzM5NjQyMA=="
     },
     {
       "id": "0269",
@@ -2031,6 +2029,24 @@
         "E Series"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTg4MjAzOTU2Nw=="
+    },
+    {
+      "id": "0342",
+      "name": "Virizion",
+      "set": "SV: White Flare",
+      "number": "095/086",
+      "condition": "Near Mint",
+      "price": 35.0,
+      "quantity": 1,
+      "image": "images/0342.jpg",
+      "imageFull": "images/full/0342.jpg",
+      "dateAdded": "2026-10-17",
+      "notes": "",
+      "tags": [
+        "Cute",
+        "Nature"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTg4MjAzMDkyMw=="
     },
     {
       "id": "0349",
@@ -5130,6 +5146,27 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTkxMDgzMTc0"
     },
     {
+      "id": "0217",
+      "name": "Morpeko",
+      "set": "SV04: Paradox Rift",
+      "number": "206/182",
+      "condition": "Near Mint",
+      "price": 65.0,
+      "quantity": 1,
+      "image": "images/0217.jpg",
+      "imageFull": "images/full/0217.jpg",
+      "dateAdded": "2026-08-11",
+      "notes": "",
+      "tags": [
+        "Cute",
+        "Candy",
+        "Treats",
+        "Food",
+        "Sweets"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTg0MjQ2MDQx"
+    },
+    {
       "id": "0272",
       "name": "Entei V",
       "set": "Crown Zenith: Galarian Gallery",
@@ -5277,6 +5314,27 @@
         "Multiple Pokemon"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0Mzc2"
+    },
+    {
+      "id": "0305",
+      "name": "Shaymin EX",
+      "set": "XY Promos",
+      "number": "",
+      "condition": "Light Played",
+      "price": 63.0,
+      "quantity": 1,
+      "image": "images/0305.jpg",
+      "imageFull": "images/full/0305.jpg",
+      "dateAdded": "2026-10-17",
+      "notes": "",
+      "tags": [
+        "Cute",
+        "Floral",
+        "Pink",
+        "Flowers",
+        "Multiple Pokemon"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0MzY1"
     },
     {
       "id": "0247",
@@ -5467,6 +5525,30 @@
         "Eeveelution"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0MDQx"
+    },
+    {
+      "id": "0275",
+      "name": "Mega Lopunny & Jigglypuff GX (Alternate Full Art)",
+      "set": "Cosmic Eclipse",
+      "number": "SM",
+      "condition": "Light Played",
+      "price": 330.0,
+      "quantity": 1,
+      "image": "images/0275.jpg",
+      "imageFull": "images/full/0275.jpg",
+      "dateAdded": "2026-10-17",
+      "notes": "",
+      "tags": [
+        "Shibuzoh",
+        "Cute",
+        "Cameo",
+        "Multiple Pokemon",
+        "Floral",
+        "Whimsical",
+        "Flowers",
+        "Tag Team"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0MDI4"
     },
     {
       "id": "0428",
