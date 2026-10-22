@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-20T19:04",
+  "lastUpdated": "2026-10-21T19:04",
   "totalCards": 293,
-  "totalValue": 16371.0,
+  "totalValue": 16366.0,
   "cards": [
     {
       "id": "0304",
@@ -179,7 +179,7 @@
       "set": "HeartGold SoulSilver",
       "number": "",
       "condition": "Light Played",
-      "price": 70.0,
+      "price": 65.0,
       "quantity": 1,
       "image": "images/0315.jpg",
       "imageFull": "images/full/0315.jpg",
