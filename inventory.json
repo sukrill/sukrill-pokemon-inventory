@@ -1,8 +1,25 @@
 {
-  "lastUpdated": "2026-10-22T19:04",
-  "totalCards": 293,
-  "totalValue": 16366.0,
+  "lastUpdated": "2026-10-23T19:03",
+  "totalCards": 294,
+  "totalValue": 16616.0,
   "cards": [
+    {
+      "id": "2019",
+      "name": "Pokemon Sun & Moon Cosmic Eclipse Charizard/Braixen Gx Cosmic Eclipse-Secret-Fa PSA MINT 9",
+      "set": "PSA",
+      "number": "",
+      "condition": "Graded",
+      "price": 250.0,
+      "quantity": 1,
+      "image": "",
+      "imageFull": "",
+      "dateAdded": "2026-10-23",
+      "notes": "",
+      "tags": [
+        "PSA MINT 9"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjQ3OTY5OTU0Mw=="
+    },
     {
       "id": "0304",
       "name": "Ho-Oh",
