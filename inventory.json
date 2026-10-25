@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-23T19:03",
-  "totalCards": 294,
-  "totalValue": 16616.0,
+  "lastUpdated": "2026-10-24T21:44",
+  "totalCards": 289,
+  "totalValue": 16422.0,
   "cards": [
     {
       "id": "2019",
@@ -11,8 +11,8 @@
       "condition": "Graded",
       "price": 250.0,
       "quantity": 1,
-      "image": "",
-      "imageFull": "",
+      "image": "images/2019.jpg",
+      "imageFull": "images/full/2019.jpg",
       "dateAdded": "2026-10-23",
       "notes": "",
       "tags": [
@@ -449,25 +449,6 @@
         "Atsuko Nishida"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjE1OTgzODc4MA=="
-    },
-    {
-      "id": "0207",
-      "name": "Pachirisu",
-      "set": "Majestic Dawn",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 10.0,
-      "quantity": 1,
-      "image": "images/0207.jpg",
-      "imageFull": "images/full/0207.jpg",
-      "dateAdded": "2026-10-17",
-      "notes": "",
-      "tags": [
-        "Tomokazu Komiya",
-        "Cute",
-        "Vintage"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjE1OTgzNjkzMQ=="
     },
     {
       "id": "0289",
@@ -912,23 +893,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjY0OTk1MQ=="
     },
     {
-      "id": "0312",
-      "name": "Dragonair (4)",
-      "set": "Dragon Vault",
-      "number": "",
-      "condition": "Light Played",
-      "price": 12.0,
-      "quantity": 1,
-      "image": "images/0312.jpg",
-      "imageFull": "images/full/0312.jpg",
-      "dateAdded": "2026-08-16",
-      "notes": "",
-      "tags": [
-        "Cute"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjY0NzM0NA=="
-    },
-    {
       "id": "0402",
       "name": "Ditto",
       "set": "POP Series 3",
@@ -1127,28 +1091,6 @@
         "Full Art"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjAyNzQwNjg2MA=="
-    },
-    {
-      "id": "0225",
-      "name": "Snorlax",
-      "set": "WoTC Promo",
-      "number": "",
-      "condition": "Light Played",
-      "price": 400.0,
-      "quantity": 1,
-      "image": "images/0225.jpg",
-      "imageFull": "images/full/0225.jpg",
-      "dateAdded": "2026-07-12",
-      "notes": "",
-      "tags": [
-        "Promo",
-        "Craig Turvey",
-        "Cute",
-        "Sleeping",
-        "Vintage",
-        "WoTC"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjAyNzM5NjQyMA=="
     },
     {
       "id": "0269",
@@ -2168,27 +2110,6 @@
         "Super Pink Show"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTg0MDc1NjA3Mg=="
-    },
-    {
-      "id": "0270",
-      "name": "Pichu Bros.",
-      "set": "POP Series 3",
-      "number": "",
-      "condition": "Light Played",
-      "price": 106.0,
-      "quantity": 1,
-      "image": "images/0270.jpg",
-      "imageFull": "images/full/0270.jpg",
-      "dateAdded": "2026-06-20",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Multiple Pokemon",
-        "Balloons",
-        "Pink",
-        "Vintage"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTgyNTEwNjU1MQ=="
     },
     {
       "id": "0278",
@@ -3494,6 +3415,27 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQ0MjI3ODA5Nw=="
     },
     {
+      "id": "0701",
+      "name": "Reshiram (Full Art)",
+      "set": "Legendary Treasures: Radiant Collection",
+      "number": "",
+      "condition": "Light Played",
+      "price": 120.0,
+      "quantity": 1,
+      "image": "images/0701.jpg",
+      "imageFull": "images/full/0701.jpg",
+      "dateAdded": "2026-10-24",
+      "notes": "",
+      "tags": [
+        "RC22/RC25",
+        "Cute",
+        "Floral",
+        "Flowers",
+        "Roses"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQxNTUwNzQzMQ=="
+    },
+    {
       "id": "0300",
       "name": "Flaaffy",
       "set": "SWSH12: Silver Tempest Trainer Gallery",
@@ -3529,25 +3471,6 @@
         "TG14/TG30"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQwMDc1MTUwMw=="
-    },
-    {
-      "id": "0279",
-      "name": "Eevee",
-      "set": "SWSH09: Brilliant Stars Trainer Gallery",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 25.0,
-      "quantity": 1,
-      "image": "images/0279.jpg",
-      "imageFull": "images/full/0279.jpg",
-      "dateAdded": "2026-07-18",
-      "notes": "",
-      "tags": [
-        "TG11/TG30",
-        "Eeveelution",
-        "Cute"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQwMDc1MTMzMA=="
     },
     {
       "id": "0293",
@@ -3807,26 +3730,6 @@
         "Cute"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTIyNDA2MTUzMg=="
-    },
-    {
-      "id": "0203",
-      "name": "Poke Kid (Full Art)",
-      "set": "Shining Fates",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 14.0,
-      "quantity": 1,
-      "image": "images/0203.jpg",
-      "imageFull": "images/full/0203.jpg",
-      "dateAdded": "2026-10-20",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Hearts",
-        "Trainer",
-        "People"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTIxMTU2MDU4OA=="
     },
     {
       "id": "0235",
@@ -4172,25 +4075,64 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE0NTAxODU1Nw=="
     },
     {
-      "id": "0284",
-      "name": "Light Jolteon",
-      "set": "Neo Destiny",
+      "id": "0703",
+      "name": "Pikachu (Full Art)",
+      "set": "Generations: Radiant Collection",
       "number": "",
       "condition": "Light Played",
-      "price": 70.0,
+      "price": 120.0,
       "quantity": 1,
-      "image": "images/0284.jpg",
-      "imageFull": "images/full/0284.jpg",
-      "dateAdded": "2026-08-12",
+      "image": "images/0703.jpg",
+      "imageFull": "images/full/0703.jpg",
+      "dateAdded": "2026-10-24",
       "notes": "",
       "tags": [
+        "RC29/RC32",
+        "Cute",
+        "Multiple Pokemon"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE0NTAxODUxNw=="
+    },
+    {
+      "id": "0700",
+      "name": "Sylveon EX (Full Art)",
+      "set": "Generations: Radiant Collection",
+      "number": "",
+      "condition": "Light Played",
+      "price": 160.0,
+      "quantity": 1,
+      "image": "images/0700.jpg",
+      "imageFull": "images/full/0700.jpg",
+      "dateAdded": "2026-10-24",
+      "notes": "",
+      "tags": [
+        "RC32/RC32",
         "Cute",
         "Eeveelution",
-        "Togepi",
+        "Pink"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTEwOTIwMzQ1OA=="
+    },
+    {
+      "id": "0705",
+      "name": "Gardevoir EX (Full Art)",
+      "set": "Generations: Radiant Collection",
+      "number": "",
+      "condition": "Light Played",
+      "price": 85.0,
+      "quantity": 1,
+      "image": "images/0705.jpg",
+      "imageFull": "images/full/0705.jpg",
+      "dateAdded": "2026-10-24",
+      "notes": "",
+      "tags": [
+        "RC30/RC32",
+        "Cute",
+        "Pink",
         "Multiple Pokemon",
         "Cameo"
       ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTEyODkwNzc0OA=="
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTEwOTIwMDkwNQ=="
     },
     {
       "id": "0717",
@@ -4286,25 +4228,6 @@
         "People"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA4MTM4OTc4MQ=="
-    },
-    {
-      "id": "0256",
-      "name": "Sylveon V (Full Art)",
-      "set": "SWSH07: Evolving Skies",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 42.0,
-      "quantity": 1,
-      "image": "images/0256.jpg",
-      "imageFull": "images/full/0256.jpg",
-      "dateAdded": "2026-09-02",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Eeveelution",
-        "Pink"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA4MTM4OTc1Ng=="
     },
     {
       "id": "0242",
@@ -4575,25 +4498,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAzOTExNTA2NQ=="
     },
     {
-      "id": "0229",
-      "name": "Light Slowbro",
-      "set": "Neo Destiny",
-      "number": "",
-      "condition": "Light Played",
-      "price": 40.0,
-      "quantity": 1,
-      "image": "images/0229.jpg",
-      "imageFull": "images/full/0229.jpg",
-      "dateAdded": "2026-10-05",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Tomokazu Komiya",
-        "Pink"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAzOTExNTAyOQ=="
-    },
-    {
       "id": "0331",
       "name": "Pikachu",
       "set": "SV: Scarlet & Violet Promo Cards",
@@ -4625,6 +4529,27 @@
       "notes": "",
       "tags": [],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAzOTExNDg3Mw=="
+    },
+    {
+      "id": "0704",
+      "name": "M Gardevoir EX (Full Art)",
+      "set": "Generations: Radiant Collection",
+      "number": "",
+      "condition": "Light Played",
+      "price": 120.0,
+      "quantity": 1,
+      "image": "images/0704.jpg",
+      "imageFull": "images/full/0704.jpg",
+      "dateAdded": "2026-10-24",
+      "notes": "",
+      "tags": [
+        "RC31/RC32",
+        "Cute",
+        "Mega",
+        "Full Art",
+        "Multiple Pokemon"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAzOTExNDcwMQ=="
     },
     {
       "id": "0354",
@@ -5217,24 +5142,6 @@
         "Bug"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0Mzg2"
-    },
-    {
-      "id": "0247",
-      "name": "Espeon",
-      "set": "Black and White Promos",
-      "number": "BW92",
-      "condition": "Light Played",
-      "price": 80.0,
-      "quantity": 1,
-      "image": "images/0247.jpg",
-      "imageFull": "images/full/0247.jpg",
-      "dateAdded": "2026-10-17",
-      "notes": "",
-      "tags": [
-        "Eeveelution",
-        "Promo"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0MzEy"
     },
     {
       "id": "0435",
