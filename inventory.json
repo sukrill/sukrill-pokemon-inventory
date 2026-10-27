@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-25T19:04",
-  "totalCards": 289,
-  "totalValue": 16422.0,
+  "lastUpdated": "2026-10-26T19:03",
+  "totalCards": 284,
+  "totalValue": 16188.0,
   "cards": [
     {
       "id": "2019",
@@ -3306,27 +3306,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQ4NDYyOTQ5Mg=="
     },
     {
-      "id": "0902",
-      "name": "Alolan Vulpix",
-      "set": "21/145 (Toys R Us Promo)",
-      "number": "",
-      "condition": "New",
-      "price": 40.0,
-      "quantity": 1,
-      "image": "images/0902.jpg",
-      "imageFull": "images/full/0902.jpg",
-      "dateAdded": "2026-08-16",
-      "notes": "",
-      "tags": [
-        "Promo",
-        "Cute",
-        "Stamped",
-        "Stamp",
-        "Sealed"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQ1MzEwMTkzOA=="
-    },
-    {
       "id": "0258",
       "name": "Blissey V (Alternate Full Art)",
       "set": "SWSH06: Chilling Reign",
@@ -4718,27 +4697,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAxMDY2MDI0OA=="
     },
     {
-      "id": "0201",
-      "name": "Clive",
-      "set": "SV: Paldean Fates",
-      "number": "236/091",
-      "condition": "Near Mint",
-      "price": 26.0,
-      "quantity": 1,
-      "image": "images/0201.jpg",
-      "imageFull": "images/full/0201.jpg",
-      "dateAdded": "2026-10-05",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "SIR",
-        "Multiple Pokemon",
-        "People",
-        "Cameo"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAxMDQ2ODE2MA=="
-    },
-    {
       "id": "0228",
       "name": "Altaria",
       "set": "SWSH12: Silver Tempest Trainer Gallery",
@@ -4849,74 +4807,6 @@
         "People"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTk4NTc4MTkx"
-    },
-    {
-      "id": "0900",
-      "name": "Magikarp",
-      "set": "22/83 (Toys R Us Promo)",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 80.0,
-      "quantity": 1,
-      "image": "images/0900.jpg",
-      "imageFull": "images/full/0900.jpg",
-      "dateAdded": "2026-08-16",
-      "notes": "",
-      "tags": [
-        "Promo",
-        "Stamped",
-        "Stamp",
-        "Sealed"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTk1NjQ4NzEz"
-    },
-    {
-      "id": "0903",
-      "name": "Clefairy",
-      "set": "50/83 (Toys R Us Promo)",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 63.0,
-      "quantity": 1,
-      "image": "images/0903.jpg",
-      "imageFull": "images/full/0903.jpg",
-      "dateAdded": "2026-08-16",
-      "notes": "",
-      "tags": [
-        "Promo",
-        "Cute",
-        "Pink",
-        "Fairy",
-        "Cosmic",
-        "Stars",
-        "Sparkles",
-        "Stamped",
-        "Stamp",
-        "Sealed"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTk1NjQ4Njgy"
-    },
-    {
-      "id": "0901",
-      "name": "Stufful",
-      "set": "110/147 (Toys R Us)",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 25.0,
-      "quantity": 1,
-      "image": "images/0901.jpg",
-      "imageFull": "images/full/0901.jpg",
-      "dateAdded": "2026-08-16",
-      "notes": "",
-      "tags": [
-        "Promo",
-        "Cute",
-        "Pink",
-        "Stamped",
-        "Stamp",
-        "Sealed"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTk1NjQ4NjYz"
     },
     {
       "id": "0230",
