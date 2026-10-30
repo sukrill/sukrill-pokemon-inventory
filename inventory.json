@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-28T19:04",
-  "totalCards": 283,
-  "totalValue": 16172.0,
+  "lastUpdated": "2026-10-29T19:04",
+  "totalCards": 280,
+  "totalValue": 16035.0,
   "cards": [
     {
       "id": "2019",
@@ -861,21 +861,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjY4NzQ1Mg=="
     },
     {
-      "id": "0376",
-      "name": "Kabutops",
-      "set": "Arceus",
-      "number": "",
-      "condition": "Light Played",
-      "price": 12.0,
-      "quantity": 1,
-      "image": "images/0376.jpg",
-      "imageFull": "images/full/0376.jpg",
-      "dateAdded": "2026-07-19",
-      "notes": "",
-      "tags": [],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjY4MjExMg=="
-    },
-    {
       "id": "0359",
       "name": "Dratini (2)",
       "set": "Dragon Vault",
@@ -1369,7 +1354,7 @@
       "set": "SV: White Flare",
       "number": "105/086",
       "condition": "Near Mint",
-      "price": 100.0,
+      "price": 80.0,
       "quantity": 1,
       "image": "images/0241.jpg",
       "imageFull": "images/full/0241.jpg",
@@ -3537,23 +3522,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTM1NjEzODEwMQ=="
     },
     {
-      "id": "0323",
-      "name": "Dark Slowking",
-      "set": "Neo Destiny",
-      "number": "",
-      "condition": "Light Played",
-      "price": 53.0,
-      "quantity": 1,
-      "image": "images/0323.jpg",
-      "imageFull": "images/full/0323.jpg",
-      "dateAdded": "2026-08-18",
-      "notes": "",
-      "tags": [
-        "Tomokazu Komiya"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTM1NjEzODA3Ng=="
-    },
-    {
       "id": "0205",
       "name": "Minun",
       "set": "EX Hidden Legends",
@@ -5009,25 +4977,6 @@
         "Bug"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0Mzg2"
-    },
-    {
-      "id": "0435",
-      "name": "Flareon",
-      "set": "Black and White Promos",
-      "number": "BW88",
-      "condition": "Light Played",
-      "price": 52.0,
-      "quantity": 1,
-      "image": "images/0435.jpg",
-      "imageFull": "images/full/0435.jpg",
-      "dateAdded": "2026-08-31",
-      "notes": "",
-      "tags": [
-        "Eeveelution",
-        "Cute",
-        "Promo"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0Mjky"
     },
     {
       "id": "0223",
