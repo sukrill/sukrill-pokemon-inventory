@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-05T19:02",
-  "totalCards": 290,
-  "totalValue": 16688.0,
+  "lastUpdated": "2026-11-05T23:53",
+  "totalCards": 292,
+  "totalValue": 16788.0,
   "cards": [
     {
       "id": "0282",
@@ -899,6 +899,24 @@
         "Cute"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjY0NzM0NA=="
+    },
+    {
+      "id": "0312",
+      "name": "Pichu",
+      "set": "Mysterious Treasures",
+      "number": "",
+      "condition": "Light Played",
+      "price": 22.0,
+      "quantity": 1,
+      "image": "images/0312.jpg",
+      "imageFull": "images/full/0312.jpg",
+      "dateAdded": "2026-11-05",
+      "notes": "",
+      "tags": [
+        "Yuka Morii",
+        "Cute"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjYxNDEyNg=="
     },
     {
       "id": "0402",
@@ -5171,6 +5189,27 @@
         "Bug"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0Mzg2"
+    },
+    {
+      "id": "0321",
+      "name": "Shaymin EX",
+      "set": "XY Promos",
+      "number": "",
+      "condition": "Light Played",
+      "price": 78.0,
+      "quantity": 1,
+      "image": "images/0321.jpg",
+      "imageFull": "images/full/0321.jpg",
+      "dateAdded": "2026-11-05",
+      "notes": "",
+      "tags": [
+        "Cute",
+        "Floral",
+        "Pink",
+        "Flowers",
+        "Multiple Pokemon"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0MzY1"
     },
     {
       "id": "0223",
