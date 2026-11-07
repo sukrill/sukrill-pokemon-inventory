@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-06T20:17",
-  "totalCards": 299,
-  "totalValue": 17058.0,
+  "lastUpdated": "2026-11-07T17:07",
+  "totalCards": 295,
+  "totalValue": 16680.0,
   "cards": [
     {
       "id": "0362",
@@ -314,21 +314,6 @@
       "image": "images/0292.jpg",
       "imageFull": "images/full/0292.jpg",
       "dateAdded": "2026-11-01",
-      "notes": "",
-      "tags": [],
-      "listingUrl": ""
-    },
-    {
-      "id": "0283",
-      "name": "Minun",
-      "set": "POP Series 3",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 36.0,
-      "quantity": 1,
-      "image": "images/0283.jpg",
-      "imageFull": "images/full/0283.jpg",
-      "dateAdded": "2026-08-16",
       "notes": "",
       "tags": [],
       "listingUrl": ""
@@ -758,17 +743,15 @@
       "name": "Dragonair (4)",
       "set": "Dragon Vault",
       "number": "",
-      "condition": "Light Played",
+      "condition": "Near Mint",
       "price": 18.0,
       "quantity": 1,
       "image": "images/0207.jpg",
       "imageFull": "images/full/0207.jpg",
       "dateAdded": "2026-10-30",
       "notes": "",
-      "tags": [
-        "Cute"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjY0NzM0NA=="
+      "tags": [],
+      "listingUrl": ""
     },
     {
       "id": "0312",
@@ -3283,33 +3266,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQ0MjM0NjMwMA=="
     },
     {
-      "id": "0930",
-      "name": "Ditto Metamong 173/SV-P Korean Exclusive Promo",
-      "set": "Metamong Promo",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 300.0,
-      "quantity": 1,
-      "image": "images/0930.jpg",
-      "imageFull": "images/full/0930.jpg",
-      "dateAdded": "2026-08-16",
-      "notes": "",
-      "tags": [
-        "173/SV-P",
-        "Ditto Lapras",
-        "Ditto Pikachu",
-        "Ditto Magikarp",
-        "Multiple Pokemon",
-        "Korean Exclusive",
-        "Promo",
-        "Cute",
-        "Stamped",
-        "Stamp",
-        "Sealed"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQ0MjI3ODA5Nw=="
-    },
-    {
       "id": "0701",
       "name": "Reshiram (Full Art)",
       "set": "Legendary Treasures: Radiant Collection",
@@ -3614,29 +3570,6 @@
         "People"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTI4MjIxMDA3Ng=="
-    },
-    {
-      "id": "0279",
-      "name": "Saguaro",
-      "set": "SV02: Paldea Evolved",
-      "number": "270/193",
-      "condition": "Near Mint",
-      "price": 16.0,
-      "quantity": 1,
-      "image": "images/0279.jpg",
-      "imageFull": "images/full/0279.jpg",
-      "dateAdded": "2026-10-30",
-      "notes": "",
-      "tags": [
-        "SIR",
-        "Cute",
-        "Pink",
-        "Jigglypuff",
-        "Delibird",
-        "Skwovet",
-        "Multiple Pokemon"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTI3NDMwNDkwNw=="
     },
     {
       "id": "0373",
@@ -3962,23 +3895,29 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE0NjA1NjcxOQ=="
     },
     {
-      "id": "0377",
-      "name": "Light Vaporeon",
-      "set": "Neo Destiny",
-      "number": "",
+      "id": "0223",
+      "name": "Mimikyu",
+      "set": "sm promos",
+      "number": "SM163",
       "condition": "Light Played",
-      "price": 35.0,
+      "price": 69.0,
       "quantity": 1,
-      "image": "images/0377.jpg",
-      "imageFull": "images/full/0377.jpg",
-      "dateAdded": "2026-08-16",
+      "image": "images/0223.jpg",
+      "imageFull": "images/full/0223.jpg",
+      "dateAdded": "2026-11-07",
       "notes": "",
       "tags": [
+        "Promo",
+        "Pink",
         "Cute",
-        "Eeveelution",
-        "Rainbow"
+        "Fairy",
+        "Floral",
+        "Flowers",
+        "Saya Tsuruta",
+        "Sun and Moon Promos",
+        "Sun & Moon Promos"
       ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE0NTAxODcxNg=="
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE0NTAxODY4Nw=="
     },
     {
       "id": "0718",
@@ -5165,27 +5104,6 @@
         "Multiple Pokemon"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0MzY1"
-    },
-    {
-      "id": "0223",
-      "name": "Leafeon",
-      "set": "Black and White Promos",
-      "number": "BW87",
-      "condition": "Light Played",
-      "price": 60.0,
-      "quantity": 1,
-      "image": "images/0223.jpg",
-      "imageFull": "images/full/0223.jpg",
-      "dateAdded": "2026-10-17",
-      "notes": "",
-      "tags": [
-        "Eeveelution",
-        "Promo",
-        "Cute",
-        "Floral",
-        "Flowers"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0Mjg2"
     },
     {
       "id": "0671",
