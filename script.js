@@ -191,6 +191,7 @@ async function init() {
     apply();
     openFromURL();
     openSharedWishlistFromURL();
+    loadSeller();   // seller badge + upcoming shows (non-blocking)
   } catch (err) {
     els.grid.innerHTML = '';
     els.empty.hidden = false;
@@ -200,6 +201,60 @@ async function init() {
   } finally {
     hideSplash();   // always clear the splash, even on error
   }
+}
+
+// ── Seller badge + upcoming live shows ──────────────────────────────────────
+// Reads seller.json (stats + shows), refreshed on the daily sync. Fully optional:
+// any failure leaves the hero hidden and the rest of the page unaffected.
+async function loadSeller() {
+  const hero = document.getElementById('seller-hero');
+  if (!hero) return;
+  try {
+    const res = await fetch('seller.json', { cache: 'no-cache' });
+    if (!res.ok) return;
+    const d = await res.json();
+    const st = d.stats || {};
+    const wn = d.whatnotUrl || 'https://www.whatnot.com/user/sukrill';
+    const setTxt = (id, v) => { const el = document.getElementById(id); if (el) el.textContent = v || ''; };
+    setTxt('sb-rating', st.rating || '5.0');
+    setTxt('sb-reviews', st.reviews ? '(' + st.reviews + ')' : '');
+    setTxt('sb-ship', st.avgShip || '');
+    setTxt('sb-sold', st.sold || '');
+    const link = document.getElementById('seller-link');
+    const cta  = document.getElementById('seller-cta');
+    if (link) link.href = wn;
+    if (cta)  cta.href  = wn;
+    const sa = document.getElementById('shows-all');
+    if (sa && d.showsUrl) sa.href = d.showsUrl;
+
+    const rail  = document.getElementById('shows-rail');
+    const shows = Array.isArray(d.shows) ? d.shows : [];
+    if (rail && shows.length) {
+      rail.innerHTML = shows.map(s => {
+        const img = s.img
+          ? `<img class="show-thumb" src="${esc(s.img)}" alt="" loading="lazy" decoding="async">`
+          : `<div class="show-thumb show-thumb-ph">📺</div>`;
+        return `<a class="show-card" role="listitem" href="${esc(s.href || wn)}" target="_blank" rel="noopener"
+                   onclick="track('whatnot_click', { destination: 'show' })">
+                  ${img}
+                  <span class="show-when">${esc(s.dateText || '')}</span>
+                  <span class="show-title">${esc(s.title || 'Live Show')}</span>
+                </a>`;
+      }).join('');
+    } else {
+      // No parsed shows → drop the rail, keep the badge + "See all" link.
+      const head = hero.querySelector('.shows-head');
+      if (rail) rail.remove();
+      if (head) head.remove();
+    }
+    hero.hidden = false;
+  } catch (_) { /* leave hero hidden */ }
+}
+
+// Minimal HTML-escape for text/URLs injected into the shows rail.
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, c =>
+    ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
 }
 
 function normalize(c) {
@@ -521,7 +576,6 @@ function openModal(id, pushUrl) {
     ['Set', c.set], ['Card #', c.number], ['Condition', c.condition],
     ...(c.quantity <= 0 ? [['Status', 'Sold']] : []),   // qty is always 1 when in stock — omit it
     ['Inventory ID', '#' + c.id],
-    ['Added', c.dateAdded ? formatDate(c.dateAdded) : ''],
   ].filter(([, v]) => v !== '' && v != null);
   m.querySelector('#m-details').innerHTML =
     rows.map(([k, v]) => `<dt>${escapeHtml(k)}</dt><dd>${escapeHtml(String(v))}</dd>`).join('');

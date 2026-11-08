@@ -132,6 +132,35 @@
   </div>
 
   <main class="container">
+    <!-- Seller trust badge + upcoming live shows (data from seller.json) -->
+    <section id="seller-hero" class="seller-hero" hidden>
+      <div class="seller-bar">
+        <a class="seller-id" id="seller-link" href="https://www.whatnot.com/user/sukrill"
+           target="_blank" rel="noopener"
+           onclick="track('whatnot_click', { destination: 'profile' })">
+          <img class="seller-ava" src="pokestop.png" alt="" width="46" height="46">
+          <span class="seller-id-text">
+            <span class="seller-name">sukrill <span class="seller-on">on Whatnot</span></span>
+            <span class="seller-badges">
+              <span class="sb sb-star">★ <b id="sb-rating">—</b> <i id="sb-reviews"></i></span>
+              <span class="sb">⚡ <b id="sb-ship">—</b> ship</span>
+              <span class="sb">📦 <b id="sb-sold">—</b> sold</span>
+            </span>
+          </span>
+        </a>
+        <a class="seller-cta" id="seller-cta" href="https://www.whatnot.com/user/sukrill"
+           target="_blank" rel="noopener"
+           onclick="track('whatnot_click', { destination: 'profile_cta' })">Visit my Whatnot →</a>
+      </div>
+      <div class="shows-head">
+        <h2 class="shows-title">📺 Upcoming Live Shows</h2>
+        <a class="shows-all" id="shows-all" href="https://www.whatnot.com/user/sukrill/shows"
+           target="_blank" rel="noopener"
+           onclick="track('whatnot_click', { destination: 'shows_all' })">See all →</a>
+      </div>
+      <div id="shows-rail" class="shows-rail" role="list"></div>
+    </section>
+
     <div id="grid" class="grid"></div>
     <div id="empty" class="empty" hidden>
       <span class="empty-glyph" aria-hidden="true">✦</span>

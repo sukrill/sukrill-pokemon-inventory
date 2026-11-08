@@ -1,0 +1,56 @@
+{
+  "updatedAt": "2026-11-07",
+  "whatnotUrl": "https://www.whatnot.com/user/sukrill",
+  "showsUrl": "https://www.whatnot.com/user/sukrill/shows",
+  "stats": {
+    "rating": "5.0",
+    "reviews": "3,717",
+    "avgShip": "<1d",
+    "sold": "22.7K",
+    "followers": "14.3K"
+  },
+  "shows": [
+    {
+      "title": "✨ SYLVEON EX RADIANT COLLECTION & MORE ✨",
+      "dateText": "Sat, Nov 14, 8:00 PM",
+      "href": "https://www.whatnot.com/live/a2400314-397e-486c-a7ba-2d3e788591fc",
+      "img": "https://images.whatnot.com/fit-in/3840x0/filters:format(webp)/livestream_thumbnails%2F158a64d2-1609-4b63-a6b7-1f5269f5b28f.jpg"
+    },
+    {
+      "title": "‼ E-Readers w/Bulbasaur ‼",
+      "dateText": "Sun, Nov 15, 9:00 PM",
+      "href": "https://www.whatnot.com/live/fd5f230d-c5eb-432a-9718-6e9798940232",
+      "img": "https://images.whatnot.com/fit-in/3840x0/filters:format(webp)/livestream_thumbnails%2F5546f85e-a695-4d49-aa7c-ce0bb9d656e0.jpg"
+    },
+    {
+      "title": "✨ EMOLGA RADIANT COLLECTION & MORE ✨",
+      "dateText": "Sat, Nov 21, 8:00 PM",
+      "href": "https://www.whatnot.com/live/40089a6b-a418-41ff-b1e1-eff312022c74",
+      "img": "https://images.whatnot.com/fit-in/3840x0/filters:format(webp)/livestream_thumbnails%2Fca3f776c-350b-47d1-b9c6-36ac1a9d9451.jpg"
+    },
+    {
+      "title": "‼ E-Readers w/Pikachu and Marill ‼",
+      "dateText": "Sun, Nov 22, 9:00 PM",
+      "href": "https://www.whatnot.com/live/ffceda6b-0df2-4200-8938-8b6634d903fa",
+      "img": "https://images.whatnot.com/fit-in/3840x0/filters:format(webp)/livestream_thumbnails%2F5546f85e-a695-4d49-aa7c-ce0bb9d656e0.jpg"
+    },
+    {
+      "title": "✨ ENTIRE RADIANT COLLECTION & MORE ✨",
+      "dateText": "Sat, Nov 28, 8:00 PM",
+      "href": "https://www.whatnot.com/live/6a7d060d-6123-49ce-bb60-aea76f80b76f",
+      "img": "https://images.whatnot.com/fit-in/3840x0/filters:format(webp)/livestream_thumbnails%2Fcc2940e5-c2b2-4f5a-a0fe-7420f4143483.jpg"
+    },
+    {
+      "title": "‼ E-Readers Skyridge, Aquapolis & MORE ‼",
+      "dateText": "Sun, Nov 29, 9:00 PM",
+      "href": "https://www.whatnot.com/live/96cc3371-860d-4d47-93f7-3db7acf10860",
+      "img": "https://images.whatnot.com/fit-in/3840x0/filters:format(webp)/livestream_thumbnails%2F5546f85e-a695-4d49-aa7c-ce0bb9d656e0.jpg"
+    },
+    {
+      "title": "‼️ BINDER BANGERS ‼️ REAL DATE TBD",
+      "dateText": "Thu, Dec 31, 11:11 PM",
+      "href": "https://www.whatnot.com/live/baa58d87-5137-44a6-8e1f-b4d70baf8553",
+      "img": "https://images.whatnot.com/fit-in/3840x0/filters:format(webp)/livestream_thumbnails%2F89083b80-72a3-4a83-80ed-f4d127ffd392.png"
+    }
+  ]
+}
