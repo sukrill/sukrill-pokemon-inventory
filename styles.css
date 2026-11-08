@@ -777,8 +777,10 @@ body.direct-on .free-ship { display: inline-flex; }
   white-space: nowrap;
 }
 .sb b { color: var(--text); font-weight: 700; }
-.sb-star { color: var(--price); }
-.sb-star b { color: var(--price); }
+/* Platinum rating — star, number, and review count */
+.sb-star { color: #e5e4e2; text-shadow: 0 0 6px rgba(229,228,226,.35); }
+.sb-star b { color: #e5e4e2; }
+.sb-star i { color: #cfcfd4; font-style: normal; }
 .seller-cta {
   flex: 0 0 auto;
   display: inline-flex; align-items: center;
