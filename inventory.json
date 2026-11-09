@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-07T17:07",
-  "totalCards": 295,
-  "totalValue": 16680.0,
+  "lastUpdated": "2026-11-08T19:02",
+  "totalCards": 291,
+  "totalValue": 16465.0,
   "cards": [
     {
       "id": "0362",
@@ -409,16 +409,16 @@
       "listingUrl": ""
     },
     {
-      "id": "0210",
+      "id": "0209",
       "name": "Plusle",
       "set": "Supreme Victors",
       "number": "",
       "condition": "Near Mint",
       "price": 38.0,
       "quantity": 1,
-      "image": "images/0210.jpg",
-      "imageFull": "images/full/0210.jpg",
-      "dateAdded": "2026-08-06",
+      "image": "images/0209.jpg",
+      "imageFull": "images/full/0209.jpg",
+      "dateAdded": "2026-11-08",
       "notes": "",
       "tags": [],
       "listingUrl": ""
@@ -454,16 +454,16 @@
       "listingUrl": ""
     },
     {
-      "id": "0209",
+      "id": "0210",
       "name": "Minun",
       "set": "Supreme Victors",
       "number": "",
       "condition": "Near Mint",
-      "price": 33.0,
+      "price": 35.0,
       "quantity": 1,
-      "image": "images/0209.jpg",
-      "imageFull": "images/full/0209.jpg",
-      "dateAdded": "2026-08-07",
+      "image": "images/0210.jpg",
+      "imageFull": "images/full/0210.jpg",
+      "dateAdded": "2026-11-08",
       "notes": "",
       "tags": [],
       "listingUrl": ""
@@ -1410,26 +1410,6 @@
         "Akira Komayama"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTg5ODEyNDk0OA=="
-    },
-    {
-      "id": "0286",
-      "name": "Falkner's Togetic",
-      "set": "Pokemon VS",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 80.0,
-      "quantity": 1,
-      "image": "images/0286.jpg",
-      "imageFull": "images/full/0286.jpg",
-      "dateAdded": "2026-07-18",
-      "notes": "",
-      "tags": [
-        "005/141 Pokemon VS",
-        "Japanese Exclusive",
-        "1st Edition",
-        "VS Series"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTg5ODEwNDQ1NQ=="
     },
     {
       "id": "0267",
@@ -2643,24 +2623,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTczMTMzODUwNA=="
     },
     {
-      "id": "0285",
-      "name": "Horsea",
-      "set": "Vending Machine cards Series 3 (Green)",
-      "number": "",
-      "condition": "Light Played",
-      "price": 27.0,
-      "quantity": 1,
-      "image": "images/0285.jpg",
-      "imageFull": "images/full/0285.jpg",
-      "dateAdded": "2026-06-04",
-      "notes": "",
-      "tags": [
-        "Vending Series",
-        "Japanese Exclusive"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTcxODQzMTA5OA=="
-    },
-    {
       "id": "0296",
       "name": "Lana's Aid",
       "set": "SV06: Twilight Masquerade",
@@ -2999,25 +2961,6 @@
         "Cute"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTY1NDA4NTc1Mg=="
-    },
-    {
-      "id": "0723",
-      "name": "Growlithe",
-      "set": "Legendary Treasures: Radiant Collection",
-      "number": "",
-      "condition": "Light Played",
-      "price": 25.0,
-      "quantity": 1,
-      "image": "images/0723.jpg",
-      "imageFull": "images/full/0723.jpg",
-      "dateAdded": "2026-08-19",
-      "notes": "",
-      "tags": [
-        "RC4/RC25",
-        "Cute",
-        "Multiple Pokemon"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTY1Mjc1Mjc1Mg=="
     },
     {
       "id": "0714",
@@ -3612,12 +3555,12 @@
       "name": "Poke Kid (Full Art)",
       "set": "Shining Fates",
       "number": "",
-      "condition": "Near Mint",
+      "condition": "Light Played",
       "price": 14.0,
       "quantity": 1,
       "image": "images/0270.jpg",
       "imageFull": "images/full/0270.jpg",
-      "dateAdded": "2026-10-30",
+      "dateAdded": "2026-11-08",
       "notes": "",
       "tags": [
         "Cute",
@@ -4015,27 +3958,6 @@
         "Multiple Pokemon"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE0NTAxODUxNw=="
-    },
-    {
-      "id": "0229",
-      "name": "Light Jolteon",
-      "set": "Neo Destiny",
-      "number": "",
-      "condition": "Light Played",
-      "price": 85.0,
-      "quantity": 1,
-      "image": "images/0229.jpg",
-      "imageFull": "images/full/0229.jpg",
-      "dateAdded": "2026-10-30",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Eeveelution",
-        "Togepi",
-        "Multiple Pokemon",
-        "Cameo"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTEyODkwNzc0OA=="
     },
     {
       "id": "0700",
