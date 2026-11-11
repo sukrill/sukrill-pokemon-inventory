@@ -1,8 +1,25 @@
 {
-  "lastUpdated": "2026-11-09T19:03",
-  "totalCards": 291,
-  "totalValue": 16454.0,
+  "lastUpdated": "2026-11-10T19:31",
+  "totalCards": 297,
+  "totalValue": 16877.0,
   "cards": [
+    {
+      "id": "0369",
+      "name": "Meowth",
+      "set": "53/83 (Toys R Us Promo)",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 50.0,
+      "quantity": 1,
+      "image": "images/0369.jpg",
+      "imageFull": "images/full/0369.jpg",
+      "dateAdded": "2026-11-10",
+      "notes": "",
+      "tags": [
+        "Promo"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjU3MjQzNzM1MQ=="
+    },
     {
       "id": "0362",
       "name": "Ursaring (Prime)",
@@ -3677,6 +3694,25 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTI4MjIxMDA3Ng=="
     },
     {
+      "id": "0286",
+      "name": "Team Rocket's Meowth",
+      "set": "wotc promo",
+      "number": "",
+      "condition": "Light Played",
+      "price": 30.0,
+      "quantity": 1,
+      "image": "images/0286.jpg",
+      "imageFull": "images/full/0286.jpg",
+      "dateAdded": "2026-11-09",
+      "notes": "",
+      "tags": [
+        "WoTC promo",
+        "Black Star Promo",
+        "Cute"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTI3NDI5NzE4NA=="
+    },
+    {
       "id": "0373",
       "name": "Whitney's Furret",
       "set": "Pokemon VS",
@@ -3731,6 +3767,25 @@
         "People"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTIxMTU2MDU4OA=="
+    },
+    {
+      "id": "0229",
+      "name": "Ampharos (Prime)",
+      "set": "heartgold soulsilver",
+      "number": "",
+      "condition": "Light Played",
+      "price": 110.0,
+      "quantity": 1,
+      "image": "images/0229.jpg",
+      "imageFull": "images/full/0229.jpg",
+      "dateAdded": "2026-11-09",
+      "notes": "",
+      "tags": [
+        "Pink",
+        "Cute",
+        "PRIME"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTIxMTU2MDU3Mg=="
     },
     {
       "id": "0235",
@@ -4457,6 +4512,23 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA0NTA0MTM4OA=="
     },
     {
+      "id": "0279",
+      "name": "Donphan (Prime)",
+      "set": "heartgold soulsilver",
+      "number": "",
+      "condition": "Light Played",
+      "price": 50.0,
+      "quantity": 1,
+      "image": "images/0279.jpg",
+      "imageFull": "images/full/0279.jpg",
+      "dateAdded": "2026-11-09",
+      "notes": "",
+      "tags": [
+        "Vintage"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA0NTA0MTM1Ng=="
+    },
+    {
       "id": "0474",
       "name": "Venusaur VMAX",
       "set": "SWSH: Sword & Shield Promo Cards",
@@ -4583,6 +4655,26 @@
         "Promo"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAzOTExNDkxNw=="
+    },
+    {
+      "id": "0285",
+      "name": "Pikachu",
+      "set": "sm promos",
+      "number": "SM162",
+      "condition": "Light Played",
+      "price": 145.0,
+      "quantity": 1,
+      "image": "images/0285.jpg",
+      "imageFull": "images/full/0285.jpg",
+      "dateAdded": "2026-11-09",
+      "notes": "",
+      "tags": [
+        "Promo",
+        "Cute",
+        "Mimikyu Cameo",
+        "Multiple Pokemon"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAzOTExNDkwMg=="
     },
     {
       "id": "0425",
@@ -5587,6 +5679,21 @@
       "notes": "",
       "tags": [],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTUxNDQ4NDA4"
+    },
+    {
+      "id": "0283",
+      "name": "Lilligant",
+      "set": "black and white promos",
+      "number": "BW49",
+      "condition": "Light Played",
+      "price": 38.0,
+      "quantity": 1,
+      "image": "images/0283.jpg",
+      "imageFull": "images/full/0283.jpg",
+      "dateAdded": "2026-11-09",
+      "notes": "",
+      "tags": [],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTUxNDQ4Mzgy"
     },
     {
       "id": "0565",
