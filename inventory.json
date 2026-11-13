@@ -1,8 +1,25 @@
 {
-  "lastUpdated": "2026-11-12T09:33",
-  "totalCards": 305,
-  "totalValue": 17353.0,
+  "lastUpdated": "2026-11-12T20:23",
+  "totalCards": 306,
+  "totalValue": 17448.0,
   "cards": [
+    {
+      "id": "0299",
+      "name": "Typhlosion (Prime)",
+      "set": "hgss promos",
+      "number": "HGSS09",
+      "condition": "Light Played",
+      "price": 95.0,
+      "quantity": 1,
+      "image": "images/0299.jpg",
+      "imageFull": "images/full/0299.jpg",
+      "dateAdded": "2026-11-12",
+      "notes": "",
+      "tags": [
+        "Promo"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjU5MDc3NTk2Mg=="
+    },
     {
       "id": "0369",
       "name": "Meowth",
