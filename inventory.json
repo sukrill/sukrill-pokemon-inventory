@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-12T20:23",
-  "totalCards": 306,
-  "totalValue": 17448.0,
+  "lastUpdated": "2026-11-13T19:04",
+  "totalCards": 305,
+  "totalValue": 17438.0,
   "cards": [
     {
       "id": "0299",
@@ -2652,26 +2652,6 @@
         "Natural"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTc1MzA2MDgwNg=="
-    },
-    {
-      "id": "0202",
-      "name": "Iono's Kilowattrel",
-      "set": "SV09: Journey Together",
-      "number": "163/159",
-      "condition": "Near Mint",
-      "price": 10.0,
-      "quantity": 1,
-      "image": "images/0202.jpg",
-      "imageFull": "images/full/0202.jpg",
-      "dateAdded": "2026-06-04",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Pink",
-        "People",
-        "Floral"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTc1MzAzMDk2NQ=="
     },
     {
       "id": "0521",
