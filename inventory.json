@@ -1,8 +1,23 @@
 {
-  "lastUpdated": "2026-11-20T19:04",
-  "totalCards": 288,
-  "totalValue": 16847.0,
+  "lastUpdated": "2026-11-21T19:03",
+  "totalCards": 292,
+  "totalValue": 16977.0,
   "cards": [
+    {
+      "id": "0285",
+      "name": "Staryu",
+      "set": "",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 34.0,
+      "quantity": 1,
+      "image": "",
+      "imageFull": "",
+      "dateAdded": "2026-11-21",
+      "notes": "",
+      "tags": [],
+      "listingUrl": ""
+    },
     {
       "id": "0252",
       "name": "Wigglytuff",
@@ -743,7 +758,7 @@
       "name": "Ho-Oh GX (Full Art)",
       "set": "Burning Shadows",
       "number": "SM",
-      "condition": "Near Mint",
+      "condition": "Light Played",
       "price": 18.0,
       "quantity": 1,
       "image": "images/0352.jpg",
@@ -751,7 +766,7 @@
       "dateAdded": "2026-07-19",
       "notes": "",
       "tags": [],
-      "listingUrl": ""
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjcyMjUwOQ=="
     },
     {
       "id": "0356",
@@ -784,6 +799,24 @@
         "Mitsuhiro Arita"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjY4NzQ1Mg=="
+    },
+    {
+      "id": "0233",
+      "name": "Pichu",
+      "set": "Mysterious Treasures",
+      "number": "",
+      "condition": "Light Played",
+      "price": 22.0,
+      "quantity": 1,
+      "image": "images/0233.jpg",
+      "imageFull": "images/full/0233.jpg",
+      "dateAdded": "2026-11-21",
+      "notes": "",
+      "tags": [
+        "Yuka Morii",
+        "Cute"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjYxNDEyNg=="
     },
     {
       "id": "0402",
@@ -1047,7 +1080,7 @@
       "set": "XY Promos",
       "number": "XY46 (Prerelease)",
       "condition": "Light Played",
-      "price": 48.0,
+      "price": 60.0,
       "quantity": 1,
       "image": "images/0291.jpg",
       "imageFull": "images/full/0291.jpg",
@@ -2397,6 +2430,24 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTczMTQyNDc2OA=="
     },
     {
+      "id": "0220",
+      "name": "Mantyke",
+      "set": "SV04: Paradox Rift",
+      "number": "189/182",
+      "condition": "Light Played",
+      "price": 34.0,
+      "quantity": 1,
+      "image": "images/0220.jpg",
+      "imageFull": "images/full/0220.jpg",
+      "dateAdded": "2026-11-21",
+      "notes": "",
+      "tags": [
+        "Cute",
+        "People"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTczMTQwMjg4OQ=="
+    },
+    {
       "id": "0349",
       "name": "Smeargle",
       "set": "wotc promo",
@@ -2512,6 +2563,26 @@
         "Chinese Exclusive"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTcxMzUzMDE0MA=="
+    },
+    {
+      "id": "0297",
+      "name": "Sylveon (#30",
+      "set": "xy trainer kit sylveon and noivern",
+      "number": "Holo)",
+      "condition": "Light Played",
+      "price": 28.0,
+      "quantity": 1,
+      "image": "images/0297.jpg",
+      "imageFull": "images/full/0297.jpg",
+      "dateAdded": "2026-11-21",
+      "notes": "",
+      "tags": [
+        "Fairy",
+        "Pink",
+        "Eeveelution",
+        "Super Pink Show"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTcxMzQzODY1NQ=="
     },
     {
       "id": "0392",
@@ -3276,7 +3347,7 @@
       "name": "Minun",
       "set": "EX Hidden Legends",
       "number": "",
-      "condition": "Near Mint",
+      "condition": "Light Played",
       "price": 36.0,
       "quantity": 1,
       "image": "images/0205.jpg",
