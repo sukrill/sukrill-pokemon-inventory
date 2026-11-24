@@ -1,8 +1,53 @@
 {
-  "lastUpdated": "2026-11-24T15:15",
-  "totalCards": 286,
-  "totalValue": 16749.0,
+  "lastUpdated": "2026-11-24T16:48",
+  "totalCards": 290,
+  "totalValue": 17454.0,
   "cards": [
+    {
+      "id": "0398",
+      "name": "Typhlosion ex",
+      "set": "EX Sandstorm",
+      "number": "",
+      "condition": "Moderately Played",
+      "price": 230.0,
+      "quantity": 1,
+      "image": "images/0398.jpg",
+      "imageFull": "images/full/0398.jpg",
+      "dateAdded": "2026-11-24",
+      "notes": "",
+      "tags": [],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjY2MzA5NTM2Ng=="
+    },
+    {
+      "id": "0399",
+      "name": "Hungry Snorlax",
+      "set": "Japanese Promo",
+      "number": "",
+      "condition": "Light Played",
+      "price": 400.0,
+      "quantity": 1,
+      "image": "images/0399.jpg",
+      "imageFull": "images/full/0399.jpg",
+      "dateAdded": "2026-11-24",
+      "notes": "",
+      "tags": [],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjY2MzA4NTU4OQ=="
+    },
+    {
+      "id": "0396",
+      "name": "Sabrina's Xatu",
+      "set": "Pokemon VS",
+      "number": "",
+      "condition": "Light Played",
+      "price": 40.0,
+      "quantity": 1,
+      "image": "images/0396.jpg",
+      "imageFull": "images/full/0396.jpg",
+      "dateAdded": "2026-11-24",
+      "notes": "",
+      "tags": [],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjY2MzA4MjQ1OQ=="
+    },
     {
       "id": "0238",
       "name": "Staryu",
@@ -5436,6 +5481,21 @@
         "Cute"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTUxNDQ4NTk5"
+    },
+    {
+      "id": "0395",
+      "name": "Magearna",
+      "set": "xy promos",
+      "number": "XY186",
+      "condition": "Light Played",
+      "price": 35.0,
+      "quantity": 1,
+      "image": "images/0395.jpg",
+      "imageFull": "images/full/0395.jpg",
+      "dateAdded": "2026-11-24",
+      "notes": "",
+      "tags": [],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTUxNDQ4NTgw"
     },
     {
       "id": "0318",
