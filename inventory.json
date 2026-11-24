@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-24T12:51",
-  "totalCards": 283,
-  "totalValue": 16599.0,
+  "lastUpdated": "2026-11-24T13:03",
+  "totalCards": 285,
+  "totalValue": 16669.0,
   "cards": [
     {
       "id": "0238",
@@ -565,6 +565,25 @@
         "Atsuko Nishida"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjE1OTgzODc4MA=="
+    },
+    {
+      "id": "0201",
+      "name": "Pachirisu",
+      "set": "majestic dawn",
+      "number": "",
+      "condition": "Light Played",
+      "price": 10.0,
+      "quantity": 1,
+      "image": "images/0201.jpg",
+      "imageFull": "images/full/0201.jpg",
+      "dateAdded": "2026-11-24",
+      "notes": "",
+      "tags": [
+        "Tomokazu Komiya",
+        "Cute",
+        "Vintage"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjE1OTgzNjkzMQ=="
     },
     {
       "id": "0302",
@@ -1175,22 +1194,24 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTk3ODg4NzUxMQ=="
     },
     {
-      "id": "0291",
-      "name": "Mimikyu V (Full Art)",
-      "set": "SWSH05: Battle Styles",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 50.0,
+      "id": "0459",
+      "name": "Altaria",
+      "set": "XY Promos",
+      "number": "XY46 (Prerelease)",
+      "condition": "Light Played",
+      "price": 60.0,
       "quantity": 1,
-      "image": "images/0291.jpg",
-      "imageFull": "images/full/0291.jpg",
-      "dateAdded": "2026-06-26",
+      "image": "images/0459.jpg",
+      "imageFull": "images/full/0459.jpg",
+      "dateAdded": "2026-11-24",
       "notes": "",
       "tags": [
-        "Pink",
-        "Cute"
+        "Promo",
+        "Cute",
+        "Stamped",
+        "Roaring Skies"
       ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA1NTg1NTQ0MA=="
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTk2MDU1OTg1NQ=="
     },
     {
       "id": "0295",
@@ -4286,6 +4307,24 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA1NTg1NTUxNw=="
     },
     {
+      "id": "0291",
+      "name": "Mimikyu V (Full Art)",
+      "set": "SWSH05: Battle Styles",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 50.0,
+      "quantity": 1,
+      "image": "images/0291.jpg",
+      "imageFull": "images/full/0291.jpg",
+      "dateAdded": "2026-06-26",
+      "notes": "",
+      "tags": [
+        "Pink",
+        "Cute"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA1NTg1NTQ0MA=="
+    },
+    {
       "id": "0730",
       "name": "Mew EX (Full Art)",
       "set": "Legendary Treasures: Radiant Collection",
@@ -5046,15 +5085,15 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0MzY1"
     },
     {
-      "id": "0360",
+      "id": "0223",
       "name": "Leafeon",
       "set": "black and white promos",
       "number": "BW87",
       "condition": "Light Played",
       "price": 63.0,
       "quantity": 1,
-      "image": "images/0360.jpg",
-      "imageFull": "images/full/0360.jpg",
+      "image": "images/0223.jpg",
+      "imageFull": "images/full/0223.jpg",
       "dateAdded": "2026-11-24",
       "notes": "",
       "tags": [
