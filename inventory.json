@@ -1,49 +1,49 @@
 {
-  "lastUpdated": "2026-11-26T23:59",
-  "totalCards": 268,
-  "totalValue": 16581.0,
+  "lastUpdated": "2026-11-27T11:34",
+  "totalCards": 275,
+  "totalValue": 16717.0,
   "cards": [
     {
-      "id": "0398",
+      "id": "0260",
       "name": "Typhlosion ex",
       "set": "EX Sandstorm",
       "number": "",
       "condition": "Near Mint",
       "price": 230.0,
       "quantity": 1,
-      "image": "images/0398.jpg",
-      "imageFull": "images/full/0398.jpg",
-      "dateAdded": "2026-11-24",
+      "image": "images/0260.jpg",
+      "imageFull": "images/full/0260.jpg",
+      "dateAdded": "2026-11-27",
       "notes": "",
       "tags": [],
       "listingUrl": ""
     },
     {
-      "id": "0399",
+      "id": "0276",
       "name": "Hungry Snorlax",
       "set": "Japanese Promo",
       "number": "",
       "condition": "Near Mint",
       "price": 400.0,
       "quantity": 1,
-      "image": "images/0399.jpg",
-      "imageFull": "images/full/0399.jpg",
-      "dateAdded": "2026-11-24",
+      "image": "images/0276.jpg",
+      "imageFull": "images/full/0276.jpg",
+      "dateAdded": "2026-07-18",
       "notes": "",
       "tags": [],
       "listingUrl": ""
     },
     {
-      "id": "0396",
+      "id": "0244",
       "name": "Sabrina's Xatu",
       "set": "Pokemon VS",
       "number": "",
       "condition": "Near Mint",
       "price": 40.0,
       "quantity": 1,
-      "image": "images/0396.jpg",
-      "imageFull": "images/full/0396.jpg",
-      "dateAdded": "2026-11-24",
+      "image": "images/0244.jpg",
+      "imageFull": "images/full/0244.jpg",
+      "dateAdded": "2026-11-27",
       "notes": "",
       "tags": [],
       "listingUrl": ""
@@ -239,6 +239,36 @@
       "image": "images/0456.jpg",
       "imageFull": "images/full/0456.jpg",
       "dateAdded": "2026-09-01",
+      "notes": "",
+      "tags": [],
+      "listingUrl": ""
+    },
+    {
+      "id": "0368",
+      "name": "Influencer's Introduction",
+      "set": "MP1: Start Deck 100 Battle Collection CoroCiao Version",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 30.0,
+      "quantity": 1,
+      "image": "images/0368.jpg",
+      "imageFull": "images/full/0368.jpg",
+      "dateAdded": "2026-11-27",
+      "notes": "",
+      "tags": [],
+      "listingUrl": ""
+    },
+    {
+      "id": "0251",
+      "name": "Raichu",
+      "set": "POP Series 9",
+      "number": "",
+      "condition": "Near Mint",
+      "price": 19.0,
+      "quantity": 1,
+      "image": "images/0251.jpg",
+      "imageFull": "images/full/0251.jpg",
+      "dateAdded": "2026-11-27",
       "notes": "",
       "tags": [],
       "listingUrl": ""
@@ -728,7 +758,7 @@
       "name": "Naganadel GX (Full Art)",
       "set": "Forbidden Light",
       "number": "SM",
-      "condition": "Near Mint",
+      "condition": "Light Played",
       "price": 12.0,
       "quantity": 1,
       "image": "images/0356.jpg",
@@ -736,22 +766,25 @@
       "dateAdded": "2026-07-19",
       "notes": "",
       "tags": [],
-      "listingUrl": ""
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjcxNTUyMw=="
     },
     {
       "id": "0256",
       "name": "Pichu",
       "set": "Mysterious Treasures",
       "number": "",
-      "condition": "Near Mint",
+      "condition": "Light Played",
       "price": 22.0,
       "quantity": 1,
       "image": "images/0256.jpg",
       "imageFull": "images/full/0256.jpg",
       "dateAdded": "2026-10-30",
       "notes": "",
-      "tags": [],
-      "listingUrl": ""
+      "tags": [
+        "Yuka Morii",
+        "Cute"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjYxNDEyNg=="
     },
     {
       "id": "0255",
@@ -862,16 +895,16 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjAyNzQyNjYyNw=="
     },
     {
-      "id": "0327",
+      "id": "0297",
       "name": "Ampharos EX (87 Full Art)",
       "set": "Ancient Origins",
       "number": "XY",
       "condition": "Light Played",
       "price": 50.0,
       "quantity": 1,
-      "image": "images/0327.jpg",
-      "imageFull": "images/full/0327.jpg",
-      "dateAdded": "2026-11-24",
+      "image": "images/0297.jpg",
+      "imageFull": "images/full/0297.jpg",
+      "dateAdded": "2026-11-27",
       "notes": "",
       "tags": [
         "Cute",
@@ -2587,6 +2620,24 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTY2MDM3ODQwOQ=="
     },
     {
+      "id": "0374",
+      "name": "Galarian Ponyta",
+      "set": "SWSH: Sword & Shield Promo Cards",
+      "number": "SWSH013",
+      "condition": "Light Played",
+      "price": 16.0,
+      "quantity": 1,
+      "image": "images/0374.jpg",
+      "imageFull": "images/full/0374.jpg",
+      "dateAdded": "2026-11-27",
+      "notes": "",
+      "tags": [
+        "Promo",
+        "Cute"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTY1NDA4NTc1Mg=="
+    },
+    {
       "id": "0714",
       "name": "PokeKyun Froslass",
       "set": "CP3: PokeKyun Collection",
@@ -3214,6 +3265,26 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTIyNDA2MTUzMg=="
     },
     {
+      "id": "0375",
+      "name": "Poke Kid (Full Art)",
+      "set": "Shining Fates",
+      "number": "",
+      "condition": "Light Played",
+      "price": 14.0,
+      "quantity": 1,
+      "image": "images/0375.jpg",
+      "imageFull": "images/full/0375.jpg",
+      "dateAdded": "2026-11-27",
+      "notes": "",
+      "tags": [
+        "Cute",
+        "Hearts",
+        "Trainer",
+        "People"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTIxMTU2MDU4OA=="
+    },
+    {
       "id": "0431",
       "name": "Minccino",
       "set": "SV05: Temporal Forces",
@@ -3233,16 +3304,16 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTIxMTU2MDU2MQ=="
     },
     {
-      "id": "0413",
+      "id": "0290",
       "name": "Piplup (Secret)",
       "set": "Cosmic Eclipse",
       "number": "SM",
       "condition": "Light Played",
       "price": 80.0,
       "quantity": 1,
-      "image": "images/0413.jpg",
-      "imageFull": "images/full/0413.jpg",
-      "dateAdded": "2026-11-24",
+      "image": "images/0290.jpg",
+      "imageFull": "images/full/0290.jpg",
+      "dateAdded": "2026-11-27",
       "notes": "",
       "tags": [
         "Cute",
@@ -3251,6 +3322,27 @@
         "People"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTIxMTU2MDUyMg=="
+    },
+    {
+      "id": "0372",
+      "name": "Dedenne ex",
+      "set": "SV02: Paldea Evolved",
+      "number": "239/193",
+      "condition": "Light Played",
+      "price": 20.0,
+      "quantity": 1,
+      "image": "images/0372.jpg",
+      "imageFull": "images/full/0372.jpg",
+      "dateAdded": "2026-11-27",
+      "notes": "",
+      "tags": [
+        "Cute",
+        "Pink",
+        "Gems",
+        "Jewel",
+        "Hearts"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTIxMTU2MDUxNw=="
     },
     {
       "id": "0332",
@@ -3906,16 +3998,16 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA1NTUyMzgzMw=="
     },
     {
-      "id": "0482",
+      "id": "0270",
       "name": "Latios EX (101 Full Art)",
       "set": "Roaring Skies",
       "number": "XY",
       "condition": "Light Played",
       "price": 42.0,
       "quantity": 1,
-      "image": "images/0482.jpg",
-      "imageFull": "images/full/0482.jpg",
-      "dateAdded": "2026-08-11",
+      "image": "images/0270.jpg",
+      "imageFull": "images/full/0270.jpg",
+      "dateAdded": "2026-11-27",
       "notes": "",
       "tags": [],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA0NTA0MTM4OA=="
@@ -3953,6 +4045,23 @@
         "Promo"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA0NTA0MTM0Mg=="
+    },
+    {
+      "id": "0262",
+      "name": "M Sharpedo EX",
+      "set": "XY Promos",
+      "number": "XY200",
+      "condition": "Near Mint",
+      "price": 26.0,
+      "quantity": 1,
+      "image": "images/0262.jpg",
+      "imageFull": "images/full/0262.jpg",
+      "dateAdded": "2026-11-27",
+      "notes": "",
+      "tags": [
+        "Promo"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTA0NTA0MTMwNQ=="
     },
     {
       "id": "0347",
@@ -4157,6 +4266,27 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAxNjc4MDg1NQ=="
     },
     {
+      "id": "0327",
+      "name": "Clive",
+      "set": "SV: Paldean Fates",
+      "number": "236/091",
+      "condition": "Light Played",
+      "price": 26.0,
+      "quantity": 1,
+      "image": "images/0327.jpg",
+      "imageFull": "images/full/0327.jpg",
+      "dateAdded": "2026-11-24",
+      "notes": "",
+      "tags": [
+        "Cute",
+        "SIR",
+        "Multiple Pokemon",
+        "People",
+        "Cameo"
+      ],
+      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAxMDQ2ODE2MA=="
+    },
+    {
       "id": "0445",
       "name": "Altaria",
       "set": "SWSH12: Silver Tempest Trainer Gallery",
@@ -4234,16 +4364,16 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAwNDYwODg1NQ=="
     },
     {
-      "id": "0276",
+      "id": "0275",
       "name": "Gengar",
       "set": "SWSH11: Lost Origin Trainer Gallery",
       "number": "",
       "condition": "Near Mint",
       "price": 50.0,
       "quantity": 1,
-      "image": "images/0276.jpg",
-      "imageFull": "images/full/0276.jpg",
-      "dateAdded": "2026-07-18",
+      "image": "images/0275.jpg",
+      "imageFull": "images/full/0275.jpg",
+      "dateAdded": "2026-11-27",
       "notes": "",
       "tags": [
         "TG06/TG30",
@@ -4617,7 +4747,7 @@
       "set": "SWSH08: Fusion Strike",
       "number": "",
       "condition": "Near Mint",
-      "price": 120.0,
+      "price": 105.0,
       "quantity": 1,
       "image": "images/0289.jpg",
       "imageFull": "images/full/0289.jpg",
