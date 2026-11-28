@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-27T17:15",
-  "totalCards": 272,
-  "totalValue": 16212.0,
+  "lastUpdated": "2026-11-27T19:08",
+  "totalCards": 262,
+  "totalValue": 15779.0,
   "cards": [
     {
       "id": "0210",
@@ -1009,24 +1009,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjcxNTUyMw=="
     },
     {
-      "id": "0256",
-      "name": "Pichu",
-      "set": "Mysterious Treasures",
-      "number": "",
-      "condition": "Light Played",
-      "price": 22.0,
-      "quantity": 1,
-      "image": "images/0256.jpg",
-      "imageFull": "images/full/0256.jpg",
-      "dateAdded": "2026-10-30",
-      "notes": "",
-      "tags": [
-        "Yuka Morii",
-        "Cute"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjA2MjYxNDEyNg=="
-    },
-    {
       "id": "0255",
       "name": "Ditto",
       "set": "POP Series 3",
@@ -2003,26 +1985,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTgyMDg3MDgwNQ=="
     },
     {
-      "id": "0322",
-      "name": "Happiny",
-      "set": "Platinum",
-      "number": "",
-      "condition": "Light Played",
-      "price": 12.0,
-      "quantity": 1,
-      "image": "images/0322.jpg",
-      "imageFull": "images/full/0322.jpg",
-      "dateAdded": "2026-08-12",
-      "notes": "",
-      "tags": [
-        "Kagemaru Himeno",
-        "Cute",
-        "Pink",
-        "Super Pink Show"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTc5MjMyOTUzNQ=="
-    },
-    {
       "id": "0391",
       "name": "Iono",
       "set": "SV02: Paldea Evolved",
@@ -2203,26 +2165,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTc2OTM1NDY5NQ=="
     },
     {
-      "id": "0233",
-      "name": "Cresselia LV.X",
-      "set": "Great Encounters",
-      "number": "",
-      "condition": "Light Played",
-      "price": 60.0,
-      "quantity": 1,
-      "image": "images/0233.jpg",
-      "imageFull": "images/full/0233.jpg",
-      "dateAdded": "2026-11-21",
-      "notes": "",
-      "tags": [
-        "Pink",
-        "Level X",
-        "LVL X",
-        "Vintage"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTc2OTMzMjIyOA=="
-    },
-    {
       "id": "0253",
       "name": "Pidgey",
       "set": "POP Series 4",
@@ -2383,24 +2325,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTc1MzAyMDg0Ng=="
     },
     {
-      "id": "0401",
-      "name": "Dwebble",
-      "set": "SV: Black Bolt",
-      "number": "129/086",
-      "condition": "Near Mint",
-      "price": 65.0,
-      "quantity": 1,
-      "image": "images/0401.jpg",
-      "imageFull": "images/full/0401.jpg",
-      "dateAdded": "2026-11-24",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Beach"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTczMTQyOTQzOQ=="
-    },
-    {
       "id": "0341",
       "name": "Tinkatuff",
       "set": "SV02: Paldea Evolved",
@@ -2519,24 +2443,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTcxODI4OTU5MQ=="
     },
     {
-      "id": "0280",
-      "name": "Radiant Eevee Chinese Exclusive",
-      "set": "Card",
-      "number": "",
-      "condition": "Near Mint",
-      "price": 47.0,
-      "quantity": 1,
-      "image": "images/0280.jpg",
-      "imageFull": "images/full/0280.jpg",
-      "dateAdded": "2026-10-17",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Chinese Exclusive"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTcxMzUzMDE0MA=="
-    },
-    {
       "id": "0358",
       "name": "Sylveon (#30",
       "set": "xy trainer kit sylveon and noivern",
@@ -2555,24 +2461,6 @@
         "Super Pink Show"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTcxMzQzODY1NQ=="
-    },
-    {
-      "id": "0392",
-      "name": "Eiscue",
-      "set": "SV02: Paldea Evolved",
-      "number": "205/193",
-      "condition": "Light Played",
-      "price": 26.0,
-      "quantity": 1,
-      "image": "images/0392.jpg",
-      "imageFull": "images/full/0392.jpg",
-      "dateAdded": "2026-07-25",
-      "notes": "",
-      "tags": [
-        "Cute",
-        "Multiple Pokemon"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTcxMzA3ODY0Mg=="
     },
     {
       "id": "0464",
@@ -2777,25 +2665,6 @@
         "Cute"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTY1NDA4NTc1Mg=="
-    },
-    {
-      "id": "0707",
-      "name": "Growlithe",
-      "set": "Legendary Treasures: Radiant Collection",
-      "number": "",
-      "condition": "Light Played",
-      "price": 26.0,
-      "quantity": 1,
-      "image": "images/0707.jpg",
-      "imageFull": "images/full/0707.jpg",
-      "dateAdded": "2026-11-27",
-      "notes": "",
-      "tags": [
-        "RC4/RC25",
-        "Cute",
-        "Multiple Pokemon"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTY1Mjc1Mjc1Mg=="
     },
     {
       "id": "0714",
@@ -3623,24 +3492,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTIxMTU2MDMxNw=="
     },
     {
-      "id": "0247",
-      "name": "Palkia LV.X",
-      "set": "DP-P",
-      "number": "105/DP-P",
-      "condition": "Near Mint",
-      "price": 60.0,
-      "quantity": 1,
-      "image": "images/0247.jpg",
-      "imageFull": "images/full/0247.jpg",
-      "dateAdded": "2026-11-14",
-      "notes": "",
-      "tags": [
-        "105/DP-P",
-        "Japanese Promo Exclusive"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTIxMTU2MDMxMA=="
-    },
-    {
       "id": "0408",
       "name": "Wigglytuff",
       "set": "ME02: Phantasmal Flames",
@@ -4356,26 +4207,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAzOTExNDU4NQ=="
     },
     {
-      "id": "0288",
-      "name": "Vaporeon V",
-      "set": "SWSH: Sword & Shield Promo Cards",
-      "number": "SWSH181",
-      "condition": "Near Mint",
-      "price": 92.0,
-      "quantity": 1,
-      "image": "images/0288.jpg",
-      "imageFull": "images/full/0288.jpg",
-      "dateAdded": "2026-06-04",
-      "notes": "",
-      "tags": [
-        "Promo",
-        "Cute",
-        "Pink",
-        "Eeveelution"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTAzOTExNDI5OQ=="
-    },
-    {
       "id": "0216",
       "name": "Ash's Pikachu",
       "set": "SM Promos",
@@ -4955,23 +4786,6 @@
         "Tag Team"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0MDI4"
-    },
-    {
-      "id": "0263",
-      "name": "M Steelix EX (Full Art)",
-      "set": "Steam Siege",
-      "number": "XY",
-      "condition": "Light Played",
-      "price": 23.0,
-      "quantity": 1,
-      "image": "images/0263.jpg",
-      "imageFull": "images/full/0263.jpg",
-      "dateAdded": "2026-11-17",
-      "notes": "",
-      "tags": [
-        "Mega"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6OTYyMDU0MDA4"
     },
     {
       "id": "0220",
