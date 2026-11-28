@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-27T19:08",
-  "totalCards": 262,
-  "totalValue": 15779.0,
+  "lastUpdated": "2026-11-27T19:34",
+  "totalCards": 258,
+  "totalValue": 15526.0,
   "cards": [
     {
       "id": "0210",
@@ -42,27 +42,6 @@
         "Toshinao Aoki"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjY3Nzc3NzM3Ng=="
-    },
-    {
-      "id": "0240",
-      "name": "Krabby",
-      "set": "Vending Machine cards Series 2 (Red)",
-      "number": "",
-      "condition": "Light Played",
-      "price": 36.0,
-      "quantity": 1,
-      "image": "images/0240.jpg",
-      "imageFull": "images/full/0240.jpg",
-      "dateAdded": "2026-11-27",
-      "notes": "",
-      "tags": [
-        "Sumiyoshi Kizuki",
-        "Vending Series",
-        "Japanese Exclusive",
-        "Glossy",
-        "Cute"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MjY3Nzc3MTc4Ng=="
     },
     {
       "id": "0260",
@@ -2770,26 +2749,6 @@
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQ4NTMzOTUwNA=="
     },
     {
-      "id": "0237",
-      "name": "Clefairy",
-      "set": "Vending Machine cards Series 1 (Blue)",
-      "number": "",
-      "condition": "Light Played",
-      "price": 77.0,
-      "quantity": 1,
-      "image": "images/0237.jpg",
-      "imageFull": "images/full/0237.jpg",
-      "dateAdded": "2026-10-05",
-      "notes": "",
-      "tags": [
-        "No. 035",
-        "Cute",
-        "Atsuko Nishida",
-        "Japanese Exclusive"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQ4NTMzOTQ2NA=="
-    },
-    {
       "id": "0292",
       "name": "Galarian Rapidash V (Alternate Full Art)",
       "set": "SWSH06: Chilling Reign",
@@ -3010,29 +2969,6 @@
         "Cute"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTQwMDc1MTMzMA=="
-    },
-    {
-      "id": "0258",
-      "name": "Igglybuff",
-      "set": "Skyridge",
-      "number": "",
-      "condition": "Light Played",
-      "price": 100.0,
-      "quantity": 1,
-      "image": "images/0258.jpg",
-      "imageFull": "images/full/0258.jpg",
-      "dateAdded": "2026-06-04",
-      "notes": "",
-      "tags": [
-        "Keiko Fukuyama",
-        "Cute",
-        "Ereader",
-        "E Reader",
-        "E-Reader",
-        "E Series",
-        "Vintage"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTM3OTQzMDQ4NA=="
     },
     {
       "id": "0303",
@@ -3510,24 +3446,6 @@
         "Cameo"
       ],
       "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE4OTQ1MDMzOA=="
-    },
-    {
-      "id": "0337",
-      "name": "Celebi",
-      "set": "XY Promos",
-      "number": "XY111",
-      "condition": "Light Played",
-      "price": 40.0,
-      "quantity": 1,
-      "image": "images/0337.jpg",
-      "imageFull": "images/full/0337.jpg",
-      "dateAdded": "2026-11-24",
-      "notes": "",
-      "tags": [
-        "Promo",
-        "Cute"
-      ],
-      "listingUrl": "https://www.whatnot.com/listing/TGlzdGluZ05vZGU6MTE4OTQ1MDMwNw=="
     },
     {
       "id": "0450",
